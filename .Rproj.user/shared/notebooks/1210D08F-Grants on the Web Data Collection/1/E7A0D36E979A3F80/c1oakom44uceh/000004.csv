@@ -1,0 +1,7 @@
+"0","panel_links <- tibble(link = panel_href_list) %>% mutate(group = apply(str_match(panel_href_list,""([A-Z]*)View(.*?).aspx?"")[,2:3], 1,paste, collapse = ''))"
+"0",""
+"0","sample_list <- panel_links %>%group_by(group) %>% slice_sample(n = 15) %>% pull(link)"
+"0",""
+"0","for (link in sample_list) {"
+"0","  browseURL(paste(""https://gow.epsrc.ukri.org/"", link,sep = ''))"
+"0","}"

@@ -1,0 +1,6 @@
+"0","# General-purpose data wrangling"
+"0","library(tidyverse)  "
+"2","package �tidyverse� was built under R version 4.0.5"
+"2","Error: package or namespace load failed for ‘tidyverse’ in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]):
+ there is no package called ‘stringi’
+"

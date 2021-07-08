@@ -1,0 +1,298 @@
+---
+title: "EPSRC Grant Funding Outcomes"
+subtitle: "Grants on the Web Data Collection"
+output:
+  pdf_document: 
+    number_sections: yes
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r package_install, echo=FALSE, message=FALSE}
+# General-purpose data wrangling
+library(tidyverse)  
+# Parsing of HTML/XML files  
+library(rvest)    
+# String manipulation
+library(stringr)
+
+library(janitor)
+```
+
+
+# Themes
+
+```{r set variables and functions}
+# this function is more reliable than a plain read_html is less likely to result in an 400 http error.
+get_html <- function(url){
+  # set file location
+  html_dest = '../data/temp_gow_html.html'
+  # download and read html from website
+  download.file(paste("https://gow.epsrc.ukri.org/",url,sep = ""), destfile = html_dest, quiet = TRUE)
+  
+  return(read_html(html_dest))
+}
+```
+
+```{r}
+
+# base theme url
+base_url <- "NGBOListThemes.aspx"
+
+# get html content from url
+content <- get_html(base_url)
+
+# parse HTML for list of hrefs
+theme_href_list <- content %>%
+  html_nodes(xpath = "//td/a") %>% 
+  html_attr("href")
+
+# parse HTML for list of theme names
+theme_name_list <- content %>%
+  html_nodes(xpath = "//td/a") %>% 
+  html_text()
+
+# drop last elements as blank
+theme_href_list <- theme_href_list[1:12]
+theme_name_list <- theme_name_list[1:12]
+
+# Split in to challenge and capability themes
+challenge_themes <- theme_name_list[1:5]
+capability_themes <- theme_name_list[6:12]
+
+# # extract theme names from urls and store them
+# theme_list <- c()
+#   
+# for (url in theme_href_list) {
+#   theme_name <- str_match(url, "Theme=(.*?)&")[2]
+#   theme_list <- c(theme_list, theme_name)
+# }
+```
+
+```{r init_tibble}
+theme_df <- tibble(
+  theme_name = character(),
+  theme_type = character(),
+  research_area = character(),
+  grant_ref = character()
+)
+```
+
+```{r grants}
+# https://gow.epsrc.ukri.org/NGBOListThemeDrillDown.aspx?CapabilityTheme=Engineering&ItemId=Engineering
+
+for (theme_url in theme_href_list) {
+  # first get the equivalent theme name
+  theme_name <- theme_name_list[which(theme_href_list == theme_url)[1]]
+  
+  # is the theme a challenge theme or a capability theme
+  theme_type <- ifelse(theme_name %in% challenge_themes, 'Challenge', 'Capability')
+  
+  # then get the html page for the theme
+  start_time <- Sys.time()
+  theme_content <- get_html(theme_url)
+  end_time <- Sys.time()
+  # work out duration for response for polite requesting
+  theme_wait <- end_time - start_time
+  
+  # parse HTML for list of research area urls
+  area_href_list <- theme_content %>%
+    html_nodes(xpath = "//td/a") %>% 
+    html_attr("href")
+
+  # parse HTML for list of research area names
+  area_name_list <- theme_content %>%
+    html_nodes(xpath = "//td/a") %>% 
+    html_text()
+  
+  # wait for the response duration to be polite to the website
+  Sys.sleep(theme_wait)
+  
+  for (area_url in area_href_list) {
+    # first get the equivalent research area name
+    area_name <- area_name_list[which(area_href_list == area_url)[1]]
+    
+    # get html content from website, timing the response time
+    start_time <- Sys.time()
+    area_content <- get_html(area_url)
+    end_time <- Sys.time()
+    
+    # calculate the response time
+    area_wait <- end_time - start_time
+    
+    # only need to parse the links so we can later extract the grant reference number
+    grant_ref_list <- area_content %>%
+      html_nodes(xpath = "//td/a") %>% 
+      html_attr("title") %>% 
+      unique()
+    
+    for (grant_ref in grant_ref_list) {
+      theme_df <- theme_df %>% 
+        add_row(
+            theme_name = theme_name,
+            theme_type = theme_type,
+            research_area = area_name,
+            grant_ref = grant_ref
+        )
+      
+    }
+    
+    Sys.sleep(area_wait)
+  }
+  
+  
+}
+
+
+```
+
+```{r save_df}
+theme_df %>% write.csv('../data/themes.csv')
+```
+
+
+# Panels
+
+```{r  experimental_scaping}
+test_panel <- get_html("NGBOViewPanel.aspx?PanelId=1-2JLAVX")
+
+dgDetails <- test_panel %>% 
+  html_element("#dgDetails") %>% # need to test if that element was found.
+  html_table()
+
+dgDetails <- dgDetails %>% 
+  rename(
+    member_name = X1,
+    member_institution = X2,
+    member_position = X3,
+  ) %>% 
+  mutate(
+    panel_id = 'test_1',
+  )
+
+dgDetails
+
+
+dgFullByNum <-  test_panel %>% 
+  html_element("#dgFullByNum") %>% 
+  html_table(header = TRUE)
+
+dgFullByNum <- dgFullByNum %>% 
+  clean_names() %>% 
+  filter(funding_priority_list != "Including:") %>% 
+  head(-1) 
+
+dgFullByNum <- dgFullByNum %>% mutate(funding_priority_list = sub(pattern = '.: ', x = funding_priority_list, replacement = ""))
+
+dgFullByNum
+
+
+dgFullByValue <-  test_panel %>% 
+  html_element("#dgFullByValue") %>% 
+  html_table(header = TRUE)
+
+dgFullByValue <- dgFullByValue %>% 
+  clean_names() %>% 
+  filter(funding_priority_list != "Including:") %>% 
+  head(-1) 
+
+dgFullByValue <- dgFullByValue %>% mutate(funding_priority_list = sub(pattern = '.: ', x = funding_priority_list, replacement = ""))
+
+dgFullByValue
+
+
+```
+
+```{r df_definition}
+Details_df <- tibble()
+
+FullByNum_df <- tibble()
+
+FullByValue_df <- tibble()
+
+Grants_df <- tibble()
+```
+
+
+```{r}
+# The complete html results list of panels between 01/01/2006 and 13/06/2021 has been downloaded and saved
+panel_lst_content <- read_html('../data/gow_panels-01012006_to_13062021.html')
+
+# parse HTML for list of hrefs
+panel_href_list <- panel_lst_content %>%
+  html_elements('#dgDetails a:nth-child(1)') %>% 
+  html_attr('href')
+
+for (link in panel_href_list) {
+  # get panel html
+  panel_content <- get_html(link)
+  
+  
+  # general non-type specific parsing
+  # general content: panel id - from link
+  panel_id <- str_match(link,"PanelId=(.*)"[2])
+  
+  # general content: panel name (#lblPanelName) - from html
+  panel_name <- panel_content %>% html_element("#lblPanelName") %>% html_text()
+  
+  # general content: panel date (#lblDateOfPanel) - from html
+  panel_date <- panel_content %>% html_element("#lblDateOfPanel") %>% html_text()
+  
+  # general content: panel contact (#lblPanelContact) - from html
+  panel_contact <- panel_content %>% html_element("#lblPanelContact") %>% html_text()
+  
+  
+  # panel page type specific parsing
+  type <- paste(str_match(link,"([A-Z]*)View(.*?).aspx?")[2:3], collapse = '')
+  # print(type)
+  if (type == "PriorPanel") {
+    # panel member data
+    
+    # "#dgDetails td:nth-child(3)"
+  } else if (type == "Panel") {
+    #dgDetails
+    #dgFullByNum
+    #dgFullByValue
+    #dgOutlineByNumber
+    #dgOutlineByValue
+  } else if (type == "PanelFellowship") {
+    #dgDetails
+    #dgDeferredGrants td
+    # 4x4 grid that needs converting into a list
+    #dgPanelByNum
+    #dgPanelByValue
+    #dgGrants
+  } else if (type == "PanelFellowshipV2") {
+    
+  } else if (type == "NGBOPanel") {
+    #dgDetails
+    #dgFullByNum
+    #dgFullByValue
+    #dgOutlineByNumber
+    #dgOutlineByValue
+  } else {
+    warning(str_glue("{type} not recognised"))
+  }
+}
+
+```
+
+
+```{r}
+panel_links <- tibble(link = panel_href_list) %>% mutate(group = apply(str_match(panel_href_list,"([A-Z]*)View(.*?).aspx?")[,2:3], 1,paste, collapse = ''))
+
+sample_list <- panel_links %>%group_by(group) %>% slice_sample(n = 15) %>% pull(link)
+
+for (link in sample_list) {
+  browseURL(paste("https://gow.epsrc.ukri.org/", link,sep = ''))
+}
+```
+
+```{r}
+format(Sys.time(), "%Y%m%d_%H%M%S_")
+```
+
