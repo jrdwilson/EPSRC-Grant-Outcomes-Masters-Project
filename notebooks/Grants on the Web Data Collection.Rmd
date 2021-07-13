@@ -19,8 +19,23 @@ library(tidyverse)
 library(rvest)    
 # String manipulation
 library(stringr)
-
+# Cleaning dataframe names
 library(janitor)
+# Logging
+library(logr)
+# Progress monitoring
+library(progress)
+```
+
+
+```{r progress bar creation function}
+init_bar <- function(bar_length){
+  bar <- progress_bar$new(
+    format = "[:bar] :current/:total -:percent complete - :elapsedfull - eta = :eta \n", 
+    total = bar_length
+  )
+  return(bar)
+}
 ```
 
 
@@ -31,10 +46,16 @@ library(janitor)
 get_html <- function(url){
   # set file location
   html_dest = '../data/temp_gow_html.html'
+  
+  start_time <- Sys.time()
   # download and read html from website
   download.file(paste("https://gow.epsrc.ukri.org/",url,sep = ""), destfile = html_dest, quiet = TRUE)
+  end_time <- Sys.time()
   
-  return(read_html(html_dest))
+  return(list(
+      html = read_html(html_dest),
+      wait = end_time - start_timet
+    ))
 }
 ```
 
@@ -44,7 +65,7 @@ get_html <- function(url){
 base_url <- "NGBOListThemes.aspx"
 
 # get html content from url
-content <- get_html(base_url)
+content <- get_html(base_url)$html
 
 # parse HTML for list of hrefs
 theme_href_list <- content %>%
@@ -94,7 +115,7 @@ for (theme_url in theme_href_list) {
   
   # then get the html page for the theme
   start_time <- Sys.time()
-  theme_content <- get_html(theme_url)
+  theme_content <- get_html(theme_url)$html
   end_time <- Sys.time()
   # work out duration for response for polite requesting
   theme_wait <- end_time - start_time
@@ -118,7 +139,7 @@ for (theme_url in theme_href_list) {
     
     # get html content from website, timing the response time
     start_time <- Sys.time()
-    area_content <- get_html(area_url)
+    area_content <- get_html(area_url)$html
     end_time <- Sys.time()
     
     # calculate the response time
@@ -157,12 +178,83 @@ theme_df %>% write.csv('../data/themes.csv')
 
 # Panels
 
-```{r  experimental_scaping}
-test_panel <- get_html("NGBOViewPanel.aspx?PanelId=1-2JLAVX")
+```{r define extraction functions}
+extract_table <- function(html, css_selector, head_row = FALSE, log_on = TRUE){
+  out <- tryCatch(
+    {
+      html_out <- html %>% 
+        html_element(css_selector) %>% 
+        html_table(header = head_row)
+      
+      if (log_on) {
+        log_print(str_glue("Successfully extracted {css_selector} table"), console = FALSE)
+      }
+      
+      html_out
+    },
+    error=function(cond){
+      if (log_on) {
+        log_print(str_glue("Unsuccessfully extracted {css_selector} table. \n{cond}"), console = FALSE)
+      }
+      return(tibble())
+    }
+  )
+  return(out)
+}
 
-dgDetails <- test_panel %>% 
-  html_element("#dgDetails") %>% # need to test if that element was found.
-  html_table()
+extract_elements <- function(html, css_selector, attr = "text", log_on = TRUE){
+  out <- tryCatch(
+    {
+      if (attr == "text") {
+        out <- html %>% 
+          html_elements(css_selector) %>% 
+          html_text(trim = TRUE) 
+      } else {
+        out <- html %>% 
+          html_elements(css_selector) %>%
+          html_attr(attr)
+      }
+      
+      # Detect if logging is on for this function (on by default)
+      if (log_on) {
+        log_print(
+          str_glue("Successfully extracted {css_selector} elements {attr} attribute"), 
+          console = FALSE, 
+          hide_notes = TRUE,
+        )
+      }
+      # The trycatch returns the last expression so we need to ensure that it is returned
+      out
+    },
+    error=function(cond){
+      if (log_on) {
+        log_print(
+          str_glue("Unsuccessfully extracted {css_selector} elements. \n{cond}"), 
+          console = FALSE,
+          hide_notes = TRUE,
+        )
+      }
+      return(tibble())
+    }
+  )
+  return(out)
+}
+```
+
+
+```{r experimental_scaping}
+test_panel <- get_html("NGBOViewPanel.aspx?PanelId=1-4SSWIR")$html
+
+test_panel %>% 
+  extract_elements("#pnlContent a", attr = "href", log_on = FALSE) %>% 
+  tibble(href = .) %>% 
+  filter(str_detect(href, "NGBOViewPanelROL.aspx?"))
+
+test_panel %>% 
+  html_elements("#pnlContent a") %>%
+  html_attr("href")
+
+test_panel %>% extract_table("#dgFullbyNum", log_on = FALSE)
 
 dgDetails <- dgDetails %>% 
   rename(
@@ -176,6 +268,8 @@ dgDetails <- dgDetails %>%
 
 dgDetails
 
+
+test_panel %>% extract_elements("#dgDeferredGrants span", log_on = FALSE)
 
 dgFullByNum <-  test_panel %>% 
   html_element("#dgFullByNum") %>% 
@@ -207,18 +301,225 @@ dgFullByValue
 
 ```
 
-```{r df_definition}
-Details_df <- tibble()
+```{r func_def_panel_data}
+panel_dataframes <- list(
+  panel_details_df = tibble(),
+  panel_members_df = tibble(),
+  funded_type1_bynum_df = tibble(),
+  funded_type1_byvalue_df = tibble(),
+  outlines_bynum_df = tibble(),
+  outline_byvalue_df = tibble(),
+  deferred_fellowships_grants_df = tibble(),
+  approved_fellowships_grants_df = tibble(),
+  sift_grants_bynum_df = tibble(),
+  sift_grants_byvalue_df = tibble(),
+  funded_type2_bynum_df = tibble(),
+  funded_type2_byvalue_df = tibble(),
+  panel_rank_links_df = tibble()
+)
 
-FullByNum_df <- tibble()
+error_panel_links <- c()
 
-FullByValue_df <- tibble()
+sweet_get_panel_data <- function(dataframes = panel_dataframes, link, log_on = TRUE){
+  # wrapped function for collecting data from panel
+  # get panel html
+  panel <- get_html(link)
+  
+  # extract general panel details
+  # general content: panel id - from link
+  panel_id <- str_match(link,"PanelId=(.*)"[2])
+  
+  # general content: panel name (#lblPanelName) - from html
+  panel_name <- panel$html %>% html_element("#lblPanelName") %>% html_text()
+  
+  # general content: panel date (#lblDateOfPanel) - from html
+  panel_date <- panel$html %>% html_element("#lblDateOfPanel") %>% html_text()
+  
+  # general content: panel contact (#lblPanelContact) - from html
+  panel_contact <- panel$html %>% html_element("#lblPanelContact") %>% html_text()
+  
+  # general content: panel page type - from link
+  panel_type <- paste(str_match(link,"([A-Z]*)View(.*?).aspx?")[2:3], collapse = '')
+  
+  panel_details <- tibble(
+    panel_id = panel_id,
+    panel_name = panel_name,
+    panel_date = panel_date,
+    panel_contact = panel_contact,
+    panel_type = panel_type,
+  )
+  
+  # extract tables
+  #dgDetails
+  panel_members <- panel$html %>% 
+    extract_table("#dgDetails", head_row = FALSE, log_on = log_on) %>% 
+    mutate(panel_id = panel_id, panel_type = panel_type)
+  
+  #dgFullByNum
+  funded_type1_bynum <- panel$html %>% 
+    extract_table("#dgFullByNum", head_row = TRUE, log_on = log_on) %>% 
+    mutate(panel_id = panel_id, panel_type = panel_type)
+  
+  #dgFullByValue
+  funded_type1_byvalue <- panel$html %>% 
+    extract_table("#dgFullByValue", head_row = TRUE, log_on = log_on) %>% 
+    mutate(panel_id = panel_id, panel_type = panel_type)
+  
+  #dgOutlineByNumber
+  outlines_bynum <- panel$html %>% 
+    extract_table("#dgOutlineByNumber", head_row = TRUE, log_on = log_on) %>% 
+    mutate(panel_id = panel_id, panel_type = panel_type)
+  
+  #dgOutlineByValue
+  outline_byvalue <- panel$html %>% 
+    extract_table("#dgOutlineByValue", log_on = log_on) %>% 
+    mutate(panel_id = panel_id, panel_type = panel_type)
+  
+  #dgDeferredGrants span
+  deferred_fellowships_grants <- panel$html %>% 
+    extract_elements("#dgDeferredGrants span", log_on = log_on) %>% 
+    tibble(grant_ref = .) %>% 
+    filter(grant_ref != "") %>% 
+    mutate(panel_id = panel_id, panel_type = panel_type)
+  
+  #dgGrants
+  approved_fellowships_grants <- panel$html %>% 
+    extract_table("#dgGrants", log_on = log_on) %>% 
+    mutate(panel_id = panel_id, panel_type = panel_type)
+  
+  #dgSiftByNumber
+  sift_grants_bynum <- panel$html %>% 
+    extract_table("#dgSiftByNumber", head_row = TRUE, log_on = log_on) %>% 
+    mutate(panel_id = panel_id, panel_type = panel_type)
+  
+  #dgSiftByValue
+  sift_grants_byvalue <- panel$html %>% 
+    extract_table("#dgSiftByValue", head_row = TRUE, log_on = log_on) %>% 
+    mutate(panel_id = panel_id, panel_type = panel_type)
+  
+  #dgPanelByNum
+  funded_type2_bynum <- panel$html %>% 
+    extract_table("#dgPanelByNum", head_row = TRUE, log_on = log_on) %>% 
+    mutate(panel_id = panel_id, panel_type = panel_type)
+  
+  #dgPanelByValue
+  funded_type2_byvalue <- panel$html %>% 
+    extract_table("#dgPanelByValue", head_row = TRUE, log_on = log_on) %>% 
+    mutate(panel_id = panel_id, panel_type = panel_type)
+  
+    # pull links
+  #pnlContent a
+  panel_rank_links <-  panel$html %>% 
+    extract_elements("#pnlContent a", attr = "href", log_on = log_on) %>% 
+    tibble(href = .) %>% 
+    filter(str_detect(href, "NGBOViewPanelROL.aspx?")) %>% 
+    mutate(panel_id = panel_id, panel_type = panel_type)
+  
+  
+  # Update the dataframes
+  dataframes$panel_details_df <- dataframes$panel_details_df %>% 
+    add_row(panel_details)
+  
+  dataframes$panel_members_df <- dataframes$panel_members_df %>% 
+    add_row(panel_members)
+  
+  dataframes$funded_type1_bynum_df <- dataframes$funded_type1_bynum_df %>% 
+    add_row(funded_type1_bynum)
+  
+  dataframes$funded_type1_byvalue_df <- dataframes$funded_type1_byvalue_df %>% 
+    add_row(funded_type1_byvalue)
+  
+  dataframes$outlines_bynum_df <- dataframes$outlines_bynum_df %>% 
+    add_row(outlines_bynum)
+  
+  dataframes$outline_byvalue_df <- dataframes$outline_byvalue_df %>% 
+    add_row(outline_byvalue)
+  
+  dataframes$deferred_fellowships_grants_df <- dataframes$deferred_fellowships_grants_df %>% 
+    add_row(deferred_fellowships_grants)
+  
+  dataframes$approved_fellowships_grants_df <- dataframes$approved_fellowships_grants_df %>% 
+    add_row(approved_fellowships_grants)
+  
+  dataframes$sift_grants_bynum_df <- dataframes$sift_grants_bynum_df %>% 
+    add_row(sift_grants_bynum)
+  
+  dataframes$sift_grants_byvalue_df <- dataframes$sift_grants_byvalue_df %>% 
+    add_row(sift_grants_byvalue)
+  
+  dataframes$funded_type2_bynum_df <- dataframes$funded_type2_bynum_df %>% 
+    add_row(funded_type2_bynum)
+  
+  dataframes$funded_type2_byvalue_df <- dataframes$funded_type2_byvalue_df %>% 
+    add_row(funded_type2_byvalue)
+  
+  dataframes$panel_rank_links_df <- dataframes$panel_rank_links_df %>% 
+    add_row(panel_rank_links)
+  
+  if (log_on) {
+    log_print(
+      str_glue("Successfully extracted panel data from {link} and updated dataframes."), 
+      console = FALSE
+    )
+  }
+  
+  # output the updated dataframes
+  return(
+    list(
+      dataframes = dataframes,
+      wait = panel$wait
+    )
+  )
+  return(dataframes)
+}
 
-Grants_df <- tibble()
+get_panel_data <- function(link, dataframes = panel_dataframes, log_on = TRUE){
+  # Error resistant wrapper function for the wrapped sweet_get_panel_data
+  out <- tryCatch(
+    {
+      sweet_get_panel_data(dataframes, link, log_on = log_on) 
+    },
+    error = function(cond){
+      error_panel_links <<- c(error_panel_links, link)
+      if (log_on) {
+        log_print(
+          str_glue(
+          "Failed to extract panel data and update dataframes due to error.\n
+Panel URL: {link}\n
+{cond}\n
+Failed links: \n{error_panel_links}"), 
+          console = FALSE
+        )
+      }
+      # set a wait time
+      wait_time <- 15 #seconds
+      
+      # ensure that the dataframes are passed through without issue and unchanged
+      return(list(
+        dataframes = dataframes,
+        wait = wait_time
+      ))
+    }
+  )
+  # wait
+  Sys.sleep(out$wait)
+  # update progress bar
+  if (!pb$finished) {
+    pb$tick()
+  }
+  
+  return(out$dataframes)
+  
+}
+```
+
+```{r}
+get_panel_data("NGBOViewPanel.aspx?PanelId=1-4SSWIR", dataframes = panel_dataframes, log_on = FALSE)
 ```
 
 
-```{r}
+
+```{r }
 # The complete html results list of panels between 01/01/2006 and 13/06/2021 has been downloaded and saved
 panel_lst_content <- read_html('../data/gow_panels-01012006_to_13062021.html')
 
@@ -227,57 +528,20 @@ panel_href_list <- panel_lst_content %>%
   html_elements('#dgDetails a:nth-child(1)') %>% 
   html_attr('href')
 
-for (link in panel_href_list) {
-  # get panel html
-  panel_content <- get_html(link)
-  
-  
-  # general non-type specific parsing
-  # general content: panel id - from link
-  panel_id <- str_match(link,"PanelId=(.*)"[2])
-  
-  # general content: panel name (#lblPanelName) - from html
-  panel_name <- panel_content %>% html_element("#lblPanelName") %>% html_text()
-  
-  # general content: panel date (#lblDateOfPanel) - from html
-  panel_date <- panel_content %>% html_element("#lblDateOfPanel") %>% html_text()
-  
-  # general content: panel contact (#lblPanelContact) - from html
-  panel_contact <- panel_content %>% html_element("#lblPanelContact") %>% html_text()
-  
-  
-  # panel page type specific parsing
-  type <- paste(str_match(link,"([A-Z]*)View(.*?).aspx?")[2:3], collapse = '')
-  # print(type)
-  if (type == "PriorPanel") {
-    # panel member data
-    
-    # "#dgDetails td:nth-child(3)"
-  } else if (type == "Panel") {
-    #dgDetails
-    #dgFullByNum
-    #dgFullByValue
-    #dgOutlineByNumber
-    #dgOutlineByValue
-  } else if (type == "PanelFellowship") {
-    #dgDetails
-    #dgDeferredGrants td
-    # 4x4 grid that needs converting into a list
-    #dgPanelByNum
-    #dgPanelByValue
-    #dgGrants
-  } else if (type == "PanelFellowshipV2") {
-    
-  } else if (type == "NGBOPanel") {
-    #dgDetails
-    #dgFullByNum
-    #dgFullByValue
-    #dgOutlineByNumber
-    #dgOutlineByValue
-  } else {
-    warning(str_glue("{type} not recognised"))
-  }
-}
+bar_len <- length(panel_href_list)
+pb <- init_bar(bar_len)
+
+# Run through the progress bar
+# for (i in 1:bar_len) {
+#   if (!pb$finished) {
+#     pb$tick()
+#   }
+# }
+
+
+# for (link in panel_href_list) {
+#   
+# }
 
 ```
 
@@ -285,7 +549,7 @@ for (link in panel_href_list) {
 ```{r}
 panel_links <- tibble(link = panel_href_list) %>% mutate(group = apply(str_match(panel_href_list,"([A-Z]*)View(.*?).aspx?")[,2:3], 1,paste, collapse = ''))
 
-sample_list <- panel_links %>%group_by(group) %>% slice_sample(n = 15) %>% pull(link)
+sample_list <- panel_links %>% group_by(group) %>% slice_sample(n = 15) %>% pull(link)
 
 for (link in sample_list) {
   browseURL(paste("https://gow.epsrc.ukri.org/", link,sep = ''))

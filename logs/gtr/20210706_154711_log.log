@@ -1,0 +1,90 @@
+========================================================================= 
+Log Path: ../logs/20210706_154711_log.log 
+[1] "Working Directory: C:/Users/josep/OneDrive/Documents/University Documents/MSc Data Science/09-Data-Science-Project/Project/notebooks"
+User Name: josep 
+R Version: 4.0.3 (2020-10-10) 
+Machine: JRDWILSON-DESKT x86-64 
+Operating System: Windows 10 x64 build 19043 
+Log Start Time: 2021-07-06 15:47:11 
+========================================================================= 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/G026440/1 failed: 
+Error in doTryCatch(return(expr), name, parentenv, handler): Simulated Timeout
+ 
+Waiting 5 minutes before resuming.
+
+NOTE: Log Print Time:  2021-07-06 15:47:11 
+NOTE: Elapsed Time in seconds: 0.113377094268799 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/I006591/1 failed: 
+Error in doTryCatch(return(expr), name, parentenv, handler): Simulated Timeout
+ 
+Waiting 5 minutes before resuming.
+
+NOTE: Log Print Time:  2021-07-06 15:47:12 
+NOTE: Elapsed Time in seconds: 1.03645300865173 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/F032145/1 failed: 
+Error in doTryCatch(return(expr), name, parentenv, handler): Simulated Timeout
+ 
+Waiting 5 minutes before resuming.
+
+NOTE: Log Print Time:  2021-07-06 15:47:14 
+NOTE: Elapsed Time in seconds: 1.39603400230408 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/K012258/1 failed: 
+Error in doTryCatch(return(expr), name, parentenv, handler): Simulated Timeout
+ 
+Waiting 5 minutes before resuming.
+
+NOTE: Log Print Time:  2021-07-06 15:47:15 
+NOTE: Elapsed Time in seconds: 1.04548788070679 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/S513817/1 failed: 
+Error in doTryCatch(return(expr), name, parentenv, handler): Simulated Timeout
+ 
+Waiting 5 minutes before resuming.
+
+NOTE: Log Print Time:  2021-07-06 15:47:16 
+NOTE: Elapsed Time in seconds: 1.02748608589172 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/H023909/1 failed: 
+Error in doTryCatch(return(expr), name, parentenv, handler): Simulated Timeout
+ 
+Waiting 5 minutes before resuming.
+
+NOTE: Log Print Time:  2021-07-06 15:47:17 
+NOTE: Elapsed Time in seconds: 1.02890992164612 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/I004246/1 failed: 
+Error in doTryCatch(return(expr), name, parentenv, handler): Simulated Timeout
+ 
+Waiting 5 minutes before resuming.
+
+NOTE: Log Print Time:  2021-07-06 15:47:18 
+NOTE: Elapsed Time in seconds: 1.025062084198 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/H049746/1 failed: 
+Error in doTryCatch(return(expr), name, parentenv, handler): Simulated Timeout
+ 
+Waiting 5 minutes before resuming.
+
+NOTE: Log Print Time:  2021-07-06 15:47:19 
+NOTE: Elapsed Time in seconds: 1.03070998191833 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/P504546/1 failed: 
+Error in doTryCatch(return(expr), name, parentenv, handler): Simulated Timeout
+ 
+Waiting 5 minutes before resuming.
+
+NOTE: Log Print Time:  2021-07-06 15:47:20 
+NOTE: Elapsed Time in seconds: 1.03010702133179 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/N509346/1 failed: 
+Error in doTryCatch(return(expr), name, parentenv, handler): Simulated Timeout
+ 
+Waiting 5 minutes before resuming.
+
+NOTE: Log Print Time:  2021-07-06 15:47:21 
+NOTE: Elapsed Time in seconds: 1.03344798088074 
+

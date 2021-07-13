@@ -1,0 +1,62 @@
+========================================================================= 
+Log Path: ../logs/TESTRUN_20210707_122451_log.log 
+[1] "Working Directory: C:/Users/josep/OneDrive/Documents/University Documents/MSc Data Science/09-Data-Science-Project/Project/notebooks"
+User Name: josep 
+R Version: 4.0.3 (2020-10-10) 
+Machine: JRDWILSON-DESKT x86-64 
+Operating System: Windows 10 x64 build 19043 
+Log Start Time: 2021-07-07 12:24:51 
+========================================================================= 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/G026440/1 successfully 
+in 0.152504 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:51 
+NOTE: Elapsed Time in seconds: 0.20868706703186 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/I006591/1 successfully 
+in 0.152507 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:51 
+NOTE: Elapsed Time in seconds: 0.318053960800171 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/F032145/1 successfully 
+in 3.563713 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:55 
+NOTE: Elapsed Time in seconds: 3.73930811882019 
+
+no loop for break/next, jumping to top level 
+
+NOTE: Log Print Time:  2021-07-07 12:24:58 
+NOTE: Elapsed Time in seconds: 3.05651688575745 
+
+person_df.csv saved 
+
+NOTE: Log Print Time:  2021-07-07 12:24:59 
+NOTE: Elapsed Time in seconds: 0.306012153625488 
+
+organisation_df.csv saved 
+
+NOTE: Log Print Time:  2021-07-07 12:24:59 
+NOTE: Elapsed Time in seconds: 0.0290968418121338 
+
+subject_df.csv saved 
+
+NOTE: Log Print Time:  2021-07-07 12:24:59 
+NOTE: Elapsed Time in seconds: 0.025083065032959 
+
+topic_df.csv saved 
+
+NOTE: Log Print Time:  2021-07-07 12:24:59 
+NOTE: Elapsed Time in seconds: 0.0220720767974854 
+
+project_df.csv saved 
+
+NOTE: Log Print Time:  2021-07-07 12:24:59 
+NOTE: Elapsed Time in seconds: 0.653162956237793 
+
+========================================================================= 
+Log End Time: 2021-07-07 12:24:59 
+Log Elapsed Time: 0 00:00:08 
+========================================================================= 

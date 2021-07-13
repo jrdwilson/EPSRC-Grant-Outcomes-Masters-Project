@@ -1,0 +1,254 @@
+========================================================================= 
+Log Path: ../logs/TESTRUN_20210707_122435_log.log 
+[1] "Working Directory: C:/Users/josep/OneDrive/Documents/University Documents/MSc Data Science/09-Data-Science-Project/Project/notebooks"
+User Name: josep 
+R Version: 4.0.3 (2020-10-10) 
+Machine: JRDWILSON-DESKT x86-64 
+Operating System: Windows 10 x64 build 19043 
+Log Start Time: 2021-07-07 12:24:35 
+========================================================================= 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/G026440/1 successfully 
+in 0.28093 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:35 
+NOTE: Elapsed Time in seconds: 0.310024976730347 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/I006591/1 successfully 
+in 0.223739 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:35 
+NOTE: Elapsed Time in seconds: 0.523733139038086 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/F032145/1 successfully 
+in 0.263883 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:36 
+NOTE: Elapsed Time in seconds: 0.522732973098755 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/K012258/1 successfully 
+in 0.159097 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:36 
+NOTE: Elapsed Time in seconds: 0.447049856185913 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/S513817/1 successfully 
+in 0.120408 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:37 
+NOTE: Elapsed Time in seconds: 0.30902099609375 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/H023909/1 successfully 
+in 0.192629 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:37 
+NOTE: Elapsed Time in seconds: 0.342252016067505 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/I004246/1 successfully 
+in 0.138458 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:37 
+NOTE: Elapsed Time in seconds: 0.355162143707275 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/H049746/1 successfully 
+in 0.138837 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:38 
+NOTE: Elapsed Time in seconds: 0.298924922943115 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/P504546/1 successfully 
+in 0.161875 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:38 
+NOTE: Elapsed Time in seconds: 0.318881988525391 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/N509346/1 successfully 
+in 0.108799 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:38 
+NOTE: Elapsed Time in seconds: 0.286916017532349 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/K007777/1 successfully 
+in 0.15652 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:39 
+NOTE: Elapsed Time in seconds: 0.284950017929077 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-1942717 successfully 
+in 0.111779 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:39 
+NOTE: Elapsed Time in seconds: 0.295709848403931 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-1808415 successfully 
+in 0.118399 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:39 
+NOTE: Elapsed Time in seconds: 0.258482217788696 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/H045775/1 successfully 
+in 0.123345 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:39 
+NOTE: Elapsed Time in seconds: 0.265431880950928 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/S018204/2 successfully 
+in 0.15558 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:40 
+NOTE: Elapsed Time in seconds: 0.301960945129395 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-2103804 successfully 
+in 0.119566 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:40 
+NOTE: Elapsed Time in seconds: 0.299823999404907 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/H006885/1 successfully 
+in 0.151496 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:40 
+NOTE: Elapsed Time in seconds: 0.322951078414917 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-2299512 successfully 
+in 0.143448 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:41 
+NOTE: Elapsed Time in seconds: 0.322997093200684 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/G020841/1 successfully 
+in 0.275872 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:41 
+NOTE: Elapsed Time in seconds: 0.442802906036377 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/R006393/1 successfully 
+in 0.154304 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:42 
+NOTE: Elapsed Time in seconds: 0.452265977859497 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/V046853/1 successfully 
+in 0.110429 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:42 
+NOTE: Elapsed Time in seconds: 0.28226900100708 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-2413334 successfully 
+in 0.124957 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:42 
+NOTE: Elapsed Time in seconds: 0.263659954071045 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-2434540 successfully 
+in 0.12676 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:42 
+NOTE: Elapsed Time in seconds: 0.276584148406982 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/E016243/1 successfully 
+in 0.176955 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:43 
+NOTE: Elapsed Time in seconds: 0.331275939941406 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/R511821/1 successfully 
+in 0.115811 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:43 
+NOTE: Elapsed Time in seconds: 0.309752941131592 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/D077095/1 successfully 
+in 0.457356 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:44 
+NOTE: Elapsed Time in seconds: 0.590614080429077 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-1788239 successfully 
+in 0.173578 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:44 
+NOTE: Elapsed Time in seconds: 0.661188840866089 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/N03242X/1 successfully 
+in 0.249991 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:45 
+NOTE: Elapsed Time in seconds: 0.446648120880127 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/T020997/1 successfully 
+in 0.178217 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:45 
+NOTE: Elapsed Time in seconds: 0.447109937667847 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/P502535/1 successfully 
+in 0.182597 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:46 
+NOTE: Elapsed Time in seconds: 0.386276960372925 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/G013330/1 successfully 
+in 0.232773 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:46 
+NOTE: Elapsed Time in seconds: 0.436550140380859 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-2430957 successfully 
+in 0.237783 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:46 
+NOTE: Elapsed Time in seconds: 0.500704050064087 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/H022031/1 successfully 
+in 0.211693 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:47 
+NOTE: Elapsed Time in seconds: 0.517759799957275 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/I005641/1 successfully 
+in 0.15651 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:47 
+NOTE: Elapsed Time in seconds: 0.40742015838623 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/N003209/1 successfully 
+in 0.132442 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:24:48 
+NOTE: Elapsed Time in seconds: 0.310025930404663 
+
+no loop for break/next, jumping to top level 
+
+NOTE: Log Print Time:  2021-07-07 12:24:48 
+NOTE: Elapsed Time in seconds: 0.222738981246948 
+
+person_df.csv saved 
+
+NOTE: Log Print Time:  2021-07-07 12:24:49 
+NOTE: Elapsed Time in seconds: 1.0078399181366 
+
+organisation_df.csv saved 
+
+NOTE: Log Print Time:  2021-07-07 12:24:49 
+NOTE: Elapsed Time in seconds: 0.0381300449371338 
+
+subject_df.csv saved 
+
+NOTE: Log Print Time:  2021-07-07 12:24:49 
+NOTE: Elapsed Time in seconds: 0.024075984954834 
+
+topic_df.csv saved 
+
+NOTE: Log Print Time:  2021-07-07 12:24:49 
+NOTE: Elapsed Time in seconds: 0.0280940532684326 
+
+project_df.csv saved 
+
+NOTE: Log Print Time:  2021-07-07 12:24:50 
+NOTE: Elapsed Time in seconds: 0.646136999130249 
+
+========================================================================= 
+Log End Time: 2021-07-07 12:24:50 
+Log Elapsed Time: 0 00:00:15 
+========================================================================= 

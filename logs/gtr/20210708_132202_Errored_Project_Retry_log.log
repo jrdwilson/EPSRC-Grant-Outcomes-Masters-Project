@@ -1,0 +1,87 @@
+========================================================================= 
+Log Path: ../logs/20210708_132202_Errored_Project_Retry_log.log 
+[1] "Working Directory: C:/Users/josep/OneDrive/Documents/University Documents/MSc Data Science/09-Data-Science-Project/Project/notebooks"
+User Name: josep 
+R Version: 4.0.3 (2020-10-10) 
+Machine: JRDWILSON-DESKT x86-64 
+Operating System: Windows 10 x64 build 19043 
+Log Start Time: 2021-07-08 13:22:02 
+========================================================================= 
+
+Data collection from https://gtr.ukri.org/projects?ref=EP/V026097/1 at 13:22:02 failed: 
+Error in open.connection(con, "rb"): HTTP error 404.
+ 
+Waiting 5 minutes before resuming.
+
+NOTE: Log Print Time:  2021-07-08 13:22:02 
+NOTE: Elapsed Time in seconds: 0.193639993667603 
+
+Data collection from https://gtr.ukri.org/projects?ref=studentship-2283917 at 13:27:11 failed: 
+Error in open.connection(con, "rb"): HTTP error 404.
+ 
+Waiting 5 minutes before resuming.
+
+NOTE: Log Print Time:  2021-07-08 13:27:11 
+NOTE: Elapsed Time in seconds: 5.14573888381322 
+
+Data collection from https://gtr.ukri.org/projects?ref=studentship-2487892 at 13:32:20 failed: 
+Error in open.connection(con, "rb"): HTTP error 404.
+ 
+Waiting 5 minutes before resuming.
+
+NOTE: Log Print Time:  2021-07-08 13:32:20 
+NOTE: Elapsed Time in seconds: 5.14889030059179 
+
+Data collection from https://gtr.ukri.org/projects?ref=studentship-2492634 at 13:37:29 failed: 
+Error in open.connection(con, "rb"): HTTP error 404.
+ 
+Waiting 5 minutes before resuming.
+
+NOTE: Log Print Time:  2021-07-08 13:37:29 
+NOTE: Elapsed Time in seconds: 5.14021684726079 
+
+Data collection from https://gtr.ukri.org/projects?ref=studentship-2487886 at 13:42:37 failed: 
+Error in open.connection(con, "rb"): HTTP error 404.
+ 
+Waiting 5 minutes before resuming.
+
+NOTE: Log Print Time:  2021-07-08 13:42:37 
+NOTE: Elapsed Time in seconds: 5.14131271839142 
+
+Data collection from https://gtr.ukri.org/projects?ref=studentship-1969350 at 13:47:46 failed: 
+Error in open.connection(con, "rb"): HTTP error 404.
+ 
+Waiting 5 minutes before resuming.
+
+NOTE: Log Print Time:  2021-07-08 13:47:46 
+NOTE: Elapsed Time in seconds: 5.14935116767883 
+
+person_df.csv saved 
+
+NOTE: Log Print Time:  2021-07-08 13:53:31 
+NOTE: Elapsed Time in seconds: 5.74577919642131 
+
+organisation_df.csv saved 
+
+NOTE: Log Print Time:  2021-07-08 13:53:33 
+NOTE: Elapsed Time in seconds: 2.13706922531128 
+
+subject_df.csv saved 
+
+NOTE: Log Print Time:  2021-07-08 13:53:33 
+NOTE: Elapsed Time in seconds: 0.245813846588135 
+
+topic_df.csv saved 
+
+NOTE: Log Print Time:  2021-07-08 13:53:34 
+NOTE: Elapsed Time in seconds: 0.440459966659546 
+
+project_df.csv saved 
+
+NOTE: Log Print Time:  2021-07-08 13:53:35 
+NOTE: Elapsed Time in seconds: 1.84510517120361 
+
+========================================================================= 
+Log End Time: 2021-07-08 13:53:35 
+Log Elapsed Time: 0 00:00:31 
+========================================================================= 

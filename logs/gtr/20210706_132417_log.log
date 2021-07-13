@@ -1,0 +1,60 @@
+========================================================================= 
+Log Path: ../logs/20210706_132417_log.log 
+[1] "Working Directory: C:/Users/josep/OneDrive/Documents/University Documents/MSc Data Science/09-Data-Science-Project/Project/notebooks"
+User Name: josep 
+R Version: 4.0.3 (2020-10-10) 
+Machine: JRDWILSON-DESKT x86-64 
+Operating System: Windows 10 x64 build 19043 
+Log Start Time: 2021-07-06 13:24:17 
+========================================================================= 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/G026440/1 successfully in 0.288796 seconds
+
+NOTE: Log Print Time:  2021-07-06 13:24:18 
+NOTE: Elapsed Time in seconds: 0.314884901046753 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/I006591/1 successfully in 0.115181 seconds
+
+NOTE: Log Print Time:  2021-07-06 13:24:18 
+NOTE: Elapsed Time in seconds: 0.419989109039307 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/F032145/1 successfully in 0.148616 seconds
+
+NOTE: Log Print Time:  2021-07-06 13:24:19 
+NOTE: Elapsed Time in seconds: 0.28261399269104 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/K012258/1 successfully in 0.188018 seconds
+
+NOTE: Log Print Time:  2021-07-06 13:24:19 
+NOTE: Elapsed Time in seconds: 0.349985837936401 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/S513817/1 successfully in 0.110973 seconds
+
+NOTE: Log Print Time:  2021-07-06 13:24:19 
+NOTE: Elapsed Time in seconds: 0.307497978210449 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/H023909/1 successfully in 0.209605 seconds
+
+NOTE: Log Print Time:  2021-07-06 13:24:19 
+NOTE: Elapsed Time in seconds: 0.334851980209351 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/I004246/1 successfully in 0.142507 seconds
+
+NOTE: Log Print Time:  2021-07-06 13:24:20 
+NOTE: Elapsed Time in seconds: 0.369457006454468 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/H049746/1 successfully in 0.157253 seconds
+
+NOTE: Log Print Time:  2021-07-06 13:24:20 
+NOTE: Elapsed Time in seconds: 0.320932149887085 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/P504546/1 successfully in 0.411344 seconds
+
+NOTE: Log Print Time:  2021-07-06 13:24:21 
+NOTE: Elapsed Time in seconds: 0.581085920333862 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/N509346/1 successfully in 0.160648 seconds
+
+NOTE: Log Print Time:  2021-07-06 13:24:21 
+NOTE: Elapsed Time in seconds: 0.584038972854614 
+

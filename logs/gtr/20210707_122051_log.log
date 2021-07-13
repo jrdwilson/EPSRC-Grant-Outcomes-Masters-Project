@@ -1,0 +1,610 @@
+========================================================================= 
+Log Path: ../logs/20210707_122051_log.log 
+[1] "Working Directory: C:/Users/josep/OneDrive/Documents/University Documents/MSc Data Science/09-Data-Science-Project/Project/notebooks"
+User Name: josep 
+R Version: 4.0.3 (2020-10-10) 
+Machine: JRDWILSON-DESKT x86-64 
+Operating System: Windows 10 x64 build 19043 
+Log Start Time: 2021-07-07 12:20:51 
+========================================================================= 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/G026440/1 successfully 
+in 0.250831 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:20:51 
+NOTE: Elapsed Time in seconds: 0.280936002731323 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/I006591/1 successfully 
+in 0.146486 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:20:51 
+NOTE: Elapsed Time in seconds: 0.405335903167725 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/F032145/1 successfully 
+in 0.219208 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:20:52 
+NOTE: Elapsed Time in seconds: 0.391019105911255 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/K012258/1 successfully 
+in 0.209173 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:20:52 
+NOTE: Elapsed Time in seconds: 0.443580865859985 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/S513817/1 successfully 
+in 0.178612 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:20:53 
+NOTE: Elapsed Time in seconds: 0.405550003051758 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/H023909/1 successfully 
+in 0.216455 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:20:53 
+NOTE: Elapsed Time in seconds: 0.40726900100708 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/I004246/1 successfully 
+in 0.129575 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:20:53 
+NOTE: Elapsed Time in seconds: 0.363541126251221 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/H049746/1 successfully 
+in 0.119518 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:20:54 
+NOTE: Elapsed Time in seconds: 0.274523019790649 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/P504546/1 successfully 
+in 0.122508 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:20:54 
+NOTE: Elapsed Time in seconds: 0.263619899749756 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/N509346/1 successfully 
+in 0.108933 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:20:54 
+NOTE: Elapsed Time in seconds: 0.25080394744873 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/K007777/1 successfully 
+in 0.13663 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:20:54 
+NOTE: Elapsed Time in seconds: 0.259427070617676 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-1942717 successfully 
+in 0.14613 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:20:55 
+NOTE: Elapsed Time in seconds: 0.303169012069702 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-1808415 successfully 
+in 0.325559 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:20:55 
+NOTE: Elapsed Time in seconds: 0.489468097686768 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/H045775/1 successfully 
+in 0.142758 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:20:56 
+NOTE: Elapsed Time in seconds: 0.486170053482056 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/S018204/2 successfully 
+in 0.26188 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:20:56 
+NOTE: Elapsed Time in seconds: 0.427886962890625 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-2103804 successfully 
+in 0.190507 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:20:57 
+NOTE: Elapsed Time in seconds: 0.474213838577271 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/H006885/1 successfully 
+in 0.126957 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:20:57 
+NOTE: Elapsed Time in seconds: 0.341417074203491 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-2299512 successfully 
+in 0.130928 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:20:57 
+NOTE: Elapsed Time in seconds: 0.309603929519653 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/G020841/1 successfully 
+in 0.157687 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:20:57 
+NOTE: Elapsed Time in seconds: 0.30467414855957 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/R006393/1 successfully 
+in 0.201233 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:20:58 
+NOTE: Elapsed Time in seconds: 0.369499921798706 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/V046853/1 successfully 
+in 0.182784 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:20:58 
+NOTE: Elapsed Time in seconds: 0.40187406539917 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-2413334 successfully 
+in 0.160864 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:20:59 
+NOTE: Elapsed Time in seconds: 0.367504835128784 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-2434540 successfully 
+in 0.194492 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:20:59 
+NOTE: Elapsed Time in seconds: 0.372348070144653 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/E016243/1 successfully 
+in 0.197831 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:20:59 
+NOTE: Elapsed Time in seconds: 0.4167640209198 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/R511821/1 successfully 
+in 0.413281 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:00 
+NOTE: Elapsed Time in seconds: 0.620989084243774 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/D077095/1 successfully 
+in 0.173604 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:01 
+NOTE: Elapsed Time in seconds: 0.607075929641724 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-1788239 successfully 
+in 0.13645 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:01 
+NOTE: Elapsed Time in seconds: 0.328078031539917 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/N03242X/1 successfully 
+in 0.18362 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:01 
+NOTE: Elapsed Time in seconds: 0.331594944000244 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/T020997/1 successfully 
+in 0.146531 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:02 
+NOTE: Elapsed Time in seconds: 0.343177080154419 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/P502535/1 successfully 
+in 0.111381 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:02 
+NOTE: Elapsed Time in seconds: 0.279938936233521 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/G013330/1 successfully 
+in 0.133516 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:02 
+NOTE: Elapsed Time in seconds: 0.257982015609741 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-2430957 successfully 
+in 0.127426 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:02 
+NOTE: Elapsed Time in seconds: 0.280930995941162 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/H022031/1 successfully 
+in 0.172576 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:03 
+NOTE: Elapsed Time in seconds: 0.315088987350464 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/I005641/1 successfully 
+in 0.194722 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:03 
+NOTE: Elapsed Time in seconds: 0.385349035263062 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/N003209/1 successfully 
+in 0.164548 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:04 
+NOTE: Elapsed Time in seconds: 0.37926197052002 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-2116510 successfully 
+in 0.141469 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:04 
+NOTE: Elapsed Time in seconds: 0.324145078659058 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/K03832X/2 successfully 
+in 0.148504 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:04 
+NOTE: Elapsed Time in seconds: 0.304003953933716 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/E001300/1 successfully 
+in 0.114379 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:04 
+NOTE: Elapsed Time in seconds: 0.281934022903442 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/D052629/1 successfully 
+in 0.307026 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:05 
+NOTE: Elapsed Time in seconds: 0.448503971099854 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-2535846 successfully 
+in 0.166554 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:05 
+NOTE: Elapsed Time in seconds: 0.491683006286621 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-2238489 successfully 
+in 0.185698 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:06 
+NOTE: Elapsed Time in seconds: 0.367307901382446 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/V027727/1 successfully 
+in 0.131695 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:06 
+NOTE: Elapsed Time in seconds: 0.333938121795654 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-1801766 successfully 
+in 0.157578 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:06 
+NOTE: Elapsed Time in seconds: 0.302600860595703 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/E019900/1 successfully 
+in 0.137916 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:07 
+NOTE: Elapsed Time in seconds: 0.308094024658203 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/D061601/1 successfully 
+in 0.171569 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:07 
+NOTE: Elapsed Time in seconds: 0.33210015296936 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-1969634 successfully 
+in 0.172006 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:07 
+NOTE: Elapsed Time in seconds: 0.376682996749878 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-1800613 successfully 
+in 0.148893 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:08 
+NOTE: Elapsed Time in seconds: 0.33761191368103 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/F045093/1 successfully 
+in 0.12906 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:08 
+NOTE: Elapsed Time in seconds: 0.288311958312988 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-1928874 successfully 
+in 0.117798 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:08 
+NOTE: Elapsed Time in seconds: 0.266025066375732 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/S031537/1 successfully 
+in 0.311793 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:09 
+NOTE: Elapsed Time in seconds: 0.445844888687134 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/D051894/1 successfully 
+in 0.124703 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:09 
+NOTE: Elapsed Time in seconds: 0.450746059417725 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-1775301 successfully 
+in 0.105779 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:09 
+NOTE: Elapsed Time in seconds: 0.249611139297485 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/J001163/1 successfully 
+in 0.16571 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:10 
+NOTE: Elapsed Time in seconds: 0.293465852737427 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/V04818X/1 successfully 
+in 0.112454 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:10 
+NOTE: Elapsed Time in seconds: 0.3038489818573 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/H035362/1 successfully 
+in 0.116771 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:10 
+NOTE: Elapsed Time in seconds: 0.252027988433838 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-2319413 successfully 
+in 0.111773 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:11 
+NOTE: Elapsed Time in seconds: 0.248092174530029 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/G004625/1 successfully 
+in 0.130203 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:11 
+NOTE: Elapsed Time in seconds: 0.267803907394409 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/T018178/1 successfully 
+in 0.137005 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:11 
+NOTE: Elapsed Time in seconds: 0.285453081130981 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-2330902 successfully 
+in 0.107659 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:11 
+NOTE: Elapsed Time in seconds: 0.266177892684937 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/J015202/1 successfully 
+in 0.139532 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:12 
+NOTE: Elapsed Time in seconds: 0.264297962188721 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/G056404/1 successfully 
+in 0.178012 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:12 
+NOTE: Elapsed Time in seconds: 0.333928108215332 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/M002837/1 successfully 
+in 0.134852 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:12 
+NOTE: Elapsed Time in seconds: 0.329187870025635 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/D061709/1 successfully 
+in 0.111946 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:13 
+NOTE: Elapsed Time in seconds: 0.270344018936157 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/R006911/1 successfully 
+in 0.126475 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:13 
+NOTE: Elapsed Time in seconds: 0.260867118835449 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/N028228/1 successfully 
+in 0.232915 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:13 
+NOTE: Elapsed Time in seconds: 0.384809970855713 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-1939610 successfully 
+in 0.122872 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:14 
+NOTE: Elapsed Time in seconds: 0.367321014404297 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-2278828 successfully 
+in 0.117949 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:14 
+NOTE: Elapsed Time in seconds: 0.261289834976196 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-1957440 successfully 
+in 0.124573 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:14 
+NOTE: Elapsed Time in seconds: 0.253225088119507 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/K031686/1 successfully 
+in 0.144078 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:14 
+NOTE: Elapsed Time in seconds: 0.282036066055298 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-2284962 successfully 
+in 0.125883 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:15 
+NOTE: Elapsed Time in seconds: 0.292603969573975 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-2418494 successfully 
+in 0.146017 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:15 
+NOTE: Elapsed Time in seconds: 0.281961917877197 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/D001730/1 successfully 
+in 0.120961 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:15 
+NOTE: Elapsed Time in seconds: 0.286566972732544 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-2125180 successfully 
+in 0.132115 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:15 
+NOTE: Elapsed Time in seconds: 0.275869131088257 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-2440563 successfully 
+in 0.110212 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:16 
+NOTE: Elapsed Time in seconds: 0.259329080581665 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/J502145/1 successfully 
+in 0.107919 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:16 
+NOTE: Elapsed Time in seconds: 0.231277942657471 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-2118170 successfully 
+in 0.111501 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:16 
+NOTE: Elapsed Time in seconds: 0.237771034240723 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/H027270/1 successfully 
+in 0.131647 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:16 
+NOTE: Elapsed Time in seconds: 0.266325950622559 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/E04414X/1 successfully 
+in 0.145676 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:17 
+NOTE: Elapsed Time in seconds: 0.294039964675903 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/M001946/1 successfully 
+in 0.145095 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:17 
+NOTE: Elapsed Time in seconds: 0.307694911956787 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-1922784 successfully 
+in 0.141222 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:17 
+NOTE: Elapsed Time in seconds: 0.305706024169922 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-2089781 successfully 
+in 0.267352 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:18 
+NOTE: Elapsed Time in seconds: 0.422304153442383 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-1789931 successfully 
+in 0.190675 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:18 
+NOTE: Elapsed Time in seconds: 0.482358932495117 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/V046527/1 successfully 
+in 0.157976 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:19 
+NOTE: Elapsed Time in seconds: 0.373147964477539 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/H027998/1 successfully 
+in 0.197007 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:19 
+NOTE: Elapsed Time in seconds: 0.378698110580444 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/F06599X/1 successfully 
+in 0.161616 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:19 
+NOTE: Elapsed Time in seconds: 0.371428966522217 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/R031193/1 successfully 
+in 0.171384 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:20 
+NOTE: Elapsed Time in seconds: 0.350231885910034 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-2275528 successfully 
+in 0.124061 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:20 
+NOTE: Elapsed Time in seconds: 0.30948805809021 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/J006793/1 successfully 
+in 0.280679 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:21 
+NOTE: Elapsed Time in seconds: 0.421695947647095 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-1750094 successfully 
+in 0.600437 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:21 
+NOTE: Elapsed Time in seconds: 0.896836996078491 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/E021956/1 successfully 
+in 0.19287 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:22 
+NOTE: Elapsed Time in seconds: 0.82157301902771 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-2413562 successfully 
+in 0.183731 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:23 
+NOTE: Elapsed Time in seconds: 0.395079135894775 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/J016721/1 successfully 
+in 0.139054 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:23 
+NOTE: Elapsed Time in seconds: 0.339919805526733 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-1971556 successfully 
+in 0.111993 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:23 
+NOTE: Elapsed Time in seconds: 0.264804124832153 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/N015452/1 successfully 
+in 0.133464 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:23 
+NOTE: Elapsed Time in seconds: 0.266528844833374 
+
+Data collected from https://gtr.ukri.org/projects?ref=EP/R035407/1 successfully 
+in 0.475511 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:24 
+NOTE: Elapsed Time in seconds: 0.620119094848633 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-2162362 successfully 
+in 0.15723 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:25 
+NOTE: Elapsed Time in seconds: 0.659333944320679 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-2103868 successfully 
+in 0.152041 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:25 
+NOTE: Elapsed Time in seconds: 0.319627046585083 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-2408233 successfully 
+in 0.157216 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:25 
+NOTE: Elapsed Time in seconds: 0.330658912658691 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-2437727 successfully 
+in 0.453526 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:26 
+NOTE: Elapsed Time in seconds: 0.621599197387695 
+
+Data collected from https://gtr.ukri.org/projects?ref=studentship-2446264 successfully 
+in 0.140712 seconds
+
+NOTE: Log Print Time:  2021-07-07 12:21:27 
+NOTE: Elapsed Time in seconds: 0.646715879440308 
+
