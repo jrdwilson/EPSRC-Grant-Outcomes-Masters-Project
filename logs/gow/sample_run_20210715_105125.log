@@ -1,0 +1,2116 @@
+========================================================================= 
+Log Path: ../logs/gow/sample_run_20210715_105125.log 
+[1] "Working Directory: C:/Users/josep/OneDrive/Documents/University Documents/MSc Data Science/09-Data-Science-Project/Project/notebooks"
+User Name: josep 
+R Version: 4.0.3 (2020-10-10) 
+Machine: JRDWILSON-DESKT x86-64 
+Operating System: Windows 10 x64 build 19043 
+Log Start Time: 2021-07-15 10:51:25 
+========================================================================= 
+
+Starting data extraction from NGBOViewPanel.aspx?PanelId=1-3UP-11.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from NGBOViewPanel.aspx?PanelId=1-3UP-11.
+
+NOTE: Log Print Time:  2021-07-15 10:51:35 
+NOTE: Elapsed Time in seconds: 9.98115086555481 
+
+Starting data extraction from NGBOViewPanel.aspx?PanelId=1-59AME1.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+Successfully extracted #dgOutlineByNumber table
+
+Successfully updated dataframes$outlines_bynum_df with outlines_bynum data
+
+Successfully extracted #dgOutlineByValue table
+
+Successfully updated dataframes$outline_byvalue_df with outline_byvalue data
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from NGBOViewPanel.aspx?PanelId=1-59AME1.
+
+NOTE: Log Print Time:  2021-07-15 10:51:43 
+NOTE: Elapsed Time in seconds: 7.42664813995361 
+
+Starting data extraction from NGBOViewPanel.aspx?PanelId=1-3BVPDP.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from NGBOViewPanel.aspx?PanelId=1-3BVPDP.
+
+NOTE: Log Print Time:  2021-07-15 10:51:51 
+NOTE: Elapsed Time in seconds: 8.09941387176514 
+
+Starting data extraction from NGBOViewPanel.aspx?PanelId=1-1NR05V.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+#dgDetails not detected.
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+Successfully extracted #dgOutlineByNumber table
+
+Successfully updated dataframes$outlines_bynum_df with outlines_bynum data
+
+Successfully extracted #dgOutlineByValue table
+
+Successfully updated dataframes$outline_byvalue_df with outline_byvalue data
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from NGBOViewPanel.aspx?PanelId=1-1NR05V.
+
+NOTE: Log Print Time:  2021-07-15 10:51:58 
+NOTE: Elapsed Time in seconds: 6.86502504348755 
+
+Starting data extraction from NGBOViewPanel.aspx?PanelId=1-4YSJF.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from NGBOViewPanel.aspx?PanelId=1-4YSJF.
+
+NOTE: Log Print Time:  2021-07-15 10:52:10 
+NOTE: Elapsed Time in seconds: 12.6543691158295 
+
+Starting data extraction from NGBOViewPanel.aspx?PanelId=1-2342VD.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from NGBOViewPanel.aspx?PanelId=1-2342VD.
+
+NOTE: Log Print Time:  2021-07-15 10:52:19 
+NOTE: Elapsed Time in seconds: 8.37888097763062 
+
+Starting data extraction from NGBOViewPanel.aspx?PanelId=1-2NU538.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from NGBOViewPanel.aspx?PanelId=1-2NU538.
+
+NOTE: Log Print Time:  2021-07-15 10:52:24 
+NOTE: Elapsed Time in seconds: 5.78251099586487 
+
+Starting data extraction from NGBOViewPanel.aspx?PanelId=1-1IK6MB.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from NGBOViewPanel.aspx?PanelId=1-1IK6MB.
+
+NOTE: Log Print Time:  2021-07-15 10:52:39 
+NOTE: Elapsed Time in seconds: 14.8504848480225 
+
+Starting data extraction from NGBOViewPanel.aspx?PanelId=1-9QM9M2.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+Successfully extracted #dgOutlineByNumber table
+
+Successfully updated dataframes$outlines_bynum_df with outlines_bynum data
+
+Successfully extracted #dgOutlineByValue table
+
+Successfully updated dataframes$outline_byvalue_df with outline_byvalue data
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from NGBOViewPanel.aspx?PanelId=1-9QM9M2.
+
+NOTE: Log Print Time:  2021-07-15 10:52:48 
+NOTE: Elapsed Time in seconds: 8.56124401092529 
+
+Starting data extraction from NGBOViewPanel.aspx?PanelId=1-9LW5UG.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+#dgDetails not detected.
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+'#pnlContent a' element's 'href' attributes not detected.
+
+Finished data extraction from NGBOViewPanel.aspx?PanelId=1-9LW5UG.
+
+NOTE: Log Print Time:  2021-07-15 10:52:49 
+NOTE: Elapsed Time in seconds: 1.54902505874634 
+
+Starting data extraction from ViewPanel.aspx?PanelId=4894.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+Successfully extracted #dgOutlineByNumber table
+
+Successfully updated dataframes$outlines_bynum_df with outlines_bynum data
+
+Successfully extracted #dgOutlineByValue table
+
+Successfully updated dataframes$outline_byvalue_df with outline_byvalue data
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from ViewPanel.aspx?PanelId=4894.
+
+NOTE: Log Print Time:  2021-07-15 10:52:55 
+NOTE: Elapsed Time in seconds: 5.58833599090576 
+
+Starting data extraction from ViewPanel.aspx?PanelId=4586.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from ViewPanel.aspx?PanelId=4586.
+
+NOTE: Log Print Time:  2021-07-15 10:52:59 
+NOTE: Elapsed Time in seconds: 3.88474106788635 
+
+Starting data extraction from ViewPanel.aspx?PanelId=4701.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully extracted #dgFullByValue table
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from ViewPanel.aspx?PanelId=4701.
+
+NOTE: Log Print Time:  2021-07-15 10:53:02 
+NOTE: Elapsed Time in seconds: 3.00936102867126 
+
+Starting data extraction from ViewPanel.aspx?PanelId=5060.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from ViewPanel.aspx?PanelId=5060.
+
+NOTE: Log Print Time:  2021-07-15 10:53:23 
+NOTE: Elapsed Time in seconds: 20.6525909900665 
+
+Starting data extraction from ViewPanel.aspx?PanelId=4624.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from ViewPanel.aspx?PanelId=4624.
+
+NOTE: Log Print Time:  2021-07-15 10:53:28 
+NOTE: Elapsed Time in seconds: 5.85550785064697 
+
+Starting data extraction from ViewPanel.aspx?PanelId=4430.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+Successfully extracted #dgOutlineByNumber table
+
+Successfully updated dataframes$outlines_bynum_df with outlines_bynum data
+
+Successfully extracted #dgOutlineByValue table
+
+Successfully updated dataframes$outline_byvalue_df with outline_byvalue data
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from ViewPanel.aspx?PanelId=4430.
+
+NOTE: Log Print Time:  2021-07-15 10:53:32 
+NOTE: Elapsed Time in seconds: 3.89123511314392 
+
+Starting data extraction from ViewPanel.aspx?PanelId=5015.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from ViewPanel.aspx?PanelId=5015.
+
+NOTE: Log Print Time:  2021-07-15 10:53:35 
+NOTE: Elapsed Time in seconds: 3.17332005500793 
+
+Starting data extraction from ViewPanel.aspx?PanelId=4925.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from ViewPanel.aspx?PanelId=4925.
+
+NOTE: Log Print Time:  2021-07-15 10:53:39 
+NOTE: Elapsed Time in seconds: 3.11993002891541 
+
+Starting data extraction from ViewPanel.aspx?PanelId=4566.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+Successfully extracted #dgOutlineByNumber table
+
+Successfully updated dataframes$outlines_bynum_df with outlines_bynum data
+
+Successfully extracted #dgOutlineByValue table
+
+Successfully updated dataframes$outline_byvalue_df with outline_byvalue data
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from ViewPanel.aspx?PanelId=4566.
+
+NOTE: Log Print Time:  2021-07-15 10:53:42 
+NOTE: Elapsed Time in seconds: 3.02800893783569 
+
+Starting data extraction from ViewPanel.aspx?PanelId=4417.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from ViewPanel.aspx?PanelId=4417.
+
+NOTE: Log Print Time:  2021-07-15 10:53:45 
+NOTE: Elapsed Time in seconds: 3.66302394866943 
+
+Starting data extraction from ViewPanelFellowship.aspx?PanelId=4474.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+Successfully extracted '#dgDeferredGrants span' element's 'text' attributes
+
+Successfully updated dataframes$deferred_fellowships_grants_df with deferred_fellowships_grants data
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from ViewPanelFellowship.aspx?PanelId=4474.
+
+NOTE: Log Print Time:  2021-07-15 10:53:49 
+NOTE: Elapsed Time in seconds: 4.15456891059875 
+
+Starting data extraction from ViewPanelFellowship.aspx?PanelId=4428.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+Successfully extracted '#dgDeferredGrants span' element's 'text' attributes
+
+Successfully updated dataframes$deferred_fellowships_grants_df with deferred_fellowships_grants data
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from ViewPanelFellowship.aspx?PanelId=4428.
+
+NOTE: Log Print Time:  2021-07-15 10:54:03 
+NOTE: Elapsed Time in seconds: 14.0358810424805 
+
+Starting data extraction from ViewPanelFellowship.aspx?PanelId=4619.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+Successfully extracted '#dgDeferredGrants span' element's 'text' attributes
+
+Successfully updated dataframes$deferred_fellowships_grants_df with deferred_fellowships_grants data
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from ViewPanelFellowship.aspx?PanelId=4619.
+
+NOTE: Log Print Time:  2021-07-15 10:54:09 
+NOTE: Elapsed Time in seconds: 5.70691013336182 
+
+Starting data extraction from ViewPanelFellowship.aspx?PanelId=4600.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+Successfully extracted '#dgDeferredGrants span' element's 'text' attributes
+
+Successfully updated dataframes$deferred_fellowships_grants_df with deferred_fellowships_grants data
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from ViewPanelFellowship.aspx?PanelId=4600.
+
+NOTE: Log Print Time:  2021-07-15 10:54:14 
+NOTE: Elapsed Time in seconds: 4.45752000808716 
+
+Starting data extraction from ViewPanelFellowship.aspx?PanelId=4415.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+Successfully extracted '#dgDeferredGrants span' element's 'text' attributes
+
+Successfully updated dataframes$deferred_fellowships_grants_df with deferred_fellowships_grants data
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from ViewPanelFellowship.aspx?PanelId=4415.
+
+NOTE: Log Print Time:  2021-07-15 10:54:26 
+NOTE: Elapsed Time in seconds: 12.2708079814911 
+
+Starting data extraction from ViewPanelFellowship.aspx?PanelId=4480.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+Successfully extracted '#dgDeferredGrants span' element's 'text' attributes
+
+Successfully updated dataframes$deferred_fellowships_grants_df with deferred_fellowships_grants data
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from ViewPanelFellowship.aspx?PanelId=4480.
+
+NOTE: Log Print Time:  2021-07-15 10:54:30 
+NOTE: Elapsed Time in seconds: 3.93700098991394 
+
+Starting data extraction from ViewPanelFellowship.aspx?PanelId=4639.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+Successfully extracted #dgGrants table
+
+Successfully updated dataframes$approved_fellowships_grants_df with approved_fellowships_grants data
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+Successfully extracted #dgPanelByNum table
+
+Successfully updated dataframes$funded_type2_bynum_df with funded_type2_bynum data
+
+Successfully extracted #dgPanelByValue table
+
+Successfully updated dataframes$funded_type2_byvalue_df with funded_type2_byvalue data
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from ViewPanelFellowship.aspx?PanelId=4639.
+
+NOTE: Log Print Time:  2021-07-15 10:54:35 
+NOTE: Elapsed Time in seconds: 5.37960886955261 
+
+Starting data extraction from ViewPanelFellowship.aspx?PanelId=4637.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+Successfully extracted #dgGrants table
+
+Successfully updated dataframes$approved_fellowships_grants_df with approved_fellowships_grants data
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+Successfully extracted #dgPanelByNum table
+
+Successfully updated dataframes$funded_type2_bynum_df with funded_type2_bynum data
+
+Successfully extracted #dgPanelByValue table
+
+Successfully updated dataframes$funded_type2_byvalue_df with funded_type2_byvalue data
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from ViewPanelFellowship.aspx?PanelId=4637.
+
+NOTE: Log Print Time:  2021-07-15 10:54:46 
+NOTE: Elapsed Time in seconds: 11.01935505867 
+
+Starting data extraction from ViewPanelFellowship.aspx?PanelId=4431.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+Successfully extracted '#dgDeferredGrants span' element's 'text' attributes
+
+Successfully updated dataframes$deferred_fellowships_grants_df with deferred_fellowships_grants data
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from ViewPanelFellowship.aspx?PanelId=4431.
+
+NOTE: Log Print Time:  2021-07-15 10:54:52 
+NOTE: Elapsed Time in seconds: 5.86042594909668 
+
+Starting data extraction from ViewPanelFellowship.aspx?PanelId=4594.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+Successfully extracted '#dgDeferredGrants span' element's 'text' attributes
+
+Successfully updated dataframes$deferred_fellowships_grants_df with deferred_fellowships_grants data
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from ViewPanelFellowship.aspx?PanelId=4594.
+
+NOTE: Log Print Time:  2021-07-15 10:54:55 
+NOTE: Elapsed Time in seconds: 3.35485410690308 
+
+Starting data extraction from ViewPanelFellowshipV2.aspx?PanelId=4829.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from ViewPanelFellowshipV2.aspx?PanelId=4829.
+
+NOTE: Log Print Time:  2021-07-15 10:54:59 
+NOTE: Elapsed Time in seconds: 3.12910604476929 
+
+Starting data extraction from ViewPanelFellowshipV2.aspx?PanelId=4971.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from ViewPanelFellowshipV2.aspx?PanelId=4971.
+
+NOTE: Log Print Time:  2021-07-15 10:55:02 
+NOTE: Elapsed Time in seconds: 3.05808281898499 
+
+Starting data extraction from ViewPanelFellowshipV2.aspx?PanelId=4823.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from ViewPanelFellowshipV2.aspx?PanelId=4823.
+
+NOTE: Log Print Time:  2021-07-15 10:55:04 
+NOTE: Elapsed Time in seconds: 2.47239398956299 
+
+Starting data extraction from ViewPanelFellowshipV2.aspx?PanelId=4826.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from ViewPanelFellowshipV2.aspx?PanelId=4826.
+
+NOTE: Log Print Time:  2021-07-15 10:55:07 
+NOTE: Elapsed Time in seconds: 2.47792220115662 
+
+Starting data extraction from ViewPanelFellowshipV2.aspx?PanelId=4825.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from ViewPanelFellowshipV2.aspx?PanelId=4825.
+
+NOTE: Log Print Time:  2021-07-15 10:55:09 
+NOTE: Elapsed Time in seconds: 2.42847895622253 
+
+Starting data extraction from ViewPanelFellowshipV2.aspx?PanelId=4964.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from ViewPanelFellowshipV2.aspx?PanelId=4964.
+
+NOTE: Log Print Time:  2021-07-15 10:55:11 
+NOTE: Elapsed Time in seconds: 2.30079889297485 
+
+Starting data extraction from ViewPanelFellowshipV2.aspx?PanelId=4862.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+Successfully extracted #dgSiftByValue table
+
+Successfully updated dataframes$sift_grants_byvalue_df with sift_grants_byvalue data
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from ViewPanelFellowshipV2.aspx?PanelId=4862.
+
+NOTE: Log Print Time:  2021-07-15 10:55:16 
+NOTE: Elapsed Time in seconds: 4.93266701698303 
+
+Starting data extraction from ViewPanelFellowshipV2.aspx?PanelId=4945.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from ViewPanelFellowshipV2.aspx?PanelId=4945.
+
+NOTE: Log Print Time:  2021-07-15 10:55:24 
+NOTE: Elapsed Time in seconds: 7.34962010383606 
+
+Starting data extraction from ViewPanelFellowshipV2.aspx?PanelId=4991.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from ViewPanelFellowshipV2.aspx?PanelId=4991.
+
+NOTE: Log Print Time:  2021-07-15 10:55:33 
+NOTE: Elapsed Time in seconds: 9.14736604690552 
+
+Starting data extraction from ViewPanelFellowshipV2.aspx?PanelId=4968.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from ViewPanelFellowshipV2.aspx?PanelId=4968.
+
+NOTE: Log Print Time:  2021-07-15 10:55:37 
+NOTE: Elapsed Time in seconds: 4.01571893692017 
+
+Starting data extraction from ViewPriorPanel.aspx?PanelId=4292.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+Successfully extracted #dgPanelByNum table
+
+Successfully updated dataframes$funded_type2_bynum_df with funded_type2_bynum data
+
+Successfully extracted #dgPanelByValue table
+
+Successfully updated dataframes$funded_type2_byvalue_df with funded_type2_byvalue data
+
+'#pnlContent a' element's 'href' attributes not detected.
+
+Finished data extraction from ViewPriorPanel.aspx?PanelId=4292.
+
+NOTE: Log Print Time:  2021-07-15 10:55:40 
+NOTE: Elapsed Time in seconds: 3.21187496185303 
+
+Starting data extraction from ViewPriorPanel.aspx?PanelId=4311.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+Successfully extracted #dgPanelByNum table
+
+Successfully updated dataframes$funded_type2_bynum_df with funded_type2_bynum data
+
+Successfully extracted #dgPanelByValue table
+
+Successfully updated dataframes$funded_type2_byvalue_df with funded_type2_byvalue data
+
+'#pnlContent a' element's 'href' attributes not detected.
+
+Finished data extraction from ViewPriorPanel.aspx?PanelId=4311.
+
+NOTE: Log Print Time:  2021-07-15 10:55:41 
+NOTE: Elapsed Time in seconds: 1.23021006584167 
+
+Starting data extraction from ViewPriorPanel.aspx?PanelId=4275.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+Successfully extracted #dgPanelByNum table
+
+Successfully updated dataframes$funded_type2_bynum_df with funded_type2_bynum data
+
+Successfully extracted #dgPanelByValue table
+
+Successfully updated dataframes$funded_type2_byvalue_df with funded_type2_byvalue data
+
+'#pnlContent a' element's 'href' attributes not detected.
+
+Finished data extraction from ViewPriorPanel.aspx?PanelId=4275.
+
+NOTE: Log Print Time:  2021-07-15 10:55:44 
+NOTE: Elapsed Time in seconds: 2.34370994567871 
+
+Starting data extraction from ViewPriorPanel.aspx?PanelId=4255.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+Successfully extracted #dgPanelByNum table
+
+Successfully updated dataframes$funded_type2_bynum_df with funded_type2_bynum data
+
+Successfully extracted #dgPanelByValue table
+
+Successfully updated dataframes$funded_type2_byvalue_df with funded_type2_byvalue data
+
+'#pnlContent a' element's 'href' attributes not detected.
+
+Finished data extraction from ViewPriorPanel.aspx?PanelId=4255.
+
+NOTE: Log Print Time:  2021-07-15 10:55:46 
+NOTE: Elapsed Time in seconds: 2.22450590133667 
+
+Starting data extraction from ViewPriorPanel.aspx?PanelId=4297.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+Successfully extracted #dgPanelByNum table
+
+Successfully updated dataframes$funded_type2_bynum_df with funded_type2_bynum data
+
+Successfully extracted #dgPanelByValue table
+
+Successfully updated dataframes$funded_type2_byvalue_df with funded_type2_byvalue data
+
+'#pnlContent a' element's 'href' attributes not detected.
+
+Finished data extraction from ViewPriorPanel.aspx?PanelId=4297.
+
+NOTE: Log Print Time:  2021-07-15 10:55:47 
+NOTE: Elapsed Time in seconds: 1.37544107437134 
+
+Starting data extraction from ViewPriorPanel.aspx?PanelId=4328.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+Successfully extracted #dgPanelByNum table
+
+Successfully updated dataframes$funded_type2_bynum_df with funded_type2_bynum data
+
+Successfully extracted #dgPanelByValue table
+
+Successfully updated dataframes$funded_type2_byvalue_df with funded_type2_byvalue data
+
+'#pnlContent a' element's 'href' attributes not detected.
+
+Finished data extraction from ViewPriorPanel.aspx?PanelId=4328.
+
+NOTE: Log Print Time:  2021-07-15 10:55:49 
+NOTE: Elapsed Time in seconds: 1.95710301399231 
+
+Starting data extraction from ViewPriorPanel.aspx?PanelId=4233.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+Successfully extracted #dgPanelByNum table
+
+Successfully updated dataframes$funded_type2_bynum_df with funded_type2_bynum data
+
+Successfully extracted #dgPanelByValue table
+
+Successfully updated dataframes$funded_type2_byvalue_df with funded_type2_byvalue data
+
+'#pnlContent a' element's 'href' attributes not detected.
+
+Finished data extraction from ViewPriorPanel.aspx?PanelId=4233.
+
+NOTE: Log Print Time:  2021-07-15 10:56:02 
+NOTE: Elapsed Time in seconds: 12.9415099620819 
+
+Starting data extraction from ViewPriorPanel.aspx?PanelId=4259.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+Successfully extracted #dgPanelByNum table
+
+Successfully updated dataframes$funded_type2_bynum_df with funded_type2_bynum data
+
+Successfully extracted #dgPanelByValue table
+
+Successfully updated dataframes$funded_type2_byvalue_df with funded_type2_byvalue data
+
+'#pnlContent a' element's 'href' attributes not detected.
+
+Finished data extraction from ViewPriorPanel.aspx?PanelId=4259.
+
+NOTE: Log Print Time:  2021-07-15 10:56:07 
+NOTE: Elapsed Time in seconds: 5.13929605484009 
+
+Starting data extraction from ViewPriorPanel.aspx?PanelId=4360.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+Successfully extracted #dgPanelByNum table
+
+Successfully updated dataframes$funded_type2_bynum_df with funded_type2_bynum data
+
+Successfully extracted #dgPanelByValue table
+
+Successfully updated dataframes$funded_type2_byvalue_df with funded_type2_byvalue data
+
+'#pnlContent a' element's 'href' attributes not detected.
+
+Finished data extraction from ViewPriorPanel.aspx?PanelId=4360.
+
+NOTE: Log Print Time:  2021-07-15 10:56:09 
+NOTE: Elapsed Time in seconds: 1.61939406394958 
+
+Starting data extraction from ViewPriorPanel.aspx?PanelId=4246.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+Successfully extracted #dgPanelByNum table
+
+Successfully updated dataframes$funded_type2_bynum_df with funded_type2_bynum data
+
+Successfully extracted #dgPanelByValue table
+
+Successfully updated dataframes$funded_type2_byvalue_df with funded_type2_byvalue data
+
+'#pnlContent a' element's 'href' attributes not detected.
+
+Finished data extraction from ViewPriorPanel.aspx?PanelId=4246.
+
+NOTE: Log Print Time:  2021-07-15 10:56:12 
+NOTE: Elapsed Time in seconds: 2.76612591743469 
+
+========================================================================= 
+Log End Time: 2021-07-15 10:56:12 
+Log Elapsed Time: 0 00:00:04 
+========================================================================= 

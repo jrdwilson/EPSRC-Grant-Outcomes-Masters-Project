@@ -1,0 +1,7 @@
+"0","saved_dataframes <- dataframes"
+"0","save_path <- ""../data/panel_dataframes/"""
+"0",""
+"0","for (dfname in saved_dataframes %>% names()) {"
+"0","  path <- paste0(save_path,dfname,"".csv"")"
+"0","  saved_dataframes[[dfname]] %>% write_csv(file = path)"
+"0","}"

@@ -1,0 +1,63 @@
+========================================================================= 
+Log Path: ../logs/gow/test_log_20210714_150415.log 
+[1] "Working Directory: C:/Users/josep/OneDrive/Documents/University Documents/MSc Data Science/09-Data-Science-Project/Project/notebooks"
+User Name: josep 
+R Version: 4.0.3 (2020-10-10) 
+Machine: JRDWILSON-DESKT x86-64 
+Operating System: Windows 10 x64 build 19043 
+Log Start Time: 2021-07-14 15:04:15 
+========================================================================= 
+
+[1] "Error: Object cannot be printed to log\n"
+Successfully extracted #dgDetails table
+
+[1] "Error: Object cannot be printed to log\n"
+Successfully extracted #dgFullByNum table
+
+[1] "Error: Object cannot be printed to log\n"
+Successfully extracted #dgFullByValue table
+
+[1] "Error: Object cannot be printed to log\n"
+Unsuccessfully extracted #dgOutlineByNumber table. 
+Error in UseMethod("html_table"): no applicable method for 'html_table' applied to an object of class "xml_missing"
+
+
+[1] "Error: Object cannot be printed to log\n"
+Unsuccessfully extracted #dgOutlineByValue table. 
+Error in UseMethod("html_table"): no applicable method for 'html_table' applied to an object of class "xml_missing"
+
+
+[1] "Error: Object cannot be printed to log\n"
+[1] "Error: Object cannot be printed to log\n"
+[1] "Error: Object cannot be printed to log\n"
+Unsuccessfully extracted #dgGrants table. 
+Error in UseMethod("html_table"): no applicable method for 'html_table' applied to an object of class "xml_missing"
+
+
+[1] "Error: Object cannot be printed to log\n"
+Unsuccessfully extracted #dgSiftByNumber table. 
+Error in UseMethod("html_table"): no applicable method for 'html_table' applied to an object of class "xml_missing"
+
+
+[1] "Error: Object cannot be printed to log\n"
+Unsuccessfully extracted #dgSiftByValue table. 
+Error in UseMethod("html_table"): no applicable method for 'html_table' applied to an object of class "xml_missing"
+
+
+[1] "Error: Object cannot be printed to log\n"
+Unsuccessfully extracted #dgPanelByNum table. 
+Error in UseMethod("html_table"): no applicable method for 'html_table' applied to an object of class "xml_missing"
+
+
+[1] "Error: Object cannot be printed to log\n"
+Unsuccessfully extracted #dgPanelByValue table. 
+Error in UseMethod("html_table"): no applicable method for 'html_table' applied to an object of class "xml_missing"
+
+
+[1] "Error: Object cannot be printed to log\n"
+[1] "Error: Object cannot be printed to log\n"
+[1] "Error: Object cannot be printed to log\n"
+========================================================================= 
+Log End Time: 2021-07-14 15:04:19 
+Log Elapsed Time: 0 00:00:03 
+========================================================================= 

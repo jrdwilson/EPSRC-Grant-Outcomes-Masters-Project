@@ -1,0 +1,29 @@
+========================================================================= 
+Log Path: ../logs/gow/test_log_20210713_184340.log 
+[1] "Working Directory: C:/Users/josep/OneDrive/Documents/University Documents/MSc Data Science/09-Data-Science-Project/Project/notebooks"
+User Name: josep 
+R Version: 4.0.3 (2020-10-10) 
+Machine: JRDWILSON-DESKT x86-64 
+Operating System: Windows 10 x64 build 19043 
+Log Start Time: 2021-07-13 18:43:40 
+========================================================================= 
+
+[1] "Error: Object cannot be printed to log\n"
+Successfully extracted #dgDetails table
+
+[1] "Error: Object cannot be printed to log\n"
+Successfully extracted #dgFullByNum table
+
+[1] "Error: Object cannot be printed to log\n"
+Successfully extracted #dgFullByValue table
+
+Error in initialize(...) : attempt to use zero-length variable name
+ 
+
+NOTE: Log Print Time:  2021-07-13 18:43:43 
+NOTE: Elapsed Time in seconds: 3.05890202522278 
+
+========================================================================= 
+Log End Time: 2021-07-13 18:43:43 
+Log Elapsed Time: 0 00:00:03 
+========================================================================= 

@@ -1,0 +1,143 @@
+"1","
+"
+"1","
+"
+"1","$wait
+"
+"1","Time difference of "
+"1",""
+"1","5.565051"
+"1",""
+"1"," "
+"1",""
+"1","secs"
+"1",""
+"1","
+"
+"1","
+"
+"1","$errors
+"
+"1","NULL
+"
+"1","
+"
+"0","# Close log"
+"0","log_close()"
+"0",""
+"0","# View results"
+"0","writeLines(readLines(lf))"
+"1","========================================================================= 
+"
+"1","Log Path: ../logs/gow/test_log_20210715_105009.log 
+"
+"1","[1] ""Working Directory: C:/Users/josep/OneDrive/Documents/University Documents/MSc Data Science/09-Data-Science-Project/Project/notebooks""
+"
+"1","User Name: josep 
+"
+"1","R Version: 4.0.3 (2020-10-10) 
+"
+"1","Machine: JRDWILSON-DESKT x86-64 
+"
+"1","Operating System: Windows 10 x64 build 19043 
+"
+"1","Log Start Time: 2021-07-15 10:50:09 
+"
+"1","========================================================================= 
+"
+"1","
+"
+"1","Starting data extraction from NGBOViewPanel.aspx?PanelId=1-4SSWIR.
+"
+"1","
+"
+"1","Successfully extracted panel details
+"
+"1","
+"
+"1","Successfully updated dataframes$panel_details_df with panel_details data
+"
+"1","
+"
+"1","Successfully extracted #dgDetails table
+"
+"1","
+"
+"1","Successfully updated dataframes$panel_members_df with panel_members data
+"
+"1","
+"
+"1","Successfully extracted #dgFullByNum table
+"
+"1","
+"
+"1","Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+"
+"1","
+"
+"1","Successfully extracted #dgFullByValue table
+"
+"1","
+"
+"1","Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+"
+"1","
+"
+"1","#dgOutlineByNumber not detected.
+"
+"1","
+"
+"1","#dgOutlineByValue not detected.
+"
+"1","
+"
+"1","'#dgDeferredGrants span' element's 'text' attributes not detected.
+"
+"1","
+"
+"1","#dgGrants not detected.
+"
+"1","
+"
+"1","#dgSiftByNumber not detected.
+"
+"1","
+"
+"1","#dgSiftByValue not detected.
+"
+"1","
+"
+"1","#dgPanelByNum not detected.
+"
+"1","
+"
+"1","#dgPanelByValue not detected.
+"
+"1","
+"
+"1","Successfully extracted '#pnlContent a' element's 'href' attributes
+"
+"1","
+"
+"1","Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+"
+"1","
+"
+"1","Finished data extraction from NGBOViewPanel.aspx?PanelId=1-4SSWIR.
+"
+"1","
+"
+"1","NOTE: Log Print Time:  2021-07-15 10:50:21 
+"
+"1","NOTE: Elapsed Time in seconds: 12.0055029392242 
+"
+"1","
+"
+"1","========================================================================= 
+"
+"1","Log End Time: 2021-07-15 10:50:22 
+"
+"1","Log Elapsed Time: 0 00:00:12 
+"
+"1","========================================================================= 
+"

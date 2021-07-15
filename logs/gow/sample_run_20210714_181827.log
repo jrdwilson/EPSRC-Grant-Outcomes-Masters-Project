@@ -1,0 +1,43 @@
+========================================================================= 
+Log Path: ../logs/gow/sample_run_20210714_181827.log 
+[1] "Working Directory: C:/Users/josep/OneDrive/Documents/University Documents/MSc Data Science/09-Data-Science-Project/Project/notebooks"
+User Name: josep 
+R Version: 4.0.3 (2020-10-10) 
+Machine: JRDWILSON-DESKT x86-64 
+Operating System: Windows 10 x64 build 19043 
+Log Start Time: 2021-07-14 18:18:27 
+========================================================================= 
+
+Error in eval_tidy(xs[[j]], mask) : object 'panel_href_list' not found
+ 
+
+NOTE: Log Print Time:  2021-07-14 18:18:28 
+NOTE: Elapsed Time in seconds: 0.0245847702026367 
+
+Error in group_by(., group) : object 'panel_links' not found
+ 
+
+NOTE: Log Print Time:  2021-07-14 18:18:28 
+NOTE: Elapsed Time in seconds: 0.0110371112823486 
+
+Error: object 'sample_list' not found
+ 
+
+NOTE: Log Print Time:  2021-07-14 18:18:28 
+NOTE: Elapsed Time in seconds: 0.0110371112823486 
+
+[1] "Error in stopifnot(is.numeric(x), length(x) == 1, na || !is.na(x), na ||  : \n  object 'bar_len' not found\n"
+
+NOTE: Log Print Time:  2021-07-14 18:18:28 
+NOTE: Elapsed Time in seconds: 0.0110349655151367 
+
+Error in sample_list : object 'sample_list' not found
+ 
+
+NOTE: Log Print Time:  2021-07-14 18:18:28 
+NOTE: Elapsed Time in seconds: 0.0361189842224121 
+
+========================================================================= 
+Log End Time: 2021-07-14 18:18:28 
+Log Elapsed Time: 0 00:00:00 
+========================================================================= 

@@ -1,0 +1,2202 @@
+========================================================================= 
+Log Path: ../logs/gow/sample_run_20210714_181845.log 
+[1] "Working Directory: C:/Users/josep/OneDrive/Documents/University Documents/MSc Data Science/09-Data-Science-Project/Project/notebooks"
+User Name: josep 
+R Version: 4.0.3 (2020-10-10) 
+Machine: JRDWILSON-DESKT x86-64 
+Operating System: Windows 10 x64 build 19043 
+Log Start Time: 2021-07-14 18:18:45 
+========================================================================= 
+
+Starting data extraction from NGBOViewPanel.aspx?PanelId=1-CC18C.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from NGBOViewPanel.aspx?PanelId=1-CC18C.
+
+Starting data extraction from NGBOViewPanel.aspx?PanelId=1-53T5H7.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+#dgDetails not detected.
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+Successfully extracted #dgOutlineByNumber table
+
+Successfully updated dataframes$outlines_bynum_df with outlines_bynum data
+
+Successfully extracted #dgOutlineByValue table
+
+Successfully updated dataframes$outline_byvalue_df with outline_byvalue data
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from NGBOViewPanel.aspx?PanelId=1-53T5H7.
+
+Starting data extraction from NGBOViewPanel.aspx?PanelId=1-OV8SC.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+#dgDetails not detected.
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+Successfully extracted #dgOutlineByNumber table
+
+Successfully updated dataframes$outlines_bynum_df with outlines_bynum data
+
+Successfully extracted #dgOutlineByValue table
+
+Successfully updated dataframes$outline_byvalue_df with outline_byvalue data
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from NGBOViewPanel.aspx?PanelId=1-OV8SC.
+
+Starting data extraction from NGBOViewPanel.aspx?PanelId=1-2JHN7U.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from NGBOViewPanel.aspx?PanelId=1-2JHN7U.
+
+Starting data extraction from NGBOViewPanel.aspx?PanelId=1-5ZF065.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+Successfully extracted #dgOutlineByNumber table
+
+Successfully updated dataframes$outlines_bynum_df with outlines_bynum data
+
+Successfully extracted #dgOutlineByValue table
+
+Successfully updated dataframes$outline_byvalue_df with outline_byvalue data
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from NGBOViewPanel.aspx?PanelId=1-5ZF065.
+
+Starting data extraction from NGBOViewPanel.aspx?PanelId=1-1IK6MB.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from NGBOViewPanel.aspx?PanelId=1-1IK6MB.
+
+Starting data extraction from NGBOViewPanel.aspx?PanelId=1-X7IZ2.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from NGBOViewPanel.aspx?PanelId=1-X7IZ2.
+
+Starting data extraction from NGBOViewPanel.aspx?PanelId=1-23O8WO.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+Successfully extracted #dgOutlineByNumber table
+
+Successfully updated dataframes$outlines_bynum_df with outlines_bynum data
+
+Successfully extracted #dgOutlineByValue table
+
+Successfully updated dataframes$outline_byvalue_df with outline_byvalue data
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from NGBOViewPanel.aspx?PanelId=1-23O8WO.
+
+Starting data extraction from NGBOViewPanel.aspx?PanelId=1-1IF3WV.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from NGBOViewPanel.aspx?PanelId=1-1IF3WV.
+
+Starting data extraction from NGBOViewPanel.aspx?PanelId=1-1F64MT.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from NGBOViewPanel.aspx?PanelId=1-1F64MT.
+
+Starting data extraction from ViewPanel.aspx?PanelId=4678.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+Successfully extracted #dgOutlineByNumber table
+
+Successfully updated dataframes$outlines_bynum_df with outlines_bynum data
+
+Successfully extracted #dgOutlineByValue table
+
+Successfully updated dataframes$outline_byvalue_df with outline_byvalue data
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanel.aspx?PanelId=4678.
+
+Starting data extraction from ViewPanel.aspx?PanelId=4713.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanel.aspx?PanelId=4713.
+
+Starting data extraction from ViewPanel.aspx?PanelId=4730.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanel.aspx?PanelId=4730.
+
+Starting data extraction from ViewPanel.aspx?PanelId=4631.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+Successfully extracted #dgOutlineByNumber table
+
+Successfully updated dataframes$outlines_bynum_df with outlines_bynum data
+
+Successfully extracted #dgOutlineByValue table
+
+Successfully updated dataframes$outline_byvalue_df with outline_byvalue data
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanel.aspx?PanelId=4631.
+
+Starting data extraction from ViewPanel.aspx?PanelId=4959.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanel.aspx?PanelId=4959.
+
+Starting data extraction from ViewPanel.aspx?PanelId=4969.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanel.aspx?PanelId=4969.
+
+Starting data extraction from ViewPanel.aspx?PanelId=4715.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanel.aspx?PanelId=4715.
+
+Starting data extraction from ViewPanel.aspx?PanelId=4705.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanel.aspx?PanelId=4705.
+
+Starting data extraction from ViewPanel.aspx?PanelId=4673.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+Successfully extracted #dgOutlineByNumber table
+
+Successfully updated dataframes$outlines_bynum_df with outlines_bynum data
+
+Successfully extracted #dgOutlineByValue table
+
+Successfully updated dataframes$outline_byvalue_df with outline_byvalue data
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanel.aspx?PanelId=4673.
+
+Starting data extraction from ViewPanel.aspx?PanelId=4612.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanel.aspx?PanelId=4612.
+
+Starting data extraction from ViewPanelFellowship.aspx?PanelId=4472.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+Successfully extracted '#dgDeferredGrants span' element's 'text' attributes
+
+Successfully updated dataframes$deferred_fellowships_grants_df with deferred_fellowships_grants data
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowship.aspx?PanelId=4472.
+
+Starting data extraction from ViewPanelFellowship.aspx?PanelId=4434.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+Successfully extracted '#dgDeferredGrants span' element's 'text' attributes
+
+Successfully updated dataframes$deferred_fellowships_grants_df with deferred_fellowships_grants data
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowship.aspx?PanelId=4434.
+
+Starting data extraction from ViewPanelFellowship.aspx?PanelId=4397.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+Successfully extracted '#dgDeferredGrants span' element's 'text' attributes
+
+Successfully updated dataframes$deferred_fellowships_grants_df with deferred_fellowships_grants data
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowship.aspx?PanelId=4397.
+
+Starting data extraction from ViewPanelFellowship.aspx?PanelId=4475.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+Successfully extracted '#dgDeferredGrants span' element's 'text' attributes
+
+Successfully updated dataframes$deferred_fellowships_grants_df with deferred_fellowships_grants data
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowship.aspx?PanelId=4475.
+
+Starting data extraction from ViewPanelFellowship.aspx?PanelId=4415.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+Successfully extracted '#dgDeferredGrants span' element's 'text' attributes
+
+Successfully updated dataframes$deferred_fellowships_grants_df with deferred_fellowships_grants data
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowship.aspx?PanelId=4415.
+
+Starting data extraction from ViewPanelFellowship.aspx?PanelId=4427.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+Successfully extracted '#dgDeferredGrants span' element's 'text' attributes
+
+Successfully updated dataframes$deferred_fellowships_grants_df with deferred_fellowships_grants data
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowship.aspx?PanelId=4427.
+
+Starting data extraction from ViewPanelFellowship.aspx?PanelId=4486.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+Successfully extracted '#dgDeferredGrants span' element's 'text' attributes
+
+Successfully updated dataframes$deferred_fellowships_grants_df with deferred_fellowships_grants data
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowship.aspx?PanelId=4486.
+
+Starting data extraction from ViewPanelFellowship.aspx?PanelId=4433.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+Successfully extracted '#dgDeferredGrants span' element's 'text' attributes
+
+Successfully updated dataframes$deferred_fellowships_grants_df with deferred_fellowships_grants data
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowship.aspx?PanelId=4433.
+
+Starting data extraction from ViewPanelFellowship.aspx?PanelId=4474.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+Successfully extracted '#dgDeferredGrants span' element's 'text' attributes
+
+Successfully updated dataframes$deferred_fellowships_grants_df with deferred_fellowships_grants data
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowship.aspx?PanelId=4474.
+
+Starting data extraction from ViewPanelFellowship.aspx?PanelId=4639.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+Successfully extracted #dgGrants table
+
+Successfully updated dataframes$approved_fellowships_grants_df with approved_fellowships_grants data
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+Successfully extracted #dgPanelByNum table
+
+Successfully updated dataframes$funded_type2_bynum_df with funded_type2_bynum data
+
+Successfully extracted #dgPanelByValue table
+
+Successfully updated dataframes$funded_type2_byvalue_df with funded_type2_byvalue data
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowship.aspx?PanelId=4639.
+
+Starting data extraction from ViewPanelFellowshipV2.aspx?PanelId=4605.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowshipV2.aspx?PanelId=4605.
+
+Starting data extraction from ViewPanelFellowshipV2.aspx?PanelId=4795.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowshipV2.aspx?PanelId=4795.
+
+Starting data extraction from ViewPanelFellowshipV2.aspx?PanelId=4968.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowshipV2.aspx?PanelId=4968.
+
+Starting data extraction from ViewPanelFellowshipV2.aspx?PanelId=4796.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowshipV2.aspx?PanelId=4796.
+
+Starting data extraction from ViewPanelFellowshipV2.aspx?PanelId=4832.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowshipV2.aspx?PanelId=4832.
+
+Starting data extraction from ViewPanelFellowshipV2.aspx?PanelId=4918.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowshipV2.aspx?PanelId=4918.
+
+Starting data extraction from ViewPanelFellowshipV2.aspx?PanelId=4647.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowshipV2.aspx?PanelId=4647.
+
+Starting data extraction from ViewPanelFellowshipV2.aspx?PanelId=4793.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+Successfully extracted #dgSiftByValue table
+
+Successfully updated dataframes$sift_grants_byvalue_df with sift_grants_byvalue data
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowshipV2.aspx?PanelId=4793.
+
+Starting data extraction from ViewPanelFellowshipV2.aspx?PanelId=4698.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowshipV2.aspx?PanelId=4698.
+
+Starting data extraction from ViewPanelFellowshipV2.aspx?PanelId=4792.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+Successfully extracted #dgSiftByValue table
+
+Successfully updated dataframes$sift_grants_byvalue_df with sift_grants_byvalue data
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowshipV2.aspx?PanelId=4792.
+
+Starting data extraction from ViewPriorPanel.aspx?PanelId=4258.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+Successfully extracted #dgPanelByNum table
+
+Successfully updated dataframes$funded_type2_bynum_df with funded_type2_bynum data
+
+Successfully extracted #dgPanelByValue table
+
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4258
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4258
+
+Finished data extraction from ViewPriorPanel.aspx?PanelId=4258.
+
+Starting data extraction from ViewPriorPanel.aspx?PanelId=4249.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+Successfully extracted #dgPanelByNum table
+
+Successfully updated dataframes$funded_type2_bynum_df with funded_type2_bynum data
+
+Successfully extracted #dgPanelByValue table
+
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4249
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4258
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4249
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4249
+
+Finished data extraction from ViewPriorPanel.aspx?PanelId=4249.
+
+Starting data extraction from ViewPriorPanel.aspx?PanelId=4275.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+Successfully extracted #dgPanelByNum table
+
+Successfully updated dataframes$funded_type2_bynum_df with funded_type2_bynum data
+
+Successfully extracted #dgPanelByValue table
+
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4275
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4258
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4275
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4249
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4275
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4275
+
+Finished data extraction from ViewPriorPanel.aspx?PanelId=4275.
+
+Starting data extraction from ViewPriorPanel.aspx?PanelId=4292.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+Successfully extracted #dgPanelByNum table
+
+Successfully updated dataframes$funded_type2_bynum_df with funded_type2_bynum data
+
+Successfully extracted #dgPanelByValue table
+
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4292
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4258
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4292
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4249
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4292
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4275
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4292
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4292
+
+Finished data extraction from ViewPriorPanel.aspx?PanelId=4292.
+
+Starting data extraction from ViewPriorPanel.aspx?PanelId=4326.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+Successfully extracted #dgPanelByNum table
+
+Successfully updated dataframes$funded_type2_bynum_df with funded_type2_bynum data
+
+Successfully extracted #dgPanelByValue table
+
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4326
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4258
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4326
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4249
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4326
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4275
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4326
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4292
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4326
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4326
+
+Finished data extraction from ViewPriorPanel.aspx?PanelId=4326.
+
+Starting data extraction from ViewPriorPanel.aspx?PanelId=4308.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+Successfully extracted #dgPanelByNum table
+
+Successfully updated dataframes$funded_type2_bynum_df with funded_type2_bynum data
+
+Successfully extracted #dgPanelByValue table
+
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4308
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4258
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4308
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4249
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4308
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4275
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4308
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4292
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4308
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4326
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4308
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4308
+
+Finished data extraction from ViewPriorPanel.aspx?PanelId=4308.
+
+Starting data extraction from ViewPriorPanel.aspx?PanelId=4317.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+Successfully extracted #dgPanelByNum table
+
+Successfully updated dataframes$funded_type2_bynum_df with funded_type2_bynum data
+
+Successfully extracted #dgPanelByValue table
+
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4317
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4258
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4317
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4249
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4317
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4275
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4317
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4292
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4317
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4326
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4317
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4308
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4317
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4317
+
+Finished data extraction from ViewPriorPanel.aspx?PanelId=4317.
+
+Starting data extraction from ViewPriorPanel.aspx?PanelId=4247.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+Successfully extracted #dgPanelByNum table
+
+Successfully updated dataframes$funded_type2_bynum_df with funded_type2_bynum data
+
+Successfully extracted #dgPanelByValue table
+
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4247
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4258
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4247
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4249
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4247
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4275
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4247
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4292
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4247
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4326
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4247
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4308
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4247
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4317
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4247
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4247
+
+Finished data extraction from ViewPriorPanel.aspx?PanelId=4247.
+
+Starting data extraction from ViewPriorPanel.aspx?PanelId=4338.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+Successfully extracted #dgPanelByNum table
+
+Successfully updated dataframes$funded_type2_bynum_df with funded_type2_bynum data
+
+Successfully extracted #dgPanelByValue table
+
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4338
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4258
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4338
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4249
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4338
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4275
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4338
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4292
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4338
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4326
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4338
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4308
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4338
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4317
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4338
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4247
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4338
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4338
+
+Finished data extraction from ViewPriorPanel.aspx?PanelId=4338.
+
+Starting data extraction from ViewPriorPanel.aspx?PanelId=4231.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+Successfully extracted #dgPanelByNum table
+
+Successfully updated dataframes$funded_type2_bynum_df with funded_type2_bynum data
+
+Successfully extracted #dgPanelByValue table
+
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4231
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4258
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4231
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4249
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4231
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4275
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4231
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4292
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4231
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4326
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4231
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4308
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4231
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4317
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4231
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4247
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4231
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4338
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4231
+Error: Can't combine `..1$announced` <character> and `..2$announced` <integer>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4231
+
+Finished data extraction from ViewPriorPanel.aspx?PanelId=4231.
+
+========================================================================= 
+Log End Time: 2021-07-14 18:22:50 
+Log Elapsed Time: 0 00:00:04 
+========================================================================= 

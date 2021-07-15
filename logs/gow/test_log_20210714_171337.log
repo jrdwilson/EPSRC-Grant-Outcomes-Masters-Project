@@ -1,0 +1,25 @@
+========================================================================= 
+Log Path: ../logs/gow/test_log_20210714_171337.log 
+[1] "Working Directory: C:/Users/josep/OneDrive/Documents/University Documents/MSc Data Science/09-Data-Science-Project/Project/notebooks"
+User Name: josep 
+R Version: 4.0.3 (2020-10-10) 
+Machine: JRDWILSON-DESKT x86-64 
+Operating System: Windows 10 x64 build 19043 
+Log Start Time: 2021-07-14 17:13:37 
+========================================================================= 
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Error occured when extracting #dgDetails table. 
+Error in UseMethod("html_table"): no applicable method for 'html_table' applied to an object of class "logical"
+
+
+[1] "Error in extract_table(., \"#dgDetails\", head_row = FALSE, log_on = log_on) : \n  object 'html_out' not found\n"
+
+NOTE: Log Print Time:  2021-07-14 17:13:40 
+NOTE: Elapsed Time in seconds: 2.54051208496094 
+
+========================================================================= 
+Log End Time: 2021-07-14 17:13:40 
+Log Elapsed Time: 0 00:00:02 
+========================================================================= 

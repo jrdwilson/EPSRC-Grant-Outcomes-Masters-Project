@@ -1,0 +1,55 @@
+========================================================================= 
+Log Path: ../logs/gow/sample_run_20210715_110658.log 
+[1] "Working Directory: C:/Users/josep/OneDrive/Documents/University Documents/MSc Data Science/09-Data-Science-Project/Project/notebooks"
+User Name: josep 
+R Version: 4.0.3 (2020-10-10) 
+Machine: JRDWILSON-DESKT x86-64 
+Operating System: Windows 10 x64 build 19043 
+Log Start Time: 2021-07-15 11:06:58 
+========================================================================= 
+
+Starting data extraction from ViewPriorPanel.aspx?PanelId=4231.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNum not detected.
+
+#dgSiftByValue not detected.
+
+Successfully extracted #dgPanelByNum table
+
+Successfully updated dataframes$funded_type2_bynum_df with funded_type2_bynum data
+
+Successfully extracted #dgPanelByValue table
+
+Successfully updated dataframes$funded_type2_byvalue_df with funded_type2_byvalue data
+
+'#pnlContent a' element's 'href' attributes not detected.
+
+no loop for break/next, jumping to top level 
+
+NOTE: Log Print Time:  2021-07-15 11:07:05 
+NOTE: Elapsed Time in seconds: 6.83425903320312 
+
+========================================================================= 
+Log End Time: 2021-07-15 11:07:05 
+Log Elapsed Time: 0 00:00:06 
+========================================================================= 

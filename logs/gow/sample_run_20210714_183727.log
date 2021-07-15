@@ -1,0 +1,3109 @@
+========================================================================= 
+Log Path: ../logs/gow/sample_run_20210714_183727.log 
+[1] "Working Directory: C:/Users/josep/OneDrive/Documents/University Documents/MSc Data Science/09-Data-Science-Project/Project/notebooks"
+User Name: josep 
+R Version: 4.0.3 (2020-10-10) 
+Machine: JRDWILSON-DESKT x86-64 
+Operating System: Windows 10 x64 build 19043 
+Log Start Time: 2021-07-14 18:37:27 
+========================================================================= 
+
+Starting data extraction from NGBOViewPanel.aspx?PanelId=1-3UL-4974.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from NGBOViewPanel.aspx?PanelId=1-3UL-4974.
+
+Starting data extraction from NGBOViewPanel.aspx?PanelId=1-6EIGDF.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from NGBOViewPanel.aspx?PanelId=1-6EIGDF.
+
+Starting data extraction from NGBOViewPanel.aspx?PanelId=1-1R9WE5.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from NGBOViewPanel.aspx?PanelId=1-1R9WE5.
+
+Starting data extraction from NGBOViewPanel.aspx?PanelId=1-1P51U9.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from NGBOViewPanel.aspx?PanelId=1-1P51U9.
+
+Starting data extraction from NGBOViewPanel.aspx?PanelId=1-3Q8M18.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+Successfully extracted #dgOutlineByNumber table
+
+Failed to extract panel data and update dataframes due to error.
+Panel URL: NGBOViewPanel.aspx?PanelId=1-3Q8M18
+Error: Can't combine `..1$full_proposals_invited` <integer> and `..2$full_proposals_invited` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4258
+Failed to extract panel data and update dataframes due to error.
+Panel URL: NGBOViewPanel.aspx?PanelId=1-3Q8M18
+Error: Can't combine `..1$full_proposals_invited` <integer> and `..2$full_proposals_invited` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4249
+Failed to extract panel data and update dataframes due to error.
+Panel URL: NGBOViewPanel.aspx?PanelId=1-3Q8M18
+Error: Can't combine `..1$full_proposals_invited` <integer> and `..2$full_proposals_invited` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4275
+Failed to extract panel data and update dataframes due to error.
+Panel URL: NGBOViewPanel.aspx?PanelId=1-3Q8M18
+Error: Can't combine `..1$full_proposals_invited` <integer> and `..2$full_proposals_invited` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4292
+Failed to extract panel data and update dataframes due to error.
+Panel URL: NGBOViewPanel.aspx?PanelId=1-3Q8M18
+Error: Can't combine `..1$full_proposals_invited` <integer> and `..2$full_proposals_invited` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4326
+Failed to extract panel data and update dataframes due to error.
+Panel URL: NGBOViewPanel.aspx?PanelId=1-3Q8M18
+Error: Can't combine `..1$full_proposals_invited` <integer> and `..2$full_proposals_invited` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4308
+Failed to extract panel data and update dataframes due to error.
+Panel URL: NGBOViewPanel.aspx?PanelId=1-3Q8M18
+Error: Can't combine `..1$full_proposals_invited` <integer> and `..2$full_proposals_invited` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4317
+Failed to extract panel data and update dataframes due to error.
+Panel URL: NGBOViewPanel.aspx?PanelId=1-3Q8M18
+Error: Can't combine `..1$full_proposals_invited` <integer> and `..2$full_proposals_invited` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4247
+Failed to extract panel data and update dataframes due to error.
+Panel URL: NGBOViewPanel.aspx?PanelId=1-3Q8M18
+Error: Can't combine `..1$full_proposals_invited` <integer> and `..2$full_proposals_invited` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4338
+Failed to extract panel data and update dataframes due to error.
+Panel URL: NGBOViewPanel.aspx?PanelId=1-3Q8M18
+Error: Can't combine `..1$full_proposals_invited` <integer> and `..2$full_proposals_invited` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4231
+Failed to extract panel data and update dataframes due to error.
+Panel URL: NGBOViewPanel.aspx?PanelId=1-3Q8M18
+Error: Can't combine `..1$full_proposals_invited` <integer> and `..2$full_proposals_invited` <character>.
+
+Failed links: 
+NGBOViewPanel.aspx?PanelId=1-3Q8M18
+
+Finished data extraction from NGBOViewPanel.aspx?PanelId=1-3Q8M18.
+
+Starting data extraction from NGBOViewPanel.aspx?PanelId=1-5FJYYR.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from NGBOViewPanel.aspx?PanelId=1-5FJYYR.
+
+Starting data extraction from NGBOViewPanel.aspx?PanelId=1-3Q2INT.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully extracted #dgFullByValue table
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+'#pnlContent a' element's 'href' attributes not detected.
+
+Finished data extraction from NGBOViewPanel.aspx?PanelId=1-3Q2INT.
+
+Starting data extraction from NGBOViewPanel.aspx?PanelId=1-4PH7CI.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from NGBOViewPanel.aspx?PanelId=1-4PH7CI.
+
+Starting data extraction from NGBOViewPanel.aspx?PanelId=1-3B31PX.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+Successfully extracted #dgOutlineByNumber table
+
+Failed to extract panel data and update dataframes due to error.
+Panel URL: NGBOViewPanel.aspx?PanelId=1-3B31PX
+Error: Can't combine `..1$full_proposals_invited` <integer> and `..2$full_proposals_invited` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4258
+Failed to extract panel data and update dataframes due to error.
+Panel URL: NGBOViewPanel.aspx?PanelId=1-3B31PX
+Error: Can't combine `..1$full_proposals_invited` <integer> and `..2$full_proposals_invited` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4249
+Failed to extract panel data and update dataframes due to error.
+Panel URL: NGBOViewPanel.aspx?PanelId=1-3B31PX
+Error: Can't combine `..1$full_proposals_invited` <integer> and `..2$full_proposals_invited` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4275
+Failed to extract panel data and update dataframes due to error.
+Panel URL: NGBOViewPanel.aspx?PanelId=1-3B31PX
+Error: Can't combine `..1$full_proposals_invited` <integer> and `..2$full_proposals_invited` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4292
+Failed to extract panel data and update dataframes due to error.
+Panel URL: NGBOViewPanel.aspx?PanelId=1-3B31PX
+Error: Can't combine `..1$full_proposals_invited` <integer> and `..2$full_proposals_invited` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4326
+Failed to extract panel data and update dataframes due to error.
+Panel URL: NGBOViewPanel.aspx?PanelId=1-3B31PX
+Error: Can't combine `..1$full_proposals_invited` <integer> and `..2$full_proposals_invited` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4308
+Failed to extract panel data and update dataframes due to error.
+Panel URL: NGBOViewPanel.aspx?PanelId=1-3B31PX
+Error: Can't combine `..1$full_proposals_invited` <integer> and `..2$full_proposals_invited` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4317
+Failed to extract panel data and update dataframes due to error.
+Panel URL: NGBOViewPanel.aspx?PanelId=1-3B31PX
+Error: Can't combine `..1$full_proposals_invited` <integer> and `..2$full_proposals_invited` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4247
+Failed to extract panel data and update dataframes due to error.
+Panel URL: NGBOViewPanel.aspx?PanelId=1-3B31PX
+Error: Can't combine `..1$full_proposals_invited` <integer> and `..2$full_proposals_invited` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4338
+Failed to extract panel data and update dataframes due to error.
+Panel URL: NGBOViewPanel.aspx?PanelId=1-3B31PX
+Error: Can't combine `..1$full_proposals_invited` <integer> and `..2$full_proposals_invited` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4231
+Failed to extract panel data and update dataframes due to error.
+Panel URL: NGBOViewPanel.aspx?PanelId=1-3B31PX
+Error: Can't combine `..1$full_proposals_invited` <integer> and `..2$full_proposals_invited` <character>.
+
+Failed links: 
+NGBOViewPanel.aspx?PanelId=1-3Q8M18
+Failed to extract panel data and update dataframes due to error.
+Panel URL: NGBOViewPanel.aspx?PanelId=1-3B31PX
+Error: Can't combine `..1$full_proposals_invited` <integer> and `..2$full_proposals_invited` <character>.
+
+Failed links: 
+NGBOViewPanel.aspx?PanelId=1-3B31PX
+
+Finished data extraction from NGBOViewPanel.aspx?PanelId=1-3B31PX.
+
+Starting data extraction from NGBOViewPanel.aspx?PanelId=1-3UL-4997.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from NGBOViewPanel.aspx?PanelId=1-3UL-4997.
+
+Starting data extraction from ViewPanel.aspx?PanelId=5051.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanel.aspx?PanelId=5051.
+
+Starting data extraction from ViewPanel.aspx?PanelId=4923.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanel.aspx?PanelId=4923.
+
+Starting data extraction from ViewPanel.aspx?PanelId=4696.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully extracted #dgFullByValue table
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanel.aspx?PanelId=4696.
+
+Starting data extraction from ViewPanel.aspx?PanelId=4590.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanel.aspx?PanelId=4590.
+
+Starting data extraction from ViewPanel.aspx?PanelId=4719.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanel.aspx?PanelId=4719.
+
+Starting data extraction from ViewPanel.aspx?PanelId=4838.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanel.aspx?PanelId=4838.
+
+Starting data extraction from ViewPanel.aspx?PanelId=5019.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanel.aspx?PanelId=5019.
+
+Starting data extraction from ViewPanel.aspx?PanelId=4861.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanel.aspx?PanelId=4861.
+
+Starting data extraction from ViewPanel.aspx?PanelId=4973.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanel.aspx?PanelId=4973.
+
+Starting data extraction from ViewPanel.aspx?PanelId=4504.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanel.aspx?PanelId=4504.
+
+Starting data extraction from ViewPanelFellowship.aspx?PanelId=4473.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+Successfully extracted '#dgDeferredGrants span' element's 'text' attributes
+
+Successfully updated dataframes$deferred_fellowships_grants_df with deferred_fellowships_grants data
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowship.aspx?PanelId=4473.
+
+Starting data extraction from ViewPanelFellowship.aspx?PanelId=4477.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+Successfully extracted '#dgDeferredGrants span' element's 'text' attributes
+
+Successfully updated dataframes$deferred_fellowships_grants_df with deferred_fellowships_grants data
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowship.aspx?PanelId=4477.
+
+Starting data extraction from ViewPanelFellowship.aspx?PanelId=4394.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+Successfully extracted '#dgDeferredGrants span' element's 'text' attributes
+
+Successfully updated dataframes$deferred_fellowships_grants_df with deferred_fellowships_grants data
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowship.aspx?PanelId=4394.
+
+Starting data extraction from ViewPanelFellowship.aspx?PanelId=4639.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+Successfully extracted #dgGrants table
+
+Successfully updated dataframes$approved_fellowships_grants_df with approved_fellowships_grants data
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+Successfully extracted #dgPanelByNum table
+
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPanelFellowship.aspx?PanelId=4639
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4258
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPanelFellowship.aspx?PanelId=4639
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4249
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPanelFellowship.aspx?PanelId=4639
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4275
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPanelFellowship.aspx?PanelId=4639
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4292
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPanelFellowship.aspx?PanelId=4639
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4326
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPanelFellowship.aspx?PanelId=4639
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4308
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPanelFellowship.aspx?PanelId=4639
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4317
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPanelFellowship.aspx?PanelId=4639
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4247
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPanelFellowship.aspx?PanelId=4639
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4338
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPanelFellowship.aspx?PanelId=4639
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4231
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPanelFellowship.aspx?PanelId=4639
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+NGBOViewPanel.aspx?PanelId=1-3Q8M18
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPanelFellowship.aspx?PanelId=4639
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+NGBOViewPanel.aspx?PanelId=1-3B31PX
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPanelFellowship.aspx?PanelId=4639
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPanelFellowship.aspx?PanelId=4639
+
+Finished data extraction from ViewPanelFellowship.aspx?PanelId=4639.
+
+Starting data extraction from ViewPanelFellowship.aspx?PanelId=4434.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+Successfully extracted '#dgDeferredGrants span' element's 'text' attributes
+
+Successfully updated dataframes$deferred_fellowships_grants_df with deferred_fellowships_grants data
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowship.aspx?PanelId=4434.
+
+Starting data extraction from ViewPanelFellowship.aspx?PanelId=4619.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+Successfully extracted '#dgDeferredGrants span' element's 'text' attributes
+
+Successfully updated dataframes$deferred_fellowships_grants_df with deferred_fellowships_grants data
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowship.aspx?PanelId=4619.
+
+Starting data extraction from ViewPanelFellowship.aspx?PanelId=4404.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+Successfully extracted '#dgDeferredGrants span' element's 'text' attributes
+
+Successfully updated dataframes$deferred_fellowships_grants_df with deferred_fellowships_grants data
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowship.aspx?PanelId=4404.
+
+Starting data extraction from ViewPanelFellowship.aspx?PanelId=4415.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+Successfully extracted '#dgDeferredGrants span' element's 'text' attributes
+
+Successfully updated dataframes$deferred_fellowships_grants_df with deferred_fellowships_grants data
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowship.aspx?PanelId=4415.
+
+Starting data extraction from ViewPanelFellowship.aspx?PanelId=4595.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+Successfully extracted '#dgDeferredGrants span' element's 'text' attributes
+
+Successfully updated dataframes$deferred_fellowships_grants_df with deferred_fellowships_grants data
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowship.aspx?PanelId=4595.
+
+Starting data extraction from ViewPanelFellowship.aspx?PanelId=4397.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+Successfully extracted '#dgDeferredGrants span' element's 'text' attributes
+
+Successfully updated dataframes$deferred_fellowships_grants_df with deferred_fellowships_grants data
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowship.aspx?PanelId=4397.
+
+Starting data extraction from ViewPanelFellowshipV2.aspx?PanelId=4826.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowshipV2.aspx?PanelId=4826.
+
+Starting data extraction from ViewPanelFellowshipV2.aspx?PanelId=4778.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+Successfully extracted #dgSiftByValue table
+
+Successfully updated dataframes$sift_grants_byvalue_df with sift_grants_byvalue data
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowshipV2.aspx?PanelId=4778.
+
+Starting data extraction from ViewPanelFellowshipV2.aspx?PanelId=4982.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowshipV2.aspx?PanelId=4982.
+
+Starting data extraction from ViewPanelFellowshipV2.aspx?PanelId=4825.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowshipV2.aspx?PanelId=4825.
+
+Starting data extraction from ViewPanelFellowshipV2.aspx?PanelId=4913.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+Successfully extracted #dgSiftByValue table
+
+Successfully updated dataframes$sift_grants_byvalue_df with sift_grants_byvalue data
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowshipV2.aspx?PanelId=4913.
+
+Starting data extraction from ViewPanelFellowshipV2.aspx?PanelId=4862.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+Successfully extracted #dgSiftByValue table
+
+Successfully updated dataframes$sift_grants_byvalue_df with sift_grants_byvalue data
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowshipV2.aspx?PanelId=4862.
+
+Starting data extraction from ViewPanelFellowshipV2.aspx?PanelId=4614.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowshipV2.aspx?PanelId=4614.
+
+Starting data extraction from ViewPanelFellowshipV2.aspx?PanelId=4605.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowshipV2.aspx?PanelId=4605.
+
+Starting data extraction from ViewPanelFellowshipV2.aspx?PanelId=4698.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowshipV2.aspx?PanelId=4698.
+
+Starting data extraction from ViewPanelFellowshipV2.aspx?PanelId=4796.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Finished data extraction from ViewPanelFellowshipV2.aspx?PanelId=4796.
+
+Starting data extraction from ViewPriorPanel.aspx?PanelId=4241.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+Successfully extracted #dgPanelByNum table
+
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4241
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4258
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4241
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4249
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4241
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4275
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4241
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4292
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4241
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4326
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4241
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4308
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4241
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4317
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4241
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4247
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4241
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4338
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4241
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4231
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4241
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+NGBOViewPanel.aspx?PanelId=1-3Q8M18
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4241
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+NGBOViewPanel.aspx?PanelId=1-3B31PX
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4241
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPanelFellowship.aspx?PanelId=4639
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4241
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4241
+
+Finished data extraction from ViewPriorPanel.aspx?PanelId=4241.
+
+Starting data extraction from ViewPriorPanel.aspx?PanelId=4299.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+Successfully extracted #dgPanelByNum table
+
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4299
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4258
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4299
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4249
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4299
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4275
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4299
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4292
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4299
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4326
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4299
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4308
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4299
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4317
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4299
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4247
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4299
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4338
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4299
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4231
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4299
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+NGBOViewPanel.aspx?PanelId=1-3Q8M18
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4299
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+NGBOViewPanel.aspx?PanelId=1-3B31PX
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4299
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPanelFellowship.aspx?PanelId=4639
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4299
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4241
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4299
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4299
+
+Finished data extraction from ViewPriorPanel.aspx?PanelId=4299.
+
+Starting data extraction from ViewPriorPanel.aspx?PanelId=4298.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+Successfully extracted #dgPanelByNum table
+
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4298
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4258
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4298
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4249
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4298
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4275
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4298
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4292
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4298
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4326
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4298
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4308
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4298
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4317
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4298
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4247
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4298
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4338
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4298
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4231
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4298
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+NGBOViewPanel.aspx?PanelId=1-3Q8M18
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4298
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+NGBOViewPanel.aspx?PanelId=1-3B31PX
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4298
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPanelFellowship.aspx?PanelId=4639
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4298
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4241
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4298
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4299
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4298
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4298
+
+Finished data extraction from ViewPriorPanel.aspx?PanelId=4298.
+
+Starting data extraction from ViewPriorPanel.aspx?PanelId=4248.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+Successfully extracted #dgPanelByNum table
+
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4248
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4258
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4248
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4249
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4248
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4275
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4248
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4292
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4248
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4326
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4248
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4308
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4248
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4317
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4248
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4247
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4248
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4338
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4248
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4231
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4248
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+NGBOViewPanel.aspx?PanelId=1-3Q8M18
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4248
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+NGBOViewPanel.aspx?PanelId=1-3B31PX
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4248
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPanelFellowship.aspx?PanelId=4639
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4248
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4241
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4248
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4299
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4248
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4298
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4248
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4248
+
+Finished data extraction from ViewPriorPanel.aspx?PanelId=4248.
+
+Starting data extraction from ViewPriorPanel.aspx?PanelId=4279.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+Successfully extracted #dgPanelByNum table
+
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4279
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4258
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4279
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4249
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4279
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4275
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4279
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4292
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4279
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4326
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4279
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4308
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4279
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4317
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4279
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4247
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4279
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4338
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4279
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4231
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4279
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+NGBOViewPanel.aspx?PanelId=1-3Q8M18
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4279
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+NGBOViewPanel.aspx?PanelId=1-3B31PX
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4279
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPanelFellowship.aspx?PanelId=4639
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4279
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4241
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4279
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4299
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4279
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4298
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4279
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4248
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4279
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4279
+
+Finished data extraction from ViewPriorPanel.aspx?PanelId=4279.
+
+Starting data extraction from ViewPriorPanel.aspx?PanelId=4317.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+Successfully extracted #dgPanelByNum table
+
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4317
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4258
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4317
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4249
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4317
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4275
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4317
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4292
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4317
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4326
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4317
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4308
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4317
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4317
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4317
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4247
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4317
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4338
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4317
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4231
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4317
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+NGBOViewPanel.aspx?PanelId=1-3Q8M18
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4317
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+NGBOViewPanel.aspx?PanelId=1-3B31PX
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4317
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPanelFellowship.aspx?PanelId=4639
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4317
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4241
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4317
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4299
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4317
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4298
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4317
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4248
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4317
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4279
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4317
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4317
+
+Finished data extraction from ViewPriorPanel.aspx?PanelId=4317.
+
+Starting data extraction from ViewPriorPanel.aspx?PanelId=4360.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+Successfully extracted #dgPanelByNum table
+
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4360
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4258
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4360
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4249
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4360
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4275
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4360
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4292
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4360
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4326
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4360
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4308
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4360
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4317
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4360
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4247
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4360
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4338
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4360
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4231
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4360
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+NGBOViewPanel.aspx?PanelId=1-3Q8M18
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4360
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+NGBOViewPanel.aspx?PanelId=1-3B31PX
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4360
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPanelFellowship.aspx?PanelId=4639
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4360
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4241
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4360
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4299
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4360
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4298
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4360
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4248
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4360
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4279
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4360
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4317
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4360
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4360
+
+Finished data extraction from ViewPriorPanel.aspx?PanelId=4360.
+
+Starting data extraction from ViewPriorPanel.aspx?PanelId=4277.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+Successfully extracted #dgPanelByNum table
+
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4277
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4258
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4277
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4249
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4277
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4275
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4277
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4292
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4277
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4326
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4277
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4308
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4277
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4317
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4277
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4247
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4277
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4338
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4277
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4231
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4277
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+NGBOViewPanel.aspx?PanelId=1-3Q8M18
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4277
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+NGBOViewPanel.aspx?PanelId=1-3B31PX
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4277
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPanelFellowship.aspx?PanelId=4639
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4277
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4241
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4277
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4299
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4277
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4298
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4277
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4248
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4277
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4279
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4277
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4317
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4277
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4360
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4277
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4277
+
+Finished data extraction from ViewPriorPanel.aspx?PanelId=4277.
+
+Starting data extraction from ViewPriorPanel.aspx?PanelId=4330.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+Successfully extracted #dgPanelByNum table
+
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4330
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4258
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4330
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4249
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4330
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4275
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4330
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4292
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4330
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4326
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4330
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4308
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4330
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4317
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4330
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4247
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4330
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4338
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4330
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4231
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4330
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+NGBOViewPanel.aspx?PanelId=1-3Q8M18
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4330
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+NGBOViewPanel.aspx?PanelId=1-3B31PX
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4330
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPanelFellowship.aspx?PanelId=4639
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4330
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4241
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4330
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4299
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4330
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4298
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4330
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4248
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4330
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4279
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4330
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4317
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4330
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4360
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4330
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4277
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4330
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4330
+
+Finished data extraction from ViewPriorPanel.aspx?PanelId=4330.
+
+Starting data extraction from ViewPriorPanel.aspx?PanelId=4286.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+#dgFullByNum not detected.
+
+#dgFullByValue not detected.
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+Successfully extracted #dgPanelByNum table
+
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4286
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4258
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4286
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4249
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4286
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4275
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4286
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4292
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4286
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4326
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4286
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4308
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4286
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4317
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4286
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4247
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4286
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4338
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4286
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4231
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4286
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+NGBOViewPanel.aspx?PanelId=1-3Q8M18
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4286
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+NGBOViewPanel.aspx?PanelId=1-3B31PX
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4286
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPanelFellowship.aspx?PanelId=4639
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4286
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4241
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4286
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4299
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4286
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4298
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4286
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4248
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4286
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4279
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4286
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4317
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4286
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4360
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4286
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4277
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4286
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4330
+Failed to extract panel data and update dataframes due to error.
+Panel URL: ViewPriorPanel.aspx?PanelId=4286
+Error: Can't combine `..1$announced` <integer> and `..2$announced` <character>.
+
+Failed links: 
+ViewPriorPanel.aspx?PanelId=4286
+
+Finished data extraction from ViewPriorPanel.aspx?PanelId=4286.
+
+========================================================================= 
+Log End Time: 2021-07-14 18:42:21 
+Log Elapsed Time: 0 00:00:04 
+========================================================================= 

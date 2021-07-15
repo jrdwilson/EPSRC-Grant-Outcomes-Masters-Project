@@ -1,0 +1,54 @@
+========================================================================= 
+Log Path: ../logs/gow/test_log_20210714_175803.log 
+[1] "Working Directory: C:/Users/josep/OneDrive/Documents/University Documents/MSc Data Science/09-Data-Science-Project/Project/notebooks"
+User Name: josep 
+R Version: 4.0.3 (2020-10-10) 
+Machine: JRDWILSON-DESKT x86-64 
+Operating System: Windows 10 x64 build 19043 
+Log Start Time: 2021-07-14 17:58:03 
+========================================================================= 
+
+Starting data extraction from NGBOViewPanel.aspx?PanelId=1-4SSWIR.
+
+Successfully extracted panel details
+
+Successfully updated dataframes$panel_details_df with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated dataframes$panel_members_df with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated dataframes$funded_type1_bynum_df with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated dataframes$funded_type1_byvalue_df with funded_type1_byvalue data
+
+#dgOutlineByNumber not detected.
+
+#dgOutlineByValue not detected.
+
+'#dgDeferredGrants span' element's 'text' attributes not detected.
+
+#dgGrants not detected.
+
+#dgSiftByNumber not detected.
+
+#dgSiftByValue not detected.
+
+#dgPanelByNum not detected.
+
+#dgPanelByValue not detected.
+
+Successfully extracted '#pnlContent a' element's 'href' attributes
+
+Successfully updated dataframes$panel_rank_links_df with panel_rank_links data
+
+Finished data extraction from NGBOViewPanel.aspx?PanelId=1-4SSWIR.
+
+========================================================================= 
+Log End Time: 2021-07-14 17:58:08 
+Log Elapsed Time: 0 00:00:05 
+========================================================================= 

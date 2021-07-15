@@ -1,0 +1,134 @@
+========================================================================= 
+Log Path: ../logs/gow/test_log_20210714_152756.log 
+[1] "Working Directory: C:/Users/josep/OneDrive/Documents/University Documents/MSc Data Science/09-Data-Science-Project/Project/notebooks"
+User Name: josep 
+R Version: 4.0.3 (2020-10-10) 
+Machine: JRDWILSON-DESKT x86-64 
+Operating System: Windows 10 x64 build 19043 
+Log Start Time: 2021-07-14 15:27:56 
+========================================================================= 
+
+Successfully updated structure(list(panel_id = "1-4SSWIR", panel_name = "ISCF - Robotics and Artificial Intelligence Hub Full Bids Panel Meeting",  with panel_details data
+Successfully updated     panel_date = "18 September 2017", panel_contact = "Visavadia, Rhia",  with panel_details data
+Successfully updated     panel_type = "NGBOPanel"), row.names = c(NA, -1L), class = c("tbl_df",  with panel_details data
+Successfully updated "tbl", "data.frame")) with panel_details data
+
+Successfully extracted #dgDetails table
+
+Successfully updated structure(list(x1 = c("Watson, Dr D", "Collopy, Dr P", "Jiang, Professor Dame X",  with panel_members data
+Successfully updated "Simpson, Ms J", "Xiao, Professor J", "Youcef-Toumi, Professor K",  with panel_members data
+Successfully updated "Visavadia, Rhia"), x2 = c("Private Address", "University of Alabama in Huntsville",  with panel_members data
+Successfully updated "University of Huddersfield", "Severn Trent Water Ltd", "University of North Carolina Charlotte",  with panel_members data
+Successfully updated "Massachusetts Institute of Technology", "Engineering and Physical Sciences Research Council" with panel_members data
+Successfully updated ), x3 = c("Panel Chairperson", "", "", "", "", "", "Panel Contact" with panel_members data
+Successfully updated ), panel_id = c("1-4SSWIR", "1-4SSWIR", "1-4SSWIR", "1-4SSWIR",  with panel_members data
+Successfully updated "1-4SSWIR", "1-4SSWIR", "1-4SSWIR"), panel_type = c("NGBOPanel",  with panel_members data
+Successfully updated "NGBOPanel", "NGBOPanel", "NGBOPanel", "NGBOPanel", "NGBOPanel",  with panel_members data
+Successfully updated "NGBOPanel")), row.names = c(NA, -7L), class = c("tbl_df", "tbl",  with panel_members data
+Successfully updated "data.frame")) with panel_members data
+
+Successfully extracted #dgFullByNum table
+
+Successfully updated structure(list(funding_priority_list = c("Standard", "Including:",  with funded_type1_bynum data
+Successfully updated "List 1", "List 2", "Please click on relevant Funding Priority List for a full rank ordered list." with funded_type1_bynum data
+Successfully updated ), funded = c("4", "Including:", "2", "2", "Please click on relevant Funding Priority List for a full rank ordered list." with funded_type1_bynum data
+Successfully updated ), unfunded = c("4", "Including:", "3", "1", "Please click on relevant Funding Priority List for a full rank ordered list." with funded_type1_bynum data
+Successfully updated ), referred_to_a_later_panel = c("0", "Including:", "0", "0",  with funded_type1_bynum data
+Successfully updated "Please click on relevant Funding Priority List for a full rank ordered list." with funded_type1_bynum data
+Successfully updated ), decision_still_awaited = c("0", "Including:", "0", "0", "Please click on relevant Funding Priority List for a full rank ordered list." with funded_type1_bynum data
+Successfully updated ), funding_rate_percent_of_grant_number = c("50", "Including:",  with funded_type1_bynum data
+Successfully updated "40", "66", "Please click on relevant Funding Priority List for a full rank ordered list." with funded_type1_bynum data
+Successfully updated ), panel_id = c("1-4SSWIR", "1-4SSWIR", "1-4SSWIR", "1-4SSWIR",  with funded_type1_bynum data
+Successfully updated "1-4SSWIR"), panel_type = c("NGBOPanel", "NGBOPanel", "NGBOPanel",  with funded_type1_bynum data
+Successfully updated "NGBOPanel", "NGBOPanel")), row.names = c(NA, -5L), class = c("tbl_df",  with funded_type1_bynum data
+Successfully updated "tbl", "data.frame")) with funded_type1_bynum data
+
+Successfully extracted #dgFullByValue table
+
+Successfully updated structure(list(funding_priority_list = c("Standard", "Including:",  with funded_type1_byvalue data
+Successfully updated "List 1", "List 2", "Please click on relevant Funding Priority List for a full rank ordered list." with funded_type1_byvalue data
+Successfully updated ), funded = c("48,760,589", "Including:", "23,760,595", "24,999,994",  with funded_type1_byvalue data
+Successfully updated "Please click on relevant Funding Priority List for a full rank ordered list." with funded_type1_byvalue data
+Successfully updated ), unfunded = c("42,094,732", "Including:", "32,357,359", "9,737,373",  with funded_type1_byvalue data
+Successfully updated "Please click on relevant Funding Priority List for a full rank ordered list." with funded_type1_byvalue data
+Successfully updated ), referred_to_a_later_panel = c("0", "Including:", "0", "0",  with funded_type1_byvalue data
+Successfully updated "Please click on relevant Funding Priority List for a full rank ordered list." with funded_type1_byvalue data
+Successfully updated ), decision_still_awaited = c("0", "Including:", "0", "0", "Please click on relevant Funding Priority List for a full rank ordered list." with funded_type1_byvalue data
+Successfully updated ), funding_rate_percent_of_grant_value = c("53", "Including:",  with funded_type1_byvalue data
+Successfully updated "42", "71", "Please click on relevant Funding Priority List for a full rank ordered list." with funded_type1_byvalue data
+Successfully updated ), x = c(NA, NA, NA, NA, "Please click on relevant Funding Priority List for a full rank ordered list." with funded_type1_byvalue data
+Successfully updated ), panel_id = c("1-4SSWIR", "1-4SSWIR", "1-4SSWIR", "1-4SSWIR",  with funded_type1_byvalue data
+Successfully updated "1-4SSWIR"), panel_type = c("NGBOPanel", "NGBOPanel", "NGBOPanel",  with funded_type1_byvalue data
+Successfully updated "NGBOPanel", "NGBOPanel")), row.names = c(NA, -5L), class = c("tbl_df",  with funded_type1_byvalue data
+Successfully updated "tbl", "data.frame")) with funded_type1_byvalue data
+
+Unsuccessfully extracted #dgOutlineByNumber table. 
+Error in UseMethod("html_table"): no applicable method for 'html_table' applied to an object of class "xml_missing"
+
+
+Successfully updated structure(list(panel_id = character(0), panel_type = character(0)), row.names = integer(0), class = c("tbl_df",  with outlines_bynum data
+Successfully updated "tbl", "data.frame")) with outlines_bynum data
+
+Unsuccessfully extracted #dgOutlineByValue table. 
+Error in UseMethod("html_table"): no applicable method for 'html_table' applied to an object of class "xml_missing"
+
+
+Successfully updated structure(list(panel_id = character(0), panel_type = character(0)), row.names = integer(0), class = c("tbl_df",  with outline_byvalue data
+Successfully updated "tbl", "data.frame")) with outline_byvalue data
+
+Successfully extracted #dgDeferredGrants span elements text attribute
+
+Successfully updated structure(list(grant_ref = character(0), panel_id = character(0),  with deferred_fellowships_grants data
+Successfully updated     panel_type = character(0)), row.names = integer(0), class = c("tbl_df",  with deferred_fellowships_grants data
+Successfully updated "tbl", "data.frame")) with deferred_fellowships_grants data
+
+Unsuccessfully extracted #dgGrants table. 
+Error in UseMethod("html_table"): no applicable method for 'html_table' applied to an object of class "xml_missing"
+
+
+Successfully updated structure(list(panel_id = character(0), panel_type = character(0)), row.names = integer(0), class = c("tbl_df",  with approved_fellowships_grants data
+Successfully updated "tbl", "data.frame")) with approved_fellowships_grants data
+
+Unsuccessfully extracted #dgSiftByNumber table. 
+Error in UseMethod("html_table"): no applicable method for 'html_table' applied to an object of class "xml_missing"
+
+
+Successfully updated structure(list(panel_id = character(0), panel_type = character(0)), row.names = integer(0), class = c("tbl_df",  with sift_grants_bynum data
+Successfully updated "tbl", "data.frame")) with sift_grants_bynum data
+
+Unsuccessfully extracted #dgSiftByValue table. 
+Error in UseMethod("html_table"): no applicable method for 'html_table' applied to an object of class "xml_missing"
+
+
+Successfully updated structure(list(panel_id = character(0), panel_type = character(0)), row.names = integer(0), class = c("tbl_df",  with sift_grants_byvalue data
+Successfully updated "tbl", "data.frame")) with sift_grants_byvalue data
+
+Unsuccessfully extracted #dgPanelByNum table. 
+Error in UseMethod("html_table"): no applicable method for 'html_table' applied to an object of class "xml_missing"
+
+
+Successfully updated structure(list(panel_id = character(0), panel_type = character(0)), row.names = integer(0), class = c("tbl_df",  with funded_type2_bynum data
+Successfully updated "tbl", "data.frame")) with funded_type2_bynum data
+
+Unsuccessfully extracted #dgPanelByValue table. 
+Error in UseMethod("html_table"): no applicable method for 'html_table' applied to an object of class "xml_missing"
+
+
+Successfully updated structure(list(panel_id = character(0), panel_type = character(0)), row.names = integer(0), class = c("tbl_df",  with funded_type2_byvalue data
+Successfully updated "tbl", "data.frame")) with funded_type2_byvalue data
+
+Successfully extracted #pnlContent a elements href attribute
+
+Successfully updated structure(list(href = c("NGBOViewPanelROL.aspx?PanelId=1-4SSWIR&RankingListId=1-4SSWKG",  with panel_rank_links data
+Successfully updated "NGBOViewPanelROL.aspx?PanelId=1-4SSWIR&RankingListId=1-58G4UD",  with panel_rank_links data
+Successfully updated "NGBOViewPanelROL.aspx?PanelId=1-4SSWIR&RankingListId=1-4SSWKG",  with panel_rank_links data
+Successfully updated "NGBOViewPanelROL.aspx?PanelId=1-4SSWIR&RankingListId=1-58G4UD" with panel_rank_links data
+Successfully updated ), panel_id = c("1-4SSWIR", "1-4SSWIR", "1-4SSWIR", "1-4SSWIR" with panel_rank_links data
+Successfully updated ), panel_type = c("NGBOPanel", "NGBOPanel", "NGBOPanel", "NGBOPanel" with panel_rank_links data
+Successfully updated )), row.names = c(NA, -4L), class = c("tbl_df", "tbl", "data.frame" with panel_rank_links data
+Successfully updated )) with panel_rank_links data
+
+========================================================================= 
+Log End Time: 2021-07-14 15:27:59 
+Log Elapsed Time: 0 00:00:03 
+========================================================================= 
