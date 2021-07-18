@@ -447,23 +447,23 @@ test_dataframes$panel_rank_links_df <- log_bind_row(test_dataframes$panel_rank_l
 ```
 
 ```{r func_def_panel_data}
-dataframes <- list(
-  panel_details_df = tibble(),
-  panel_members_df = tibble(),
-  funded_type1_bynum_df = tibble(),
-  funded_type1_byvalue_df = tibble(),
-  outlines_bynum_df = tibble(),
-  outline_byvalue_df = tibble(),
-  deferred_fellowships_grants_df = tibble(),
-  approved_fellowships_grants_df = tibble(),
-  sift_grants_bynum_df = tibble(),
-  sift_grants_byvalue_df = tibble(),
-  funded_type2_bynum_df = tibble(),
-  funded_type2_byvalue_df = tibble(),
-  panel_rank_links_df = tibble()
-)
-
-error_panel_links <- c()
+# dataframes <- list(
+#   panel_details_df = tibble(),
+#   panel_members_df = tibble(),
+#   funded_type1_bynum_df = tibble(),
+#   funded_type1_byvalue_df = tibble(),
+#   outlines_bynum_df = tibble(),
+#   outline_byvalue_df = tibble(),
+#   deferred_fellowships_grants_df = tibble(),
+#   approved_fellowships_grants_df = tibble(),
+#   sift_grants_bynum_df = tibble(),
+#   sift_grants_byvalue_df = tibble(),
+#   funded_type2_bynum_df = tibble(),
+#   funded_type2_byvalue_df = tibble(),
+#   panel_rank_links_df = tibble()
+# )
+# 
+# error_panel_links <- c()
 
 sweet_get_panel_data <- function(link, dataframes = dataframes, log_on = TRUE, errors = c()){
   # wrapped function for collecting data from panel
@@ -623,7 +623,7 @@ get_panel_data <- function(link, dataframes = panel_dataframes, log_on = TRUE, e
       if (log_on) {
         log_print(
           str_glue(
-          "Failed to extract panel data and update dataframes due to error.\nPanel URL: {link}\n{cond}\nFailed links: \n{error_panel_links}"), 
+          "Failed to extract data and update dataframes due to error.\nURL: {link}\n{cond}\nFailed links: \n{error_panel_links}"), 
           console = FALSE,
           hide_notes = TRUE
         )
@@ -829,4 +829,66 @@ for (dfname in saved_dataframes %>% names()) {
 }
 ```
 
+
+```{r filter links}
+dataframes$panel_rank_links_df <- dataframes$panel_rank_links_df %>% 
+  filter(str_detect(href, pattern = "ViewPanelROL.aspx"))
+
+dataframes$panel_ranked_grants_df <- tibble()
+
+bar_len <- dim(dataframes$panel_rank_links_df)[1]
+# bar_len <- 100
+
+for (i in 1:bar_len) {
+  link <- dataframes$panel_rank_links_df$href[i]
+  
+  panel_id <- dataframes$panel_rank_links_df$panel_id[i]
+  
+  panel_type <- dataframes$panel_rank_links_df$panel_type[i]
+  
+  html <- get_html(link)
+  
+  grants <- extract_table(html, "#dgGrants", head_row = TRUE, log_on = log_on) %>% 
+      mutate(panel_id = panel_id, panel_type = panel_type)
+  
+  # If there is a grants table and a deffered grant table, the deffered grants 
+  # table will have no head
+  if (dim(grants)[1] > 0) {
+    defferred_grants <- extract_table(html, "#dgDeferredGrants", head_row = FALSE, log_on = log_on)
+    
+    new_colnames <- grants %>% colnames()
+    
+    defferred_grants <- defferred_grants %>% `colnames<-`(new_colnames)
+  } else {
+    defferred_grants <- extract_table(html, "#dgDeferredGrants", head_row = TRUE, log_on = log_on)
+  }
+  
+  defferred_grants <- defferred_grants %>% 
+      mutate(panel_id = panel_id, panel_type = panel_type)
+  
+  # Quickly view pages for CSS selector review
+  # browseURL(paste("https://gow.epsrc.ukri.org/", link,sep = ''))
+  
+  
+  dataframes$panel_ranked_grants_df <-dataframes$panel_ranked_grants_df %>% 
+    log_bind_row(grants, log_on = log_on) %>% 
+    log_bind_row(defferred_grants, log_on = log_on)
+}
+```
+
+```{r}
+test <- tibble(
+  x1 = character(),
+  x2 = character(),
+  x3 = character(),
+)
+
+test %>% colnames()
+
+new_colnames <- c("a","b","c")
+
+test <- `colnames<-`(test, new_colnames)
+
+test %>% colnames()
+```
 
