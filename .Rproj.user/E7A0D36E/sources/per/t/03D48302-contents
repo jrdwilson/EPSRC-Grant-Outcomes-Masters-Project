@@ -1,0 +1,559 @@
+---
+title: "Coursework 1"
+subtitle: "Data Analysis of Capital Bikeshare (CaBi) Bike Rides from 2019-01 to 2020-09"
+output:
+  html_document:
+    df_print: paged
+    toc: yes
+    toc_depth: 1
+---
+
+```{r setup, echo = FALSE, message = FALSE, warning=FALSE, error=FALSE}
+library("here")
+library("tidyverse")
+library("lubridate")
+library("XML")
+library("gapminder")
+library("ggrepel")
+library("gridExtra")
+library("kableExtra")
+library("janitor")
+library("leaflet")
+library("ggmap")
+library("RColorBrewer")
+library("scales")
+
+knitr::opts_chunk$set(
+  comment    = "",
+  results    = "hold",
+  echo = FALSE,
+  message = FALSE,
+  warning = FALSE,
+  fig.show   = "hold"
+)
+```
+
+# Introduction
+    
+This report aims to analyse the data provided by Capital Bikeshare (CaBi), a Washington DC ride-sharing company, on the rides that have been carried out from January 2019 to September 2020. The report will propose five questions to query the dataset. Then an analysis in the R programming language will be carried out, delivering answers to those questions, supported by plots of data.
+
+This data is worth studying by a range of people with a range of use cases for the data in mind. For example:
+    - A student writing a report to develop and apply their theoretical knowledge, using the data for exploration and practice.
+    - A rival company, wanting to understand the performance of CaBi and understand where gaps in the market currently exist for them to exploit.
+    = CaBi themselves, wanting to improve their business model and develop tools that will allow efficiencies to be found, for example, predicting a bikes maintenance needs based on its use. 
+    - Local Government, looking to understand bike use in the DC area and developing plans to accommodate bikes alongside other modes of transport in DC.
+
+# Data
+
+```{r data_set_import}
+file_paths <- list.files(path = here("data", "data_rides"), full.names = TRUE) 
+
+rides_raw <- tibble() # empty tibble
+
+for (path in file_paths) {
+
+  rides_new <- read_csv(path)
+
+  # Binding the rows together will throw an error because the column "Start station number"
+  # (which exists in some of the files) is sometimes parsed as <double> and sometimes parsed
+  # as character. To make sure that the rows can be glued together, we must ensure that it is
+  # always coerced to <double> which is what the following code if-statement does.
+  if ("Start station number" %in% colnames(rides_new)) { # if the column "Start station number" exists
+
+    # Ensures that the column "Start station number" is <double> and not <character>.
+    rides_new <- rides_new %>%
+      mutate(`Start station number` = as.double(`Start station number`))
+  }
+
+  # Now we can bind the tables together by row.
+  rides_raw <- bind_rows(rides_raw, rides_new)
+}
+```
+
+The data set is sourced from the ["CaBi System Data 'Bucket'"](https://s3.amazonaws.com/capitalbikeshare-data/index.html). The zip files were downloaded from this location and remained ZIP-ed to ensure the data was preserved. It was imported into R and stored in a tibble data frame.
+
+```{r data_set_tidying}
+rides <- 
+  rides_raw %>% 
+  clean_names() %>% 
+  mutate(started_at = coalesce(start_date, started_at),
+         ended_at = coalesce(end_date, ended_at),
+         start_station_name = coalesce(start_station_name, start_station),
+         end_station_name = coalesce(end_station, end_station_name),
+         member_casual = coalesce(member_type, member_casual)
+  ) %>% 
+  select(duration, 
+         started_at, 
+         ended_at, 
+         start_station_name, 
+         end_station_name, 
+         member_casual
+  ) %>% 
+  mutate(duration = coalesce(
+    as.duration(duration), 
+    as.duration(ended_at - started_at)
+  )) %>% 
+  filter(duration >= 0) %>% 
+  drop_na() %>% 
+  mutate(member_casual = str_to_lower(member_casual)) %>% 
+  mutate(across(c(start_station_name, end_station_name, member_casual), as_factor))
+```
+
+The data was then tidied. Due to a change in variable names some way through the observations, some variables were combined into a complete range. One of the variables `duration` had to be calculated for some later observations as it was not directly provided with the data.
+
+Any observations with a negative `duration` were removed from the data, as this was not possible, and therefore the observations could not be relied upon. There were some extremely high `duration` value observations; however, these were kept in the dataset as they could theoretically be possible and there was no clear way filter them out, without possibly tampering with the data. 
+
+Finally, any observations still containing `NA` values were dropped. These could have caused problems with the data analysis, and the presence of `NA` in the observation suggested it was incomplete and could not be relied upon.
+
+Overall, `r dim(rides_raw)[1] - dim(rides)[1]` observations were dropped from the data set.
+
+After cleaning, the data set contains a total of `r dim(rides)[1]` observations on `r dim(rides)[2]` variables, described on the CaBi website as:
+    - `duration` – Duration of trip
+    - `started_at` – Includes start date and time
+    - `ended_at` – Includes end date and time
+    - `start_station_name` – Includes starting station name
+    - `end_station_name` – Includes ending station name
+    - `member_casual` – Indicates whether user was a "registered" member (Annual Member, 30-Day Member or Day Key Member) or a "casual" rider (Single Trip, 24-Hour Pass, 3-Day Pass or 5-Day Pass)
+
+# Questions
+
+1. What is the make up of rider type (member or casual) for round and one-way hires?
+    - Operationalisation: Compare the number of total rides taken by casual and member rides that start and end at the same station with those that do not start and end at the same station.
+
+2. How does the ride duration change over course the week (day by day)?
+    - Operationalisation: Look at distributions of ride duration of rides day by day.
+    
+3. Is bike usage consistent with using the bikes for commuting? 
+    - Operationalisation: Compare the duration of rides compared with the number of rides started per hour.
+    
+4. Which stations experience the biggest average net change in bike numbers in a day?
+    - Operationalisation: Which stations are the top ten for the number of bikes gained and bikes lost? Bikes gained being the difference number of journeys ended at that station to those started, and vice versa for bikes lost.
+    
+5. What was the impact of Coronavirus on the weekly average number of rides taken per week and the average duration of rides?
+    - Operationalisation: Compare the number of rides and their duration taken per week from this year with the same week number from last year. 
+    
+# Analysis
+
+## Question 1 - What is the make up of rider type (member or casual) for round and one-way hires?
+
+```{r question_1_analysis}
+total_no_trips <- dim(rides)[1]
+
+question_1_df <- rides %>%
+  mutate(
+    trip_type = case_when(
+      start_station_name == end_station_name ~ "Round Trip",
+      start_station_name != end_station_name ~ "One-way Trip"
+    ),
+    trip_type = as_factor(trip_type)
+  ) %>% 
+  group_by(trip_type) %>% 
+  mutate(total_trip_type = n()) %>% 
+  group_by(trip_type, member_casual) %>% 
+  summarise(
+    no_rides = n(),
+    prop_rides = no_rides / total_no_trips,
+    prop_trip_type = no_rides / total_trip_type
+  ) %>% distinct()
+```
+
+First looking at all rides together, we can see that vast majority of rides are by member riders travelling one-way. The next biggest category is Casual riders, also going on one-way trips. Round trips make up a relatively small proportion of the total rides in the data set.
+
+```{r question_1_plot_1}
+question_1_df %>% 
+  ggplot(
+    mapping = aes(
+      x = member_casual,
+      y = no_rides,
+      fill = trip_type
+    )
+  ) +
+  geom_col(position = position_dodge()) +
+  scale_x_discrete(
+    name = "Rider Type",
+    labels = c("Member", "Casual")
+  ) +
+  scale_y_continuous(
+    name = "Total Number of Rides",
+    labels = comma
+  ) +
+  scale_fill_discrete(
+    name = "Trip Type"
+  )
+```
+
+However, if we look at the ride type individually, we see that over 80% of riders going one-way are members. For Round-Trips, the difference between Members and Casual rides is smaller, with Casual rides being the majority with around 60% of the rides completed. 
+
+
+```{r question_1_plot_2}
+question_1_df %>% 
+  ggplot(
+    mapping = aes(
+      x = member_casual,
+      y = prop_trip_type,
+      fill = trip_type
+    )
+  ) +
+  geom_col() +
+  facet_wrap(
+    facets = vars(trip_type)
+  ) +
+  scale_x_discrete(
+    name = "Rider Type",
+    labels = c("Member", "Casual")
+  ) +
+  scale_y_continuous(
+    name = "Proportion of Trip Type Rides",
+    labels = percent_format()
+  ) +
+  theme(legend.position = "none")
+```
+
+## Question 2 - How does the ride duration change over course the week (day by day)?
+
+```{r question_2_analysis}
+question_2_df <- rides %>% 
+  mutate(
+    weekday = wday(
+      started_at, 
+      label = TRUE, 
+      abbr = FALSE, 
+      week_start = 1
+    ),
+    duration = as.double(duration)/60
+  ) %>% 
+  group_by(weekday) %>% 
+  select(
+    weekday,
+    duration
+  )
+```
+
+As can be seen in the plot below, the ride duration stays consistent throughout the weekdays, however, at the weekends, there is a notable increase in both the mean ride length and the IQR of rides. At the weekends, riders are going for longer, more varied rides. This suggests a switch in the purpose of rides, possibly (as is explored in the next questions) due to riders commuting in the week and riding for other reasons at the weekends. 
+
+Overall, the rides stay under 30 minutes. This could be related to the pricing structure, and future investigations could look for a link between the pricing structure of rides and their duration. 
+
+```{r question_2_plot}
+question_2_df %>% 
+  ggplot(
+    mapping = aes(
+      x = weekday,
+      y = duration,
+      colour = weekday
+    )
+  ) +
+  geom_boxplot(
+    outlier.shape = NA
+  ) +
+  coord_cartesian(ylim = c(0, 60)) + 
+  scale_x_discrete(name = "") +
+  scale_y_continuous(
+    name = "Duration of Ride (Minutes)",
+    n.breaks = 6
+  ) +
+  scale_colour_discrete() +
+  theme(legend.position = "none")
+```
+
+## Question 3 - Is bike usage consistent with using the bikes for commuting?
+
+```{r question_3_analysis}
+question_3_df <- rides %>% 
+  mutate(
+    weekday_weekend = case_when(
+      wday(started_at, week_start = 1) < 6 ~ "Weekday",
+      TRUE ~ "Weekend"
+    ),
+    start_time = hms::as_hms(started_at),
+    duration = as.double(duration)/60
+  ) %>% 
+  select(weekday_weekend, duration, start_time)
+```
+
+As discussed previously, riders might be mainly using CaBi bikes as part of their commute. The graph below looks at the distributions of rides throughout the day and their duration. 
+
+On weekdays, there is a clear hotspot of rides around regular commute hours in the morning and the evening, with possible a small pick-up around lunch. The length of rides is mainly sub 10-20 minutes in duration, further suggesting a pricing structure that encourages short rides. 
+
+At the weekends, there are no hotspots around the same periods further supporting the idea that riders use CaBi bikes in the week to commute. Instead, there is a general hotspot around the core hours of the day, when people will be out, possibly using bikes for leisure. As with the previous question, there is a more even distribution of durations.
+
+```{r question_3_plot, message=FALSE, warning=FALSE}
+question_3_df %>% 
+  ggplot(
+    mapping = aes(
+      x = start_time,
+      y = duration
+    )
+  ) +
+  geom_bin2d() +
+  scale_y_continuous(
+    name = "Duration of Rides (Minutes)",
+    limits = c(-1, 31),
+    n.breaks = 6
+  ) +
+  scale_x_time(
+    name = "Time",
+    breaks = hm("00:00", "03:00", "06:00", "09:00", "12:00", "15:00", "18:00", 
+                "21:00", "24:00"),
+    labels = c("00:00", "03:00", "06:00", "09:00", "12:00", "15:00", "18:00", 
+               "21:00", "24:00")
+  ) + 
+  facet_wrap(
+    facets = vars(weekday_weekend),
+    nrow = 2, ncol = 1
+  ) +
+  scale_fill_gradientn(
+    name = "Number of Rides",
+    colours = colorRampPalette(rev(brewer.pal(11,'Spectral')))(32)
+  ) 
+```
+
+## Question 4 - Which stations experience the biggest average net change in bike numbers in a day?
+
+```{r question_4_analysis}
+start_df <- rides %>%
+  mutate(ride_date = date(started_at)) %>% 
+  rename(station_name = start_station_name) %>%
+  group_by(ride_date, station_name) %>% 
+  count(name = "rides_started")
+
+end_df <- rides %>%
+  mutate(ride_date = date(ended_at)) %>% 
+  rename(station_name = end_station_name) %>% 
+  group_by(ride_date, station_name) %>% 
+  count(name = "rides_ended")
+
+question_4_df <- full_join(start_df, end_df) %>% 
+  replace_na(list("rides_started" = 0, "rides_ended" = 0)) %>% 
+  mutate(net_bikes = rides_ended - rides_started) %>% 
+  group_by(station_name) %>%
+  summarise(
+    mean_rides_started = mean(rides_started),
+    mean_rides_ended = mean(rides_ended),
+    mean_net_bikes = mean(net_bikes)
+  ) %>% 
+  select(station_name, mean_net_bikes) %>% 
+  arrange(mean_net_bikes)
+
+q4_lost <- question_4_df %>% 
+  slice_head(n = 10) %>% 
+  mutate(facet_cat = "Top 10 Stations for Average Daily Net LOSS of Bikes")
+
+q4_gained <- question_4_df %>% 
+  slice_tail(n = 10)%>% 
+  mutate(facet_cat = "Top 10 Stations for Average Daily Net GAIN of Bikes")
+
+question_4_df <- bind_rows(q4_gained, q4_lost)
+```
+
+Our analysis reveals the stations that will gain the most bikes in a day on average and the stations that will lose the most bicycles in a day on average. This data is useful for understanding which stations, like `r as.character(pull(q4_gained, station_name)[[10]])`, are at risk at being over-crowded and having no available docking points, and stations like `r as.character(pull(q4_lost, station_name)[[1]])` which are in danger of not having enough bikes for riders to use.
+
+It should be noted that there are two stations `r as.character(pull(q4_lost, station_name)[[1]])` and `r as.character(pull(q4_lost, station_name)[[2]])` which lose `r round(pull(q4_lost, mean_net_bikes))[[1]]*-1` and `r round(pull(q4_lost, mean_net_bikes))[[2]]*-1` bikes per day respectively. This is more than double the next highest loser, and would be at higher risk of running out of bikes.
+
+```{r question_4_plot_a}
+question_4_df %>% 
+  ggplot(
+    mapping = aes(
+      x = mean_net_bikes,
+      y = reorder(station_name, mean_net_bikes),
+      fill = facet_cat
+    )
+  ) + 
+  geom_bar(stat = "identity") +
+  scale_x_continuous(
+    name = "Daily Mean Net Change in Bikes",
+    n.breaks = 6
+  ) +
+  scale_y_discrete(
+    name = ""
+  ) +
+  scale_colour_discrete() +
+  theme(legend.position = "none") +
+  facet_wrap(
+    facets = vars(facet_cat), 
+    nrow = 2, 
+    ncol = 1,
+    scales = "free_y"
+  )
+```
+
+## Question 5 - What was the impact of Coronavirus on the weekly average number of rides taken per week and the average duration of rides?
+```{r question_5_analysis}
+question_5_df <- rides %>% 
+  mutate(
+    year = as.character(isoyear(started_at)),
+    week = isoweek(started_at)
+  ) %>% 
+  group_by(week, year) %>% 
+  summarise(
+    no_rides = n(),
+    mean_dur = mean(duration) 
+  ) %>% 
+  filter(week < 40)
+
+question_5_df_net <- question_5_df %>% 
+  pivot_wider(
+    names_from = year,
+    values_from = c(no_rides, mean_dur)
+   ) %>%
+  mutate(
+    net_change_no_rides = no_rides_2020 - no_rides_2019,
+    rel_change_no_rides = net_change_no_rides / no_rides_2019,
+    net_change_mean_dur = mean_dur_2020 - mean_dur_2019,
+    rel_change_mean_dur = net_change_mean_dur / mean_dur_2019
+  ) %>% 
+  select(
+    week, 
+    net_change_no_rides, 
+    rel_change_no_rides, 
+    net_change_mean_dur, 
+    rel_change_mean_dur
+  )
+
+# Key Dates:
+# 2020-03-11 - Public Health Emergency
+date_1 <- ymd("2020-03-11")
+week_1 <- isoweek(date_1)
+# 2020-03-30 - Stay at Home Order
+date_2 <- ymd("2020-03-30")
+week_2 <- isoweek(date_2)
+# 2020-05-29 - Stay at Home Order End, Phase One Recovery Starts
+date_3 <- ymd("2020-05-29")
+week_3 <- isoweek(date_3)
+
+key_dates = c(week_1, week_2, week_3)
+
+```
+
+First, looking at the number of rides per year, there is a massive effect of Coronavirus, with the number of rides plummeting. The number of rides does start to pick up towards the end of the Stay at Home Order; however, it only reaches winter week levels and is still far below the equivalent levels from a year ago. 
+
+```{r question_5_plot_a}
+question_5_df %>% 
+  ggplot(
+    mapping = aes(
+      x = week,
+      y = no_rides,
+      colour = year
+    )
+  ) +
+  geom_line(
+    size = 1.25
+  ) +
+  scale_x_continuous(
+    name = "ISO Week Number",
+    n.breaks = 10
+  ) +
+  scale_y_continuous(
+    name = "Number of Rides",
+    n.breaks = 10
+  ) +
+  scale_colour_discrete(
+    name = "Year"
+  ) +
+  geom_vline(
+    xintercept = key_dates,
+    size = 1,
+    linetype = "dashed"
+  ) +
+  annotate(
+    geom = "rect",
+    xmin = week_2,
+    xmax = week_3,
+    ymin = 0,
+    ymax = 90000,
+    alpha = 0.35,
+    fill = "purple"
+  ) + 
+  annotate(
+    geom = "text",
+    x = week_1 - 0.5,
+    y = 5000,
+    label = "Public Health\nEmergancy Declared",
+    lineheight = 1,
+    alpha = 1,
+    hjust = 1
+  ) + 
+  annotate(
+    geom = "text",
+    x = 18,
+    y = 5000,
+    label = "Stay at Home\nOrder in effect",
+    lineheight = 1,
+    alpha = 1
+  ) 
+```
+
+Interestingly, the mean duration of rides increases during the Stay at Home order. It starts to come down towards last year's levels after the Stay at Home order is lifted, but is still higher than last year.
+
+```{r question_5_plot_b}
+question_5_df %>% 
+  ggplot(
+    mapping = aes(
+      x = week,
+      y = mean_dur,
+      colour = year
+    )
+  ) +
+  geom_line(
+    size = 1.25
+  ) +
+  scale_x_continuous(
+    name = "ISO Week Number",
+    n.breaks = 10
+  ) +
+  scale_y_continuous(
+    name = "Average Duration of Rides",
+    n.breaks = 10
+  ) +
+  scale_colour_discrete(
+    name = "Year"
+  ) +
+  geom_vline(
+    xintercept = key_dates,
+    size = 1,
+    linetype = "dashed"
+  ) +
+  annotate(
+    geom = "rect",
+    xmin = week_2,
+    xmax = week_3,
+    ymin = 0,
+    ymax = 3000,
+    alpha = 0.35,
+    fill = "purple"
+  ) + 
+  annotate(
+    geom = "text",
+    x = week_1 - 0.5,
+    y = 100,
+    label = "Public Health\nEmergancy Declared",
+    vjust = -0.1,
+    lineheight = 1,
+    alpha = 1,
+    hjust = 1
+  ) + 
+  annotate(
+    geom = "text",
+    x = 18,
+    y = 100,
+    label = "Stay at Home\nOrder in effect",
+    lineheight = 1,
+    vjust = -0.1,
+    alpha = 1
+  ) 
+```
+This decrease in the number of rides but an increase in average duration could indicate many things, and further investigations could be done into the behaviour and characteristics of the riders that still rode during the lockdown.
+
+# Conclusion
+
+Our analysis revealed:
+    - The majority of riders are Members carrying out One-Way Trips. Casual riders make up the majority of riders that use CaBi bikes on Round Trips; however, overall Casual riders make up a small minority of the population of riders.
+    - There is consistent durations of rides throughout the working week; however, there is an increase in average ride duration, as well as variance in ride duration.
+    - The majority of rides appear to be used for commuting, with a concentration of rides taking less than 20 minutes and around commuting hours. At weekends there is an even distribution through the day and in duration.
+    - The station `r as.character(pull(q4_gained, station_name)[[10]])` gains the most bikes on average per day, while `r as.character(pull(q4_lost, station_name)[[1]])` loses the most bikes. `r as.character(pull(q4_lost, station_name)[[2]])` also has a significantly high loss rate.
+    - During Stay at Home Order issued due to the Coronavirus pandemic, there was a massive decrease in rides but an increase in ride duration.
+
+One further question we could investigate is the times of day that member and casual riders are using bikes. As we saw earlier, members make up a larger majority of users so to understand the behaviours of both types of users (e.g. do they use bikes for commuting) it would be beneficial to have a look at each in turn.
+
+Another question we might ask is the change in use by different types of riders (members versus casual) over the COVID epidemic. 
+
+Finally, it would be good to get an understanding of the net change in bike numbers for all the station, not just the extremes. This could be plotted on a geographical heat map, allowing us to view where bikes are coming and going from.

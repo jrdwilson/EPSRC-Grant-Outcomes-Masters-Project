@@ -1,0 +1,915 @@
+========================================================================= 
+Log Path: ../logs/gow/grant_list_sample_run_20210727_125531.log 
+[1] "Working Directory: C:/Users/josep/OneDrive/Documents/University Documents/MSc Data Science/09-Data-Science-Project/Project/notebooks"
+User Name: josep 
+R Version: 4.0.3 (2020-10-10) 
+Machine: JRDWILSON-DESKT x86-64 
+Operating System: Windows 10 x64 build 19043 
+Log Start Time: 2021-07-27 12:55:31 
+========================================================================= 
+
+=========================================================================
+
+Starting data extraction from ViewPanelROL.aspx?PanelId=4712&RankingListId=6238.
+
+Successfully extracted #dgGrants table
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+Failed to extract data and update dataframes due to error.
+URL: ViewPanelROL.aspx?PanelId=4712&RankingListId=6238
+Error: Problem with `filter()` input `..1`.
+[34mi[39m Input `..1` is `!str_detect(x, "../.*?/.")`.
+[31mx[39m object 'x' not found
+
+Failed links:
+
+NULL
+
+Finished data extraction from ViewPanelROL.aspx?PanelId=4712&RankingListId=6238.
+
+NOTE: Log Print Time:  2021-07-27 12:55:47 
+NOTE: Elapsed Time in seconds: 15.9160099029541 
+
+=========================================================================
+
+Starting data extraction from NGBOViewPanelROL.aspx?PanelId=1-4FQNTQ&RankingListId=1-4FQNTX.
+
+Successfully extracted #dgGrants table
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+Failed to extract data and update dataframes due to error.
+URL: NGBOViewPanelROL.aspx?PanelId=1-4FQNTQ&RankingListId=1-4FQNTX
+Error: Problem with `filter()` input `..1`.
+[34mi[39m Input `..1` is `!str_detect(x, "../.*?/.")`.
+[31mx[39m object 'x' not found
+
+Failed links:
+
+ViewPanelROL.aspx?PanelId=4712&RankingListId=6238 
+
+Finished data extraction from NGBOViewPanelROL.aspx?PanelId=1-4FQNTQ&RankingListId=1-4FQNTX.
+
+NOTE: Log Print Time:  2021-07-27 12:56:03 
+NOTE: Elapsed Time in seconds: 16.2057061195374 
+
+=========================================================================
+
+Starting data extraction from NGBOViewPanelROL.aspx?PanelId=1-8P3X0R&RankingListId=1-8P3X0Y.
+
+Successfully extracted #dgGrants table
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+Failed to extract data and update dataframes due to error.
+URL: NGBOViewPanelROL.aspx?PanelId=1-8P3X0R&RankingListId=1-8P3X0Y
+Error: Problem with `filter()` input `..1`.
+[34mi[39m Input `..1` is `!str_detect(x, "../.*?/.")`.
+[31mx[39m object 'x' not found
+
+Failed links:
+
+[1] "ViewPanelROL.aspx?PanelId=4712&RankingListId=6238"            
+[2] "NGBOViewPanelROL.aspx?PanelId=1-4FQNTQ&RankingListId=1-4FQNTX"
+
+Finished data extraction from NGBOViewPanelROL.aspx?PanelId=1-8P3X0R&RankingListId=1-8P3X0Y.
+
+NOTE: Log Print Time:  2021-07-27 12:56:20 
+NOTE: Elapsed Time in seconds: 16.7365729808807 
+
+=========================================================================
+
+Starting data extraction from ViewPanelROL.aspx?PanelId=4367&RankingListId=5546.
+
+Successfully extracted #dgGrants table
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+Failed to extract data and update dataframes due to error.
+URL: ViewPanelROL.aspx?PanelId=4367&RankingListId=5546
+Error: Problem with `filter()` input `..1`.
+[34mi[39m Input `..1` is `!str_detect(x, "../.*?/.")`.
+[31mx[39m object 'x' not found
+
+Failed links:
+
+[1] "ViewPanelROL.aspx?PanelId=4712&RankingListId=6238"            
+[2] "NGBOViewPanelROL.aspx?PanelId=1-4FQNTQ&RankingListId=1-4FQNTX"
+[3] "NGBOViewPanelROL.aspx?PanelId=1-8P3X0R&RankingListId=1-8P3X0Y"
+
+Finished data extraction from ViewPanelROL.aspx?PanelId=4367&RankingListId=5546.
+
+NOTE: Log Print Time:  2021-07-27 12:56:36 
+NOTE: Elapsed Time in seconds: 15.5309960842133 
+
+=========================================================================
+
+Starting data extraction from NGBOViewPanelROL.aspx?PanelId=1-84ONYO&RankingListId=1-84O6SC.
+
+Successfully extracted #dgGrants table
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+Failed to extract data and update dataframes due to error.
+URL: NGBOViewPanelROL.aspx?PanelId=1-84ONYO&RankingListId=1-84O6SC
+Error: Problem with `filter()` input `..1`.
+[34mi[39m Input `..1` is `!str_detect(x, "../.*?/.")`.
+[31mx[39m object 'x' not found
+
+Failed links:
+
+[1] "ViewPanelROL.aspx?PanelId=4712&RankingListId=6238"            
+[2] "NGBOViewPanelROL.aspx?PanelId=1-4FQNTQ&RankingListId=1-4FQNTX"
+[3] "NGBOViewPanelROL.aspx?PanelId=1-8P3X0R&RankingListId=1-8P3X0Y"
+[4] "ViewPanelROL.aspx?PanelId=4367&RankingListId=5546"            
+
+Finished data extraction from NGBOViewPanelROL.aspx?PanelId=1-84ONYO&RankingListId=1-84O6SC.
+
+NOTE: Log Print Time:  2021-07-27 12:56:52 
+NOTE: Elapsed Time in seconds: 16.4094529151917 
+
+=========================================================================
+
+Starting data extraction from NGBOViewPanelROL.aspx?PanelId=1-2JJUW5&RankingListId=1-2JJUWI.
+
+Successfully extracted #dgGrants table
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+Failed to extract data and update dataframes due to error.
+URL: NGBOViewPanelROL.aspx?PanelId=1-2JJUW5&RankingListId=1-2JJUWI
+Error: Problem with `filter()` input `..1`.
+[34mi[39m Input `..1` is `!str_detect(x, "../.*?/.")`.
+[31mx[39m object 'x' not found
+
+Failed links:
+
+[1] "ViewPanelROL.aspx?PanelId=4712&RankingListId=6238"            
+[2] "NGBOViewPanelROL.aspx?PanelId=1-4FQNTQ&RankingListId=1-4FQNTX"
+[3] "NGBOViewPanelROL.aspx?PanelId=1-8P3X0R&RankingListId=1-8P3X0Y"
+[4] "ViewPanelROL.aspx?PanelId=4367&RankingListId=5546"            
+[5] "NGBOViewPanelROL.aspx?PanelId=1-84ONYO&RankingListId=1-84O6SC"
+
+Finished data extraction from NGBOViewPanelROL.aspx?PanelId=1-2JJUW5&RankingListId=1-2JJUWI.
+
+NOTE: Log Print Time:  2021-07-27 12:57:09 
+NOTE: Elapsed Time in seconds: 16.7618079185486 
+
+=========================================================================
+
+Starting data extraction from NGBOViewPanelROL.aspx?PanelId=1-K1299&RankingListId=1-MET3L.
+
+Successfully extracted #dgGrants table
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+Failed to extract data and update dataframes due to error.
+URL: NGBOViewPanelROL.aspx?PanelId=1-K1299&RankingListId=1-MET3L
+Error: Problem with `filter()` input `..1`.
+[34mi[39m Input `..1` is `!str_detect(x, "../.*?/.")`.
+[31mx[39m object 'x' not found
+
+Failed links:
+
+[1] "ViewPanelROL.aspx?PanelId=4712&RankingListId=6238"            
+[2] "NGBOViewPanelROL.aspx?PanelId=1-4FQNTQ&RankingListId=1-4FQNTX"
+[3] "NGBOViewPanelROL.aspx?PanelId=1-8P3X0R&RankingListId=1-8P3X0Y"
+[4] "ViewPanelROL.aspx?PanelId=4367&RankingListId=5546"            
+[5] "NGBOViewPanelROL.aspx?PanelId=1-84ONYO&RankingListId=1-84O6SC"
+[6] "NGBOViewPanelROL.aspx?PanelId=1-2JJUW5&RankingListId=1-2JJUWI"
+
+Finished data extraction from NGBOViewPanelROL.aspx?PanelId=1-K1299&RankingListId=1-MET3L.
+
+NOTE: Log Print Time:  2021-07-27 12:57:25 
+NOTE: Elapsed Time in seconds: 16.1182601451874 
+
+=========================================================================
+
+Starting data extraction from ViewPanelROL.aspx?PanelId=4499&RankingListId=5814.
+
+Successfully extracted #dgGrants table
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+Failed to extract data and update dataframes due to error.
+URL: ViewPanelROL.aspx?PanelId=4499&RankingListId=5814
+Error: Problem with `filter()` input `..1`.
+[34mi[39m Input `..1` is `!str_detect(x, "../.*?/.")`.
+[31mx[39m object 'x' not found
+
+Failed links:
+
+[1] "ViewPanelROL.aspx?PanelId=4712&RankingListId=6238"            
+[2] "NGBOViewPanelROL.aspx?PanelId=1-4FQNTQ&RankingListId=1-4FQNTX"
+[3] "NGBOViewPanelROL.aspx?PanelId=1-8P3X0R&RankingListId=1-8P3X0Y"
+[4] "ViewPanelROL.aspx?PanelId=4367&RankingListId=5546"            
+[5] "NGBOViewPanelROL.aspx?PanelId=1-84ONYO&RankingListId=1-84O6SC"
+[6] "NGBOViewPanelROL.aspx?PanelId=1-2JJUW5&RankingListId=1-2JJUWI"
+[7] "NGBOViewPanelROL.aspx?PanelId=1-K1299&RankingListId=1-MET3L"  
+
+Finished data extraction from ViewPanelROL.aspx?PanelId=4499&RankingListId=5814.
+
+NOTE: Log Print Time:  2021-07-27 12:57:40 
+NOTE: Elapsed Time in seconds: 15.6163449287415 
+
+=========================================================================
+
+Starting data extraction from NGBOViewPanelROL.aspx?PanelId=1-14HOY3&RankingListId=1-1AUXGA.
+
+Successfully extracted #dgGrants table
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+Failed to extract data and update dataframes due to error.
+URL: NGBOViewPanelROL.aspx?PanelId=1-14HOY3&RankingListId=1-1AUXGA
+Error: Problem with `filter()` input `..1`.
+[34mi[39m Input `..1` is `!str_detect(x, "../.*?/.")`.
+[31mx[39m object 'x' not found
+
+Failed links:
+
+[1] "ViewPanelROL.aspx?PanelId=4712&RankingListId=6238"            
+[2] "NGBOViewPanelROL.aspx?PanelId=1-4FQNTQ&RankingListId=1-4FQNTX"
+[3] "NGBOViewPanelROL.aspx?PanelId=1-8P3X0R&RankingListId=1-8P3X0Y"
+[4] "ViewPanelROL.aspx?PanelId=4367&RankingListId=5546"            
+[5] "NGBOViewPanelROL.aspx?PanelId=1-84ONYO&RankingListId=1-84O6SC"
+[6] "NGBOViewPanelROL.aspx?PanelId=1-2JJUW5&RankingListId=1-2JJUWI"
+[7] "NGBOViewPanelROL.aspx?PanelId=1-K1299&RankingListId=1-MET3L"  
+[8] "ViewPanelROL.aspx?PanelId=4499&RankingListId=5814"            
+
+Finished data extraction from NGBOViewPanelROL.aspx?PanelId=1-14HOY3&RankingListId=1-1AUXGA.
+
+NOTE: Log Print Time:  2021-07-27 12:57:57 
+NOTE: Elapsed Time in seconds: 16.3717560768127 
+
+=========================================================================
+
+Starting data extraction from ViewPanelROL.aspx?PanelId=4493&RankingListId=5813.
+
+Successfully extracted #dgGrants table
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+Failed to extract data and update dataframes due to error.
+URL: ViewPanelROL.aspx?PanelId=4493&RankingListId=5813
+Error: Problem with `filter()` input `..1`.
+[34mi[39m Input `..1` is `!str_detect(x, "../.*?/.")`.
+[31mx[39m object 'x' not found
+
+Failed links:
+
+[1] "ViewPanelROL.aspx?PanelId=4712&RankingListId=6238"            
+[2] "NGBOViewPanelROL.aspx?PanelId=1-4FQNTQ&RankingListId=1-4FQNTX"
+[3] "NGBOViewPanelROL.aspx?PanelId=1-8P3X0R&RankingListId=1-8P3X0Y"
+[4] "ViewPanelROL.aspx?PanelId=4367&RankingListId=5546"            
+[5] "NGBOViewPanelROL.aspx?PanelId=1-84ONYO&RankingListId=1-84O6SC"
+[6] "NGBOViewPanelROL.aspx?PanelId=1-2JJUW5&RankingListId=1-2JJUWI"
+[7] "NGBOViewPanelROL.aspx?PanelId=1-K1299&RankingListId=1-MET3L"  
+[8] "ViewPanelROL.aspx?PanelId=4499&RankingListId=5814"            
+[9] "NGBOViewPanelROL.aspx?PanelId=1-14HOY3&RankingListId=1-1AUXGA"
+
+Finished data extraction from ViewPanelROL.aspx?PanelId=4493&RankingListId=5813.
+
+NOTE: Log Print Time:  2021-07-27 12:58:12 
+NOTE: Elapsed Time in seconds: 15.5669288635254 
+
+=========================================================================
+
+Starting data extraction from NGBOViewPanelROL.aspx?PanelId=1-AHM16Z&RankingListId=1-AHM176.
+
+Successfully extracted #dgGrants table
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+Failed to extract data and update dataframes due to error.
+URL: NGBOViewPanelROL.aspx?PanelId=1-AHM16Z&RankingListId=1-AHM176
+Error: Problem with `filter()` input `..1`.
+[34mi[39m Input `..1` is `!str_detect(x, "../.*?/.")`.
+[31mx[39m object 'x' not found
+
+Failed links:
+
+ [1] "ViewPanelROL.aspx?PanelId=4712&RankingListId=6238"            
+ [2] "NGBOViewPanelROL.aspx?PanelId=1-4FQNTQ&RankingListId=1-4FQNTX"
+ [3] "NGBOViewPanelROL.aspx?PanelId=1-8P3X0R&RankingListId=1-8P3X0Y"
+ [4] "ViewPanelROL.aspx?PanelId=4367&RankingListId=5546"            
+ [5] "NGBOViewPanelROL.aspx?PanelId=1-84ONYO&RankingListId=1-84O6SC"
+ [6] "NGBOViewPanelROL.aspx?PanelId=1-2JJUW5&RankingListId=1-2JJUWI"
+ [7] "NGBOViewPanelROL.aspx?PanelId=1-K1299&RankingListId=1-MET3L"  
+ [8] "ViewPanelROL.aspx?PanelId=4499&RankingListId=5814"            
+ [9] "NGBOViewPanelROL.aspx?PanelId=1-14HOY3&RankingListId=1-1AUXGA"
+[10] "ViewPanelROL.aspx?PanelId=4493&RankingListId=5813"            
+
+Finished data extraction from NGBOViewPanelROL.aspx?PanelId=1-AHM16Z&RankingListId=1-AHM176.
+
+NOTE: Log Print Time:  2021-07-27 12:58:29 
+NOTE: Elapsed Time in seconds: 16.2144451141357 
+
+=========================================================================
+
+Starting data extraction from ViewPanelROL.aspx?PanelId=4756&RankingListId=6325.
+
+Successfully extracted #dgGrants table
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+Failed to extract data and update dataframes due to error.
+URL: ViewPanelROL.aspx?PanelId=4756&RankingListId=6325
+Error: Problem with `filter()` input `..1`.
+[34mi[39m Input `..1` is `!str_detect(x, "../.*?/.")`.
+[31mx[39m object 'x' not found
+
+Failed links:
+
+ [1] "ViewPanelROL.aspx?PanelId=4712&RankingListId=6238"            
+ [2] "NGBOViewPanelROL.aspx?PanelId=1-4FQNTQ&RankingListId=1-4FQNTX"
+ [3] "NGBOViewPanelROL.aspx?PanelId=1-8P3X0R&RankingListId=1-8P3X0Y"
+ [4] "ViewPanelROL.aspx?PanelId=4367&RankingListId=5546"            
+ [5] "NGBOViewPanelROL.aspx?PanelId=1-84ONYO&RankingListId=1-84O6SC"
+ [6] "NGBOViewPanelROL.aspx?PanelId=1-2JJUW5&RankingListId=1-2JJUWI"
+ [7] "NGBOViewPanelROL.aspx?PanelId=1-K1299&RankingListId=1-MET3L"  
+ [8] "ViewPanelROL.aspx?PanelId=4499&RankingListId=5814"            
+ [9] "NGBOViewPanelROL.aspx?PanelId=1-14HOY3&RankingListId=1-1AUXGA"
+[10] "ViewPanelROL.aspx?PanelId=4493&RankingListId=5813"            
+[11] "NGBOViewPanelROL.aspx?PanelId=1-AHM16Z&RankingListId=1-AHM176"
+
+Finished data extraction from ViewPanelROL.aspx?PanelId=4756&RankingListId=6325.
+
+NOTE: Log Print Time:  2021-07-27 12:58:44 
+NOTE: Elapsed Time in seconds: 15.5482549667358 
+
+=========================================================================
+
+Starting data extraction from NGBOViewPanelROL.aspx?PanelId=1-4NKSJ7&RankingListId=1-4NKSJZ.
+
+Successfully extracted #dgGrants table
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+Failed to extract data and update dataframes due to error.
+URL: NGBOViewPanelROL.aspx?PanelId=1-4NKSJ7&RankingListId=1-4NKSJZ
+Error: Problem with `filter()` input `..1`.
+[34mi[39m Input `..1` is `!str_detect(x, "../.*?/.")`.
+[31mx[39m object 'x' not found
+
+Failed links:
+
+ [1] "ViewPanelROL.aspx?PanelId=4712&RankingListId=6238"            
+ [2] "NGBOViewPanelROL.aspx?PanelId=1-4FQNTQ&RankingListId=1-4FQNTX"
+ [3] "NGBOViewPanelROL.aspx?PanelId=1-8P3X0R&RankingListId=1-8P3X0Y"
+ [4] "ViewPanelROL.aspx?PanelId=4367&RankingListId=5546"            
+ [5] "NGBOViewPanelROL.aspx?PanelId=1-84ONYO&RankingListId=1-84O6SC"
+ [6] "NGBOViewPanelROL.aspx?PanelId=1-2JJUW5&RankingListId=1-2JJUWI"
+ [7] "NGBOViewPanelROL.aspx?PanelId=1-K1299&RankingListId=1-MET3L"  
+ [8] "ViewPanelROL.aspx?PanelId=4499&RankingListId=5814"            
+ [9] "NGBOViewPanelROL.aspx?PanelId=1-14HOY3&RankingListId=1-1AUXGA"
+[10] "ViewPanelROL.aspx?PanelId=4493&RankingListId=5813"            
+[11] "NGBOViewPanelROL.aspx?PanelId=1-AHM16Z&RankingListId=1-AHM176"
+[12] "ViewPanelROL.aspx?PanelId=4756&RankingListId=6325"            
+
+Finished data extraction from NGBOViewPanelROL.aspx?PanelId=1-4NKSJ7&RankingListId=1-4NKSJZ.
+
+NOTE: Log Print Time:  2021-07-27 12:59:00 
+NOTE: Elapsed Time in seconds: 16.2407999038696 
+
+=========================================================================
+
+Starting data extraction from NGBOViewPanelROL.aspx?PanelId=1-1ZAC4J&RankingListId=1-1ZAC4Q.
+
+Successfully extracted #dgGrants table
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+Failed to extract data and update dataframes due to error.
+URL: NGBOViewPanelROL.aspx?PanelId=1-1ZAC4J&RankingListId=1-1ZAC4Q
+Error: Problem with `filter()` input `..1`.
+[34mi[39m Input `..1` is `!str_detect(x, "../.*?/.")`.
+[31mx[39m object 'x' not found
+
+Failed links:
+
+ [1] "ViewPanelROL.aspx?PanelId=4712&RankingListId=6238"            
+ [2] "NGBOViewPanelROL.aspx?PanelId=1-4FQNTQ&RankingListId=1-4FQNTX"
+ [3] "NGBOViewPanelROL.aspx?PanelId=1-8P3X0R&RankingListId=1-8P3X0Y"
+ [4] "ViewPanelROL.aspx?PanelId=4367&RankingListId=5546"            
+ [5] "NGBOViewPanelROL.aspx?PanelId=1-84ONYO&RankingListId=1-84O6SC"
+ [6] "NGBOViewPanelROL.aspx?PanelId=1-2JJUW5&RankingListId=1-2JJUWI"
+ [7] "NGBOViewPanelROL.aspx?PanelId=1-K1299&RankingListId=1-MET3L"  
+ [8] "ViewPanelROL.aspx?PanelId=4499&RankingListId=5814"            
+ [9] "NGBOViewPanelROL.aspx?PanelId=1-14HOY3&RankingListId=1-1AUXGA"
+[10] "ViewPanelROL.aspx?PanelId=4493&RankingListId=5813"            
+[11] "NGBOViewPanelROL.aspx?PanelId=1-AHM16Z&RankingListId=1-AHM176"
+[12] "ViewPanelROL.aspx?PanelId=4756&RankingListId=6325"            
+[13] "NGBOViewPanelROL.aspx?PanelId=1-4NKSJ7&RankingListId=1-4NKSJZ"
+
+Finished data extraction from NGBOViewPanelROL.aspx?PanelId=1-1ZAC4J&RankingListId=1-1ZAC4Q.
+
+NOTE: Log Print Time:  2021-07-27 12:59:17 
+NOTE: Elapsed Time in seconds: 16.3486421108246 
+
+=========================================================================
+
+Starting data extraction from NGBOViewPanelROL.aspx?PanelId=1-43QUA9&RankingListId=1-43QUCE.
+
+Successfully extracted #dgGrants table
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+Failed to extract data and update dataframes due to error.
+URL: NGBOViewPanelROL.aspx?PanelId=1-43QUA9&RankingListId=1-43QUCE
+Error: Problem with `filter()` input `..1`.
+[34mi[39m Input `..1` is `!str_detect(x, "../.*?/.")`.
+[31mx[39m object 'x' not found
+
+Failed links:
+
+ [1] "ViewPanelROL.aspx?PanelId=4712&RankingListId=6238"            
+ [2] "NGBOViewPanelROL.aspx?PanelId=1-4FQNTQ&RankingListId=1-4FQNTX"
+ [3] "NGBOViewPanelROL.aspx?PanelId=1-8P3X0R&RankingListId=1-8P3X0Y"
+ [4] "ViewPanelROL.aspx?PanelId=4367&RankingListId=5546"            
+ [5] "NGBOViewPanelROL.aspx?PanelId=1-84ONYO&RankingListId=1-84O6SC"
+ [6] "NGBOViewPanelROL.aspx?PanelId=1-2JJUW5&RankingListId=1-2JJUWI"
+ [7] "NGBOViewPanelROL.aspx?PanelId=1-K1299&RankingListId=1-MET3L"  
+ [8] "ViewPanelROL.aspx?PanelId=4499&RankingListId=5814"            
+ [9] "NGBOViewPanelROL.aspx?PanelId=1-14HOY3&RankingListId=1-1AUXGA"
+[10] "ViewPanelROL.aspx?PanelId=4493&RankingListId=5813"            
+[11] "NGBOViewPanelROL.aspx?PanelId=1-AHM16Z&RankingListId=1-AHM176"
+[12] "ViewPanelROL.aspx?PanelId=4756&RankingListId=6325"            
+[13] "NGBOViewPanelROL.aspx?PanelId=1-4NKSJ7&RankingListId=1-4NKSJZ"
+[14] "NGBOViewPanelROL.aspx?PanelId=1-1ZAC4J&RankingListId=1-1ZAC4Q"
+
+Finished data extraction from NGBOViewPanelROL.aspx?PanelId=1-43QUA9&RankingListId=1-43QUCE.
+
+NOTE: Log Print Time:  2021-07-27 12:59:33 
+NOTE: Elapsed Time in seconds: 16.3436260223389 
+
+=========================================================================
+
+Starting data extraction from NGBOViewPanelROL.aspx?PanelId=1-KI096&RankingListId=1-MGYVG.
+
+Successfully extracted #dgGrants table
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+Failed to extract data and update dataframes due to error.
+URL: NGBOViewPanelROL.aspx?PanelId=1-KI096&RankingListId=1-MGYVG
+Error: Problem with `filter()` input `..1`.
+[34mi[39m Input `..1` is `!str_detect(x, "../.*?/.")`.
+[31mx[39m object 'x' not found
+
+Failed links:
+
+ [1] "ViewPanelROL.aspx?PanelId=4712&RankingListId=6238"            
+ [2] "NGBOViewPanelROL.aspx?PanelId=1-4FQNTQ&RankingListId=1-4FQNTX"
+ [3] "NGBOViewPanelROL.aspx?PanelId=1-8P3X0R&RankingListId=1-8P3X0Y"
+ [4] "ViewPanelROL.aspx?PanelId=4367&RankingListId=5546"            
+ [5] "NGBOViewPanelROL.aspx?PanelId=1-84ONYO&RankingListId=1-84O6SC"
+ [6] "NGBOViewPanelROL.aspx?PanelId=1-2JJUW5&RankingListId=1-2JJUWI"
+ [7] "NGBOViewPanelROL.aspx?PanelId=1-K1299&RankingListId=1-MET3L"  
+ [8] "ViewPanelROL.aspx?PanelId=4499&RankingListId=5814"            
+ [9] "NGBOViewPanelROL.aspx?PanelId=1-14HOY3&RankingListId=1-1AUXGA"
+[10] "ViewPanelROL.aspx?PanelId=4493&RankingListId=5813"            
+[11] "NGBOViewPanelROL.aspx?PanelId=1-AHM16Z&RankingListId=1-AHM176"
+[12] "ViewPanelROL.aspx?PanelId=4756&RankingListId=6325"            
+[13] "NGBOViewPanelROL.aspx?PanelId=1-4NKSJ7&RankingListId=1-4NKSJZ"
+[14] "NGBOViewPanelROL.aspx?PanelId=1-1ZAC4J&RankingListId=1-1ZAC4Q"
+[15] "NGBOViewPanelROL.aspx?PanelId=1-43QUA9&RankingListId=1-43QUCE"
+
+Finished data extraction from NGBOViewPanelROL.aspx?PanelId=1-KI096&RankingListId=1-MGYVG.
+
+NOTE: Log Print Time:  2021-07-27 12:59:49 
+NOTE: Elapsed Time in seconds: 16.2541780471802 
+
+=========================================================================
+
+Starting data extraction from NGBOViewPanelROL.aspx?PanelId=1-40BYJJ&RankingListId=1-40BYJQ.
+
+Successfully extracted #dgGrants table
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+Failed to extract data and update dataframes due to error.
+URL: NGBOViewPanelROL.aspx?PanelId=1-40BYJJ&RankingListId=1-40BYJQ
+Error: Problem with `filter()` input `..1`.
+[34mi[39m Input `..1` is `!str_detect(x, "../.*?/.")`.
+[31mx[39m object 'x' not found
+
+Failed links:
+
+ [1] "ViewPanelROL.aspx?PanelId=4712&RankingListId=6238"            
+ [2] "NGBOViewPanelROL.aspx?PanelId=1-4FQNTQ&RankingListId=1-4FQNTX"
+ [3] "NGBOViewPanelROL.aspx?PanelId=1-8P3X0R&RankingListId=1-8P3X0Y"
+ [4] "ViewPanelROL.aspx?PanelId=4367&RankingListId=5546"            
+ [5] "NGBOViewPanelROL.aspx?PanelId=1-84ONYO&RankingListId=1-84O6SC"
+ [6] "NGBOViewPanelROL.aspx?PanelId=1-2JJUW5&RankingListId=1-2JJUWI"
+ [7] "NGBOViewPanelROL.aspx?PanelId=1-K1299&RankingListId=1-MET3L"  
+ [8] "ViewPanelROL.aspx?PanelId=4499&RankingListId=5814"            
+ [9] "NGBOViewPanelROL.aspx?PanelId=1-14HOY3&RankingListId=1-1AUXGA"
+[10] "ViewPanelROL.aspx?PanelId=4493&RankingListId=5813"            
+[11] "NGBOViewPanelROL.aspx?PanelId=1-AHM16Z&RankingListId=1-AHM176"
+[12] "ViewPanelROL.aspx?PanelId=4756&RankingListId=6325"            
+[13] "NGBOViewPanelROL.aspx?PanelId=1-4NKSJ7&RankingListId=1-4NKSJZ"
+[14] "NGBOViewPanelROL.aspx?PanelId=1-1ZAC4J&RankingListId=1-1ZAC4Q"
+[15] "NGBOViewPanelROL.aspx?PanelId=1-43QUA9&RankingListId=1-43QUCE"
+[16] "NGBOViewPanelROL.aspx?PanelId=1-KI096&RankingListId=1-MGYVG"  
+
+Finished data extraction from NGBOViewPanelROL.aspx?PanelId=1-40BYJJ&RankingListId=1-40BYJQ.
+
+NOTE: Log Print Time:  2021-07-27 13:00:06 
+NOTE: Elapsed Time in seconds: 16.6657528877258 
+
+=========================================================================
+
+Starting data extraction from NGBOViewPanelROL.aspx?PanelId=1-1IF3Z8&RankingListId=1-1IF3ZG.
+
+Successfully extracted #dgGrants table
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+Failed to extract data and update dataframes due to error.
+URL: NGBOViewPanelROL.aspx?PanelId=1-1IF3Z8&RankingListId=1-1IF3ZG
+Error: Problem with `filter()` input `..1`.
+[34mi[39m Input `..1` is `!str_detect(x, "../.*?/.")`.
+[31mx[39m object 'x' not found
+
+Failed links:
+
+ [1] "ViewPanelROL.aspx?PanelId=4712&RankingListId=6238"            
+ [2] "NGBOViewPanelROL.aspx?PanelId=1-4FQNTQ&RankingListId=1-4FQNTX"
+ [3] "NGBOViewPanelROL.aspx?PanelId=1-8P3X0R&RankingListId=1-8P3X0Y"
+ [4] "ViewPanelROL.aspx?PanelId=4367&RankingListId=5546"            
+ [5] "NGBOViewPanelROL.aspx?PanelId=1-84ONYO&RankingListId=1-84O6SC"
+ [6] "NGBOViewPanelROL.aspx?PanelId=1-2JJUW5&RankingListId=1-2JJUWI"
+ [7] "NGBOViewPanelROL.aspx?PanelId=1-K1299&RankingListId=1-MET3L"  
+ [8] "ViewPanelROL.aspx?PanelId=4499&RankingListId=5814"            
+ [9] "NGBOViewPanelROL.aspx?PanelId=1-14HOY3&RankingListId=1-1AUXGA"
+[10] "ViewPanelROL.aspx?PanelId=4493&RankingListId=5813"            
+[11] "NGBOViewPanelROL.aspx?PanelId=1-AHM16Z&RankingListId=1-AHM176"
+[12] "ViewPanelROL.aspx?PanelId=4756&RankingListId=6325"            
+[13] "NGBOViewPanelROL.aspx?PanelId=1-4NKSJ7&RankingListId=1-4NKSJZ"
+[14] "NGBOViewPanelROL.aspx?PanelId=1-1ZAC4J&RankingListId=1-1ZAC4Q"
+[15] "NGBOViewPanelROL.aspx?PanelId=1-43QUA9&RankingListId=1-43QUCE"
+[16] "NGBOViewPanelROL.aspx?PanelId=1-KI096&RankingListId=1-MGYVG"  
+[17] "NGBOViewPanelROL.aspx?PanelId=1-40BYJJ&RankingListId=1-40BYJQ"
+
+Finished data extraction from NGBOViewPanelROL.aspx?PanelId=1-1IF3Z8&RankingListId=1-1IF3ZG.
+
+NOTE: Log Print Time:  2021-07-27 13:00:22 
+NOTE: Elapsed Time in seconds: 16.4425101280212 
+
+=========================================================================
+
+Starting data extraction from NGBOViewPanelROL.aspx?PanelId=1-84ONUT&RankingListId=1-84ONW6.
+
+Successfully extracted #dgGrants table
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+Failed to extract data and update dataframes due to error.
+URL: NGBOViewPanelROL.aspx?PanelId=1-84ONUT&RankingListId=1-84ONW6
+Error: Problem with `filter()` input `..1`.
+[34mi[39m Input `..1` is `!str_detect(x, "../.*?/.")`.
+[31mx[39m object 'x' not found
+
+Failed links:
+
+ [1] "ViewPanelROL.aspx?PanelId=4712&RankingListId=6238"            
+ [2] "NGBOViewPanelROL.aspx?PanelId=1-4FQNTQ&RankingListId=1-4FQNTX"
+ [3] "NGBOViewPanelROL.aspx?PanelId=1-8P3X0R&RankingListId=1-8P3X0Y"
+ [4] "ViewPanelROL.aspx?PanelId=4367&RankingListId=5546"            
+ [5] "NGBOViewPanelROL.aspx?PanelId=1-84ONYO&RankingListId=1-84O6SC"
+ [6] "NGBOViewPanelROL.aspx?PanelId=1-2JJUW5&RankingListId=1-2JJUWI"
+ [7] "NGBOViewPanelROL.aspx?PanelId=1-K1299&RankingListId=1-MET3L"  
+ [8] "ViewPanelROL.aspx?PanelId=4499&RankingListId=5814"            
+ [9] "NGBOViewPanelROL.aspx?PanelId=1-14HOY3&RankingListId=1-1AUXGA"
+[10] "ViewPanelROL.aspx?PanelId=4493&RankingListId=5813"            
+[11] "NGBOViewPanelROL.aspx?PanelId=1-AHM16Z&RankingListId=1-AHM176"
+[12] "ViewPanelROL.aspx?PanelId=4756&RankingListId=6325"            
+[13] "NGBOViewPanelROL.aspx?PanelId=1-4NKSJ7&RankingListId=1-4NKSJZ"
+[14] "NGBOViewPanelROL.aspx?PanelId=1-1ZAC4J&RankingListId=1-1ZAC4Q"
+[15] "NGBOViewPanelROL.aspx?PanelId=1-43QUA9&RankingListId=1-43QUCE"
+[16] "NGBOViewPanelROL.aspx?PanelId=1-KI096&RankingListId=1-MGYVG"  
+[17] "NGBOViewPanelROL.aspx?PanelId=1-40BYJJ&RankingListId=1-40BYJQ"
+[18] "NGBOViewPanelROL.aspx?PanelId=1-1IF3Z8&RankingListId=1-1IF3ZG"
+
+Finished data extraction from NGBOViewPanelROL.aspx?PanelId=1-84ONUT&RankingListId=1-84ONW6.
+
+NOTE: Log Print Time:  2021-07-27 13:00:39 
+NOTE: Elapsed Time in seconds: 16.2769939899445 
+
+=========================================================================
+
+Starting data extraction from NGBOViewPanelROL.aspx?PanelId=1-3JHUT&RankingListId=1-3JHUY.
+
+Successfully extracted #dgGrants table
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+Failed to extract data and update dataframes due to error.
+URL: NGBOViewPanelROL.aspx?PanelId=1-3JHUT&RankingListId=1-3JHUY
+Error: Problem with `filter()` input `..1`.
+[34mi[39m Input `..1` is `!str_detect(x, "../.*?/.")`.
+[31mx[39m object 'x' not found
+
+Failed links:
+
+ [1] "ViewPanelROL.aspx?PanelId=4712&RankingListId=6238"            
+ [2] "NGBOViewPanelROL.aspx?PanelId=1-4FQNTQ&RankingListId=1-4FQNTX"
+ [3] "NGBOViewPanelROL.aspx?PanelId=1-8P3X0R&RankingListId=1-8P3X0Y"
+ [4] "ViewPanelROL.aspx?PanelId=4367&RankingListId=5546"            
+ [5] "NGBOViewPanelROL.aspx?PanelId=1-84ONYO&RankingListId=1-84O6SC"
+ [6] "NGBOViewPanelROL.aspx?PanelId=1-2JJUW5&RankingListId=1-2JJUWI"
+ [7] "NGBOViewPanelROL.aspx?PanelId=1-K1299&RankingListId=1-MET3L"  
+ [8] "ViewPanelROL.aspx?PanelId=4499&RankingListId=5814"            
+ [9] "NGBOViewPanelROL.aspx?PanelId=1-14HOY3&RankingListId=1-1AUXGA"
+[10] "ViewPanelROL.aspx?PanelId=4493&RankingListId=5813"            
+[11] "NGBOViewPanelROL.aspx?PanelId=1-AHM16Z&RankingListId=1-AHM176"
+[12] "ViewPanelROL.aspx?PanelId=4756&RankingListId=6325"            
+[13] "NGBOViewPanelROL.aspx?PanelId=1-4NKSJ7&RankingListId=1-4NKSJZ"
+[14] "NGBOViewPanelROL.aspx?PanelId=1-1ZAC4J&RankingListId=1-1ZAC4Q"
+[15] "NGBOViewPanelROL.aspx?PanelId=1-43QUA9&RankingListId=1-43QUCE"
+[16] "NGBOViewPanelROL.aspx?PanelId=1-KI096&RankingListId=1-MGYVG"  
+[17] "NGBOViewPanelROL.aspx?PanelId=1-40BYJJ&RankingListId=1-40BYJQ"
+[18] "NGBOViewPanelROL.aspx?PanelId=1-1IF3Z8&RankingListId=1-1IF3ZG"
+[19] "NGBOViewPanelROL.aspx?PanelId=1-84ONUT&RankingListId=1-84ONW6"
+
+Finished data extraction from NGBOViewPanelROL.aspx?PanelId=1-3JHUT&RankingListId=1-3JHUY.
+
+NOTE: Log Print Time:  2021-07-27 13:00:55 
+NOTE: Elapsed Time in seconds: 16.3509469032288 
+
+=========================================================================
+
+Starting data extraction from NGBOViewPanelROL.aspx?PanelId=1-A294RM&RankingListId=1-A2HFUU.
+
+Successfully extracted #dgGrants table
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+Failed to extract data and update dataframes due to error.
+URL: NGBOViewPanelROL.aspx?PanelId=1-A294RM&RankingListId=1-A2HFUU
+Error: Problem with `filter()` input `..1`.
+[34mi[39m Input `..1` is `!str_detect(x, "../.*?/.")`.
+[31mx[39m object 'x' not found
+
+Failed links:
+
+ [1] "ViewPanelROL.aspx?PanelId=4712&RankingListId=6238"            
+ [2] "NGBOViewPanelROL.aspx?PanelId=1-4FQNTQ&RankingListId=1-4FQNTX"
+ [3] "NGBOViewPanelROL.aspx?PanelId=1-8P3X0R&RankingListId=1-8P3X0Y"
+ [4] "ViewPanelROL.aspx?PanelId=4367&RankingListId=5546"            
+ [5] "NGBOViewPanelROL.aspx?PanelId=1-84ONYO&RankingListId=1-84O6SC"
+ [6] "NGBOViewPanelROL.aspx?PanelId=1-2JJUW5&RankingListId=1-2JJUWI"
+ [7] "NGBOViewPanelROL.aspx?PanelId=1-K1299&RankingListId=1-MET3L"  
+ [8] "ViewPanelROL.aspx?PanelId=4499&RankingListId=5814"            
+ [9] "NGBOViewPanelROL.aspx?PanelId=1-14HOY3&RankingListId=1-1AUXGA"
+[10] "ViewPanelROL.aspx?PanelId=4493&RankingListId=5813"            
+[11] "NGBOViewPanelROL.aspx?PanelId=1-AHM16Z&RankingListId=1-AHM176"
+[12] "ViewPanelROL.aspx?PanelId=4756&RankingListId=6325"            
+[13] "NGBOViewPanelROL.aspx?PanelId=1-4NKSJ7&RankingListId=1-4NKSJZ"
+[14] "NGBOViewPanelROL.aspx?PanelId=1-1ZAC4J&RankingListId=1-1ZAC4Q"
+[15] "NGBOViewPanelROL.aspx?PanelId=1-43QUA9&RankingListId=1-43QUCE"
+[16] "NGBOViewPanelROL.aspx?PanelId=1-KI096&RankingListId=1-MGYVG"  
+[17] "NGBOViewPanelROL.aspx?PanelId=1-40BYJJ&RankingListId=1-40BYJQ"
+[18] "NGBOViewPanelROL.aspx?PanelId=1-1IF3Z8&RankingListId=1-1IF3ZG"
+[19] "NGBOViewPanelROL.aspx?PanelId=1-84ONUT&RankingListId=1-84ONW6"
+[20] "NGBOViewPanelROL.aspx?PanelId=1-3JHUT&RankingListId=1-3JHUY"  
+
+Finished data extraction from NGBOViewPanelROL.aspx?PanelId=1-A294RM&RankingListId=1-A2HFUU.
+
+NOTE: Log Print Time:  2021-07-27 13:01:11 
+NOTE: Elapsed Time in seconds: 16.3932309150696 
+
+=========================================================================
+
+Starting data extraction from NGBOViewPanelROL.aspx?PanelId=1-4ZGUM8&RankingListId=1-580H7S.
+
+Successfully extracted #dgGrants table
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+Failed to extract data and update dataframes due to error.
+URL: NGBOViewPanelROL.aspx?PanelId=1-4ZGUM8&RankingListId=1-580H7S
+Error: Problem with `filter()` input `..1`.
+[34mi[39m Input `..1` is `!str_detect(x, "../.*?/.")`.
+[31mx[39m object 'x' not found
+
+Failed links:
+
+ [1] "ViewPanelROL.aspx?PanelId=4712&RankingListId=6238"            
+ [2] "NGBOViewPanelROL.aspx?PanelId=1-4FQNTQ&RankingListId=1-4FQNTX"
+ [3] "NGBOViewPanelROL.aspx?PanelId=1-8P3X0R&RankingListId=1-8P3X0Y"
+ [4] "ViewPanelROL.aspx?PanelId=4367&RankingListId=5546"            
+ [5] "NGBOViewPanelROL.aspx?PanelId=1-84ONYO&RankingListId=1-84O6SC"
+ [6] "NGBOViewPanelROL.aspx?PanelId=1-2JJUW5&RankingListId=1-2JJUWI"
+ [7] "NGBOViewPanelROL.aspx?PanelId=1-K1299&RankingListId=1-MET3L"  
+ [8] "ViewPanelROL.aspx?PanelId=4499&RankingListId=5814"            
+ [9] "NGBOViewPanelROL.aspx?PanelId=1-14HOY3&RankingListId=1-1AUXGA"
+[10] "ViewPanelROL.aspx?PanelId=4493&RankingListId=5813"            
+[11] "NGBOViewPanelROL.aspx?PanelId=1-AHM16Z&RankingListId=1-AHM176"
+[12] "ViewPanelROL.aspx?PanelId=4756&RankingListId=6325"            
+[13] "NGBOViewPanelROL.aspx?PanelId=1-4NKSJ7&RankingListId=1-4NKSJZ"
+[14] "NGBOViewPanelROL.aspx?PanelId=1-1ZAC4J&RankingListId=1-1ZAC4Q"
+[15] "NGBOViewPanelROL.aspx?PanelId=1-43QUA9&RankingListId=1-43QUCE"
+[16] "NGBOViewPanelROL.aspx?PanelId=1-KI096&RankingListId=1-MGYVG"  
+[17] "NGBOViewPanelROL.aspx?PanelId=1-40BYJJ&RankingListId=1-40BYJQ"
+[18] "NGBOViewPanelROL.aspx?PanelId=1-1IF3Z8&RankingListId=1-1IF3ZG"
+[19] "NGBOViewPanelROL.aspx?PanelId=1-84ONUT&RankingListId=1-84ONW6"
+[20] "NGBOViewPanelROL.aspx?PanelId=1-3JHUT&RankingListId=1-3JHUY"  
+[21] "NGBOViewPanelROL.aspx?PanelId=1-A294RM&RankingListId=1-A2HFUU"
+
+Finished data extraction from NGBOViewPanelROL.aspx?PanelId=1-4ZGUM8&RankingListId=1-580H7S.
+
+NOTE: Log Print Time:  2021-07-27 13:01:28 
+NOTE: Elapsed Time in seconds: 16.2949180603027 
+
+=========================================================================
+
+Starting data extraction from NGBOViewPanelROL.aspx?PanelId=1-GE81B&RankingListId=1-GE81G.
+
+Successfully extracted #dgGrants table
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+Failed to extract data and update dataframes due to error.
+URL: NGBOViewPanelROL.aspx?PanelId=1-GE81B&RankingListId=1-GE81G
+Error: Problem with `filter()` input `..1`.
+[34mi[39m Input `..1` is `!str_detect(x, "../.*?/.")`.
+[31mx[39m object 'x' not found
+
+Failed links:
+
+ [1] "ViewPanelROL.aspx?PanelId=4712&RankingListId=6238"            
+ [2] "NGBOViewPanelROL.aspx?PanelId=1-4FQNTQ&RankingListId=1-4FQNTX"
+ [3] "NGBOViewPanelROL.aspx?PanelId=1-8P3X0R&RankingListId=1-8P3X0Y"
+ [4] "ViewPanelROL.aspx?PanelId=4367&RankingListId=5546"            
+ [5] "NGBOViewPanelROL.aspx?PanelId=1-84ONYO&RankingListId=1-84O6SC"
+ [6] "NGBOViewPanelROL.aspx?PanelId=1-2JJUW5&RankingListId=1-2JJUWI"
+ [7] "NGBOViewPanelROL.aspx?PanelId=1-K1299&RankingListId=1-MET3L"  
+ [8] "ViewPanelROL.aspx?PanelId=4499&RankingListId=5814"            
+ [9] "NGBOViewPanelROL.aspx?PanelId=1-14HOY3&RankingListId=1-1AUXGA"
+[10] "ViewPanelROL.aspx?PanelId=4493&RankingListId=5813"            
+[11] "NGBOViewPanelROL.aspx?PanelId=1-AHM16Z&RankingListId=1-AHM176"
+[12] "ViewPanelROL.aspx?PanelId=4756&RankingListId=6325"            
+[13] "NGBOViewPanelROL.aspx?PanelId=1-4NKSJ7&RankingListId=1-4NKSJZ"
+[14] "NGBOViewPanelROL.aspx?PanelId=1-1ZAC4J&RankingListId=1-1ZAC4Q"
+[15] "NGBOViewPanelROL.aspx?PanelId=1-43QUA9&RankingListId=1-43QUCE"
+[16] "NGBOViewPanelROL.aspx?PanelId=1-KI096&RankingListId=1-MGYVG"  
+[17] "NGBOViewPanelROL.aspx?PanelId=1-40BYJJ&RankingListId=1-40BYJQ"
+[18] "NGBOViewPanelROL.aspx?PanelId=1-1IF3Z8&RankingListId=1-1IF3ZG"
+[19] "NGBOViewPanelROL.aspx?PanelId=1-84ONUT&RankingListId=1-84ONW6"
+[20] "NGBOViewPanelROL.aspx?PanelId=1-3JHUT&RankingListId=1-3JHUY"  
+[21] "NGBOViewPanelROL.aspx?PanelId=1-A294RM&RankingListId=1-A2HFUU"
+[22] "NGBOViewPanelROL.aspx?PanelId=1-4ZGUM8&RankingListId=1-580H7S"
+
+Finished data extraction from NGBOViewPanelROL.aspx?PanelId=1-GE81B&RankingListId=1-GE81G.
+
+NOTE: Log Print Time:  2021-07-27 13:01:44 
+NOTE: Elapsed Time in seconds: 16.4017190933228 
+
+=========================================================================
+
+Starting data extraction from NGBOViewPanelROL.aspx?PanelId=1-3AUBGK&RankingListId=1-3AUFGZ.
+
+Successfully extracted #dgGrants table
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+Failed to extract data and update dataframes due to error.
+URL: NGBOViewPanelROL.aspx?PanelId=1-3AUBGK&RankingListId=1-3AUFGZ
+Error: Problem with `filter()` input `..1`.
+[34mi[39m Input `..1` is `!str_detect(x, "../.*?/.")`.
+[31mx[39m object 'x' not found
+
+Failed links:
+
+ [1] "ViewPanelROL.aspx?PanelId=4712&RankingListId=6238"            
+ [2] "NGBOViewPanelROL.aspx?PanelId=1-4FQNTQ&RankingListId=1-4FQNTX"
+ [3] "NGBOViewPanelROL.aspx?PanelId=1-8P3X0R&RankingListId=1-8P3X0Y"
+ [4] "ViewPanelROL.aspx?PanelId=4367&RankingListId=5546"            
+ [5] "NGBOViewPanelROL.aspx?PanelId=1-84ONYO&RankingListId=1-84O6SC"
+ [6] "NGBOViewPanelROL.aspx?PanelId=1-2JJUW5&RankingListId=1-2JJUWI"
+ [7] "NGBOViewPanelROL.aspx?PanelId=1-K1299&RankingListId=1-MET3L"  
+ [8] "ViewPanelROL.aspx?PanelId=4499&RankingListId=5814"            
+ [9] "NGBOViewPanelROL.aspx?PanelId=1-14HOY3&RankingListId=1-1AUXGA"
+[10] "ViewPanelROL.aspx?PanelId=4493&RankingListId=5813"            
+[11] "NGBOViewPanelROL.aspx?PanelId=1-AHM16Z&RankingListId=1-AHM176"
+[12] "ViewPanelROL.aspx?PanelId=4756&RankingListId=6325"            
+[13] "NGBOViewPanelROL.aspx?PanelId=1-4NKSJ7&RankingListId=1-4NKSJZ"
+[14] "NGBOViewPanelROL.aspx?PanelId=1-1ZAC4J&RankingListId=1-1ZAC4Q"
+[15] "NGBOViewPanelROL.aspx?PanelId=1-43QUA9&RankingListId=1-43QUCE"
+[16] "NGBOViewPanelROL.aspx?PanelId=1-KI096&RankingListId=1-MGYVG"  
+[17] "NGBOViewPanelROL.aspx?PanelId=1-40BYJJ&RankingListId=1-40BYJQ"
+[18] "NGBOViewPanelROL.aspx?PanelId=1-1IF3Z8&RankingListId=1-1IF3ZG"
+[19] "NGBOViewPanelROL.aspx?PanelId=1-84ONUT&RankingListId=1-84ONW6"
+[20] "NGBOViewPanelROL.aspx?PanelId=1-3JHUT&RankingListId=1-3JHUY"  
+[21] "NGBOViewPanelROL.aspx?PanelId=1-A294RM&RankingListId=1-A2HFUU"
+[22] "NGBOViewPanelROL.aspx?PanelId=1-4ZGUM8&RankingListId=1-580H7S"
+[23] "NGBOViewPanelROL.aspx?PanelId=1-GE81B&RankingListId=1-GE81G"  
+
+Finished data extraction from NGBOViewPanelROL.aspx?PanelId=1-3AUBGK&RankingListId=1-3AUFGZ.
+
+NOTE: Log Print Time:  2021-07-27 13:02:01 
+NOTE: Elapsed Time in seconds: 16.6228129863739 
+
+=========================================================================
+
+Starting data extraction from ViewPanelROL.aspx?PanelId=4523&RankingListId=5855.
+
+Successfully extracted #dgGrants table
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+Failed to extract data and update dataframes due to error.
+URL: ViewPanelROL.aspx?PanelId=4523&RankingListId=5855
+Error: Problem with `filter()` input `..1`.
+[34mi[39m Input `..1` is `!str_detect(x, "../.*?/.")`.
+[31mx[39m object 'x' not found
+
+Failed links:
+
+ [1] "ViewPanelROL.aspx?PanelId=4712&RankingListId=6238"            
+ [2] "NGBOViewPanelROL.aspx?PanelId=1-4FQNTQ&RankingListId=1-4FQNTX"
+ [3] "NGBOViewPanelROL.aspx?PanelId=1-8P3X0R&RankingListId=1-8P3X0Y"
+ [4] "ViewPanelROL.aspx?PanelId=4367&RankingListId=5546"            
+ [5] "NGBOViewPanelROL.aspx?PanelId=1-84ONYO&RankingListId=1-84O6SC"
+ [6] "NGBOViewPanelROL.aspx?PanelId=1-2JJUW5&RankingListId=1-2JJUWI"
+ [7] "NGBOViewPanelROL.aspx?PanelId=1-K1299&RankingListId=1-MET3L"  
+ [8] "ViewPanelROL.aspx?PanelId=4499&RankingListId=5814"            
+ [9] "NGBOViewPanelROL.aspx?PanelId=1-14HOY3&RankingListId=1-1AUXGA"
+[10] "ViewPanelROL.aspx?PanelId=4493&RankingListId=5813"            
+[11] "NGBOViewPanelROL.aspx?PanelId=1-AHM16Z&RankingListId=1-AHM176"
+[12] "ViewPanelROL.aspx?PanelId=4756&RankingListId=6325"            
+[13] "NGBOViewPanelROL.aspx?PanelId=1-4NKSJ7&RankingListId=1-4NKSJZ"
+[14] "NGBOViewPanelROL.aspx?PanelId=1-1ZAC4J&RankingListId=1-1ZAC4Q"
+[15] "NGBOViewPanelROL.aspx?PanelId=1-43QUA9&RankingListId=1-43QUCE"
+[16] "NGBOViewPanelROL.aspx?PanelId=1-KI096&RankingListId=1-MGYVG"  
+[17] "NGBOViewPanelROL.aspx?PanelId=1-40BYJJ&RankingListId=1-40BYJQ"
+[18] "NGBOViewPanelROL.aspx?PanelId=1-1IF3Z8&RankingListId=1-1IF3ZG"
+[19] "NGBOViewPanelROL.aspx?PanelId=1-84ONUT&RankingListId=1-84ONW6"
+[20] "NGBOViewPanelROL.aspx?PanelId=1-3JHUT&RankingListId=1-3JHUY"  
+[21] "NGBOViewPanelROL.aspx?PanelId=1-A294RM&RankingListId=1-A2HFUU"
+[22] "NGBOViewPanelROL.aspx?PanelId=1-4ZGUM8&RankingListId=1-580H7S"
+[23] "NGBOViewPanelROL.aspx?PanelId=1-GE81B&RankingListId=1-GE81G"  
+[24] "NGBOViewPanelROL.aspx?PanelId=1-3AUBGK&RankingListId=1-3AUFGZ"
+
+Finished data extraction from ViewPanelROL.aspx?PanelId=4523&RankingListId=5855.
+
+NOTE: Log Print Time:  2021-07-27 13:02:16 
+NOTE: Elapsed Time in seconds: 15.619323015213 
+
+========================================================================= 
+Log End Time: 2021-07-27 13:02:16 
+Log Elapsed Time: 0 00:00:06 
+========================================================================= 

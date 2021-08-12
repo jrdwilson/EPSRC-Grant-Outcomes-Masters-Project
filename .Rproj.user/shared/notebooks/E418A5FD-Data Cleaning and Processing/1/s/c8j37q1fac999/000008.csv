@@ -1,0 +1,8 @@
+"0","first_names <- people %>% "
+"0","  select("
+"0","    name = first_name"
+"0","  ) %>% "
+"0","  distinct() %>% "
+"0","  arrange(name)"
+"0",""
+"0","first_names"

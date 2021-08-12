@@ -1,0 +1,226 @@
+========================================================================= 
+Log Path: ../logs/gow/grant_list_run_20210728_095909.log 
+[1] "Working Directory: C:/Users/josep/OneDrive/Documents/University Documents/MSc Data Science/09-Data-Science-Project/Project/notebooks"
+User Name: josep 
+R Version: 4.0.3 (2020-10-10) 
+Machine: JRDWILSON-DESKT x86-64 
+Operating System: Windows 10 x64 build 19043 
+Log Start Time: 2021-07-28 09:59:09 
+========================================================================= 
+
+=========================================================================
+
+Starting data extraction from ViewPanelROL.aspx?PanelId=4374&RankingListId=5564.
+
+#dgGrants not detected.
+
+Successfully extracted #dgDeferredGrants table
+
+Successfully updated . with deferred_grants data
+
+Finished data extraction from ViewPanelROL.aspx?PanelId=4374&RankingListId=5564.
+
+NOTE: Log Print Time:  2021-07-28 09:59:13 
+NOTE: Elapsed Time in seconds: 4.21640205383301 
+
+=========================================================================
+
+Starting data extraction from ViewPanelROL.aspx?PanelId=4354&RankingListId=5515.
+
+#dgGrants not detected.
+
+Successfully extracted #dgDeferredGrants table
+
+Successfully updated . with deferred_grants data
+
+Finished data extraction from ViewPanelROL.aspx?PanelId=4354&RankingListId=5515.
+
+NOTE: Log Print Time:  2021-07-28 09:59:17 
+NOTE: Elapsed Time in seconds: 3.99941110610962 
+
+=========================================================================
+
+Starting data extraction from ViewPanelROL.aspx?PanelId=4376&RankingListId=5566.
+
+#dgGrants not detected.
+
+Successfully extracted #dgDeferredGrants table
+
+Successfully updated . with deferred_grants data
+
+Finished data extraction from ViewPanelROL.aspx?PanelId=4376&RankingListId=5566.
+
+NOTE: Log Print Time:  2021-07-28 09:59:21 
+NOTE: Elapsed Time in seconds: 3.9660849571228 
+
+=========================================================================
+
+Starting data extraction from ViewPanelROL.aspx?PanelId=4362&RankingListId=5534.
+
+#dgGrants not detected.
+
+Successfully extracted #dgDeferredGrants table
+
+Successfully updated . with deferred_grants data
+
+Finished data extraction from ViewPanelROL.aspx?PanelId=4362&RankingListId=5534.
+
+NOTE: Log Print Time:  2021-07-28 09:59:25 
+NOTE: Elapsed Time in seconds: 3.98640108108521 
+
+=========================================================================
+
+Starting data extraction from ViewPanelROL.aspx?PanelId=4218&RankingListId=5227.
+
+#dgGrants not detected.
+
+Successfully extracted #dgDeferredGrants table
+
+Successfully updated . with deferred_grants data
+
+Finished data extraction from ViewPanelROL.aspx?PanelId=4218&RankingListId=5227.
+
+NOTE: Log Print Time:  2021-07-28 09:59:29 
+NOTE: Elapsed Time in seconds: 3.97269678115845 
+
+=========================================================================
+
+Starting data extraction from ViewPanelROL.aspx?PanelId=4363&RankingListId=5537.
+
+#dgGrants not detected.
+
+Successfully extracted #dgDeferredGrants table
+
+Successfully updated . with deferred_grants data
+
+Finished data extraction from ViewPanelROL.aspx?PanelId=4363&RankingListId=5537.
+
+NOTE: Log Print Time:  2021-07-28 09:59:33 
+NOTE: Elapsed Time in seconds: 3.90395212173462 
+
+=========================================================================
+
+Starting data extraction from ViewPanelROL.aspx?PanelId=4371&RankingListId=5555.
+
+#dgGrants not detected.
+
+Successfully extracted #dgDeferredGrants table
+
+Successfully updated . with deferred_grants data
+
+Finished data extraction from ViewPanelROL.aspx?PanelId=4371&RankingListId=5555.
+
+NOTE: Log Print Time:  2021-07-28 09:59:37 
+NOTE: Elapsed Time in seconds: 3.94038200378418 
+
+=========================================================================
+
+Starting data extraction from ViewPanelROL.aspx?PanelId=4359&RankingListId=5525.
+
+#dgGrants not detected.
+
+Successfully extracted #dgDeferredGrants table
+
+Successfully updated . with deferred_grants data
+
+Finished data extraction from ViewPanelROL.aspx?PanelId=4359&RankingListId=5525.
+
+NOTE: Log Print Time:  2021-07-28 09:59:41 
+NOTE: Elapsed Time in seconds: 3.93800497055054 
+
+=========================================================================
+
+Starting data extraction from ViewPanelROL.aspx?PanelId=4418&RankingListId=5653.
+
+#dgGrants not detected.
+
+Successfully extracted #dgDeferredGrants table
+
+Successfully updated . with deferred_grants data
+
+Finished data extraction from ViewPanelROL.aspx?PanelId=4418&RankingListId=5653.
+
+NOTE: Log Print Time:  2021-07-28 09:59:45 
+NOTE: Elapsed Time in seconds: 4.03098392486572 
+
+=========================================================================
+
+Starting data extraction from ViewPanelROL.aspx?PanelId=4373&RankingListId=5563.
+
+#dgGrants not detected.
+
+Successfully extracted #dgDeferredGrants table
+
+Successfully updated . with deferred_grants data
+
+Finished data extraction from ViewPanelROL.aspx?PanelId=4373&RankingListId=5563.
+
+NOTE: Log Print Time:  2021-07-28 09:59:49 
+NOTE: Elapsed Time in seconds: 3.98029804229736 
+
+=========================================================================
+
+Starting data extraction from ViewPanelROL.aspx?PanelId=4414&RankingListId=5648.
+
+#dgGrants not detected.
+
+Successfully extracted #dgDeferredGrants table
+
+Successfully updated . with deferred_grants data
+
+Finished data extraction from ViewPanelROL.aspx?PanelId=4414&RankingListId=5648.
+
+NOTE: Log Print Time:  2021-07-28 09:59:53 
+NOTE: Elapsed Time in seconds: 3.95826697349548 
+
+=========================================================================
+
+Starting data extraction from ViewPanelROL.aspx?PanelId=4417&RankingListId=5652.
+
+Successfully extracted #dgGrants table
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+Finished data extraction from ViewPanelROL.aspx?PanelId=4417&RankingListId=5652.
+
+NOTE: Log Print Time:  2021-07-28 09:59:57 
+NOTE: Elapsed Time in seconds: 3.97983598709106 
+
+=========================================================================
+
+Starting data extraction from ViewPanelROL.aspx?PanelId=4435&RankingListId=5686.
+
+Successfully extracted #dgGrants table
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+Finished data extraction from ViewPanelROL.aspx?PanelId=4435&RankingListId=5686.
+
+NOTE: Log Print Time:  2021-07-28 10:00:01 
+NOTE: Elapsed Time in seconds: 4.10816597938538 
+
+=========================================================================
+
+Starting data extraction from ViewPanelROL.aspx?PanelId=4450&RankingListId=5712.
+
+Successfully extracted #dgGrants table
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+Error in base::try(area_name_list, TRUE) : 
+  object 'area_name_list' not found
+ 
+
+NOTE: Log Print Time:  2021-07-28 10:00:03 
+NOTE: Elapsed Time in seconds: 2.37572407722473 
+
+========================================================================= 
+Log End Time: 2021-07-28 10:00:03 
+Log Elapsed Time: 0 00:00:54 
+========================================================================= 

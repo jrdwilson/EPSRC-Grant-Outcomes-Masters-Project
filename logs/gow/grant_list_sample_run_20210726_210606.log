@@ -1,0 +1,20 @@
+========================================================================= 
+Log Path: ../logs/gow/grant_list_sample_run_20210726_210606.log 
+[1] "Working Directory: C:/Users/josep/OneDrive/Documents/University Documents/MSc Data Science/09-Data-Science-Project/Project/notebooks"
+User Name: josep 
+R Version: 4.0.3 (2020-10-10) 
+Machine: JRDWILSON-DESKT x86-64 
+Operating System: Windows 10 x64 build 19043 
+Log Start Time: 2021-07-26 21:06:06 
+========================================================================= 
+
+Error in 1:sample_dataframes$panel_rank_links_df : NA/NaN argument
+ 
+
+NOTE: Log Print Time:  2021-07-26 21:06:07 
+NOTE: Elapsed Time in seconds: 0.0812699794769287 
+
+========================================================================= 
+Log End Time: 2021-07-26 21:06:07 
+Log Elapsed Time: 0 00:00:00 
+========================================================================= 

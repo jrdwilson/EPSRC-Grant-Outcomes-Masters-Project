@@ -1,7 +1,0 @@
-"0","# The complete html results list of panels between 01/01/2006 and 13/06/2021 has been downloaded and saved"
-"0","panel_lst_content <- read_html('../data/gow_panels-01012006_to_13062021.html')"
-"0",""
-"0","# parse HTML for list of hrefs"
-"0","panel_href_list <- panel_lst_content %>%"
-"0","  html_elements('#dgDetails a:nth-child(1)') %>% "
-"0","  html_attr('href')"

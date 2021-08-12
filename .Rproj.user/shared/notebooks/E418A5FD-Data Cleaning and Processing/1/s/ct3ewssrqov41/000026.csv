@@ -1,0 +1,7 @@
+"0","person_df <- read_csv("
+"0","  file = ""../data/person_df.csv"","
+"0","  col_names = person_df_names,"
+"0","  col_types = cols(),"
+"0","  skip = 1"
+"0",")"
+"0","person_df"

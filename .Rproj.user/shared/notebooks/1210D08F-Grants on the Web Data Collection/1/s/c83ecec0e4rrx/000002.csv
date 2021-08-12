@@ -1,0 +1,2 @@
+"0","dataframes$panel_rank_links_df <- dataframes$panel_rank_links_df %>% "
+"0","  filter(str_detect(href, pattern = ""ViewPanelROL.aspx""))"

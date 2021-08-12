@@ -1,0 +1,264 @@
+========================================================================= 
+Log Path: ../logs/gow/grant_list_sample_run_20210726_173927.log 
+[1] "Working Directory: C:/Users/josep/OneDrive/Documents/University Documents/MSc Data Science/09-Data-Science-Project/Project/notebooks"
+User Name: josep 
+R Version: 4.0.3 (2020-10-10) 
+Machine: JRDWILSON-DESKT x86-64 
+Operating System: Windows 10 x64 build 19043 
+Log Start Time: 2021-07-26 17:39:27 
+========================================================================= 
+
+Starting data extraction from ViewPanelROL.aspx?PanelId=4538&RankingListId=5890.
+
+Successfully extracted #dgGrants table
+
+
+NOTE: Data frame has 34 rows and 10 columns. 
+
+NOTE: Log Print Time:  2021-07-26 17:39:28 
+NOTE: Elapsed Time in seconds: 1.13174510002136 
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+
+NOTE: Data frame has 0 rows and 2 columns. 
+
+NOTE: Log Print Time:  2021-07-26 17:39:28 
+NOTE: Elapsed Time in seconds: 0.0341160297393799 
+
+Finished data extraction from ViewPanelROL.aspx?PanelId=4538&RankingListId=5890.
+
+NOTE: Log Print Time:  2021-07-26 17:39:32 
+NOTE: Elapsed Time in seconds: 3.70819687843323 
+
+Starting data extraction from ViewPanelROL.aspx?PanelId=4538&RankingListId=5890.
+
+Successfully extracted #dgGrants table
+
+
+NOTE: Data frame has 18 rows and 10 columns. 
+
+NOTE: Log Print Time:  2021-07-26 17:39:33 
+NOTE: Elapsed Time in seconds: 1.47253704071045 
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+
+NOTE: Data frame has 0 rows and 2 columns. 
+
+NOTE: Log Print Time:  2021-07-26 17:39:33 
+NOTE: Elapsed Time in seconds: 0.078261137008667 
+
+Finished data extraction from ViewPanelROL.aspx?PanelId=4538&RankingListId=5890.
+
+NOTE: Log Print Time:  2021-07-26 17:39:37 
+NOTE: Elapsed Time in seconds: 3.71739792823792 
+
+Starting data extraction from ViewPanelROL.aspx?PanelId=4538&RankingListId=5890.
+
+Successfully extracted #dgGrants table
+
+
+NOTE: Data frame has 16 rows and 10 columns. 
+
+NOTE: Log Print Time:  2021-07-26 17:39:37 
+NOTE: Elapsed Time in seconds: 0.260860919952393 
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+
+NOTE: Data frame has 0 rows and 2 columns. 
+
+NOTE: Log Print Time:  2021-07-26 17:39:37 
+NOTE: Elapsed Time in seconds: 0.0301079750061035 
+
+Finished data extraction from ViewPanelROL.aspx?PanelId=4538&RankingListId=5890.
+
+NOTE: Log Print Time:  2021-07-26 17:39:41 
+NOTE: Elapsed Time in seconds: 3.69920015335083 
+
+Starting data extraction from ViewPanelROL.aspx?PanelId=4538&RankingListId=5890.
+
+Successfully extracted #dgGrants table
+
+
+NOTE: Data frame has 18 rows and 10 columns. 
+
+NOTE: Log Print Time:  2021-07-26 17:39:42 
+NOTE: Elapsed Time in seconds: 0.996301889419556 
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+
+NOTE: Data frame has 0 rows and 2 columns. 
+
+NOTE: Log Print Time:  2021-07-26 17:39:42 
+NOTE: Elapsed Time in seconds: 0.0280909538269043 
+
+Finished data extraction from ViewPanelROL.aspx?PanelId=4538&RankingListId=5890.
+
+NOTE: Log Print Time:  2021-07-26 17:39:46 
+NOTE: Elapsed Time in seconds: 3.71709895133972 
+
+Starting data extraction from ViewPanelROL.aspx?PanelId=4538&RankingListId=5890.
+
+Successfully extracted #dgGrants table
+
+
+NOTE: Data frame has 34 rows and 10 columns. 
+
+NOTE: Log Print Time:  2021-07-26 17:39:47 
+NOTE: Elapsed Time in seconds: 0.929572105407715 
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+
+NOTE: Data frame has 0 rows and 2 columns. 
+
+NOTE: Log Print Time:  2021-07-26 17:39:47 
+NOTE: Elapsed Time in seconds: 0.042140007019043 
+
+Finished data extraction from ViewPanelROL.aspx?PanelId=4538&RankingListId=5890.
+
+NOTE: Log Print Time:  2021-07-26 17:39:50 
+NOTE: Elapsed Time in seconds: 3.70512104034424 
+
+Starting data extraction from ViewPanelROL.aspx?PanelId=4538&RankingListId=5890.
+
+Successfully extracted #dgGrants table
+
+
+NOTE: Data frame has 12 rows and 10 columns. 
+
+NOTE: Log Print Time:  2021-07-26 17:39:51 
+NOTE: Elapsed Time in seconds: 0.229758977890015 
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+
+NOTE: Data frame has 0 rows and 2 columns. 
+
+NOTE: Log Print Time:  2021-07-26 17:39:51 
+NOTE: Elapsed Time in seconds: 0.0311050415039062 
+
+Finished data extraction from ViewPanelROL.aspx?PanelId=4538&RankingListId=5890.
+
+NOTE: Log Print Time:  2021-07-26 17:39:54 
+NOTE: Elapsed Time in seconds: 3.72406983375549 
+
+Starting data extraction from ViewPanelROL.aspx?PanelId=4538&RankingListId=5890.
+
+Successfully extracted #dgGrants table
+
+
+NOTE: Data frame has 6 rows and 10 columns. 
+
+NOTE: Log Print Time:  2021-07-26 17:39:55 
+NOTE: Elapsed Time in seconds: 0.85499119758606 
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+
+NOTE: Data frame has 0 rows and 2 columns. 
+
+NOTE: Log Print Time:  2021-07-26 17:39:55 
+NOTE: Elapsed Time in seconds: 0.0260858535766602 
+
+Finished data extraction from ViewPanelROL.aspx?PanelId=4538&RankingListId=5890.
+
+NOTE: Log Print Time:  2021-07-26 17:39:59 
+NOTE: Elapsed Time in seconds: 3.72666096687317 
+
+Starting data extraction from ViewPanelROL.aspx?PanelId=4538&RankingListId=5890.
+
+Successfully extracted #dgGrants table
+
+
+NOTE: Data frame has 14 rows and 10 columns. 
+
+NOTE: Log Print Time:  2021-07-26 17:40:00 
+NOTE: Elapsed Time in seconds: 1.12672019004822 
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+
+NOTE: Data frame has 0 rows and 2 columns. 
+
+NOTE: Log Print Time:  2021-07-26 17:40:00 
+NOTE: Elapsed Time in seconds: 0.0311038494110107 
+
+Finished data extraction from ViewPanelROL.aspx?PanelId=4538&RankingListId=5890.
+
+NOTE: Log Print Time:  2021-07-26 17:40:04 
+NOTE: Elapsed Time in seconds: 3.70376896858215 
+
+Starting data extraction from ViewPanelROL.aspx?PanelId=4538&RankingListId=5890.
+
+Successfully extracted #dgGrants table
+
+
+NOTE: Data frame has 12 rows and 10 columns. 
+
+NOTE: Log Print Time:  2021-07-26 17:40:05 
+NOTE: Elapsed Time in seconds: 0.958607196807861 
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+
+NOTE: Data frame has 0 rows and 2 columns. 
+
+NOTE: Log Print Time:  2021-07-26 17:40:05 
+NOTE: Elapsed Time in seconds: 0.0260889530181885 
+
+Finished data extraction from ViewPanelROL.aspx?PanelId=4538&RankingListId=5890.
+
+NOTE: Log Print Time:  2021-07-26 17:40:09 
+NOTE: Elapsed Time in seconds: 3.71264100074768 
+
+Starting data extraction from ViewPanelROL.aspx?PanelId=4538&RankingListId=5890.
+
+Successfully extracted #dgGrants table
+
+
+NOTE: Data frame has 10 rows and 10 columns. 
+
+NOTE: Log Print Time:  2021-07-26 17:40:09 
+NOTE: Elapsed Time in seconds: 0.24079704284668 
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+
+NOTE: Data frame has 0 rows and 2 columns. 
+
+NOTE: Log Print Time:  2021-07-26 17:40:09 
+NOTE: Elapsed Time in seconds: 0.0280959606170654 
+
+Finished data extraction from ViewPanelROL.aspx?PanelId=4538&RankingListId=5890.
+
+NOTE: Log Print Time:  2021-07-26 17:40:12 
+NOTE: Elapsed Time in seconds: 3.70631003379822 
+
+========================================================================= 
+Log End Time: 2021-07-26 17:40:13 
+Log Elapsed Time: 0 00:00:45 
+========================================================================= 

@@ -1,0 +1,5 @@
+"0",""
+"0","grants <- extract_table(html, ""#dgGrants"", head_row = TRUE, log_on = log_on) #%>% "
+"0","    # mutate(panel_id = panel_id, panel_type = panel_type)"
+"0",""
+"0","grants"

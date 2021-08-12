@@ -1,0 +1,24 @@
+{
+    "id": "1B25CCDA",
+    "path": "~/University Documents/MSc Data Science/09-Data-Science-Project/Project/shiny app/prototype_epsrc_dashboard/app.R",
+    "project_path": "shiny app/prototype_epsrc_dashboard/app.R",
+    "type": "r_source",
+    "hash": "836129506",
+    "contents": "",
+    "dirty": false,
+    "created": 1628518157022.0,
+    "source_on_save": false,
+    "relative_order": 5,
+    "properties": {
+        "cursorPosition": "9,0",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1628774659,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1628774659198,
+    "read_only": false,
+    "read_only_alternatives": []
+}

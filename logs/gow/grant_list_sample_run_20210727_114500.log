@@ -1,0 +1,46 @@
+========================================================================= 
+Log Path: ../logs/gow/grant_list_sample_run_20210727_114500.log 
+[1] "Working Directory: C:/Users/josep/OneDrive/Documents/University Documents/MSc Data Science/09-Data-Science-Project/Project/notebooks"
+User Name: josep 
+R Version: 4.0.3 (2020-10-10) 
+Machine: JRDWILSON-DESKT x86-64 
+Operating System: Windows 10 x64 build 19043 
+Log Start Time: 2021-07-27 11:45:00 
+========================================================================= 
+
+=========================================================================
+
+Starting data extraction from NGBOViewPanelROL.aspx?PanelId=1-9CTVLJ&RankingListId=1-9CTVM6.
+
+Successfully extracted #dgGrants table
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+Finished data extraction from NGBOViewPanelROL.aspx?PanelId=1-9CTVLJ&RankingListId=1-9CTVM6.
+
+NOTE: Log Print Time:  2021-07-27 11:45:05 
+NOTE: Elapsed Time in seconds: 4.89496207237244 
+
+=========================================================================
+
+Starting data extraction from NGBOViewPanelROL.aspx?PanelId=1-ALW1ND&RankingListId=1-ALW1PS.
+
+Successfully extracted #dgGrants table
+
+Successfully updated . with grants data
+
+#dgDeferredGrants not detected.
+
+Error in base::try(area_name_list, TRUE) : 
+  object 'area_name_list' not found
+ 
+
+NOTE: Log Print Time:  2021-07-27 11:45:07 
+NOTE: Elapsed Time in seconds: 1.99750399589539 
+
+========================================================================= 
+Log End Time: 2021-07-27 11:45:07 
+Log Elapsed Time: 0 00:00:06 
+========================================================================= 

@@ -1,0 +1,7 @@
+"0","init_bar <- function(bar_length){"
+"0","  bar <- progress_bar$new("
+"0","    format = ""[:bar] :current/:total -:percent complete - :elapsedfull - eta = :eta \n"", "
+"0","    total = bar_length"
+"0","  )"
+"0","  return(bar)"
+"0","}"

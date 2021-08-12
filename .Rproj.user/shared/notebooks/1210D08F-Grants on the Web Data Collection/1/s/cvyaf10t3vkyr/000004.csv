@@ -1,0 +1,7 @@
+"0","link <- ""ViewPanelROL.aspx?PanelId=4538&RankingListId=5890"""
+"0",""
+"0","log_on <- FALSE"
+"0",""
+"0","html <- get_html(link)$html"
+"0",""
+"0","html %>% extract_table(""#dgDeferredGrants"", head_row = FALSE, log_on = log_on)"

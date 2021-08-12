@@ -1,0 +1,8 @@
+"0","# General-purpose data wrangling"
+"0","library(tidyverse)"
+"0","# Graphing"
+"0","library(ggplot2)"
+"0","# Date manipulation"
+"0","library(lubridate)"
+"0","# Scales manipulation"
+"0","library(scales)"

@@ -1,0 +1,537 @@
+---
+title: "EPSRC Grant Funding Outcomes"
+subtitle: "Data Cleaning and Processing"
+author: "Joseph Wilson"
+output:
+  pdf_document: 
+    number_sections: yes
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r import packages, message=FALSE, warning=TRUE}
+# General-purpose data wrangling
+library(tidyverse)
+# Cleaning dataframe names
+library(janitor)
+# Logging
+library(logr) 
+# Progress Bar
+library(progress)
+# Parse datetimes
+library(lubridate)
+# Predict Gender
+library(genderizeR)
+# Create unique IDs
+library(uuid)
+```
+
+```{r define the dataset collection}
+dataset_collection <- list()
+```
+
+
+```{r progress bar creation function}
+init_bar <- function(bar_length){
+  bar <- progress_bar$new(
+    format = "[:bar] :current/:total -:percent complete - :elapsedfull - eta = :eta \n", 
+    total = bar_length
+  )
+  return(bar)
+}
+```
+
+```{r saved dataframes col names}
+person_df_names <- c(
+  "index",
+  "grant_ref",
+  "role",
+  "person_id",
+  "first_name",
+  "other_names",
+  "surname",
+  "person_url",
+  "person_orcid_id"
+)
+
+organisation_df_names <- c(
+  "index",
+  "grant_ref",
+  "org_role",
+  "org_id",
+  "org_name",
+  "org_url",
+  "address_line1",
+  "address_post_code",
+  "address_region",
+  "address_country",
+  "address_line2",
+  "address_line4",
+  "address_line5",
+  "address_line3",
+  "address_city"
+)
+
+subject_df_names <- c(
+  "index",
+  "grant_ref",
+  "subject_id",
+  "subject",
+  "percentage",
+  "encoded_text"
+)
+
+topic_df_names <- c(
+  "index",
+  "grant_ref",
+  "topic_id",
+  "topic",
+  "percentage",
+  "encoded_text"
+)
+
+project_df_names <- c(
+  "index",
+  "funding_org_name",
+  "grant_ref",
+  "lead_ro_name",
+  "lead_ro_department",
+  "project_category",
+  "pi_surname",
+  "pi_first_name",
+  "pi_other_names",
+  "pi_orcid_id",
+  "grant_title",
+  "start_date",
+  "end_date",
+  "award_pounds",
+  "expenditure_pounds",
+  "region",
+  "project_status",
+  "project_url",
+  "project_id",
+  "funding_org_id",
+  "lead_ro_id",
+  "pi_id",
+  "grant_abstract"
+)
+
+theme_df_names <- c(
+  "index",
+  "theme_name",
+  "theme_type",
+  "research_area",
+  "grant_ref"
+)
+```
+
+
+```{r load saved dataframes}
+person_df <- read_csv(
+  file = "../data/person_df.csv",
+  col_names = person_df_names,
+  col_types = cols(),
+  skip = 1
+)
+person_df
+
+organisation_df <- read_csv(
+  file = "../data/organisation_df.csv",
+  col_names = organisation_df_names,
+  col_types = cols(),
+  skip = 1
+)
+organisation_df
+
+subject_df <- read_csv(
+  file = "../data/subject_df.csv",
+  col_names = subject_df_names,
+  col_types = cols(),
+  skip = 1
+)
+subject_df
+
+topic_df <- read_csv(
+  file = "../data/topic_df.csv",
+  col_names = topic_df_names,
+  col_types = cols(),
+  skip = 1
+)
+topic_df
+
+project_df <- read_csv(
+  file = "../data/project_df.csv",
+  col_names = project_df_names,
+  col_types = cols(),
+  skip = 1
+)
+project_df
+
+theme_df <- read_csv(
+  file = "../data/themes.csv",
+  col_names = theme_df_names,
+  col_types = cols(),
+  skip = 1
+)
+theme_df
+```
+
+# People data processing
+
+```{r person roles table}
+person_roles <- person_df %>% 
+  separate_rows(role,sep = ",") %>% 
+  transmute(
+    grant_ref = factor(grant_ref),
+    role = factor(role),
+    person_id = factor(person_id)
+  )
+
+dataset_collection$person_roles <- person_roles
+```
+
+
+
+```{r define process name function}
+process_names <- function(first_name, other_names) {
+  first_vec <- str_split(first_name, " ", n = 2)[[1]]
+  first_only <- (length(first_vec) == 1)
+  if (first_only) {
+    return(list(
+        first = first_name,
+        other = other_names
+    ))
+  } else {
+    if (is.na(other_names)) {
+      return(list(
+        first = first_vec[1],
+        other = first_vec[2]
+      ))
+    } else {
+      return(list(
+        first = first_vec[1],
+        other = paste(first_vec[2], other_names)
+      ))
+    }
+  }
+}
+```
+
+```{r people table}
+people <- person_df %>% 
+  select(
+    person_id,
+    first_name,
+    other_names,
+    surname
+  ) %>% 
+  distinct() %>% 
+  rowwise() %>% 
+  mutate(
+    first_name = gsub("[[:punct:]]", "", first_name),
+    other_names = gsub("[[:punct:]]", "", other_names),
+    other_names = str_to_lower(process_names(first_name, other_names)$other),
+    first_name = str_to_lower(process_names(first_name, other_names)$first),
+    surname = str_to_lower(surname)
+  ) %>% 
+  ungroup() %>% 
+  mutate(
+    first_name = parse_character(first_name, locale = locale(encoding = "Latin1")),
+    other_names = parse_character(other_names, locale = locale(encoding = "Latin1")),
+    surname = parse_character(surname, locale = locale(encoding = "Latin1")),
+    person_id = factor(person_id)
+  )
+
+dataset_collection$people <- people
+```
+
+```{r first name table}
+first_names <- people %>% 
+  select(
+    name = first_name
+  ) %>% 
+  distinct() %>% 
+  arrange(name)
+
+first_names
+```
+
+
+```{r collect gender prediciton data}
+# Set to true when needed but should be kept false otherwise to protect usage of API licience
+RUN_GENDER_COLLECTION <- FALSE
+
+if (RUN_GENDER_COLLECTION) {
+  split_names <- split(first_names$name, ceiling(seq_along(first_names$first_name)/10))
+  
+  bar_len <- length(split_names)
+  pb <- init_bar(bar_len)
+  
+  # Open log
+  lf <- log_open(paste0("../logs/gtr", format(Sys.time(), "%Y%m%d_%H%M%S_"), "gender_data_collection.log"), logdir = FALSE)
+  
+  # Declare the API key being using. If not using one, use NULL
+  APIKEY <- "b6540033b7bc0da7ac0748d7f23cc0be"
+  
+  # Start up logging
+  # Collecting gender data from Genderize.io using the API key: {APIKEY}
+  log_print(
+    str_glue("Collecting gender data from Genderize.io using the API key: {APIKEY}"),
+    console = FALSE,
+    hide_notes = TRUE
+  )
+  
+  gender_data <- tibble()
+  
+  for (names_batch in split_names) {
+    # send API request
+    genderAPI <- genderizeAPI(
+      names_batch,
+      apikey = APIKEY
+    )
+    
+    # Add to gender_data tibble
+    gender_data <- gender_data %>% bind_rows(genderAPI$response)
+    
+    # Log message:
+    # Collected gender data successfully. API requests remaining: {genderAPI$limitLeft}
+    log_print("Collected gender data successfully.", console = FALSE, hide_notes = TRUE)
+    log_print(names_batch, console = FALSE, hide_notes = TRUE)
+    log_print(str_glue("API requests remaining: {genderAPI$limitLeft}"), console = FALSE, hide_notes = TRUE)
+    
+    # Update progress bar
+    if (exists('pb')){
+      if (!pb$finished) {
+      pb$tick()
+      }
+    }
+  }
+  
+  # Save gender_data
+  file_dest <-  "../data/gender_prediction/gender_data.csv"
+  gender_data %>% write_csv(file_dest)
+  # Log save
+  log_print(
+    str_glue("Saved gender data to: {file_dest}"),
+    console = FALSE,
+    hide_notes = TRUE
+  )
+  
+  # Close log
+  log_close()
+  
+  # View Results
+  gender_data
+}
+```
+
+```{r combine gender_data with first_names}
+if (!exists("file_dest")) {
+  file_dest <-  "../data/gender_prediction/gender_data.csv"
+}
+
+gender_data <- read_csv(
+  file = file_dest,
+  locale = locale(encoding = "Latin1"),
+  col_types = cols()
+)
+
+first_name_gender <- left_join(first_names, gender_data, by = "name") %>% 
+  rename(
+    predicted_gender = gender,
+    proportion_of_count = probability,
+  ) %>% 
+  mutate(
+    predicted_gender = factor(predicted_gender)
+  ) #%>% 
+  # mutate(
+  #   proportion_male = ifelse(predicted_gender == "male", proportion_of_count, 1 - proportion_of_count)
+  # )
+
+first_name_gender
+```
+
+```{r add datasets to the collection}
+dataset_collection$name_gender <- first_name_gender
+```
+
+# Organisation data processing
+```{r organisation roles table}
+organisation_roles <- organisation_df %>% 
+  select(
+    grant_ref,
+    org_role,
+    org_id
+  ) %>% 
+  separate_rows(org_role, sep = ",") %>% 
+  mutate(
+    across(everything(),as_factor)
+  )
+
+dataset_collection$organisation_roles <- organisation_roles
+```
+
+```{r organisations table}
+organisations <- organisation_df %>% 
+  select(!c(
+    index,
+    grant_ref,
+    org_role
+  )) %>% 
+  distinct() %>% 
+  mutate(
+    org_name = parse_character(org_name, locale = locale(encoding = "Latin1"))
+  )
+
+dataset_collection$organisations <- organisations
+```
+
+# Subject and Topic data processing
+```{r subject weight table}
+subject_weight <- subject_df %>% 
+  select(
+    grant_ref,
+    subject_id,
+    percentage
+  ) %>% 
+  mutate(
+    across(everything(), as_factor)
+  )
+
+dataset_collection$subject_weight <- subject_weight
+```
+
+```{r subject table}
+subjects <- subject_df %>% 
+  select(
+    subject_id,
+    subject
+  ) %>% 
+  distinct() %>% 
+  mutate(
+    across(everything(), as_factor)
+  )
+
+dataset_collection$subjects <- subjects
+```
+
+```{r topic weight table}
+topic_weight <- topic_df %>% 
+  select(
+    grant_ref,
+    topic_id,
+    percentage
+  ) %>% 
+  mutate(
+    across(everything(), as_factor)
+  )
+
+dataset_collection$topic_weight <- topic_weight
+```
+
+
+```{r topic table}
+topics <- topic_df %>% 
+  select(
+    topic_id,
+    topic
+  ) %>% 
+  distinct() %>% 
+  mutate(
+    across(everything(), as_factor)
+  )
+
+dataset_collection$topics <- topics
+```
+
+# Themes data processing
+```{r themes and grant themes table}
+themes <- theme_df %>% 
+  select(
+    grant_ref,
+    theme_name,
+    theme_type,
+    theme_research_area = research_area
+  ) %>% 
+  group_by(theme_name, theme_research_area) %>% 
+  mutate(
+    theme_id = UUIDgenerate()
+  ) %>% 
+  ungroup() 
+
+grant_themes <- themes %>% 
+  select(
+    grant_ref,
+    theme_id
+  )
+
+themes <- themes %>% 
+  select(
+    theme_id,
+    theme_type,
+    theme_name,
+    theme_research_area
+  ) %>% 
+  distinct() %>% 
+  mutate(
+    across(
+      c(theme_name, theme_type, theme_research_area),
+      as_factor
+    )
+  )
+
+dataset_collection$grant_themes <- grant_themes
+dataset_collection$themes <- themes
+```
+
+# Grant data processing
+```{r project_df}
+grants <- project_df %>% 
+  select(
+    grant_ref,
+    grant_id = project_id,
+    grant_title,
+    grant_abstract,
+    lead_ro_department,
+    grant_category = project_category,
+    start_date,
+    end_date,
+    award_value = award_pounds,
+    region,
+    project_status,
+  ) %>% 
+  mutate(
+    grant_category = as_factor(grant_category),
+    start_date = dmy(start_date),
+    end_date = dmy(end_date),
+    region = as_factor(ifelse(region == "Unknown", NA, region)),
+    project_open = (project_status == "Active"),
+  ) %>% 
+  select(!project_status)
+
+dataset_collection$grants <- grants
+```
+# Save dataset collection
+```{r view dataset_collection}
+dataset_collection
+```
+Depending on the end user, both cvs and rds file formats were used. The RDS file format preservers the object and the column types allowing easy import and use (do not have to correct any parsing issues) while the CVS offers a more general and flexible access to the data.
+
+```{r save dataset_collection}
+save_path <- "../data/datasets/"
+
+# save dataset_collection as rds
+path_rds <- paste0(save_path, "epsrc_grant_datasets.rds")
+dataset_collection %>% write_rds(file = path_rds)
+
+# save dataset_collection as csvs
+for (dfname in dataset_collection %>% names()) {
+  path_csv <- paste0(save_path, dfname, ".csv")
+  dataset_collection[[dfname]] %>% write_csv(file = path_csv)
+}
+```
+

@@ -1,0 +1,68 @@
+========================================================================= 
+Log Path: ../logs/gow/grant_list_run_20210726_160052.log 
+[1] "Working Directory: C:/Users/josep/OneDrive/Documents/University Documents/MSc Data Science/09-Data-Science-Project/Project/notebooks"
+User Name: josep 
+R Version: 4.0.3 (2020-10-10) 
+Machine: JRDWILSON-DESKT x86-64 
+Operating System: Windows 10 x64 build 19043 
+Log Start Time: 2021-07-26 16:00:52 
+========================================================================= 
+
+Starting data extraction from ViewPanelROL.aspx?PanelId=4538&RankingListId=5890.
+
+#dgGrants not detected.
+
+Successfully extracted #dgDeferredGrants table
+
+Successfully updated . with defferred_grants data
+
+Finished data extraction from ViewPanelROL.aspx?PanelId=4538&RankingListId=5890.
+
+NOTE: Log Print Time:  2021-07-26 16:00:56 
+NOTE: Elapsed Time in seconds: 4.3834969997406 
+
+Starting data extraction from ViewPanelROL.aspx?PanelId=4538&RankingListId=5890.
+
+#dgGrants not detected.
+
+Successfully extracted #dgDeferredGrants table
+
+Successfully updated . with defferred_grants data
+
+Finished data extraction from ViewPanelROL.aspx?PanelId=4538&RankingListId=5890.
+
+NOTE: Log Print Time:  2021-07-26 16:01:00 
+NOTE: Elapsed Time in seconds: 3.97503185272217 
+
+Starting data extraction from ViewPanelROL.aspx?PanelId=4538&RankingListId=5890.
+
+#dgGrants not detected.
+
+Successfully extracted #dgDeferredGrants table
+
+Successfully updated . with defferred_grants data
+
+Finished data extraction from ViewPanelROL.aspx?PanelId=4538&RankingListId=5890.
+
+NOTE: Log Print Time:  2021-07-26 16:01:04 
+NOTE: Elapsed Time in seconds: 3.98077702522278 
+
+Starting data extraction from ViewPanelROL.aspx?PanelId=4538&RankingListId=5890.
+
+#dgGrants not detected.
+
+Successfully extracted #dgDeferredGrants table
+
+Successfully updated . with defferred_grants data
+
+Error in base::try(area_name_list, TRUE) : 
+  object 'area_name_list' not found
+ 
+
+NOTE: Log Print Time:  2021-07-26 16:01:07 
+NOTE: Elapsed Time in seconds: 2.24588298797607 
+
+========================================================================= 
+Log End Time: 2021-07-26 16:01:07 
+Log Elapsed Time: 0 00:00:14 
+========================================================================= 
