@@ -4,6 +4,7 @@
 "0","    funded = announced"
 "0","  ) %>%"
 "0","  mutate("
+"0","    panel_id = as.character(panel_id),"
 "0","    funding_priority_list = str_to_upper(gsub("":"","""",funding_priority_list)),"
 "0","    funding_priority_list = ifelse(funding_priority_list == """", NA, funding_priority_list),"
 "0","    funded = as.numeric(gsub("","", """", funded)),"

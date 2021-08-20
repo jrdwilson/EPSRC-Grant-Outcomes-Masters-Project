@@ -1,639 +1,639 @@
 theme_id,theme_type,theme_name,theme_research_area
-ad50d22c-1ece-4e14-b1a6-627572cd12d6,Challenge,Engineering,Analytical Science
-cd523d85-fc8d-49a1-924c-3215313ffb8d,Challenge,Engineering,Architecture and Operating Systems
-0afecb70-5a22-41ad-9b0b-ed6f090eb5c7,Challenge,Engineering,Artificial Intelligence Technologies
-3ca39918-10c5-4271-be53-7d90bf800438,Challenge,Engineering,"Assistive Technology, Rehabilitation and Musculoskeletal Biomechanics"
-9893cc0c-54a9-48cc-b285-06960145cff6,Challenge,Engineering,Bioenergy
-8a25c9e9-4402-4445-9696-dcf9381fb93c,Challenge,Engineering,Biological Informatics
-05fa537f-2020-4b2f-971a-d4211a8f4f3c,Challenge,Engineering,Biomaterials and Tissue Engineering
-a6360fde-838f-4c3e-adcd-de747140a750,Challenge,Engineering,Biophysics and Soft Matter Physics
-fe698d4b-3d88-408b-88ac-089f9cc54e68,Challenge,Engineering,Built Environment
-303cfef2-3f5a-4f80-bd8b-484b4657ba08,Challenge,Engineering,Carbon Capture and Storage
-7c9ca73e-63e6-4f04-b559-c2899c71d7c5,Challenge,Engineering,Catalysis
-2bcc03a9-1e54-4eae-be04-a37be4c11f71,Challenge,Engineering,Chemical Biology and Biological Chemistry
-b1c619be-869e-405e-871d-42fcc28473bf,Challenge,Engineering,Chemical Reaction Dynamics and Mechanisms
-a6e24c70-6eb0-4d46-a54c-25a4b7c380b1,Challenge,Engineering,Clinical Technologies (excluding imaging)
-b911c61f-f94c-49be-8acd-9c552eb18d74,Challenge,Engineering,Coastal and Waterway Engineering
-45df110b-1336-4a2b-bbd9-b204738b1806,Challenge,Engineering,Combustion Engineering
-173e8fa6-d65e-471f-a8c9-0be0792f4180,Challenge,Engineering,Complex Fluids & Rheology
-29f0b2bf-fa13-4460-abfe-346a99b11053,Challenge,Engineering,Complexity Science
-76d1eb69-8b93-4ae5-89dd-9a04be16f75b,Challenge,Engineering,Computational & Theoretical Chemistry
-12a607a8-0110-41ee-813b-1cab430a17a0,Challenge,Engineering,Condensed Matter: Electronic Structure
-a35aadc2-2859-4cc0-8cbe-c05678db040c,Challenge,Engineering,Condensed Matter: Magnetism and Magnetic Materials
-5b4cad39-7cc2-4c32-b986-9595da79643d,Challenge,Engineering,Continuum Mechanics
-cf870ca6-30c2-4df9-956e-7c390b4f8064,Challenge,Engineering,Control Engineering
-4fdd48bc-a508-4f97-8e18-58772924f911,Challenge,Engineering,Digital Signal Processing
-7b3904c1-201f-4491-828d-1cbf59c1dfb5,Challenge,Engineering,Electrical Motors and Drive /  Electromagnetics
-1205c9ab-c152-44f5-834f-ee80ff36e208,Challenge,Engineering,Electrochemical Sciences
-90a16845-b037-4c50-86d7-6438b5e745db,Challenge,Engineering,End Use Energy Demand (Energy Efficiency)
-3c83e299-071e-499a-898b-badfa153dd7a,Challenge,Engineering,Energy Networks
-97f8be3d-8fd3-4553-995a-212198bc1b97,Challenge,Engineering,Energy Storage
-4fa1e2b3-0736-4ab0-9657-36b304d56f5c,Challenge,Engineering,Engineering Design
-d7967889-6b40-466b-b70b-b43a550bfb13,Challenge,Engineering,Fluid Dynamics and Aerodynamics
-8ee29574-df1f-47d1-8950-776b4527fa6c,Challenge,Engineering,Functional Ceramics and Inorganics
-588db96f-dabb-486b-9a63-6c13d785269b,Challenge,Engineering,Geometry & Topology
-37ec0af5-95cd-403a-bde3-36243f320486,Challenge,Engineering,Graphene and Carbon Nanotechnology
-bab90f9e-579a-4b7b-bc2d-613c1e91b45f,Challenge,Engineering,Ground Engineering
-3d87b6a7-3166-4358-afdf-e2ec353991ca,Challenge,Engineering,Human Communication in ICT
-162c2f4a-ebf2-4742-a824-c38c79cc529b,Challenge,Engineering,Human-Computer Interaction
-cd607eeb-973b-4a9e-b89c-5f98bf337acc,Challenge,Engineering,ICT Networks & Distributed Systems
-92f66ba0-1a1f-4a59-be80-180cc0b46ebc,Challenge,Engineering,Image and Vision Computing
-adeda828-ce40-4a93-b674-99e07c27bb45,Challenge,Engineering,Information Systems
-afae57d8-79b1-429b-9500-54cd5469909c,Challenge,Engineering,Infrastructure and Urban Systems
-43759527-6b03-457f-8677-370e5322283b,Challenge,Engineering,Light Matter Interaction and Optical Phenomena
-a9daaf57-64a3-4ef2-bb6a-0cfd66dd8ddb,Challenge,Engineering,Manufacturing Technologies
-db6df041-21fb-4f40-adef-a768bc200996,Challenge,Engineering,Materials Engineering - Ceramics
-3677f78f-a351-42f6-a350-ee981d96d28d,Challenge,Engineering,Materials Engineering - Composites
-255bd701-4643-4c19-82e5-8d0f8d703973,Challenge,Engineering,Materials Engineering - Metals & Alloys
-24f66fcb-8274-4182-b90e-7efaa8bb13cc,Challenge,Engineering,Materials For Energy Applications
-3cdc7cb6-adf6-4210-bddc-10852a0ad380,Challenge,Engineering,Mathematical Analysis
-346f86a3-5f1c-489a-9726-1c2bc7091e24,Challenge,Engineering,Medical Imaging (inc medical image and vision computing)
-99c464f5-1970-42a3-b132-ce70f81521a6,Challenge,Engineering,Microelectronics Design
-fe79856d-c24e-481f-b23a-b49e9d9b6b5f,Challenge,Engineering,Microelectronics Device Technology
-e04f6f7c-0d28-4100-a219-b97ff0b6d1f9,Challenge,Engineering,Microsystems
-c1f35e6c-aa16-467c-aa20-5fae24e1aacc,Challenge,Engineering,Music and Acoustic Technology
-d29b902e-bcb3-42eb-8a88-5025700bba1d,Challenge,Engineering,Non-Linear Systems
-b526b242-25f9-42aa-9d15-86bc0a0a9e55,Challenge,Engineering,Nuclear Fission
-50019f4f-5766-464c-92b7-beeaff4e71a0,Challenge,Engineering,Numerical Analysis
-e680b966-6dea-4924-8d39-c98aa543cca8,Challenge,Engineering,Operational Research
-8c5de79a-a6b9-4d84-bfc8-ced16177c01a,Challenge,Engineering,Optical Communications
-6d343824-52e6-4a7a-82b7-2db8d8b26f0d,Challenge,Engineering,Optical Devices and Subsystems
-f8a52275-df2b-45f6-8a1e-5dfff1a06baa,Challenge,Engineering,Optoelectronic Devices and Circuits
-1706ec08-59d1-4370-9d78-7b80b1f8b62f,Challenge,Engineering,Particle Technology
-242712a4-0fb1-45ba-83fb-20c41d44f28c,Challenge,Engineering,Performance and Inspection of Mechanical Structures and Systems
-160fedf2-dc20-4b92-a66b-d5692445066d,Challenge,Engineering,Pervasive and Ubiquitous Computing
-527b2ddb-0e53-41fe-9d45-0a39eb82f2c7,Challenge,Engineering,Photonic Materials
-1d8bdc0c-ad8c-4398-84b7-7e9b1db196e6,Challenge,Engineering,Plasma and Lasers
-d6e106f5-8c75-43bf-95ef-f55f99ae8b99,Challenge,Engineering,Polymer Materials
-60f03181-b680-43d9-bb36-11d222be0617,Challenge,Engineering,Process Systems: Components and Integration
-7d120b01-099a-4572-8e15-792f5ce0d7f0,Challenge,Engineering,"Quantum Devices, Components and Systems"
-73254438-8c5f-4d24-96e3-86448c35b20b,Challenge,Engineering,Quantum Optics and Information
-2a199828-a3ae-4918-99bf-cb810836f74b,Challenge,Engineering,RF & Microwave Devices
-a89d8517-a558-4ad6-b14f-44295e4d0cdc,Challenge,Engineering,RF & MW Communications
-50d51a94-12cb-4def-ae4f-2bc09b4d561d,Challenge,Engineering,Robotics
-19357e6c-2917-4ec4-930a-cafbbbed18eb,Challenge,Engineering,Sensors and Instrumentation
-f6492a95-4a34-4cb8-840f-3c50352e22fa,Challenge,Engineering,Software Engineering
-ee293129-058c-48f6-bb54-a7b8d6e594fe,Challenge,Engineering,Solar Technology
-06f606ad-2f20-4171-928d-63ddeb207df6,Challenge,Engineering,Spintronics
-d9336d8c-089e-45f0-81b4-cbfc611169cb,Challenge,Engineering,Statistics and Applied Probability
-2d837eb2-f33f-4e54-a01d-abb8e89049a1,Challenge,Engineering,Structural Engineering
-181ff0d1-0731-4670-b812-08da36aa089b,Challenge,Engineering,Superconductivity
-0541cc59-11e9-49b7-b676-a6312fb76844,Challenge,Engineering,Surface Science
-56efec23-40f7-4224-8f0a-f2585ba94c16,Challenge,Engineering,Synthetic Biology
-6a79b7ba-b565-453b-8198-c3d2c705d3c3,Challenge,Engineering,Synthetic Coordination Chemistry
-f849b9c0-9cf6-467b-87fa-ed20a01804f9,Challenge,Engineering,Synthetic Organic Chemistry
-c9f73538-4f04-4ad0-a930-e905393f1b78,Challenge,Engineering,Synthetic Supramolecular Chemistry
-cbf79cf0-81b7-4b46-9de3-473d52ec6ede,Challenge,Engineering,Theoretical Computer Science
-6b579ec4-706e-4eb7-9abf-a360599c93b7,Challenge,Engineering,Verification and Correctness
-2ac4f98c-754c-467a-a576-9d0e17b885ce,Challenge,Engineering,"Vision, Hearing and Other Senses"
-38edc523-7e21-4a21-81a3-31302ba52646,Challenge,Engineering,Water Engineering
-98b28ecc-dd75-4537-8233-083414920038,Challenge,Engineering,Wind Power
-8eb7f0c2-b110-4a54-82db-9e2c6d36a3d2,Challenge,Information and Communication Technologies,Algebra
-feff608c-d739-4801-89a9-6cfe8110bbf2,Challenge,Information and Communication Technologies,Analytical Science
-542a4f88-814d-4628-895d-90e2e536f5bb,Challenge,Information and Communication Technologies,Antihydrogen
-4f16c68f-5456-4c13-b344-4cdaaf2c03ba,Challenge,Information and Communication Technologies,Architecture and Operating Systems
-62ca107b-65d9-4df0-b0d8-00cbef6f87c4,Challenge,Information and Communication Technologies,Artificial Intelligence Technologies
-73f04d38-29d2-4370-935a-7c24aefd8b78,Challenge,Information and Communication Technologies,"Assistive Technology, Rehabilitation and Musculoskeletal Biomechanics"
-d501272a-2290-4372-9de3-77e2672de8ab,Challenge,Information and Communication Technologies,Biological Informatics
-d0f26922-6058-47b6-8dbe-924fb369bc07,Challenge,Information and Communication Technologies,Biomaterials and Tissue Engineering
-9bec8ad4-f8b3-4a60-b016-e382691d12cd,Challenge,Information and Communication Technologies,Built Environment
-1f188dcb-c601-479a-9f29-b2143a89349f,Challenge,Information and Communication Technologies,Catalysis
-33f7f66d-d4d6-402a-a16d-f78c88d3472e,Challenge,Information and Communication Technologies,Chemical Biology and Biological Chemistry
-3f0d1b8b-72e6-4025-afd7-c84eb4aaeeae,Challenge,Information and Communication Technologies,Clinical Technologies (excluding imaging)
-7724a5e1-fdcb-4798-aff8-8808d2cd2a1c,Challenge,Information and Communication Technologies,Combustion Engineering
-68dc6abe-78ae-49bd-86a5-8fd62f89df5c,Challenge,Information and Communication Technologies,Complexity Science
-d5816f56-2699-4034-bb87-54cdad245142,Challenge,Information and Communication Technologies,Computational & Theoretical Chemistry
-341bd3c8-fdff-47d7-b9eb-d7453eca4add,Challenge,Information and Communication Technologies,Condensed Matter: Electronic Structure
-fc4eadba-fb48-4c1c-ab4c-0403b910bd87,Challenge,Information and Communication Technologies,Condensed Matter: Magnetism and Magnetic Materials
-9d0658ba-c3ce-4fcf-ad1c-d4f9bfc11f58,Challenge,Information and Communication Technologies,Continuum Mechanics
-723d46ef-14d2-41fd-b31a-e8b03050da0a,Challenge,Information and Communication Technologies,Control Engineering
-c784fbc4-ff15-4708-84a5-3a5a9cd3f8aa,Challenge,Information and Communication Technologies,Databases
-2d7abf4f-79aa-47d4-94f8-ddc89d17190e,Challenge,Information and Communication Technologies,Digital Signal Processing
-dc51ae22-9eca-4c52-a9e6-094c4fcbc3d2,Challenge,Information and Communication Technologies,Electrical Motors and Drive /  Electromagnetics
-40154236-fafe-4ef7-b0de-e236997f7339,Challenge,Information and Communication Technologies,Electrochemical Sciences
-97815b97-0f43-4fcd-814d-c33207f1c8a9,Challenge,Information and Communication Technologies,End Use Energy Demand (Energy Efficiency)
-6e2758e9-cbff-4439-a416-8e2939bc6c4e,Challenge,Information and Communication Technologies,Energy Networks
-0e12e167-f6d1-4aef-b1aa-ff2d90c3e958,Challenge,Information and Communication Technologies,Engineering Design
-c11f5c7d-4f06-471e-abf0-e4d9fbbafbe4,Challenge,Information and Communication Technologies,Fluid Dynamics and Aerodynamics
-54e6d813-f25e-4795-88ec-5705f8f0d6f4,Challenge,Information and Communication Technologies,Functional Ceramics and Inorganics
-28122b40-18c7-4880-8c50-a6e26be2212c,Challenge,Information and Communication Technologies,Geometry & Topology
-2706bd12-21ea-41a9-bd03-6960ac9d15fc,Challenge,Information and Communication Technologies,Graphene and Carbon Nanotechnology
-0d00c5ae-f130-41d1-a0e6-a93f40746ab6,Challenge,Information and Communication Technologies,Graphics and Visualisation
-2e4cc204-3c89-4b2c-8c50-fe16c147f9f8,Challenge,Information and Communication Technologies,Ground Engineering
-f3267629-de44-4470-9784-75f0ea5f48e2,Challenge,Information and Communication Technologies,Human Communication in ICT
-32cd398c-7ca7-491f-8e79-8435585bd49e,Challenge,Information and Communication Technologies,Human-Computer Interaction
-668e10f1-c9c5-4be1-94d0-14907a101b57,Challenge,Information and Communication Technologies,ICT Networks & Distributed Systems
-869e3d3b-b332-4d4a-a9b5-27de8c094529,Challenge,Information and Communication Technologies,Image and Vision Computing
-d45f081f-bd5b-475e-b2c0-331c87baacd3,Challenge,Information and Communication Technologies,Information Systems
-6be0e8c0-0ceb-456e-808e-40bbcea48d4f,Challenge,Information and Communication Technologies,Light Matter Interaction and Optical Phenomena
-c8dc6e6a-2ce1-4bdf-b86b-6f1690660b84,Challenge,Information and Communication Technologies,Logic and Combinatorics
-5295b361-a27f-4859-992e-608120a5c448,Challenge,Information and Communication Technologies,Manufacturing Technologies
-9db24c17-d06d-4764-911f-f23afa3d20e4,Challenge,Information and Communication Technologies,Materials Engineering - Composites
-9903ae05-1efb-44b4-8e90-fad268db47fa,Challenge,Information and Communication Technologies,Materials For Energy Applications
-4633240a-7e3e-48ab-aa6c-829795076b22,Challenge,Information and Communication Technologies,Mathematical Analysis
-c41d392e-6b68-4937-b3b3-94a637dc53fd,Challenge,Information and Communication Technologies,Mathematical Biology
-3f2c97d3-7076-4438-b2f1-be3703b99720,Challenge,Information and Communication Technologies,Mathematical Physics
-9a8e6752-9346-4d66-ad1e-f0763f2cc2ab,Challenge,Information and Communication Technologies,Medical Imaging (inc medical image and vision computing)
-080ce447-9391-4b48-bbd4-b246df6ab1b3,Challenge,Information and Communication Technologies,Microelectronics Design
-609134ef-e127-45ad-9bbe-509b6fa9fd4a,Challenge,Information and Communication Technologies,Microelectronics Device Technology
-bdb035e9-3e4d-4e05-a24d-95d7f9df10a2,Challenge,Information and Communication Technologies,Microsystems
-b23baab9-79b7-4a0b-8651-47f368446a60,Challenge,Information and Communication Technologies,Music and Acoustic Technology
-e4e48e5f-a912-4285-beeb-fb48440a0f25,Challenge,Information and Communication Technologies,Natural Language Processing
-e2a0ace7-68fd-4a4c-8958-9dc9c5238689,Challenge,Information and Communication Technologies,Non-Linear Systems
-e9331161-b435-44bd-90b5-456f5dc3d8b7,Challenge,Information and Communication Technologies,Nuclear Fission
-21abb784-c919-4f88-9ac4-da89b82ce2b7,Challenge,Information and Communication Technologies,Numerical Analysis
-e2cc76b8-a830-4f65-861f-c20a9d5be751,Challenge,Information and Communication Technologies,Operational Research
-4e5f7c3c-cb47-4886-9309-fea3141e20c1,Challenge,Information and Communication Technologies,Optical Communications
-21d3426b-022a-4712-a371-a2d76254da61,Challenge,Information and Communication Technologies,Optical Devices and Subsystems
-f18b114d-5c92-4ac9-b382-7706a7132d15,Challenge,Information and Communication Technologies,Optoelectronic Devices and Circuits
-3af9e8af-6dd7-4dfc-b559-655cdd7b364f,Challenge,Information and Communication Technologies,Out of EPSRC Remit
-83dea000-d579-4c0f-a09f-0e1ae9ae5b0e,Challenge,Information and Communication Technologies,Particle Technology
-095714c4-99b4-4bd4-b629-5e97baa95d49,Challenge,Information and Communication Technologies,Performance and Inspection of Mechanical Structures and Systems
-e20cd184-8a69-4b46-b513-134752fb0d2e,Challenge,Information and Communication Technologies,Pervasive and Ubiquitous Computing
-79e4e0fe-f37e-491b-8d7f-f898969013f0,Challenge,Information and Communication Technologies,Photonic Materials
-483b2a01-46a5-4df1-a868-685f4b13a0d9,Challenge,Information and Communication Technologies,Plasma and Lasers
-705b0412-662e-4d27-b80d-bb89225ee66b,Challenge,Information and Communication Technologies,Polymer Materials
-84e4af2a-1b23-4f38-9d9f-4514c07ecce8,Challenge,Information and Communication Technologies,Programming Languages and Compilers
-a226340f-9307-46e0-954a-a8973ae32b88,Challenge,Information and Communication Technologies,"Quantum Devices, Components and Systems"
-c3f05013-bfa2-47d9-bbdb-441bc7e47896,Challenge,Information and Communication Technologies,Quantum Optics and Information
-955a8914-afff-4763-ad23-c30385355d6e,Challenge,Information and Communication Technologies,RF & Microwave Devices
-ae404148-026d-436a-9cba-a5181f7fa83a,Challenge,Information and Communication Technologies,RF & MW Communications
-100f3eef-d982-4499-99cf-2e9a3acc3df3,Challenge,Information and Communication Technologies,Robotics
-64ba061c-4dd6-47bd-aff4-aa961cba6825,Challenge,Information and Communication Technologies,Sensors and Instrumentation
-092831e7-954d-423e-be97-472e65bb1bac,Challenge,Information and Communication Technologies,Software Engineering
-9dd1cfd3-b9fe-43a3-8e75-4b3c850d9ac6,Challenge,Information and Communication Technologies,Solar Technology
-57b8cfda-6992-413f-9875-50d62351c1a3,Challenge,Information and Communication Technologies,Speech Technology
-46f736b2-6bbe-4ed5-80ad-a93ac8822d52,Challenge,Information and Communication Technologies,Spintronics
-4b5299b2-19eb-4785-bc8b-803334db3c7a,Challenge,Information and Communication Technologies,Statistics and Applied Probability
-7a5d15a3-53a3-45b3-a5d1-4b4d71c4c3ff,Challenge,Information and Communication Technologies,Structural Engineering
-26bf9c8a-68b1-4a31-bf3d-a91fcf493a1f,Challenge,Information and Communication Technologies,Superconductivity
-ac96afbe-f6da-437a-aff8-121e057fd745,Challenge,Information and Communication Technologies,Synthetic Biology
-132bcea3-da41-4743-8106-a0a8d71cbe00,Challenge,Information and Communication Technologies,Synthetic Coordination Chemistry
-0b78eeed-bbfe-44b0-8667-0cf9c171c7d5,Challenge,Information and Communication Technologies,Synthetic Organic Chemistry
-5f433b62-4a49-4d47-bd3c-4752b032e3a3,Challenge,Information and Communication Technologies,Theoretical Computer Science
-87b8b44e-d1a1-4833-a1ef-4a8e3ce64ab4,Challenge,Information and Communication Technologies,Verification and Correctness
-a24d272d-bf81-4d54-9663-43e8b40cb60d,Challenge,Information and Communication Technologies,"Vision, Hearing and Other Senses"
-d66adcbe-2b4f-49d7-8c50-829279fe0787,Challenge,Information and Communication Technologies,Water Engineering
-dabe7bfd-b0cb-40b3-a36b-9e6dffc71408,Challenge,Mathematical Sciences,Algebra
-fd55ea46-c215-46d8-9aa4-24a25a30eac3,Challenge,Mathematical Sciences,Architecture and Operating Systems
-e9a11810-25ab-4cc7-9d76-a41ade3b9f5c,Challenge,Mathematical Sciences,Artificial Intelligence Technologies
-d6380087-a150-44ca-b783-fe00e47716a7,Challenge,Mathematical Sciences,Biological Informatics
-91711e0a-8a26-4ae1-b10e-f248c92be461,Challenge,Mathematical Sciences,Biophysics and Soft Matter Physics
-665afd0c-c308-4d03-95fe-facd2b41a1c2,Challenge,Mathematical Sciences,Chemical Reaction Dynamics and Mechanisms
-3e99e584-3310-43fe-9265-950beb724b58,Challenge,Mathematical Sciences,Complex Fluids & Rheology
-8c82b0a6-fe34-4cc0-a244-1be6b1615e08,Challenge,Mathematical Sciences,Condensed Matter: Electronic Structure
-1e30b34f-e67c-4bee-b837-db986056b68f,Challenge,Mathematical Sciences,Continuum Mechanics
-7b4b31d0-86be-4575-9206-8a17826b4875,Challenge,Mathematical Sciences,Control Engineering
-f93f78bd-ba6c-486f-bd11-516cd115b545,Challenge,Mathematical Sciences,End Use Energy Demand (Energy Efficiency)
-0aa0cdeb-2aa2-40e0-aafd-ae803d55c3cb,Challenge,Mathematical Sciences,Fluid Dynamics and Aerodynamics
-f275e6a1-e036-4c96-9ed0-e608e4311679,Challenge,Mathematical Sciences,Geometry & Topology
-5276d38c-5038-4195-844b-3033fda32b2e,Challenge,Mathematical Sciences,Image and Vision Computing
-4c820c6f-e7de-4bc0-9cb5-b0255bbdf8fa,Challenge,Mathematical Sciences,Information Systems
-f1bd6cf7-97c1-4c35-aeff-7d44bb8e16d3,Challenge,Mathematical Sciences,Light Matter Interaction and Optical Phenomena
-10e11911-04df-4a38-b94f-71702be46670,Challenge,Mathematical Sciences,Logic and Combinatorics
-a7fa888e-dde1-4c0b-b476-235e175c3965,Challenge,Mathematical Sciences,Materials Engineering - Metals & Alloys
-39526bed-2bc3-4236-b8e4-be744963c3d0,Challenge,Mathematical Sciences,Mathematical Analysis
-6d6abf9b-cbb2-41af-a6c2-22a793f8ed75,Challenge,Mathematical Sciences,Mathematical Aspects of Operational Research
-bafa65a0-940d-4a6c-8700-2d90cc04f210,Challenge,Mathematical Sciences,Mathematical Biology
-e2650ac9-760f-4829-85d0-00e29a9ca1f9,Challenge,Mathematical Sciences,Mathematical Physics
-75aecec2-91f0-4e4e-b462-daeaecc333fe,Challenge,Mathematical Sciences,Non-Linear Systems
-114c90a3-741d-40b0-8f43-48747bfd2dde,Challenge,Mathematical Sciences,Number Theory
-6b0d7814-8a02-4e07-95e5-4255424d152b,Challenge,Mathematical Sciences,Numerical Analysis
-e76c3345-b0f1-49b2-ade8-ab9e8aedb21c,Challenge,Mathematical Sciences,Operational research
-ad6fb55d-6def-4972-9810-812cd709765d,Challenge,Mathematical Sciences,Out of EPSRC Remit
-89a131ad-f4c4-459f-b2c2-3d20b833faa6,Challenge,Mathematical Sciences,Performance and Inspection of Mechanical Structures and Systems
-4ac8b289-6661-45a2-b74f-2fd5213c2a18,Challenge,Mathematical Sciences,"Quantum Devices, Components and Systems"
-1e7b78b0-2003-4048-a557-4b684423d888,Challenge,Mathematical Sciences,Quantum Optics and Information
-decef973-3171-4684-adba-3bb1dfd7f737,Challenge,Mathematical Sciences,Sensors and Instrumentation
-9fb5b944-b5b5-4727-829a-bcc236e37ec1,Challenge,Mathematical Sciences,Software Engineering
-ec823e0f-f60f-4573-a961-7995d11350a4,Challenge,Mathematical Sciences,Statistics and Applied Probability
-39b0bb29-440c-4298-ad82-873c088455bc,Challenge,Mathematical Sciences,Superconductivity
-30532bac-3fa5-44e5-8448-98b998255e06,Challenge,Mathematical Sciences,Theoretical Computer Science
-0e898ce7-ad57-40b6-8ed6-65b50ea187ce,Challenge,Physical Sciences,Analytical Science
-e72e2b7f-311f-4c4a-ac64-8881dbae4d8e,Challenge,Physical Sciences,Antihydrogen
-1e81c6ec-4b77-49ee-b1db-8b9c0b7ec42a,Challenge,Physical Sciences,Architecture and Operating Systems
-2c914e64-9729-4a10-aa51-c507085ff032,Challenge,Physical Sciences,Artificial Intelligence Technologies
-d605ca51-03c7-40ee-95ee-8cfc29f90b13,Challenge,Physical Sciences,Bioenergy
-83df346d-0882-4e0f-8189-9cc7bedfa3f3,Challenge,Physical Sciences,Biological Informatics
-3d95a6ff-bde3-49c2-ad62-82acd361756b,Challenge,Physical Sciences,Biomaterials and Tissue Engineering
-6027352c-b421-4b58-b2c9-25c63470a106,Challenge,Physical Sciences,Biophysics and Soft Matter Physics
-146be575-9f07-42d7-a556-c707ecee5d03,Challenge,Physical Sciences,Carbon Capture and Storage
-1795aeb9-f183-4119-a631-f1605f959608,Challenge,Physical Sciences,Catalysis
-84845221-44e1-472f-bf46-78e5cd119d85,Challenge,Physical Sciences,Chemical Biology and Biological Chemistry
-687fc2fa-4574-4204-88c4-5b24752ec850,Challenge,Physical Sciences,Chemical Reaction Dynamics and Mechanisms
-d656c3af-4536-44bf-8a3a-9c45031e6b75,Challenge,Physical Sciences,Chemical Structure
-a881a10d-cac6-440f-9155-87f381086e30,Challenge,Physical Sciences,Clinical Technologies (excluding imaging)
-d932f90b-35b8-4f4d-a7ce-6947370188e6,Challenge,Physical Sciences,Cold Atoms and Molecules
-08934654-9395-49a6-876c-30e3fdacebee,Challenge,Physical Sciences,Combustion Engineering
-5585be53-2d37-4b5c-b84e-64009ea86c52,Challenge,Physical Sciences,Complex Fluids & Rheology
-25b241de-da7b-42bb-911c-486415506079,Challenge,Physical Sciences,Computational & Theoretical Chemistry
-c4463887-85df-431f-aa67-afe17e243124,Challenge,Physical Sciences,Condensed Matter: Electronic Structure
-470f6a9c-579f-456d-9032-f192ae98c6e0,Challenge,Physical Sciences,Condensed Matter: Magnetism and Magnetic Materials
-06c2669e-1186-425f-ab09-c869f3bd49c9,Challenge,Physical Sciences,Continuum Mechanics
-cc5e9e97-3c07-43be-8dfb-ef6b68c9f5ce,Challenge,Physical Sciences,Electrical Motors and Drive /  Electromagnetics
-6b1b4533-a4f6-48ba-b25c-9798dced5641,Challenge,Physical Sciences,Electrochemical Sciences
-b860f367-ea30-404e-a2aa-390951f52ac5,Challenge,Physical Sciences,Energy Storage
-a469ffec-9397-4e27-858d-2592eaa979fd,Challenge,Physical Sciences,Engineering Design
-7e1e2255-236f-4707-97ff-1ddbb07ff787,Challenge,Physical Sciences,Fluid Dynamics and Aerodynamics
-2568e6db-f042-4556-ac3e-8cfc5af97acd,Challenge,Physical Sciences,Fuel Cell Technology
-1378f647-de5a-420d-b298-fdd6a9663f94,Challenge,Physical Sciences,Functional Ceramics and Inorganics
-3b6b0f89-6802-481c-8720-17c8da68165f,Challenge,Physical Sciences,Graphene and Carbon Nanotechnology
-561c308d-cdfc-4785-be7f-21d322a4eaf0,Challenge,Physical Sciences,Hydrogen and Alternative Energy Vectors
-88875ed9-3376-4076-943c-0e455156e2d2,Challenge,Physical Sciences,ICT Networks & Distributed Systems
-88096acc-30eb-4f95-b5da-e92aabae6ad6,Challenge,Physical Sciences,Image and Vision Computing
-eee0d36c-3745-49f1-a3a4-1da506d0d862,Challenge,Physical Sciences,Light Matter Interaction and Optical Phenomena
-8f8d9c4d-8fa1-4f25-854e-5714b487e48d,Challenge,Physical Sciences,Manufacturing Technologies
-380babe3-5630-4093-8931-6a01b372388b,Challenge,Physical Sciences,Materials Engineering - Ceramics
-4fe03884-90be-4d6f-bfe5-5726adbd0001,Challenge,Physical Sciences,Materials Engineering - Composites
-03328878-c584-4e00-8386-6897b5b469ec,Challenge,Physical Sciences,Materials Engineering - Metals & Alloys
-dd944c72-344e-4615-8644-d5510a3a521e,Challenge,Physical Sciences,Materials For Energy Applications
-db119cc5-5a20-46de-9257-f7e2b645637c,Challenge,Physical Sciences,Mathematical Analysis
-3967196b-d1f9-4db1-ad03-6211a436ea11,Challenge,Physical Sciences,Mathematical Physics
-ee51b959-d2dd-446f-968e-160637b193a8,Challenge,Physical Sciences,Medical Imaging (inc medical image and vision computing)
-343e60bd-7562-4e80-8a53-72b2497fb033,Challenge,Physical Sciences,Microelectronics Design
-d385f26d-bb4c-4c87-be8e-e321ac101fb0,Challenge,Physical Sciences,Microelectronics Device Technology
-3b0edcaa-4a8c-43c6-bbfc-4391d187106d,Challenge,Physical Sciences,Microsystems
-744b59a3-d41c-4287-8cdf-895189e41197,Challenge,Physical Sciences,Non-Linear Systems
-749978c2-6163-4765-81eb-881364839c01,Challenge,Physical Sciences,Nuclear Fission
-59c75dbc-3235-4f1d-b673-647051a3077a,Challenge,Physical Sciences,Numerical Analysis
-faff1321-212a-4335-8919-612fe4edc9d1,Challenge,Physical Sciences,Optical Communications
-8f42b77f-da0c-455e-bd0b-f9d96f54ed43,Challenge,Physical Sciences,Optical Devices and Subsystems
-ce700793-e810-4842-a108-94e16c10fb25,Challenge,Physical Sciences,Optoelectronic Devices and Circuits
-acaf248e-f59e-48d2-a25e-ce6cf588cbfe,Challenge,Physical Sciences,Out of EPSRC Remit
-17024d4c-deef-4f8c-ae94-6d1663313e21,Challenge,Physical Sciences,Particle Technology
-bbd836e6-fb81-4346-aa48-2c3b55df5d5d,Challenge,Physical Sciences,Performance and Inspection of Mechanical Structures and Systems
-a70d645e-7ee6-43ba-93e6-19422896e940,Challenge,Physical Sciences,Photonic Materials
-6efe99c1-d1a2-498e-a390-0d6ac9ca0c85,Challenge,Physical Sciences,Plasma and Lasers
-d91a869e-4a1f-42b9-bf91-24db994360e5,Challenge,Physical Sciences,Polymer Materials
-538d9c77-0fca-4183-a5ee-88f2cee23a0d,Challenge,Physical Sciences,Process Systems: Components and Integration
-78db104f-7c20-4e82-a31f-6b62f35abc7e,Challenge,Physical Sciences,"Quantum Devices, Components and Systems"
-0dc228ca-ad4b-4baa-bcee-8d3fc9e2847f,Challenge,Physical Sciences,Quantum Fluids and Solids
-d48bb2d7-efbc-44ca-9b2e-8fcb38b76d6e,Challenge,Physical Sciences,Quantum Optics and Information
-54f28992-ad94-4608-a9ea-1a99d071876d,Challenge,Physical Sciences,RF & Microwave Devices
-d91a8d6a-9f0f-4370-a010-486461e32ef1,Challenge,Physical Sciences,RF & MW Communications
-8a748614-ba7a-4153-8992-47f798943c11,Challenge,Physical Sciences,Robotics
-8697fb00-f74d-4e52-b428-8604f06362e1,Challenge,Physical Sciences,Sensors and Instrumentation
-3d1416aa-a790-422c-bc4f-52c93eb51714,Challenge,Physical Sciences,Solar Technology
-a9b93912-b846-41e4-9f92-442fefaf0e9c,Challenge,Physical Sciences,Spintronics
-cfb00893-3cff-4c79-8d31-e72b00ddfd62,Challenge,Physical Sciences,Superconductivity
-08986f6b-e866-4212-b530-3faeda399e40,Challenge,Physical Sciences,Surface Science
-b5c19cb1-44e0-4365-be57-e1ff9e8d2602,Challenge,Physical Sciences,Synthetic Biology
-9295bee7-5c2c-49ff-a1fb-ebaa3e9976cd,Challenge,Physical Sciences,Synthetic Coordination Chemistry
-2a2a2285-3e54-426d-b73d-281e49e12349,Challenge,Physical Sciences,Synthetic Organic Chemistry
-26f846bc-94cd-4144-9e18-e3ecadf2fa8d,Challenge,Physical Sciences,Synthetic Supramolecular Chemistry
-838497b2-270a-46ab-b372-159f48360ce9,Challenge,Physical Sciences,Theoretical Computer Science
-c5beff7d-f97c-4597-bdcb-44860759576f,Challenge,Physical Sciences,Water Engineering
-19b36f3f-f0ea-42bb-a79e-60aeee695b50,Challenge,Research Infrastructure,Algebra
-cb4ba0e4-78a8-43a3-8708-2603aa6d75d5,Challenge,Research Infrastructure,Analytical Science
-66f49aaa-df00-4b0a-9ab9-ac0739d5bb8e,Challenge,Research Infrastructure,Antihydrogen
-8c473978-c764-441b-a99e-16988465ea1c,Challenge,Research Infrastructure,Artificial Intelligence Technologies
-2abe516b-6042-4d85-aae9-41d0446a240d,Challenge,Research Infrastructure,"Assistive Technology, Rehabilitation and Musculoskeletal Biomechanics"
-310e544e-9aaf-4a90-9906-dd05d7a8091c,Challenge,Research Infrastructure,Bioenergy
-aa3ca7f9-d82a-4f19-acf0-8e21db6c5a25,Challenge,Research Infrastructure,Biological Informatics
-7e0ac815-f982-4ee0-aa2c-0386108b3c8e,Challenge,Research Infrastructure,Biomaterials and Tissue Engineering
-3b136b9b-fb36-4c14-bb6f-d56129ac7490,Challenge,Research Infrastructure,Biophysics and Soft Matter Physics
-d299f309-0222-404b-801e-45d057d4ac8d,Challenge,Research Infrastructure,Built Environment
-c4922594-8643-4bf5-81b9-c4f12fa87b5c,Challenge,Research Infrastructure,Carbon Capture and Storage
-16104f60-d575-42e0-b96c-4bc339b0df93,Challenge,Research Infrastructure,Catalysis
-41afb950-8f96-4b82-ab3a-b5249a229b93,Challenge,Research Infrastructure,Chemical Biology and Biological Chemistry
-5bcc515b-a83b-484b-a37c-d257005372d4,Challenge,Research Infrastructure,Chemical Reaction Dynamics and Mechanisms
-a9777b0e-41df-49d8-a5b8-c6ca2a777bbc,Challenge,Research Infrastructure,Chemical Structure
-51e0e21d-5e6b-4cc3-8306-170726481ed2,Challenge,Research Infrastructure,Clinical Technologies (excluding imaging)
-8229161e-876d-4817-af62-ccb83988d852,Challenge,Research Infrastructure,Coastal and Waterway Engineering
-bd300653-6d7c-4a26-b239-4790f4851f3b,Challenge,Research Infrastructure,Cold Atoms and Molecules
-ef2336ce-e7f9-4fbc-89f5-2fa279631e19,Challenge,Research Infrastructure,Combustion Engineering
-ce6f38a5-08ef-44de-ad37-4655acc2f8c8,Challenge,Research Infrastructure,Complex Fluids & Rheology
-45f8dc1f-5009-458b-a836-ca2c3d90cf81,Challenge,Research Infrastructure,Complexity Science
-9fac4788-87e1-4a07-b136-07fec91234d3,Challenge,Research Infrastructure,Computational & Theoretical Chemistry
-7bf93f83-c07b-462d-9ca3-f03286585cdb,Challenge,Research Infrastructure,Condensed Matter: Electronic Structure
-051ff59f-f188-4d55-b90d-7fd696e1f359,Challenge,Research Infrastructure,Condensed Matter: Magnetism and Magnetic Materials
-405abbfb-a16c-4752-8ed4-083232962f31,Challenge,Research Infrastructure,Continuum Mechanics
-c2cb79b7-f9e6-44ff-8af2-8f762d4f2c8c,Challenge,Research Infrastructure,Control Engineering
-685a6521-7096-4fc4-afad-3d790e757a42,Challenge,Research Infrastructure,Digital Signal Processing
-c416682b-3328-4d0d-989f-ead8ee833553,Challenge,Research Infrastructure,Electrical Motors and Drive /  Electromagnetics
-dc575159-65a3-4f4e-af4c-0e986abdaafb,Challenge,Research Infrastructure,Electrochemical Sciences
-e8dda75a-da80-4ec3-93b6-c8c4e6440c51,Challenge,Research Infrastructure,End Use Energy Demand (Energy Efficiency)
-8c8888af-c7e2-46fc-8577-728970abc608,Challenge,Research Infrastructure,Energy Storage
-e739b4e8-2507-46de-9b19-2944be1f27ac,Challenge,Research Infrastructure,Engineering Design
-151b18eb-cc3a-4e57-a52b-d27235b987fe,Challenge,Research Infrastructure,Fluid Dynamics and Aerodynamics
-609cd389-870c-4c4e-bc68-5426735f4bfc,Challenge,Research Infrastructure,Fossil Fuel Power Generation
-c082504a-138e-4845-abbf-3af2bd52452e,Challenge,Research Infrastructure,Fuel Cell Technology
-e0a4ace5-ffa5-4685-913d-123a171fa43a,Challenge,Research Infrastructure,Functional Ceramics and Inorganics
-5e280abf-19b9-4f83-b678-42a4f3106a13,Challenge,Research Infrastructure,Geometry & Topology
-3a686c12-28e9-4035-97bc-198fd9d63269,Challenge,Research Infrastructure,Graphene and Carbon Nanotechnology
-737c88a6-3f3f-4efb-914c-e92717ccd13a,Challenge,Research Infrastructure,Graphics and Visualisation
-91696547-e4c7-4a5a-8fe4-97226e5b7f7f,Challenge,Research Infrastructure,Ground Engineering
-c26203f2-feb9-4bad-85c3-408d7616330c,Challenge,Research Infrastructure,Human-Computer Interaction
-01dbbaaa-d03b-454c-9905-59afd119a908,Challenge,Research Infrastructure,Hydrogen and Alternative Energy Vectors
-a848fd47-590c-4d6e-8918-2706e6f09f87,Challenge,Research Infrastructure,ICT Networks & Distributed Systems
-1b3d7208-ddca-43d4-82af-c49e95645b29,Challenge,Research Infrastructure,Image and Vision Computing
-19940c7d-a766-4811-b302-dc704307ed17,Challenge,Research Infrastructure,Information Systems
-d0b402f0-5239-48db-96ad-a9f99320b5c7,Challenge,Research Infrastructure,Infrastructure and Urban Systems
-2bf7ee4c-b3a9-4c22-a6a2-1f200f8ae9d8,Challenge,Research Infrastructure,Light Matter Interaction and Optical Phenomena
-52be5b6b-1516-4b26-99b6-4d761f543988,Challenge,Research Infrastructure,Logic and Combinatorics
-8b8d72e7-a93a-4f8f-9c26-e07317e4df09,Challenge,Research Infrastructure,Manufacturing Technologies
-dd3872f5-1c0e-41c1-9e54-ee6ab0adb08a,Challenge,Research Infrastructure,Marine Wave and Tidal
-12ba7654-02cd-4be0-9fa6-ac0a2af49d84,Challenge,Research Infrastructure,Materials Engineering - Ceramics
-f66c4654-1198-475f-8e49-d494a123adbf,Challenge,Research Infrastructure,Materials Engineering - Composites
-12623ba8-a297-41c4-a8d1-172e6116749e,Challenge,Research Infrastructure,Materials Engineering - Metals & Alloys
-4c294c01-80b4-493e-8e1a-5dd4ec21bf7c,Challenge,Research Infrastructure,Materials For Energy Applications
-b24d990f-ad2a-4244-bb5c-52e10c2ae52f,Challenge,Research Infrastructure,Mathematical Analysis
-b74e1633-5b4a-47df-bd4e-1528b9e29fda,Challenge,Research Infrastructure,Mathematical Physics
-adc3d5ef-794f-4ec2-96d9-99846a44e6ab,Challenge,Research Infrastructure,Medical Imaging (inc medical image and vision computing)
-f02a324d-fb7a-48d0-b6cd-b60ce321359f,Challenge,Research Infrastructure,Microelectronics Design
-c8ce65ab-c06b-4152-a9a9-984e6fecf324,Challenge,Research Infrastructure,Microelectronics Device Technology
-aee866dc-753b-413a-8bcd-2d5c57e610d8,Challenge,Research Infrastructure,Microsystems
-9c0b6619-9776-409d-b32d-91410d21a278,Challenge,Research Infrastructure,Music and Acoustic Technology
-93fbdc90-4bd2-45b5-a637-1a53f8f06d01,Challenge,Research Infrastructure,Natural Language Processing
-03858417-fea4-484b-b90f-ee443634c207,Challenge,Research Infrastructure,Nuclear Fission
-43f4aa65-05c7-49ef-9e4d-76837d14f82c,Challenge,Research Infrastructure,Numerical Analysis
-ccde9166-4724-4b92-8c73-96684d2d7352,Challenge,Research Infrastructure,Operational Research
-733148ba-8b2a-4700-9805-b1fe02954fdc,Challenge,Research Infrastructure,Optical Communications
-f24120a6-cf52-45d9-aee9-afb6d30eacba,Challenge,Research Infrastructure,Optical Devices and Subsystems
-459d8324-1766-4ec3-b4f0-82adb2dfba13,Challenge,Research Infrastructure,Optoelectronic Devices and Circuits
-b86ad394-5447-4b0b-b4b3-a7cc1b3709d8,Challenge,Research Infrastructure,Out of EPSRC Remit
-68dd94e2-232c-4944-814e-cf006ed6c950,Challenge,Research Infrastructure,Particle Technology
-3adc792d-304b-4c75-849d-f098be29e19e,Challenge,Research Infrastructure,Performance and Inspection of Mechanical Structures and Systems
-82487016-4190-4371-a9b7-88cd310661e8,Challenge,Research Infrastructure,Photonic Materials
-6136c81c-4435-46fe-b61b-4a474e891e62,Challenge,Research Infrastructure,Plasma and Lasers
-da5a1525-7790-4b39-8c4f-1cdf52a9b5ea,Challenge,Research Infrastructure,Polymer Materials
-408447f7-73d8-48fb-a987-c319836abf2b,Challenge,Research Infrastructure,Process Systems: Components and Integration
-9a645b2e-75b0-49e6-af95-3c4a354d9358,Challenge,Research Infrastructure,Programming Languages and Compilers
-ceb078b4-2d2b-468c-9a8e-645b5ec562d7,Challenge,Research Infrastructure,"Quantum Devices, Components and Systems"
-a7d527a1-4731-4afb-8790-3de3d06bd4f5,Challenge,Research Infrastructure,Quantum Fluids and Solids
-3c732b1c-a331-4f5a-b340-ca535c350b15,Challenge,Research Infrastructure,Quantum Optics and Information
-11d14f50-f9db-46ae-bb11-e7a9df2360e3,Challenge,Research Infrastructure,RF & Microwave Devices
-90447d45-df1e-4198-9f51-a1ff1bd6cf37,Challenge,Research Infrastructure,RF & MW Communications
-a17d1df3-c5ae-4b40-97b0-f635e0e1157e,Challenge,Research Infrastructure,Robotics
-9e67021e-4ad2-44d1-a600-5b17534dd803,Challenge,Research Infrastructure,Sensors and Instrumentation
-4dd48d17-d050-42c4-9d05-3ad3f7e33daa,Challenge,Research Infrastructure,Software Engineering
-7c4973a5-bff9-4b38-bc1f-78eea87e1144,Challenge,Research Infrastructure,Solar Technology
-a9b704f8-0e0c-4b06-8e89-7beeeacc71ec,Challenge,Research Infrastructure,Speech Technology
-4503d36a-f8ce-40ea-9410-419e4eec66de,Challenge,Research Infrastructure,Spintronics
-0f77e3ce-69f8-476c-a37e-86b6848738ed,Challenge,Research Infrastructure,Statistics and Applied Probability
-eb1deca0-bad2-4e88-875b-8c654f9ef213,Challenge,Research Infrastructure,Structural Engineering
-d4a256f3-6e88-46cc-a885-41892232c98f,Challenge,Research Infrastructure,Superconductivity
-f818c56f-c788-4dbe-8b9d-d58cde09508d,Challenge,Research Infrastructure,Surface Science
-5e44aa57-bdde-4e1b-ae54-5fdb8fb92505,Challenge,Research Infrastructure,Synthetic Biology
-c3cb1387-a281-4ce5-a5f9-7f6760188fef,Challenge,Research Infrastructure,Synthetic Coordination Chemistry
-faf6986c-e94f-47ac-9d10-51b662d3fb95,Challenge,Research Infrastructure,Synthetic Organic Chemistry
-79493728-0ad0-499d-9de9-76eea34c15cf,Challenge,Research Infrastructure,Synthetic Supramolecular Chemistry
-f1d62028-1ffe-4aad-87e0-df8eaae92553,Challenge,Research Infrastructure,Verification and Correctness
-880b0a6d-fcfe-40d8-a3a5-069e34ac681a,Challenge,Research Infrastructure,Water Engineering
-71987156-b0b0-4f8c-8468-c2104a9b158e,Challenge,Research Infrastructure,Wind Power
-a12d3d31-ced4-4e7c-8362-f11b0e48d760,Capability,Digital Economy,Architecture and Operating Systems
-30e6da80-00a7-4a09-baf8-716937d4a805,Capability,Digital Economy,Artificial Intelligence Technologies
-571cec51-b078-4379-bfd3-c5bac566302d,Capability,Digital Economy,"Assistive Technology, Rehabilitation and Musculoskeletal Biomechanics"
-32139521-38e4-4d1c-bd4f-e5a98e449bd7,Capability,Digital Economy,Biological Informatics
-1d9e0490-cc93-44fe-9e6e-2e43cae6cda9,Capability,Digital Economy,Built Environment
-a4858869-db44-4404-bca6-c7ab8c9fbf4e,Capability,Digital Economy,Clinical Technologies (excluding imaging)
-5fbc7e47-aa9f-446b-9f88-259eb78fb14a,Capability,Digital Economy,Coastal and Waterway Engineering
-e57b7715-cf06-4c48-855f-3f764ccec4a6,Capability,Digital Economy,Complexity Science
-178891ce-c572-4c6f-9534-ae9ee4d57a67,Capability,Digital Economy,Databases
-b408073d-d22f-4563-8c38-76d1f169915e,Capability,Digital Economy,Digital Signal Processing
-e5903ea3-c7e9-473e-ba77-d080e1edbd5d,Capability,Digital Economy,Electrochemical Sciences
-18e8b0fb-f82f-46fc-a656-215bf9847c2c,Capability,Digital Economy,End Use Energy Demand (Energy Efficiency)
-0f9b9aa2-95e5-42b6-929f-99320f5a12b8,Capability,Digital Economy,Engineering Design
-5ebc7be9-60e1-479f-a4c4-40f759377e2e,Capability,Digital Economy,Graphics and Visualisation
-c74a36ee-00d9-4661-968a-60cd0a8039dd,Capability,Digital Economy,Human Communication in ICT
-81c3195d-d062-4b1d-95cd-70ab03908f02,Capability,Digital Economy,Human-Computer Interaction
-300fa1e1-5cdb-4912-842d-47a5edbd9059,Capability,Digital Economy,ICT Networks & Distributed Systems
-06b45902-8ba5-4bc6-8767-c7771771697e,Capability,Digital Economy,Image and Vision Computing
-ab67adb0-082c-46e3-ab8d-015c9b7271d5,Capability,Digital Economy,Information Systems
-88a454a6-6750-4c27-a37c-3be8a859a335,Capability,Digital Economy,Infrastructure and Urban Systems
-34e86fd9-d54f-49dc-be50-59fb5ea1fb6e,Capability,Digital Economy,Manufacturing Technologies
-3c083047-78de-43a8-a0fc-9a3b0540a698,Capability,Digital Economy,Music and Acoustic Technology
-9901ab9d-7eb5-40bd-97ab-11738999624e,Capability,Digital Economy,Natural Language Processing
-4ac21057-c3e6-4351-bf8b-65fd3a1c76cd,Capability,Digital Economy,Numerical Analysis
-77743d9e-4f7e-423e-8097-e4a9e59207d4,Capability,Digital Economy,Operational Research
-cf326221-e804-4c18-83ae-9759e112e774,Capability,Digital Economy,Pervasive and Ubiquitous Computing
-9fca42c3-62b1-466c-a597-869bb6473cdf,Capability,Digital Economy,Sensors and Instrumentation
-49fad366-d649-4842-96fa-80a22cb449c2,Capability,Digital Economy,Software Engineering
-61e9b056-9a09-45c6-914c-76a50e4f8227,Capability,Digital Economy,Statistics and Applied Probability
-7cadf3ff-6029-43db-8195-34218ad71449,Capability,Digital Economy,Theoretical Computer Science
-7ff35107-1def-4050-bee7-aaa6155064bf,Capability,Digital Economy,Verification and Correctness
-0e316d95-db3b-4574-8429-6fb11b9b739c,Capability,Digital Economy,"Vision, Hearing and Other Senses"
-96d7c71c-ffb2-45ee-a646-6d7b7703a02a,Capability,Digital Economy,Water Engineering
-0fc24be6-d05a-4633-ac97-fe4eb55e40f2,Capability,Energy,Bioenergy
-db0d528f-bc87-4822-9041-2745c779401f,Capability,Energy,Biomaterials and Tissue Engineering
-a7585eb9-1d97-444b-9115-8ce0f55ad1dd,Capability,Energy,Biophysics and Soft Matter Physics
-dd2d947f-8e96-4f43-8830-cc7050ee747d,Capability,Energy,Built Environment
-28d982aa-a1c8-4cd2-8885-ef318a6166f5,Capability,Energy,Carbon Capture and Storage
-222e4f2c-a456-40e8-bd79-ed8f3164eb2e,Capability,Energy,Catalysis
-feeb5144-89a3-4081-8389-87c507b9db4d,Capability,Energy,Chemical Reaction Dynamics and Mechanisms
-4dfcdfae-b942-46ee-8890-0db7fb979b2a,Capability,Energy,Combustion Engineering
-a6ffdd7e-a6cc-4eec-838d-7142d6a2b1c8,Capability,Energy,Computational & Theoretical Chemistry
-12329c1d-25f6-4540-92ce-e3285fd5d12f,Capability,Energy,Control Engineering
-7ef80b15-3876-4655-874e-213cd0026bcf,Capability,Energy,Electrical Motors and Drive /  Electromagnetics
-7f99e882-fe07-4ccd-8490-686a4aac7608,Capability,Energy,Electrochemical Sciences
-39bfdd95-2aae-461c-99c6-02f918d9281b,Capability,Energy,End Use Energy Demand (Energy Efficiency)
-6c9cd1ce-c65c-4f24-844f-a9c98381b710,Capability,Energy,Energy Networks
-9484151d-e559-4ac2-9684-88b06def63eb,Capability,Energy,Energy Storage
-3933bf8e-17f9-46d5-86e2-20a8648b31d6,Capability,Energy,Engineering Design
-c7c2fdb9-4f78-40e6-9bf7-fdb0d2fdf017,Capability,Energy,Fluid Dynamics and Aerodynamics
-bf7a9392-082f-42e1-ad82-a4fc43549a36,Capability,Energy,Fuel Cell Technology
-5cf507c0-0dc7-4e32-98dd-3519628d9108,Capability,Energy,Functional Ceramics and Inorganics
-edbf5240-8239-409e-9737-d4bdb5fb31c5,Capability,Energy,Graphene and Carbon Nanotechnology
-e5a140e4-8aa3-4e09-89c1-55c5c395ce0d,Capability,Energy,Ground Engineering
-d7800302-678a-4448-b01f-58e6262fa96b,Capability,Energy,Hydrogen and Alternative Energy Vectors
-d2ff347c-6e7e-418d-8337-462ba5676a3e,Capability,Energy,ICT Networks & Distributed Systems
-e70e783c-8df0-477b-8529-84641e38cb18,Capability,Energy,Information Systems
-97fadbea-7521-44aa-9f50-f405acdd00f5,Capability,Energy,Infrastructure and Urban Systems
-e1b34128-edc7-4c41-8f66-79b8501675a7,Capability,Energy,Light Matter Interaction and Optical Phenomena
-728fcbf0-f986-4382-92fe-1a88523fd3f1,Capability,Energy,Manufacturing Technologies
-77abb3d2-e1b5-490d-9351-7553d38b57d3,Capability,Energy,Marine Wave and Tidal
-9f5f16dd-ed7b-466e-bdb1-82e26676d636,Capability,Energy,Materials Engineering - Ceramics
-2e7f24b7-08df-485d-bcdf-df9d9b4399f7,Capability,Energy,Materials Engineering - Composites
-93601f5c-a726-43ad-9557-732bdf0bf9e1,Capability,Energy,Materials Engineering - Metals & Alloys
-4226f92f-e3e7-4401-9102-18eeaa0adeb1,Capability,Energy,Materials For Energy Applications
-1d02d18f-c6bc-4b83-bb03-0bf0d2e5ad7d,Capability,Energy,Microelectronics Device Technology
-c33d54ba-a772-4370-9f81-7e8e4425303d,Capability,Energy,Non-Linear Systems
-92295b62-0691-4f37-8f8d-cd7f92f92f9c,Capability,Energy,Nuclear Fission
-7c997108-9491-47fb-8d05-001e9e7b1ce0,Capability,Energy,Operational Research
-897a5a22-3683-42c9-9cef-42c9d0a19834,Capability,Energy,Optoelectronic Devices and Circuits
-62da4a73-ae27-4cbb-bf8f-181e88cb5b82,Capability,Energy,Particle Technology
-82ab736f-0df2-4403-ada7-5c440306c39a,Capability,Energy,Performance and Inspection of Mechanical Structures and Systems
-87b7662b-e4fc-456a-9418-686d469cb276,Capability,Energy,Photonic Materials
-4feff3a9-9427-4305-86b2-b4261db3d239,Capability,Energy,Plasma and Lasers
-2ad6b117-4488-45a9-b554-1b65ef058127,Capability,Energy,Polymer Materials
-85f4b1c1-0f9e-4b0f-a896-9d248b90a9d9,Capability,Energy,Process Systems: Components and Integration
-6b872172-3818-4910-831c-6ba461748284,Capability,Energy,RF & Microwave Devices
-0de79741-5553-47cb-b2ca-19a8525afd7a,Capability,Energy,Robotics
-e0a39536-a736-406c-b93a-e26397cd875f,Capability,Energy,Sensors and Instrumentation
-b76719f6-ed28-4a64-a71f-39343c6373cb,Capability,Energy,Solar Technology
-cf372c49-efde-4a20-8e0c-d438a73c0b61,Capability,Energy,Spintronics
-69446dfc-a100-4aa3-90c5-92bd279a51ab,Capability,Energy,Statistics and Applied Probability
-3c67ca3b-9472-47fa-b8d1-cb066ef09a67,Capability,Energy,Structural Engineering
-90f0f1cd-ff20-45c3-b894-211fdf80ac1d,Capability,Energy,Superconductivity
-ab3f4ac9-4cd9-410b-8efe-60fe44785462,Capability,Energy,Surface Science
-f1339bad-bef1-415c-9f21-95952e39deea,Capability,Energy,Synthetic Coordination Chemistry
-14af6d32-466d-469b-a3cf-b2a40d828d7c,Capability,Energy,Water Engineering
-19ad6323-326b-430d-aae7-b38ef0f92c74,Capability,Energy,Whole Energy Systems
-5ae6c7da-7691-4455-9307-2b37d8786879,Capability,Energy,Wind Power
-7f2f81a0-733f-4b35-bd8e-9c24316753a8,Capability,Global Uncertainties,Architecture and Operating Systems
-7b8167f7-7d6c-4ec2-aed3-5d5b24c0d185,Capability,Global Uncertainties,Artificial Intelligence Technologies
-da1d8344-dad2-4a64-a109-906724c6b6c7,Capability,Global Uncertainties,"Assistive Technology, Rehabilitation and Musculoskeletal Biomechanics"
-e4ea4556-26e0-4e77-a0f4-c8df523a15b9,Capability,Global Uncertainties,Control Engineering
-8ccaceaa-9f46-4c2f-95b6-d39692987aa5,Capability,Global Uncertainties,Databases
-617a9ea8-708e-4f73-a5e5-e62739d29b46,Capability,Global Uncertainties,Human-Computer Interaction
-70bdf284-3f37-415f-8c5d-5730d401f705,Capability,Global Uncertainties,ICT Networks & Distributed Systems
-5b950122-96e7-4f9d-8054-646638ce7277,Capability,Global Uncertainties,Information Systems
-fefea9f8-272f-4e59-8d21-6aee6fbf21c9,Capability,Global Uncertainties,Logic and Combinatorics
-78629687-7780-418e-a90f-e1d49c1f63b4,Capability,Global Uncertainties,Microelectronics Design
-9fc6f82f-03e7-4b31-98b0-f324dc57a24a,Capability,Global Uncertainties,Natural Language Processing
-c432ce29-9365-4098-b1b6-6875db8e7768,Capability,Global Uncertainties,Numerical Analysis
-99505102-1bbf-4d2c-95df-aa8e58077fe4,Capability,Global Uncertainties,Operational Research
-9705d609-7e6f-442c-8f5f-7a5534cfa095,Capability,Global Uncertainties,Pervasive and Ubiquitous Computing
-2cc82f2d-c964-40d7-aa94-df2461bd1404,Capability,Global Uncertainties,Programming Languages and Compilers
-6d12c08c-601b-4751-bd65-0048cbdedc65,Capability,Global Uncertainties,Software Engineering
-80199e23-599a-410e-904f-a019b0bfa089,Capability,Global Uncertainties,Statistics and Applied Probability
-dd52fb43-4f8b-48bd-9692-0428e035ae04,Capability,Global Uncertainties,Theoretical Computer Science
-1ee3e0c2-06ed-41c2-90f1-030936013de9,Capability,Global Uncertainties,Verification and Correctness
-b2e00cd5-0ec9-4b8b-9d84-3164c7f518cd,Capability,Healthcare Technologies,Algebra
-e081825c-2ee3-4340-868e-95c04ebf32cd,Capability,Healthcare Technologies,Analytical Science
-556bef21-8cb1-4c6f-8943-f81226326302,Capability,Healthcare Technologies,Artificial Intelligence Technologies
-3c81f505-c46d-4fd7-a775-4d290a9fd529,Capability,Healthcare Technologies,"Assistive Technology, Rehabilitation and Musculoskeletal Biomechanics"
-8b644e28-1198-4588-8d1f-4eee9db6a66d,Capability,Healthcare Technologies,Biological Informatics
-2db72aff-2b00-4447-94c3-1799785c88b7,Capability,Healthcare Technologies,Biomaterials and Tissue Engineering
-95f49a3f-7fe4-4c33-8c2b-984663ab54a1,Capability,Healthcare Technologies,Biophysics and Soft Matter Physics
-d7b76c2f-f22a-4bdb-bbb7-3b4de8ed0953,Capability,Healthcare Technologies,Built Environment
-0a0abe46-9216-4265-9b1c-97fced50ea24,Capability,Healthcare Technologies,Catalysis
-97d52df8-390f-4aa4-a72c-792b4729aa3f,Capability,Healthcare Technologies,Chemical Biology and Biological Chemistry
-1a838bfb-a32a-4926-863b-ea0affd731f0,Capability,Healthcare Technologies,Clinical Technologies (excluding imaging)
-0dda38c0-a069-4850-8e2d-22304232f24f,Capability,Healthcare Technologies,Complex Fluids & Rheology
-dc1fe5ff-bc8d-4fe6-ab1c-b9eb969c6a50,Capability,Healthcare Technologies,Condensed Matter: Magnetism and Magnetic Materials
-ab0ed7d9-05b3-4a96-b4af-81fbe6248faf,Capability,Healthcare Technologies,Continuum Mechanics
-83fa8204-28a8-47ec-a872-c566f0aae983,Capability,Healthcare Technologies,Control Engineering
-59cca571-fcf2-4ce8-aa22-1f643edd5ecc,Capability,Healthcare Technologies,Databases
-7757490b-ebdc-4c07-a423-fe2b9205fcc0,Capability,Healthcare Technologies,Digital Signal Processing
-8954a405-70fd-471f-86ff-d886333bd041,Capability,Healthcare Technologies,End Use Energy Demand (Energy Efficiency)
-7d47b508-04bc-4958-a6a3-c3773a5570fd,Capability,Healthcare Technologies,Engineering Design
-f11a4f62-91d4-401b-b1f4-f4fd575c07af,Capability,Healthcare Technologies,Functional Ceramics and Inorganics
-ec215129-9161-4c55-ab0d-ddf72174ba77,Capability,Healthcare Technologies,Geometry & Topology
-a7e885bf-528b-4346-a884-880e782b77eb,Capability,Healthcare Technologies,Graphene and Carbon Nanotechnology
-7abfd6b4-e555-456d-9275-73e1ac4e7ddb,Capability,Healthcare Technologies,Graphics and Visualisation
-64f40c8a-5dc4-4a2b-9daf-716754fa7eec,Capability,Healthcare Technologies,Human Communication in ICT
-94dcc4fe-6ad4-4feb-97b1-f2f8e33cd5c1,Capability,Healthcare Technologies,Human-Computer Interaction
-073034df-58da-439b-a752-b8b624ef28df,Capability,Healthcare Technologies,ICT Networks & Distributed Systems
-a9db8538-65b0-478a-8513-a70ee272beaf,Capability,Healthcare Technologies,Image and Vision Computing
-ae085b50-d759-4abe-8581-d5d26b79f0d4,Capability,Healthcare Technologies,Information Systems
-88734dd1-65af-4d86-b1ed-dd8d0dc201e3,Capability,Healthcare Technologies,Manufacturing Technologies
-635e69a1-4c81-475e-a070-296b191f2ef9,Capability,Healthcare Technologies,Materials Engineering - Ceramics
-b1b758dc-794b-426d-a4f4-41b4771a5f14,Capability,Healthcare Technologies,Mathematical Analysis
-614cf3ad-2f60-4b86-a59e-80101f7615f8,Capability,Healthcare Technologies,Mathematical biology
-fb1b6e7a-ef7b-4012-8d07-54c743856517,Capability,Healthcare Technologies,Medical Imaging (inc medical image and vision computing)
-58965169-9380-4519-a7c8-f9dd0c1451d0,Capability,Healthcare Technologies,Microelectronics Design
-be4167d3-2640-4747-b876-1a863570058b,Capability,Healthcare Technologies,Microelectronics Device Technology
-182dfedf-7789-41a7-a4a0-214a409dd0fb,Capability,Healthcare Technologies,Microsystems
-fe4a57ff-9917-4fba-8729-065e6f6f10db,Capability,Healthcare Technologies,Music and Acoustic Technology
-215412a6-d747-4e44-9421-553d4eed8c19,Capability,Healthcare Technologies,Natural Language Processing
-dd1c980b-1e49-4c43-ae92-1c1577f7dae7,Capability,Healthcare Technologies,Numerical Analysis
-33e54fcf-da5f-42e5-80b9-93d1bfaa5281,Capability,Healthcare Technologies,Operational Research
-e85b2f82-8dbd-49e6-9ec5-0b9ab8caaad1,Capability,Healthcare Technologies,Optical Devices and Subsystems
-c931928d-1b99-4793-90dc-f0faa1fbe1d9,Capability,Healthcare Technologies,Optoelectronic Devices and Circuits
-1fee8e4b-c884-4398-a6fb-5bc984946a20,Capability,Healthcare Technologies,Particle Technology
-abba89a6-6a43-4f04-a051-2f801e602ddb,Capability,Healthcare Technologies,Pervasive and Ubiquitous Computing
-45a9dc02-d54c-4058-bd1f-a5ccb2114243,Capability,Healthcare Technologies,Photonic Materials
-8ab6c76b-7417-42f9-8445-22c9904d9a4e,Capability,Healthcare Technologies,Plasma and Lasers
-90bb3772-7294-4832-98a1-bc983551ce0d,Capability,Healthcare Technologies,Polymer Materials
-adbed922-9407-4627-878f-9a9a218585da,Capability,Healthcare Technologies,"Quantum Devices, Components and Systems"
-b59f7993-b462-48ae-a8cb-029c77723574,Capability,Healthcare Technologies,RF & Microwave Devices
-5dae0f4f-1d93-42d3-8672-241e7bc2af3b,Capability,Healthcare Technologies,Robotics
-72e78764-a248-4a6e-9098-d5cf75a23f84,Capability,Healthcare Technologies,Sensors and Instrumentation
-13da506f-8cad-4fd6-92d8-d276d5374622,Capability,Healthcare Technologies,Software Engineering
-aa381ad6-4be4-4632-bf61-6c92e7bbcddb,Capability,Healthcare Technologies,Speech Technology
-64f90715-0184-4f6f-9795-a6838f395188,Capability,Healthcare Technologies,Statistics and Applied Probability
-d8c853ad-36f7-404a-b5a0-bb19f3e455c8,Capability,Healthcare Technologies,Superconductivity
-0b7cdc24-c988-4fdf-b68b-48ad6c7337a9,Capability,Healthcare Technologies,Surface Science
-5ad602ed-5436-4bc4-b476-9062808e2ce2,Capability,Healthcare Technologies,Synthetic Biology
-658aed14-9611-435d-af5c-71abe766a3d0,Capability,Healthcare Technologies,Synthetic Coordination Chemistry
-1819ad9d-4357-4029-a386-968c556ebc2c,Capability,Healthcare Technologies,Synthetic Organic Chemistry
-38a85543-62d8-49d1-b43a-9911e8d037f2,Capability,Healthcare Technologies,Synthetic Supramolecular Chemistry
-e075f3f8-d527-4e02-98b3-931cf938f68b,Capability,Healthcare Technologies,"Vision, Hearing and Other Senses"
-e9b23fe0-2808-43a0-b47a-fde02d8889e8,Capability,Living with Environmental Change,Artificial Intelligence Technologies
-15fa16c7-6a93-4ba5-b2b9-852f3d357906,Capability,Living with Environmental Change,Coastal and Waterway Engineering
-b7e1a149-b126-4587-b15a-e5aeb150dd21,Capability,Living with Environmental Change,Databases
-5b07c013-ce4c-438c-a1da-3ece0199a948,Capability,Living with Environmental Change,End Use Energy Demand (Energy Efficiency)
-97e7a231-87c2-4e6d-8ec3-9cb000aef7da,Capability,Living with Environmental Change,Fluid Dynamics and Aerodynamics
-1d65be70-287e-46b2-8d82-7522af1d5111,Capability,Living with Environmental Change,Information Systems
-06be16ff-46e6-479c-9bdf-00088511be9c,Capability,Living with Environmental Change,Infrastructure and Urban Systems
-23fb1b65-affe-4fe4-9a44-3f783f9ad9ad,Capability,Living with Environmental Change,Operational research
-aca248dd-84e3-4104-9536-aca6f7f39cd1,Capability,Living with Environmental Change,Structural Engineering
-207ded29-8f72-455f-8e09-608aa81cfea9,Capability,Living with Environmental Change,Water Engineering
-bdfa1bde-6190-41bb-a300-64541b539d6a,Capability,Living with Environmental Change,Whole Energy Systems
-1d987bc9-c13a-4889-ac5f-9eb317254fcd,Capability,Manufacturing the Future,Analytical Science
-76f8284e-4b09-4bdc-bed6-507bbf2a2a71,Capability,Manufacturing the Future,Artificial Intelligence Technologies
-f01ee82c-5d6e-4a76-88ad-f232deace0d7,Capability,Manufacturing the Future,"Assistive Technology, Rehabilitation and Musculoskeletal Biomechanics"
-0a57bb61-d339-4d5c-93f8-3e5a504ae970,Capability,Manufacturing the Future,Biological Informatics
-3665f441-0763-47d9-aa5d-2d3038bdf97c,Capability,Manufacturing the Future,Biomaterials and Tissue Engineering
-5026e418-6137-4614-b8e6-866f979568d6,Capability,Manufacturing the Future,Biophysics and Soft Matter Physics
-8b59ca09-1631-4599-8a22-1620b242ca71,Capability,Manufacturing the Future,Built Environment
-76d8f72b-b943-466d-a75e-4a1892725064,Capability,Manufacturing the Future,Carbon Capture and Storage
-73dca27c-ac4b-4743-a0ad-5bcc7f63a85a,Capability,Manufacturing the Future,Catalysis
-99e4bbda-faa9-406e-a195-89f1301bbdf2,Capability,Manufacturing the Future,Chemical Biology and Biological Chemistry
-41913180-9e75-41dc-a3ac-a4255431a147,Capability,Manufacturing the Future,Chemical Reaction Dynamics and Mechanisms
-71ff5046-9476-47ee-8103-cf75317241a7,Capability,Manufacturing the Future,Clinical Technologies (excluding imaging)
-7295c4b5-7255-4b95-9443-ce28fd67245f,Capability,Manufacturing the Future,Complex Fluids & Rheology
-67612941-5a0a-47df-a425-51be98bd8bee,Capability,Manufacturing the Future,Control Engineering
-33a87cf3-70f8-4670-9e7b-bc9b8a667a17,Capability,Manufacturing the Future,Databases
-0832bc31-16fc-439c-83bb-1994f03497c6,Capability,Manufacturing the Future,Displays
-cc7e5b62-cdc2-4c7e-82a3-12a5b4b953e1,Capability,Manufacturing the Future,Electrical Motors and Drive /  Electromagnetics
-32b37023-0b59-4ea4-9810-9e649a8c5f3b,Capability,Manufacturing the Future,Electrochemical Sciences
-05c66920-018d-45d4-b549-5040360ffb56,Capability,Manufacturing the Future,End Use Energy Demand (Energy Efficiency)
-ea1fb4d5-add7-4888-aeec-ce460548d0d5,Capability,Manufacturing the Future,Energy Networks
-b1610e33-9332-47e1-9465-984538a6e75e,Capability,Manufacturing the Future,Energy Storage
-5e21dfc8-2dd8-473c-9472-4bcc79b2f579,Capability,Manufacturing the Future,Engineering Design
-f289a3b3-d364-428d-b792-0a2d97a45b76,Capability,Manufacturing the Future,Fluid Dynamics and Aerodynamics
-79c789b3-6600-4df0-bcef-a0ee79cfdc82,Capability,Manufacturing the Future,Functional Ceramics and Inorganics
-e350e581-4ce1-4286-b074-7ff9ea4e184a,Capability,Manufacturing the Future,Geometry & Topology
-eedcf195-374a-4120-8bd9-c419f22f5220,Capability,Manufacturing the Future,Graphene and Carbon Nanotechnology
-f30eb730-3698-403a-9dea-3507c7449542,Capability,Manufacturing the Future,Human-Computer Interaction
-f673ce0c-b5a3-443d-b335-f05055727f89,Capability,Manufacturing the Future,ICT Networks & Distributed Systems
-5d93ed42-f8ff-4661-8bfd-47fb7ae65de3,Capability,Manufacturing the Future,Image and Vision Computing
-3786ba7b-ba1c-4b81-9e2a-79eaa93f8e5d,Capability,Manufacturing the Future,Information Systems
-0d069ee4-c99d-4ae7-97e7-7361352af9bb,Capability,Manufacturing the Future,Infrastructure and Urban Systems
-da3322d4-5d21-4577-8872-191c3d84f338,Capability,Manufacturing the Future,Manufacturing Technologies
-9af0b839-88ca-4d89-bbd0-dfc8ada1fcbb,Capability,Manufacturing the Future,Materials Engineering - Ceramics
-8f3133dd-04ca-4073-b67f-ee5b6fe46393,Capability,Manufacturing the Future,Materials Engineering - Composites
-77bc228b-8bad-4cdf-8f54-4c13cae4e4b3,Capability,Manufacturing the Future,Materials Engineering - Metals & Alloys
-f8c0ed58-07c0-4c76-b0d0-5309044cf16b,Capability,Manufacturing the Future,Materials For Energy Applications
-fe9c1709-760b-4297-a672-7ff0cd259b44,Capability,Manufacturing the Future,Mathematical Analysis
-bbabdc4c-82e2-4885-8933-e4593788d73d,Capability,Manufacturing the Future,Mathematical Biology
-8b30f3a7-014d-4787-9f12-50f7ef7cb0ed,Capability,Manufacturing the Future,Medical Imaging (inc medical image and vision computing)
-c1657aee-9f29-454d-a92c-940aa0be4d8b,Capability,Manufacturing the Future,Microelectronics Device Technology
-0f31da36-a23c-4378-a217-7c17c6eb09aa,Capability,Manufacturing the Future,Microsystems
-f03134d4-5657-4b35-8a5c-96035c91af70,Capability,Manufacturing the Future,Nuclear Fission
-3321c699-5a8c-4b69-97a2-717ff77ff6b4,Capability,Manufacturing the Future,Numerical Analysis
-70288480-9135-43ee-b442-4b0df83ffc1a,Capability,Manufacturing the Future,Operational Research
-a73da9e2-d1d8-4ce0-80a9-eb01c031433d,Capability,Manufacturing the Future,Optical Communications
-d1bc405c-2d1c-4cd0-a562-ef23d21a2a52,Capability,Manufacturing the Future,Optical Devices and Subsystems
-df6e6b95-db04-4b63-b934-f96076c4509c,Capability,Manufacturing the Future,Optoelectronic Devices and Circuits
-912773b5-3330-4803-91fa-105bd88f836d,Capability,Manufacturing the Future,Particle Technology
-a34e0829-fda9-49e6-8ed4-3fb6798dc1af,Capability,Manufacturing the Future,Performance and Inspection of Mechanical Structures and Systems
-87c57d3a-3481-48d1-97bd-f5922dff7f75,Capability,Manufacturing the Future,Pervasive and Ubiquitous Computing
-5c03e3d0-6292-487c-8b3f-dc15a39e099d,Capability,Manufacturing the Future,Photonic Materials
-dbc31121-c6e3-4a23-b400-a3d2f161697a,Capability,Manufacturing the Future,Plasma and Lasers
-f3e416be-18cc-4cd2-9ec9-662541d5d9ab,Capability,Manufacturing the Future,Polymer Materials
-888f26b3-34ba-47a0-8698-f0eae46ef263,Capability,Manufacturing the Future,Process Systems: Components and Integration
-1127c203-b791-4808-95f2-d6992405ffb8,Capability,Manufacturing the Future,"Quantum Devices, Components and Systems"
-26c01e8d-5688-43b8-80a0-9bc8fae7fefe,Capability,Manufacturing the Future,RF & Microwave Devices
-2a20fcae-129c-446d-8773-8dd850e313c7,Capability,Manufacturing the Future,Robotics
-51898dc7-34aa-4bce-abbe-f0dc2380db18,Capability,Manufacturing the Future,Sensors and Instrumentation
-7b849e49-d570-4126-b100-0ea9f131cb7c,Capability,Manufacturing the Future,Software Engineering
-bb9d336e-62c1-4a90-b814-e9a8a8141409,Capability,Manufacturing the Future,Solar Technology
-5cab0378-c418-4af4-92c8-16908b2356e4,Capability,Manufacturing the Future,Statistics and Applied Probability
-10a9783c-2918-48e5-b7a6-17ddbe0d4dda,Capability,Manufacturing the Future,Structural Engineering
-37d9f858-3021-4a2c-adba-9bade114504e,Capability,Manufacturing the Future,Surface Science
-d012a381-c487-4622-b2f6-171a8c771323,Capability,Manufacturing the Future,Synthetic Biology
-013876f0-562b-42a5-867d-962b8a9e64f4,Capability,Manufacturing the Future,Synthetic Coordination Chemistry
-fdcca8e6-56da-45b6-a7de-7e07e1aafbc9,Capability,Manufacturing the Future,Synthetic Organic Chemistry
-9fceb0df-acad-4184-bf7e-dde7e2ffdf59,Capability,Manufacturing the Future,Synthetic Supramolecular Chemistry
-6104e479-6497-4d6e-ad62-59aac6c42e31,Capability,Quantum Technologies,Artificial Intelligence Technologies
-a2779340-a1a1-4dda-9098-7f025635ba9a,Capability,Quantum Technologies,Cold Atoms and Molecules
-aff6498d-e422-4e0b-acda-bd201b2afdff,Capability,Quantum Technologies,Light Matter Interaction and Optical Phenomena
-92fe8774-b5fa-45e5-86e6-0bd06560437c,Capability,Quantum Technologies,Optical Devices and Subsystems
-9103365a-3dd6-4275-812a-7b09e35b75a4,Capability,Quantum Technologies,Optoelectronic Devices and Circuits
-e129ecf4-c1e6-45ee-99fc-18df641c698e,Capability,Quantum Technologies,"Quantum Devices, Components and Systems"
-d32edd5c-7550-4632-a4c8-6598253c8a4b,Capability,Quantum Technologies,Quantum Optics and Information
-5a7d69cd-3649-4685-8212-2636ad3ead6e,Capability,Quantum Technologies,Superconductivity
-2766739a-7681-469d-9fc8-d8175e92a059,Capability,Quantum Technologies,Theoretical Computer Science
+ea880e85-f413-4373-98af-428a6a52e465,Challenge,Engineering,Analytical Science
+645516da-c627-4ea8-b057-d35168d65986,Challenge,Engineering,Architecture and Operating Systems
+6c704d32-3a2a-462e-a1ae-916fc7506c5e,Challenge,Engineering,Artificial Intelligence Technologies
+41fbadd0-19b8-48de-a012-fe2a8401354d,Challenge,Engineering,"Assistive Technology, Rehabilitation and Musculoskeletal Biomechanics"
+85001c51-b6ce-4e0a-b6a4-d637852be41e,Challenge,Engineering,Bioenergy
+096cb244-b815-4adc-bc4e-c9a216d6f307,Challenge,Engineering,Biological Informatics
+d1fe47c3-a1bf-4b34-b804-4d574d859e9b,Challenge,Engineering,Biomaterials and Tissue Engineering
+34891f64-93be-4900-9092-5ab9f4649b36,Challenge,Engineering,Biophysics and Soft Matter Physics
+c7cd59fc-7e7c-45d9-a706-aeca4cb6360b,Challenge,Engineering,Built Environment
+0fbf5993-46c7-471d-a33c-a51d08e40012,Challenge,Engineering,Carbon Capture and Storage
+8ffdc757-9c89-4b26-9ae3-5a610a4f97b3,Challenge,Engineering,Catalysis
+8e2e644f-1d11-4642-b048-cac29ba374ca,Challenge,Engineering,Chemical Biology and Biological Chemistry
+120fb446-6867-4509-994c-4a3c3abe21ae,Challenge,Engineering,Chemical Reaction Dynamics and Mechanisms
+50d4a324-d834-4510-9e9a-7bbe9d85ff41,Challenge,Engineering,Clinical Technologies (excluding imaging)
+091aaf70-3f32-4ccb-9685-9ed70d0db952,Challenge,Engineering,Coastal and Waterway Engineering
+1155e225-24c4-4f6b-bcee-9b6d8f708f45,Challenge,Engineering,Combustion Engineering
+0fac0e48-1fe9-4c7c-a3e2-421f0887e7f6,Challenge,Engineering,Complex Fluids & Rheology
+452b6555-5f96-4437-98a4-5a862f4bfa29,Challenge,Engineering,Complexity Science
+008abd2a-3289-47cd-b8f3-df7f666b4851,Challenge,Engineering,Computational & Theoretical Chemistry
+8c9f07c3-4e96-45cf-8358-dfe627f774d1,Challenge,Engineering,Condensed Matter: Electronic Structure
+2ccdf2a8-98a7-448c-ad4e-4a26afda66a6,Challenge,Engineering,Condensed Matter: Magnetism and Magnetic Materials
+1ef3b651-13ff-4504-9aa3-c8e7d5dd2b0e,Challenge,Engineering,Continuum Mechanics
+8555f5c0-f3d2-4963-8530-3c9587274cd8,Challenge,Engineering,Control Engineering
+421fded2-2014-49ce-a118-7947492fa463,Challenge,Engineering,Digital Signal Processing
+4ccfafa5-15f5-48f6-a8d0-59903dd251ee,Challenge,Engineering,Electrical Motors and Drive /  Electromagnetics
+b430582b-9277-4df6-a8e7-df6123dcea66,Challenge,Engineering,Electrochemical Sciences
+e7340e21-72a6-4678-aee4-e81b9da33f31,Challenge,Engineering,End Use Energy Demand (Energy Efficiency)
+84904279-0553-4948-8dc0-0401f3b20571,Challenge,Engineering,Energy Networks
+58eef666-a61b-482f-b87b-a0f18109c638,Challenge,Engineering,Energy Storage
+1847ebd8-87f8-44e5-81b3-acb28ef867c2,Challenge,Engineering,Engineering Design
+9bf77d81-fc43-4a6b-ba34-f19082fce45b,Challenge,Engineering,Fluid Dynamics and Aerodynamics
+f5849a44-a538-4cb0-93e4-e75901add571,Challenge,Engineering,Functional Ceramics and Inorganics
+fb5b3f7a-7666-4f63-88ea-4db9e29d7256,Challenge,Engineering,Geometry & Topology
+58670719-5343-49d9-bdab-30aa48ba55df,Challenge,Engineering,Graphene and Carbon Nanotechnology
+17721281-fdb0-4223-80d2-d98c0fc0da50,Challenge,Engineering,Ground Engineering
+0b639209-a521-4481-8b35-721ebf02d421,Challenge,Engineering,Human Communication in ICT
+f4ed4360-b172-45b7-8b0a-51b9aec34610,Challenge,Engineering,Human-Computer Interaction
+31a71d72-967c-43bb-8d96-9120a380e3ca,Challenge,Engineering,ICT Networks & Distributed Systems
+2117c397-5e70-40ee-9644-dc761fecf18c,Challenge,Engineering,Image and Vision Computing
+5db65795-be46-40cf-b2af-3d9f3751f43c,Challenge,Engineering,Information Systems
+90bdc756-3c96-4ddb-b7d4-9e64b7c7fef3,Challenge,Engineering,Infrastructure and Urban Systems
+e003fca4-a2c8-46c5-be85-fedf217cfacf,Challenge,Engineering,Light Matter Interaction and Optical Phenomena
+defa0b39-0586-4bcd-b824-fe5ac4154c7e,Challenge,Engineering,Manufacturing Technologies
+43dbfc54-b38b-4624-a077-a3d4d5774c27,Challenge,Engineering,Materials Engineering - Ceramics
+deebabfa-2290-4605-8720-7c7ef4db3dc1,Challenge,Engineering,Materials Engineering - Composites
+0b117b4c-ef27-44ee-be91-0d14fbcd7dd9,Challenge,Engineering,Materials Engineering - Metals & Alloys
+f5554113-cc05-483b-b19d-fdc6ee7d380a,Challenge,Engineering,Materials For Energy Applications
+b09abcbc-ee8a-4fa4-b1c7-33c6872d6e70,Challenge,Engineering,Mathematical Analysis
+9d777788-876d-4d06-9571-4e3c703ff94a,Challenge,Engineering,Medical Imaging (inc medical image and vision computing)
+fcc4ca0e-75ce-4d8d-b5c0-89752b49e058,Challenge,Engineering,Microelectronics Design
+f7a321f5-899c-4057-b3cf-59d46085b174,Challenge,Engineering,Microelectronics Device Technology
+c14f2500-7011-4108-a682-3585f57d49de,Challenge,Engineering,Microsystems
+7a837c1e-7000-4c3a-aa32-d0bdcd2473f0,Challenge,Engineering,Music and Acoustic Technology
+9ff4d774-4cb7-4526-9796-867835ce3b8e,Challenge,Engineering,Non-Linear Systems
+66d7d87a-8ca6-4ee3-b26d-ccc5ea852a8a,Challenge,Engineering,Nuclear Fission
+2018ee4c-5e5b-4f95-9791-8bc03721c701,Challenge,Engineering,Numerical Analysis
+f003fb71-fdc7-4681-8d87-1100791089f3,Challenge,Engineering,Operational Research
+c93bedab-880f-4813-92d9-dbb82e51dd27,Challenge,Engineering,Optical Communications
+ece46d47-de44-448b-9cc4-c17b00f25986,Challenge,Engineering,Optical Devices and Subsystems
+55cf9328-b9a2-4763-90b5-2e0f4b1b4c2b,Challenge,Engineering,Optoelectronic Devices and Circuits
+d33bcdbe-82f4-4e29-bc8a-eb3fba87ad18,Challenge,Engineering,Particle Technology
+4931ae2d-763a-41cc-a0af-37cd0e3ef406,Challenge,Engineering,Performance and Inspection of Mechanical Structures and Systems
+71e55ce8-7555-42bc-90d4-62dc0a9ca310,Challenge,Engineering,Pervasive and Ubiquitous Computing
+218abbbb-cd2b-4c01-8d29-b86670439a20,Challenge,Engineering,Photonic Materials
+4fe0f46f-60e0-4fd5-b044-796234ac95a4,Challenge,Engineering,Plasma and Lasers
+d9410333-051e-43e1-81eb-40232b0cebcf,Challenge,Engineering,Polymer Materials
+b2ce8e62-4771-4222-a6f8-ea712cde8c9b,Challenge,Engineering,Process Systems: Components and Integration
+49ee4348-80fe-40ba-92ec-b6cd68dfc517,Challenge,Engineering,"Quantum Devices, Components and Systems"
+2a72e0ae-eb70-4f11-a569-62128e3c8f5a,Challenge,Engineering,Quantum Optics and Information
+01865048-0fc7-4483-adc1-69d989824eec,Challenge,Engineering,RF & Microwave Devices
+bb32928c-4a10-4624-9149-0899d8c14cbb,Challenge,Engineering,RF & MW Communications
+71c7c5ca-05d7-477d-b3aa-8103d503a3fe,Challenge,Engineering,Robotics
+81d3f1f5-a4df-4fb4-ae4b-ef69b630cc38,Challenge,Engineering,Sensors and Instrumentation
+1e9e6c7a-8aef-48e0-a515-b6bf9cb96a33,Challenge,Engineering,Software Engineering
+2af53906-3777-484d-827f-720d2dfb4003,Challenge,Engineering,Solar Technology
+d18f79cd-807f-4b20-95ad-408dcff79aec,Challenge,Engineering,Spintronics
+26d0b5ec-a0b3-4c7f-bf52-4e82fdf80730,Challenge,Engineering,Statistics and Applied Probability
+0f57a57e-0e05-41d5-95c0-335c9fd4c572,Challenge,Engineering,Structural Engineering
+a2ac8b5b-99d1-49ab-9223-d1c8a35b7d1c,Challenge,Engineering,Superconductivity
+ffc74022-deef-426a-b6c6-efe7c27a8add,Challenge,Engineering,Surface Science
+20c0a4ab-9930-4db7-b32d-dd44f7ba8fdf,Challenge,Engineering,Synthetic Biology
+e09e3278-a4ee-4d1d-8d25-f747b2f0ff8f,Challenge,Engineering,Synthetic Coordination Chemistry
+f0356163-8b6b-4ac2-b0fa-74abf1e0c6a4,Challenge,Engineering,Synthetic Organic Chemistry
+851a3a82-9a5d-4f69-aeae-adaf5b5f4284,Challenge,Engineering,Synthetic Supramolecular Chemistry
+9b3a6ecc-4c5a-4b5a-8ea4-07e099313df7,Challenge,Engineering,Theoretical Computer Science
+b1ac6ff6-54d3-4fdf-8e7f-755fc56520a1,Challenge,Engineering,Verification and Correctness
+ee9fa709-4e5e-4031-af9c-31559ba68002,Challenge,Engineering,"Vision, Hearing and Other Senses"
+0fd617cd-07b1-4822-b776-4898c5a64924,Challenge,Engineering,Water Engineering
+ae9d6c8b-43da-4703-b379-c9afaa6cf1f3,Challenge,Engineering,Wind Power
+449ba5fc-d142-4ffe-99e7-e7c75cccd59c,Challenge,Information and Communication Technologies,Algebra
+bf06f626-e6ad-43c5-bb1c-d39f4bf39afc,Challenge,Information and Communication Technologies,Analytical Science
+c1acea38-92a6-45e9-af5a-1015916459de,Challenge,Information and Communication Technologies,Antihydrogen
+a88ffef7-89fe-45f4-a8ce-e47cc4d1bec8,Challenge,Information and Communication Technologies,Architecture and Operating Systems
+699e03fd-02c0-42ee-af6b-243a8771816b,Challenge,Information and Communication Technologies,Artificial Intelligence Technologies
+7c405bae-2140-46d9-8804-13524f7b80ef,Challenge,Information and Communication Technologies,"Assistive Technology, Rehabilitation and Musculoskeletal Biomechanics"
+158baa20-45f0-4c1a-ba2e-7573e022aaa0,Challenge,Information and Communication Technologies,Biological Informatics
+2a7e44ea-7db8-43cb-8e0a-9291157d6cf1,Challenge,Information and Communication Technologies,Biomaterials and Tissue Engineering
+31133e62-825a-4555-8b0d-ba2796e7e650,Challenge,Information and Communication Technologies,Built Environment
+6e1ed8af-fdd7-4f37-9f42-7e78a7cbb7b0,Challenge,Information and Communication Technologies,Catalysis
+303aa531-6d6d-4fef-b9f9-b5713fce0016,Challenge,Information and Communication Technologies,Chemical Biology and Biological Chemistry
+a09546e0-9f23-47de-844b-ea2d3d39c72a,Challenge,Information and Communication Technologies,Clinical Technologies (excluding imaging)
+ea1afb6b-5c17-4915-b9ce-a381f8975592,Challenge,Information and Communication Technologies,Combustion Engineering
+2296bf5a-6bca-4624-b45d-a03ab2a2e0cf,Challenge,Information and Communication Technologies,Complexity Science
+7c81745d-f1fc-4b8f-abfc-4d5066de9624,Challenge,Information and Communication Technologies,Computational & Theoretical Chemistry
+5cd84434-ff02-4386-94b8-abc4b5f85b3d,Challenge,Information and Communication Technologies,Condensed Matter: Electronic Structure
+6c571d8d-b819-4e3a-96ce-b8619715b077,Challenge,Information and Communication Technologies,Condensed Matter: Magnetism and Magnetic Materials
+2df0a060-ba5a-473c-b3fa-bef9649d0e3f,Challenge,Information and Communication Technologies,Continuum Mechanics
+b535fc69-45c8-4f6a-972d-c051936bcae8,Challenge,Information and Communication Technologies,Control Engineering
+ecf16b09-688e-4894-9250-e12fb4ecb37a,Challenge,Information and Communication Technologies,Databases
+f9a42add-9a18-43f0-bf64-07e66f55d0e5,Challenge,Information and Communication Technologies,Digital Signal Processing
+24b5e0e4-37bc-4df0-b2e6-c519b80ce244,Challenge,Information and Communication Technologies,Electrical Motors and Drive /  Electromagnetics
+07e918cb-d5cd-4aca-99ba-9f625f57b277,Challenge,Information and Communication Technologies,Electrochemical Sciences
+933a01dd-a874-41a2-b435-767e2098b330,Challenge,Information and Communication Technologies,End Use Energy Demand (Energy Efficiency)
+1eb08d32-e50b-4559-988c-9873df628a43,Challenge,Information and Communication Technologies,Energy Networks
+5627bec8-e41f-4d0a-91ab-2b97e420fb24,Challenge,Information and Communication Technologies,Engineering Design
+195dd0a1-8cac-4601-b562-4736434ae4ac,Challenge,Information and Communication Technologies,Fluid Dynamics and Aerodynamics
+07e20094-e6cb-4cdb-97a6-0cb8f9e9e9b6,Challenge,Information and Communication Technologies,Functional Ceramics and Inorganics
+d8349a84-d769-4a28-8674-d2bf7e44f587,Challenge,Information and Communication Technologies,Geometry & Topology
+2e98eef0-9d16-4693-82a6-acde6caefeba,Challenge,Information and Communication Technologies,Graphene and Carbon Nanotechnology
+a26a6c12-6105-4ed4-b760-e468dbc977ec,Challenge,Information and Communication Technologies,Graphics and Visualisation
+cc534b0c-c3d6-4e38-80a8-0f67da3e66f2,Challenge,Information and Communication Technologies,Ground Engineering
+c820dd78-6770-4857-9297-4d796890f295,Challenge,Information and Communication Technologies,Human Communication in ICT
+8c0f5e35-6787-4eaa-ad28-f61770a9a2cb,Challenge,Information and Communication Technologies,Human-Computer Interaction
+dcf87c31-dfaf-40cd-b687-5b552c920567,Challenge,Information and Communication Technologies,ICT Networks & Distributed Systems
+726544b3-8976-4d67-a512-4e7bb0919577,Challenge,Information and Communication Technologies,Image and Vision Computing
+0384152c-13fb-4d59-af9a-15a424209551,Challenge,Information and Communication Technologies,Information Systems
+f0ec81ec-203e-453c-a354-6a9b7087f1bb,Challenge,Information and Communication Technologies,Light Matter Interaction and Optical Phenomena
+a1e557c3-0bcc-451d-8d20-384ae67a55d5,Challenge,Information and Communication Technologies,Logic and Combinatorics
+071940f5-61c0-47d0-872f-4d6b24619f8b,Challenge,Information and Communication Technologies,Manufacturing Technologies
+4fef90ef-7b37-4158-a80d-167f3bf0a98c,Challenge,Information and Communication Technologies,Materials Engineering - Composites
+ac7de1ab-563b-4f14-b61d-53b7e28d804e,Challenge,Information and Communication Technologies,Materials For Energy Applications
+57fcbe75-e504-4780-a8b7-6daaa7d4db4e,Challenge,Information and Communication Technologies,Mathematical Analysis
+d11c7aaf-3472-4673-8bfe-e094081020aa,Challenge,Information and Communication Technologies,Mathematical Biology
+1e1b8bf4-c1ae-4432-8466-5410d211067f,Challenge,Information and Communication Technologies,Mathematical Physics
+5f5bdba0-e936-4d5d-9397-2f7ef960883b,Challenge,Information and Communication Technologies,Medical Imaging (inc medical image and vision computing)
+adc77d44-7f1e-435e-9125-45dde864879d,Challenge,Information and Communication Technologies,Microelectronics Design
+fe0d985a-fac4-4cb2-a707-5ba8e1dd20ff,Challenge,Information and Communication Technologies,Microelectronics Device Technology
+fa32fb37-b8aa-417f-a12b-bb241d62b103,Challenge,Information and Communication Technologies,Microsystems
+3b4c20cf-b151-41ac-9909-4295d4b91cef,Challenge,Information and Communication Technologies,Music and Acoustic Technology
+251c016f-c778-4489-880a-8600cf1b854a,Challenge,Information and Communication Technologies,Natural Language Processing
+27fc1e37-5002-48cf-9305-46c6d352bb6b,Challenge,Information and Communication Technologies,Non-Linear Systems
+b05cd26a-de57-4e7f-8314-0680d709713f,Challenge,Information and Communication Technologies,Nuclear Fission
+8232a785-5d0d-4ee2-95d4-1600cb580dd8,Challenge,Information and Communication Technologies,Numerical Analysis
+65a5de9c-685f-4992-b378-0b8a9c0cdaf4,Challenge,Information and Communication Technologies,Operational Research
+c9a72b91-e8d1-4861-82f0-92fcd99d25f4,Challenge,Information and Communication Technologies,Optical Communications
+f882b6c5-b24f-48ce-b241-04fc624bde6f,Challenge,Information and Communication Technologies,Optical Devices and Subsystems
+6f8cf617-4728-47a7-a7e4-359041d379d6,Challenge,Information and Communication Technologies,Optoelectronic Devices and Circuits
+5141b8e1-2429-4e76-84e4-6a1c571d4b11,Challenge,Information and Communication Technologies,Out of EPSRC Remit
+34a61efc-2648-48fa-92ec-f3cf0aa53ae0,Challenge,Information and Communication Technologies,Particle Technology
+079caefe-65e1-47c4-afa9-f7b71ebc9db4,Challenge,Information and Communication Technologies,Performance and Inspection of Mechanical Structures and Systems
+ba7ef92c-d571-492d-ba93-2489115ec157,Challenge,Information and Communication Technologies,Pervasive and Ubiquitous Computing
+94332c93-05d1-44fe-8581-17c6e301c97c,Challenge,Information and Communication Technologies,Photonic Materials
+f7169f61-12dd-4261-b27c-f73723d1c13e,Challenge,Information and Communication Technologies,Plasma and Lasers
+b1aab252-6a66-4caf-9c3e-80f77de5c045,Challenge,Information and Communication Technologies,Polymer Materials
+041ea65c-f539-48a8-b5ea-8534669c51a7,Challenge,Information and Communication Technologies,Programming Languages and Compilers
+5b81e251-7e7b-4b9a-b9c1-f0b3c708d3e5,Challenge,Information and Communication Technologies,"Quantum Devices, Components and Systems"
+b305b029-a782-4d98-99e8-0539074ff041,Challenge,Information and Communication Technologies,Quantum Optics and Information
+928ec4cd-ff46-4b70-b3f3-c91f2e3b9060,Challenge,Information and Communication Technologies,RF & Microwave Devices
+87adceb5-4003-4b43-a575-1ddbb6e2df9d,Challenge,Information and Communication Technologies,RF & MW Communications
+7d8564c9-c622-4337-80c1-ff8ab476aeda,Challenge,Information and Communication Technologies,Robotics
+93b2e1d9-0105-48b4-8de3-cd4ccb2ffa69,Challenge,Information and Communication Technologies,Sensors and Instrumentation
+b68f08cb-b754-44c7-96cd-95b3c6374232,Challenge,Information and Communication Technologies,Software Engineering
+23da1414-3557-414a-8dbf-856592922137,Challenge,Information and Communication Technologies,Solar Technology
+673893b9-f2cb-475f-af4e-c4ac9cda76ff,Challenge,Information and Communication Technologies,Speech Technology
+0d74288a-15b4-4b74-824d-38d0a9f70031,Challenge,Information and Communication Technologies,Spintronics
+c5132d4c-8e7a-4c5c-9db0-01ebd3bbe25b,Challenge,Information and Communication Technologies,Statistics and Applied Probability
+bcab3220-d7b5-4c44-98be-7fdab67cc408,Challenge,Information and Communication Technologies,Structural Engineering
+048a1a3b-d1d3-470f-8e3c-477e82db1778,Challenge,Information and Communication Technologies,Superconductivity
+c1ecf2fc-0f26-4728-a2b9-61f8214e5dc0,Challenge,Information and Communication Technologies,Synthetic Biology
+07d9b10d-6572-4d28-ba9a-a7325b43e377,Challenge,Information and Communication Technologies,Synthetic Coordination Chemistry
+6cacd9ea-7a3b-4d27-87c0-34b83a422d57,Challenge,Information and Communication Technologies,Synthetic Organic Chemistry
+8f33baf5-c60c-4aa9-981f-c7a02589a923,Challenge,Information and Communication Technologies,Theoretical Computer Science
+40c2d810-5a55-4fe3-8205-ee019da4d511,Challenge,Information and Communication Technologies,Verification and Correctness
+7c6ca5b4-f47a-409a-9ef3-e6ef3a29a0d4,Challenge,Information and Communication Technologies,"Vision, Hearing and Other Senses"
+40a24e35-1bba-417d-a508-f2a605d763a1,Challenge,Information and Communication Technologies,Water Engineering
+a1ce906e-41f6-4b77-948f-7a3fda71a99a,Challenge,Mathematical Sciences,Algebra
+9c27557d-9903-4319-aa50-41fee6502927,Challenge,Mathematical Sciences,Architecture and Operating Systems
+2be7b8ce-2c36-4c24-acdf-6f02b19396e8,Challenge,Mathematical Sciences,Artificial Intelligence Technologies
+c4f38ec0-3875-42ff-9212-0cb4d1408417,Challenge,Mathematical Sciences,Biological Informatics
+13cb0866-781e-45ea-897b-f2fbe47223d0,Challenge,Mathematical Sciences,Biophysics and Soft Matter Physics
+53fb579a-3990-4511-9074-c26305ab3590,Challenge,Mathematical Sciences,Chemical Reaction Dynamics and Mechanisms
+7f6f930e-e2e7-4b5d-91e1-1cf31f87aea8,Challenge,Mathematical Sciences,Complex Fluids & Rheology
+2bf116e2-5bfb-42e4-9752-da56f3dba8a1,Challenge,Mathematical Sciences,Condensed Matter: Electronic Structure
+36bee427-5fd7-4522-8cbe-09816e690f6f,Challenge,Mathematical Sciences,Continuum Mechanics
+9c3e967c-8db4-4502-b4cc-fc9a83e24dae,Challenge,Mathematical Sciences,Control Engineering
+4ffc53ab-5a1f-4470-ab36-ddb68e3d2c8d,Challenge,Mathematical Sciences,End Use Energy Demand (Energy Efficiency)
+246ad13d-4774-4138-8a27-667120c3fc02,Challenge,Mathematical Sciences,Fluid Dynamics and Aerodynamics
+d14cfb69-5a52-4a1b-9648-711420bcb06c,Challenge,Mathematical Sciences,Geometry & Topology
+87b94460-3490-4edf-89e6-a550b67462dd,Challenge,Mathematical Sciences,Image and Vision Computing
+0232f07e-eb58-4fa8-beb4-eab8be8f4009,Challenge,Mathematical Sciences,Information Systems
+57a6fb44-5e6a-4c0e-b41c-9c46cedbf049,Challenge,Mathematical Sciences,Light Matter Interaction and Optical Phenomena
+52d21ec6-9ffb-4ec9-aef7-cb2fcf72ff8d,Challenge,Mathematical Sciences,Logic and Combinatorics
+c92c2782-bcc8-4e0b-93ca-b386bd52a9db,Challenge,Mathematical Sciences,Materials Engineering - Metals & Alloys
+f0d91cec-6e22-47cf-830d-6e9f6c83fd1c,Challenge,Mathematical Sciences,Mathematical Analysis
+e8515e77-429b-491d-bff1-a4ab4ba9a7c4,Challenge,Mathematical Sciences,Mathematical Aspects of Operational Research
+caeb9f63-a2c1-4c80-8fe3-211dd551ee20,Challenge,Mathematical Sciences,Mathematical Biology
+3d30afd5-6f08-4615-a8cd-87c4edd0915d,Challenge,Mathematical Sciences,Mathematical Physics
+78ffb3e5-f679-4489-81c6-ba395cec5b68,Challenge,Mathematical Sciences,Non-Linear Systems
+7e3e034a-8535-4ac0-941e-36401d942f69,Challenge,Mathematical Sciences,Number Theory
+70f3ae3e-403c-42d2-b9d3-f7a66805d780,Challenge,Mathematical Sciences,Numerical Analysis
+71f14c10-0523-494a-acce-e9b469588d10,Challenge,Mathematical Sciences,Operational research
+40482966-e74f-4875-b6a8-6728fea36e18,Challenge,Mathematical Sciences,Out of EPSRC Remit
+567af2a4-3f32-454a-890e-3f058f1e8d60,Challenge,Mathematical Sciences,Performance and Inspection of Mechanical Structures and Systems
+e97c9003-a950-4f18-8acc-d8d5da630327,Challenge,Mathematical Sciences,"Quantum Devices, Components and Systems"
+83ff8715-cfcb-4c14-a20e-ddd34145318b,Challenge,Mathematical Sciences,Quantum Optics and Information
+4a228bc9-43a2-4981-b3c9-fecea7173a9f,Challenge,Mathematical Sciences,Sensors and Instrumentation
+a34894d3-93ce-413d-8a76-3ae99cd71a5c,Challenge,Mathematical Sciences,Software Engineering
+997d258a-0037-469b-ac35-7d3194840aa8,Challenge,Mathematical Sciences,Statistics and Applied Probability
+8d4f552a-74bd-43cc-be61-08bb6f1c8bf1,Challenge,Mathematical Sciences,Superconductivity
+0586de62-4c83-4285-85f3-ecf354e49183,Challenge,Mathematical Sciences,Theoretical Computer Science
+4c5b3d50-36c9-409f-b73f-44799cf418d1,Challenge,Physical Sciences,Analytical Science
+f685299b-5594-4fd2-b71a-7dd73ef10a4e,Challenge,Physical Sciences,Antihydrogen
+359e6f7b-6ab8-4d62-9970-e1bbb76c450f,Challenge,Physical Sciences,Architecture and Operating Systems
+c3b5d6c9-b160-47a0-915d-9e269d6da7c1,Challenge,Physical Sciences,Artificial Intelligence Technologies
+764705f1-c333-4dc8-adb4-470f606c809d,Challenge,Physical Sciences,Bioenergy
+219dee70-dcf8-4078-8a38-f8992c68bbd0,Challenge,Physical Sciences,Biological Informatics
+49e6986d-a0b5-4f7b-981c-819891d54314,Challenge,Physical Sciences,Biomaterials and Tissue Engineering
+2ed57640-f6f7-4795-aa77-3392e95bae5f,Challenge,Physical Sciences,Biophysics and Soft Matter Physics
+da95c064-d72b-4c12-af45-e1d4e7330564,Challenge,Physical Sciences,Carbon Capture and Storage
+959f42aa-66dc-4dff-9488-0366537741d8,Challenge,Physical Sciences,Catalysis
+8e96d270-ae3c-4a6c-a3f2-afe3854e7ec7,Challenge,Physical Sciences,Chemical Biology and Biological Chemistry
+3c8b6d75-3f26-4b48-bfbe-8834924c464f,Challenge,Physical Sciences,Chemical Reaction Dynamics and Mechanisms
+ce5c080b-c50f-4e32-ab41-45c86a81229f,Challenge,Physical Sciences,Chemical Structure
+3daf515c-c3ca-480a-a7ea-f178d834ec59,Challenge,Physical Sciences,Clinical Technologies (excluding imaging)
+881cdaec-6c49-4ac3-9323-063f7fe44571,Challenge,Physical Sciences,Cold Atoms and Molecules
+efe12aca-8ef5-45e0-a2b2-6fe598fa4a1c,Challenge,Physical Sciences,Combustion Engineering
+b3c617fd-c94e-40a0-a0a1-2cfde0f039a1,Challenge,Physical Sciences,Complex Fluids & Rheology
+4598ee51-3907-4c0f-886d-6e9025583070,Challenge,Physical Sciences,Computational & Theoretical Chemistry
+268a5206-4ca7-495f-81d9-b7f1d7043345,Challenge,Physical Sciences,Condensed Matter: Electronic Structure
+8b605d78-52bd-45f2-9209-0d234a4de1be,Challenge,Physical Sciences,Condensed Matter: Magnetism and Magnetic Materials
+b67d8bb2-37ee-4cec-9a49-519792b16910,Challenge,Physical Sciences,Continuum Mechanics
+3b051275-db6c-4b57-b881-57af463ac753,Challenge,Physical Sciences,Electrical Motors and Drive /  Electromagnetics
+cb028895-ee1f-433d-8de7-4334e43fd051,Challenge,Physical Sciences,Electrochemical Sciences
+c2fd4ba1-7554-4541-b7d8-0c0fd073e143,Challenge,Physical Sciences,Energy Storage
+d9ca7cf2-3c66-44e9-8259-c102bb7e8a99,Challenge,Physical Sciences,Engineering Design
+5eba5cc5-7ffa-4478-96fe-7d5e69557480,Challenge,Physical Sciences,Fluid Dynamics and Aerodynamics
+01ee425d-b55f-4e4f-9f7c-c8a45fc2c343,Challenge,Physical Sciences,Fuel Cell Technology
+f050d990-3246-4662-baa5-feedc3890969,Challenge,Physical Sciences,Functional Ceramics and Inorganics
+8c46a1ce-8211-4265-8025-7b74514a3ae7,Challenge,Physical Sciences,Graphene and Carbon Nanotechnology
+eae5c881-3c32-4012-a7d8-08babd9083e3,Challenge,Physical Sciences,Hydrogen and Alternative Energy Vectors
+002741dd-2d86-44cb-a439-3f56ae8be2bc,Challenge,Physical Sciences,ICT Networks & Distributed Systems
+6288de5a-d66c-4b4b-a47f-3b75bf7ba498,Challenge,Physical Sciences,Image and Vision Computing
+b7ca0300-85e5-41fe-9181-d2e6fc2b6435,Challenge,Physical Sciences,Light Matter Interaction and Optical Phenomena
+55c477be-5630-4dd5-8a5e-deb394f076ec,Challenge,Physical Sciences,Manufacturing Technologies
+50d4e37b-9b6c-47e9-b5db-e94421b6042d,Challenge,Physical Sciences,Materials Engineering - Ceramics
+48475f49-ba9a-4f5c-8d49-c0d1edc1e53b,Challenge,Physical Sciences,Materials Engineering - Composites
+d2101003-ad4b-499a-9995-e96f1f5f2957,Challenge,Physical Sciences,Materials Engineering - Metals & Alloys
+b55fb783-7643-4f55-abbc-3db5db1f74cc,Challenge,Physical Sciences,Materials For Energy Applications
+0adca263-9aeb-4f55-9283-51617fc7216f,Challenge,Physical Sciences,Mathematical Analysis
+65c00649-7e04-450e-b86b-38f7290f5f7f,Challenge,Physical Sciences,Mathematical Physics
+687c6369-6267-403b-b687-d54333c1798d,Challenge,Physical Sciences,Medical Imaging (inc medical image and vision computing)
+17f309d1-a2ec-4947-9d39-36b1d4f62782,Challenge,Physical Sciences,Microelectronics Design
+2f79e8f2-320d-491d-b4ed-0962f1238e0f,Challenge,Physical Sciences,Microelectronics Device Technology
+dddac63a-5f9b-4e75-8937-8af0de4c3c65,Challenge,Physical Sciences,Microsystems
+d2a6d5e0-01df-4f51-9ac5-dde17abc6d3f,Challenge,Physical Sciences,Non-Linear Systems
+89acd44d-1369-489c-af99-f9992543e934,Challenge,Physical Sciences,Nuclear Fission
+c55ec2d3-7fee-4666-b6c4-0c604aef3ac2,Challenge,Physical Sciences,Numerical Analysis
+822d7ba7-c969-4d06-9ff8-47dfee9d7958,Challenge,Physical Sciences,Optical Communications
+27f9de73-ff23-4830-9485-f4a6b017cc0f,Challenge,Physical Sciences,Optical Devices and Subsystems
+596afb02-49a1-45d8-ad48-b69e08f15f2f,Challenge,Physical Sciences,Optoelectronic Devices and Circuits
+ca4f98fc-6351-4c88-ab1f-3cd9e0646f27,Challenge,Physical Sciences,Out of EPSRC Remit
+805812c8-67ff-41bb-8cf5-015ea4667cd6,Challenge,Physical Sciences,Particle Technology
+a4199e23-2215-4319-839a-1f608e94d4b6,Challenge,Physical Sciences,Performance and Inspection of Mechanical Structures and Systems
+14773d75-f38f-4e5f-95ec-d01aa4554e31,Challenge,Physical Sciences,Photonic Materials
+9b5d7d77-3d06-4b71-a30d-32b5f62289be,Challenge,Physical Sciences,Plasma and Lasers
+983a89f4-e944-4fed-942f-bacb3fd1a729,Challenge,Physical Sciences,Polymer Materials
+efe7931e-5215-4014-b79c-25a4ecb1bafe,Challenge,Physical Sciences,Process Systems: Components and Integration
+7b624c37-9e46-4be7-a9f3-0c6160e761eb,Challenge,Physical Sciences,"Quantum Devices, Components and Systems"
+f81e0c8b-3ec8-4940-9749-4cfe2f8cd7f2,Challenge,Physical Sciences,Quantum Fluids and Solids
+5b6a24eb-41fd-443e-a1ce-192a7da25986,Challenge,Physical Sciences,Quantum Optics and Information
+379a4a85-2b0d-4ea3-93b6-0ce9acbb2a8e,Challenge,Physical Sciences,RF & Microwave Devices
+115d6917-717f-4508-9b14-227e35bbc761,Challenge,Physical Sciences,RF & MW Communications
+ec9e1fa6-6f5a-41a2-8194-a76b1c9fd5b3,Challenge,Physical Sciences,Robotics
+becc4099-c0df-4d24-8b5e-4634189dc45c,Challenge,Physical Sciences,Sensors and Instrumentation
+38b088f7-5c2e-46d3-a3eb-c2bf16094226,Challenge,Physical Sciences,Solar Technology
+2ae3b582-9450-4f31-9058-10901286e6da,Challenge,Physical Sciences,Spintronics
+78b91ced-808c-420d-9770-2a672a546eeb,Challenge,Physical Sciences,Superconductivity
+d073331f-5603-4278-9d40-1b4c0414ea41,Challenge,Physical Sciences,Surface Science
+162d9f5b-f89b-423e-96b6-bff548a4d024,Challenge,Physical Sciences,Synthetic Biology
+932244b4-8bca-43ab-abd3-e125683f3aa8,Challenge,Physical Sciences,Synthetic Coordination Chemistry
+fbc0545a-aaea-44eb-b55d-bb9cdd0bebfd,Challenge,Physical Sciences,Synthetic Organic Chemistry
+137d21fd-7aa6-4302-9e67-603cfeabbdbe,Challenge,Physical Sciences,Synthetic Supramolecular Chemistry
+0ce836b8-c916-498c-b40c-32ef9ad2bb7d,Challenge,Physical Sciences,Theoretical Computer Science
+b67f0bd6-873f-439f-8fcd-964a09744a8d,Challenge,Physical Sciences,Water Engineering
+bcd77564-7940-4f6a-91d6-cb47d1c4002e,Challenge,Research Infrastructure,Algebra
+7a4c58b0-25a8-4d9c-b235-c81f3fa44574,Challenge,Research Infrastructure,Analytical Science
+4415d369-2453-4010-8e04-bdaaa9ff2f81,Challenge,Research Infrastructure,Antihydrogen
+e2c9444d-a4d8-4e61-ba07-da8921ca4642,Challenge,Research Infrastructure,Artificial Intelligence Technologies
+7dc5579f-b961-4080-bf32-7e5270135173,Challenge,Research Infrastructure,"Assistive Technology, Rehabilitation and Musculoskeletal Biomechanics"
+df77fa55-7770-48ef-9066-4966bc9f30c1,Challenge,Research Infrastructure,Bioenergy
+c34b10ce-9bd7-4a92-b4fe-3b34a49c7865,Challenge,Research Infrastructure,Biological Informatics
+f8bf857c-4694-42b5-9243-1e227680269f,Challenge,Research Infrastructure,Biomaterials and Tissue Engineering
+dad3d756-f2a5-4f5c-8106-46cda3a16030,Challenge,Research Infrastructure,Biophysics and Soft Matter Physics
+7744ccee-f5aa-4dd9-aced-e261c491dec3,Challenge,Research Infrastructure,Built Environment
+5a3770fd-193a-40a4-9faf-a52054d1bb6f,Challenge,Research Infrastructure,Carbon Capture and Storage
+08451c9a-7d84-4cc3-b732-1b19cd91020f,Challenge,Research Infrastructure,Catalysis
+471b61ed-c6dd-43e4-8323-24d660281186,Challenge,Research Infrastructure,Chemical Biology and Biological Chemistry
+729621a3-879d-4d50-8dcc-83d91b64ad11,Challenge,Research Infrastructure,Chemical Reaction Dynamics and Mechanisms
+7d18fe5b-e1f9-4ccd-afe9-be88a65c56c2,Challenge,Research Infrastructure,Chemical Structure
+b0edc728-51bb-4de2-b739-4ad75f497343,Challenge,Research Infrastructure,Clinical Technologies (excluding imaging)
+d5320d37-eb0e-449d-9a24-a614496c9f12,Challenge,Research Infrastructure,Coastal and Waterway Engineering
+857289ca-b02f-49a8-8394-d7c0e11678aa,Challenge,Research Infrastructure,Cold Atoms and Molecules
+71d83fd3-1661-4ee9-aa81-0ab70957f45a,Challenge,Research Infrastructure,Combustion Engineering
+0161e5d6-003d-4d1f-88bd-768f9534a022,Challenge,Research Infrastructure,Complex Fluids & Rheology
+44ecd2fe-bcd9-4408-9835-6c198db3d138,Challenge,Research Infrastructure,Complexity Science
+7efeba31-8bc7-489a-97b1-a25096615ea9,Challenge,Research Infrastructure,Computational & Theoretical Chemistry
+b2347cfd-5575-40b1-8a23-a8b1bc375565,Challenge,Research Infrastructure,Condensed Matter: Electronic Structure
+ddaceb57-ef86-4c3d-b087-aede838151a3,Challenge,Research Infrastructure,Condensed Matter: Magnetism and Magnetic Materials
+aeca4941-0024-4760-9d06-9bcb6195fbc3,Challenge,Research Infrastructure,Continuum Mechanics
+2e1d077d-3226-4b22-a6a6-48901edee212,Challenge,Research Infrastructure,Control Engineering
+e259cc2f-02af-4813-bb1f-4204b53d0a5c,Challenge,Research Infrastructure,Digital Signal Processing
+0324a904-08a6-4073-8d07-35fe051e68e2,Challenge,Research Infrastructure,Electrical Motors and Drive /  Electromagnetics
+8acccfbc-906c-4a1d-9916-a3cd96e4d8ba,Challenge,Research Infrastructure,Electrochemical Sciences
+12226be2-e89e-473e-9f51-c396fb7f7574,Challenge,Research Infrastructure,End Use Energy Demand (Energy Efficiency)
+86ad1d38-e83c-4947-a3ad-e6d55ecd7ef5,Challenge,Research Infrastructure,Energy Storage
+ee0bf781-627e-4e52-8f89-496c299f5b3a,Challenge,Research Infrastructure,Engineering Design
+03e44eb6-582b-4d13-adec-f290399e4073,Challenge,Research Infrastructure,Fluid Dynamics and Aerodynamics
+a219ff8a-1686-4fdc-82d2-e6b2764524a0,Challenge,Research Infrastructure,Fossil Fuel Power Generation
+6ff0f680-2aa6-4c9c-8d35-ee17118986b7,Challenge,Research Infrastructure,Fuel Cell Technology
+c8009105-09ec-421d-9980-c2ff9180f44a,Challenge,Research Infrastructure,Functional Ceramics and Inorganics
+d0689342-2275-4752-a121-fc290e60d420,Challenge,Research Infrastructure,Geometry & Topology
+2491e810-ce66-41a7-ba88-cab18ec6dea2,Challenge,Research Infrastructure,Graphene and Carbon Nanotechnology
+871d6fa3-9222-464a-9cb6-f7761f46d718,Challenge,Research Infrastructure,Graphics and Visualisation
+9d1449da-673d-4822-b358-dc07688a4cf7,Challenge,Research Infrastructure,Ground Engineering
+4be0d81c-18ff-4018-afb3-092bdee9f085,Challenge,Research Infrastructure,Human-Computer Interaction
+65326587-6a40-4920-86d8-9b915e06a73a,Challenge,Research Infrastructure,Hydrogen and Alternative Energy Vectors
+70919683-79a3-4afe-afde-cfc7ee831a56,Challenge,Research Infrastructure,ICT Networks & Distributed Systems
+cb1ce294-b358-43a6-8c11-b72a892e7362,Challenge,Research Infrastructure,Image and Vision Computing
+11baba34-5c66-4798-bdf8-a0125ce7882c,Challenge,Research Infrastructure,Information Systems
+33f9d14d-75c0-4c45-a509-e2b36d166852,Challenge,Research Infrastructure,Infrastructure and Urban Systems
+a04bf597-8a47-4eae-ac6e-801e890344a7,Challenge,Research Infrastructure,Light Matter Interaction and Optical Phenomena
+d2b52383-5dea-458c-a1cf-afaa31b56109,Challenge,Research Infrastructure,Logic and Combinatorics
+59472546-3643-4251-a0d5-3b4af367a2ef,Challenge,Research Infrastructure,Manufacturing Technologies
+28432d02-e784-4a25-8975-f509bcf4c165,Challenge,Research Infrastructure,Marine Wave and Tidal
+29f02927-6373-4e0f-8110-3502a658bb10,Challenge,Research Infrastructure,Materials Engineering - Ceramics
+005ce5d3-9cfd-410d-92af-4b44bd55fa0b,Challenge,Research Infrastructure,Materials Engineering - Composites
+55c59a59-f429-4eeb-90c2-745d6274eae9,Challenge,Research Infrastructure,Materials Engineering - Metals & Alloys
+6651c9ff-fb3e-4337-a31d-c105527a05a7,Challenge,Research Infrastructure,Materials For Energy Applications
+caba0b6e-54aa-41e1-96f9-0eb6c1517eba,Challenge,Research Infrastructure,Mathematical Analysis
+665f810a-433c-483f-96f5-152c1f87065f,Challenge,Research Infrastructure,Mathematical Physics
+c0a564d1-eb32-4318-894e-ea4fb24b482d,Challenge,Research Infrastructure,Medical Imaging (inc medical image and vision computing)
+ed528cec-06d9-46e1-a937-6ae2437f54b9,Challenge,Research Infrastructure,Microelectronics Design
+b1b23ef1-ab54-469e-a20d-6e719749acca,Challenge,Research Infrastructure,Microelectronics Device Technology
+1baf57f2-783c-4ace-b28f-97e32d9e6e8b,Challenge,Research Infrastructure,Microsystems
+b129981a-53d1-4b3d-aba9-439808fd135c,Challenge,Research Infrastructure,Music and Acoustic Technology
+16de804c-b816-4aa5-80f1-522908a5b592,Challenge,Research Infrastructure,Natural Language Processing
+7a44c5f9-0cf9-43ba-9e06-03ef34306046,Challenge,Research Infrastructure,Nuclear Fission
+055f091e-5e77-4fc2-ba04-70c4df903a7f,Challenge,Research Infrastructure,Numerical Analysis
+aaab3ad9-b47e-4c33-8c07-e4b65c4178d4,Challenge,Research Infrastructure,Operational Research
+00f01606-81ce-467b-8b40-863451177c92,Challenge,Research Infrastructure,Optical Communications
+1a44deed-6a94-477d-b968-7ab265956b37,Challenge,Research Infrastructure,Optical Devices and Subsystems
+20449c0b-49b8-4b90-8a62-a2b5de65efd3,Challenge,Research Infrastructure,Optoelectronic Devices and Circuits
+733b7013-a93a-46d8-8004-1d233bc8f0a7,Challenge,Research Infrastructure,Out of EPSRC Remit
+2ff0a399-c6ad-4b1c-b9dd-e2a96104367a,Challenge,Research Infrastructure,Particle Technology
+982b8b85-a89b-4ef3-8ab6-33646c357f19,Challenge,Research Infrastructure,Performance and Inspection of Mechanical Structures and Systems
+1e296938-3c81-46dd-9acb-b71675796874,Challenge,Research Infrastructure,Photonic Materials
+e4db4630-64a0-4c9a-9568-4e50df9f6626,Challenge,Research Infrastructure,Plasma and Lasers
+b1081b4e-423f-4059-9503-23ac56de423c,Challenge,Research Infrastructure,Polymer Materials
+498780de-3cdc-4d96-a045-b83c10e9cdc7,Challenge,Research Infrastructure,Process Systems: Components and Integration
+5a276972-62ba-497b-a5b1-254cfe87989e,Challenge,Research Infrastructure,Programming Languages and Compilers
+ff2d84df-958b-4d33-95ab-acbfd9b25a66,Challenge,Research Infrastructure,"Quantum Devices, Components and Systems"
+bf8aeb39-e7fc-4854-841d-0db8c6266a9e,Challenge,Research Infrastructure,Quantum Fluids and Solids
+f5b4e885-3a1c-4367-bb0b-8c4631347cd7,Challenge,Research Infrastructure,Quantum Optics and Information
+ae6b859f-4073-4ef3-a957-a3155346037b,Challenge,Research Infrastructure,RF & Microwave Devices
+8b5c28a8-e386-4a20-9ab8-add73bded9ed,Challenge,Research Infrastructure,RF & MW Communications
+2a1942ac-096e-4b0d-84c2-aa1c9699622a,Challenge,Research Infrastructure,Robotics
+8525136a-c741-4d30-af94-278990438a8e,Challenge,Research Infrastructure,Sensors and Instrumentation
+af85d58a-6170-4c61-b7e3-5efd2c48bc4b,Challenge,Research Infrastructure,Software Engineering
+6b917271-a9b1-452d-878c-5f7395491f03,Challenge,Research Infrastructure,Solar Technology
+a41897d6-86a0-4c0c-83ad-847c5f5c175e,Challenge,Research Infrastructure,Speech Technology
+cb5aa4bd-5bc8-46e9-b12c-8ecbc6375d3a,Challenge,Research Infrastructure,Spintronics
+c4a8c14d-a810-4f21-b90e-b49df8c8a1a3,Challenge,Research Infrastructure,Statistics and Applied Probability
+aee3b065-8412-4f1f-8e8b-dea38255619a,Challenge,Research Infrastructure,Structural Engineering
+f991017c-9989-465f-8202-7991196679b4,Challenge,Research Infrastructure,Superconductivity
+f06bc5ae-127c-45f3-8586-821208a8ca68,Challenge,Research Infrastructure,Surface Science
+3b74e789-5be3-4a5c-873d-13d97a08e220,Challenge,Research Infrastructure,Synthetic Biology
+16c7dd6b-4fa5-467c-9b40-e5c873d6e3ef,Challenge,Research Infrastructure,Synthetic Coordination Chemistry
+3ed498ab-7301-4ddb-a755-d70a46865d6c,Challenge,Research Infrastructure,Synthetic Organic Chemistry
+a0367585-6b7f-4ce8-88b1-97b0c129b5af,Challenge,Research Infrastructure,Synthetic Supramolecular Chemistry
+7feb4210-a231-48e1-8a5c-22aae2d56559,Challenge,Research Infrastructure,Verification and Correctness
+c36dd2cc-f865-4418-8be9-3e2b364e6666,Challenge,Research Infrastructure,Water Engineering
+d9a7f9b0-b05b-425d-8e84-5a4a3d81775d,Challenge,Research Infrastructure,Wind Power
+0c162b4e-a75c-4db6-8c34-8ed34ec4f57b,Capability,Digital Economy,Architecture and Operating Systems
+65539358-4a95-47e3-ad96-edbb0cdf265e,Capability,Digital Economy,Artificial Intelligence Technologies
+6caa8b05-217f-45a4-9867-7b5bd34837d9,Capability,Digital Economy,"Assistive Technology, Rehabilitation and Musculoskeletal Biomechanics"
+c14c28a1-9735-43c4-b95c-17b4d9bdb0be,Capability,Digital Economy,Biological Informatics
+a7be70ea-8979-4fcf-8169-0485aee2b642,Capability,Digital Economy,Built Environment
+36bb1fe0-439a-489a-9c34-4fb0f9d31a89,Capability,Digital Economy,Clinical Technologies (excluding imaging)
+2663f3fa-2534-411d-a863-dd00006794d3,Capability,Digital Economy,Coastal and Waterway Engineering
+c2bbba21-2cef-4ead-8853-258f711eff84,Capability,Digital Economy,Complexity Science
+e5f35d7d-9bb4-4ee5-ba86-04d35aca7a73,Capability,Digital Economy,Databases
+3d0be05c-94f4-4c11-acbb-689c7e436e42,Capability,Digital Economy,Digital Signal Processing
+870955b9-8bf2-494a-af39-3706bb511bc4,Capability,Digital Economy,Electrochemical Sciences
+41c4e77d-4b77-4640-80e2-059cea47fb95,Capability,Digital Economy,End Use Energy Demand (Energy Efficiency)
+e77b50e5-736b-4ac6-89ac-17b987f657c3,Capability,Digital Economy,Engineering Design
+cb19bcba-2317-42d4-b256-fea7872d640b,Capability,Digital Economy,Graphics and Visualisation
+5b45859b-8890-4ddc-bb6f-aca07deaddaa,Capability,Digital Economy,Human Communication in ICT
+3b288165-b1bf-4ed0-b345-fa1eea1fe47f,Capability,Digital Economy,Human-Computer Interaction
+5d140b24-dff6-4129-a3d0-d1bd03feeca6,Capability,Digital Economy,ICT Networks & Distributed Systems
+8cd69c22-2ecb-4b3e-ab18-d1581127a5b9,Capability,Digital Economy,Image and Vision Computing
+d7b40846-e2e7-4051-85f6-22d82f5a41c8,Capability,Digital Economy,Information Systems
+1f00bc5f-c721-4616-9b63-1f6ecc49ea80,Capability,Digital Economy,Infrastructure and Urban Systems
+71685d61-efb1-4cce-b4d8-548afb7dfb9a,Capability,Digital Economy,Manufacturing Technologies
+07729b41-0084-4069-acff-bdc9b93bdda0,Capability,Digital Economy,Music and Acoustic Technology
+81f9ea77-1090-4dab-aa5f-7db2e17c6584,Capability,Digital Economy,Natural Language Processing
+a94d48bb-0505-49e1-be63-4f07f930d694,Capability,Digital Economy,Numerical Analysis
+7ca03401-03b7-4645-a901-8ecdd6978280,Capability,Digital Economy,Operational Research
+61bf82b3-7f56-4c7b-88e1-1d04fdebe9a9,Capability,Digital Economy,Pervasive and Ubiquitous Computing
+fa509d40-0a34-473e-a368-30255b84db37,Capability,Digital Economy,Sensors and Instrumentation
+4277bac7-350c-456a-9376-e5d8f78ef0a0,Capability,Digital Economy,Software Engineering
+81b6a1b5-d3da-4205-9913-94bbace0f0e0,Capability,Digital Economy,Statistics and Applied Probability
+c45f8d9f-4785-4865-9c3f-e75336477561,Capability,Digital Economy,Theoretical Computer Science
+55b4201d-42c5-41c4-9252-f34c3ca32c0d,Capability,Digital Economy,Verification and Correctness
+d67c4b19-a705-4c65-a010-9ee8ea6ad7d6,Capability,Digital Economy,"Vision, Hearing and Other Senses"
+9de6c452-70bc-4f52-bd55-ba33fe461377,Capability,Digital Economy,Water Engineering
+720f5918-b7b9-496c-b43b-7851c3e152f0,Capability,Energy,Bioenergy
+d22ff8cf-02d4-4752-b410-75dab3af2354,Capability,Energy,Biomaterials and Tissue Engineering
+b6d8bae2-ca90-4437-a8ef-5b79b745507f,Capability,Energy,Biophysics and Soft Matter Physics
+64f0e1ef-edb1-40bb-9c1e-d605a73810db,Capability,Energy,Built Environment
+21c3c525-fc67-4a90-afd8-5210fd5b7152,Capability,Energy,Carbon Capture and Storage
+6887198c-39c5-4998-b470-85b2a57da775,Capability,Energy,Catalysis
+0625dac1-958b-4260-8226-bc6da93613fd,Capability,Energy,Chemical Reaction Dynamics and Mechanisms
+6fee7f44-cf60-446b-8900-52e53dcfe69e,Capability,Energy,Combustion Engineering
+312e6002-01a4-4120-a9a8-30234b0f598d,Capability,Energy,Computational & Theoretical Chemistry
+27cdc3ba-ea59-4442-9d5a-ac3c5ca75156,Capability,Energy,Control Engineering
+de3065ff-e719-44fd-ad5e-469a754221c3,Capability,Energy,Electrical Motors and Drive /  Electromagnetics
+b4e387e0-849b-4156-840b-cfd348da256e,Capability,Energy,Electrochemical Sciences
+20884cea-70d3-4fc0-b869-cd1dcb0c5657,Capability,Energy,End Use Energy Demand (Energy Efficiency)
+1caa8637-317f-46dc-b1bc-fea84185c285,Capability,Energy,Energy Networks
+376eab35-b8c8-440e-88a8-1a7148613131,Capability,Energy,Energy Storage
+a461b886-4ad0-4b25-ab32-9799d9a33dab,Capability,Energy,Engineering Design
+ccd7322d-5ea6-4cfb-afeb-bca4772c5c19,Capability,Energy,Fluid Dynamics and Aerodynamics
+8ba32b18-558f-40d6-9cea-79a76651ba72,Capability,Energy,Fuel Cell Technology
+468fd7e9-80ad-4050-90c5-418aef33aba2,Capability,Energy,Functional Ceramics and Inorganics
+9831da3a-63bd-45f6-badf-2b551b39cdb9,Capability,Energy,Graphene and Carbon Nanotechnology
+a0027369-b690-4d0f-84bb-de068296c961,Capability,Energy,Ground Engineering
+737e1e33-c4b4-4bd0-9338-5f03c7b6a1fc,Capability,Energy,Hydrogen and Alternative Energy Vectors
+1ab62e9b-e97a-4704-9b3e-9b6674e25f0b,Capability,Energy,ICT Networks & Distributed Systems
+f1bf1eb0-22c5-49fa-a964-1b80fc6ab82f,Capability,Energy,Information Systems
+d7b362ce-b970-44f2-a54e-9f5c385c1ba8,Capability,Energy,Infrastructure and Urban Systems
+4086543d-a90d-400f-a308-b67b4dc0d97c,Capability,Energy,Light Matter Interaction and Optical Phenomena
+8cc4eadf-b82e-4425-9cd8-7c8537f11b86,Capability,Energy,Manufacturing Technologies
+93e3bf9a-ad2f-445a-ab9d-f19945b257bc,Capability,Energy,Marine Wave and Tidal
+61f4ea5b-3923-4d6f-a392-956b8889de37,Capability,Energy,Materials Engineering - Ceramics
+06e6c1d6-ec7e-4d90-b9e5-04bae9ef31fd,Capability,Energy,Materials Engineering - Composites
+0ce6b879-5d4a-47fd-9b14-7b24c6ee64ae,Capability,Energy,Materials Engineering - Metals & Alloys
+03680d0a-361e-437b-9e8a-d3dbc561bdbe,Capability,Energy,Materials For Energy Applications
+2ba35a75-6b72-45df-b967-6cf4c741323d,Capability,Energy,Microelectronics Device Technology
+95670b9c-74b2-4f0a-be37-28aec51624e4,Capability,Energy,Non-Linear Systems
+aa1660f2-d0cc-4b54-9c19-2928b84b2051,Capability,Energy,Nuclear Fission
+c39e9027-3029-4327-84be-a91dab7f461c,Capability,Energy,Operational Research
+3672ca00-3e69-44f3-a3b8-7286a55a6acf,Capability,Energy,Optoelectronic Devices and Circuits
+7ed4e9d8-b316-4eee-afd0-f6f015857290,Capability,Energy,Particle Technology
+9875a691-81dc-4ff0-8233-2b39eca4ddea,Capability,Energy,Performance and Inspection of Mechanical Structures and Systems
+025ffda5-2320-41dd-be5a-d72224e56792,Capability,Energy,Photonic Materials
+682de15e-7fb1-4d19-b798-d14601d828f6,Capability,Energy,Plasma and Lasers
+de912680-8e6a-4688-bef3-01d664d91718,Capability,Energy,Polymer Materials
+c141a0e0-4e52-451e-8aac-fdee7b70507c,Capability,Energy,Process Systems: Components and Integration
+89c62968-2ca5-4e7c-a1b9-b63cbb4c972a,Capability,Energy,RF & Microwave Devices
+3b363925-7b36-435d-9c6c-10953994f1ac,Capability,Energy,Robotics
+df11beac-aa84-4717-b7f4-c0980c111bbd,Capability,Energy,Sensors and Instrumentation
+be8555e8-b64d-4671-85b4-36c4d64874e3,Capability,Energy,Solar Technology
+8e91dbf9-3f42-4523-b46b-e93f54c9d231,Capability,Energy,Spintronics
+2af510cd-df30-44ef-bcad-455a32204ebf,Capability,Energy,Statistics and Applied Probability
+741076ae-7e78-45e3-8e61-3fb35a4ab156,Capability,Energy,Structural Engineering
+a318a1ac-b29f-4fdc-b5e6-7f0b35450c92,Capability,Energy,Superconductivity
+3b20ae0f-ea74-43e4-839b-3de95d48bd0a,Capability,Energy,Surface Science
+71e6cc0c-0c4c-4e9c-81e9-2cb49dd1c9d0,Capability,Energy,Synthetic Coordination Chemistry
+be56eda7-25e6-49af-960e-b687a5c489da,Capability,Energy,Water Engineering
+137c33c2-89c0-4f61-ab20-e3e737b36adf,Capability,Energy,Whole Energy Systems
+9d2bd6b4-c082-483f-9a24-a1fcce1c8605,Capability,Energy,Wind Power
+5bf2f971-2522-47eb-84b0-054326f8f52b,Capability,Global Uncertainties,Architecture and Operating Systems
+fa4b2898-d8c7-46aa-99b4-5f36872ffd83,Capability,Global Uncertainties,Artificial Intelligence Technologies
+c1b6a8ac-c611-41ac-b06a-1693e4963f0c,Capability,Global Uncertainties,"Assistive Technology, Rehabilitation and Musculoskeletal Biomechanics"
+a17df2a6-9b44-4fcd-a1c9-ad7074e2c1f0,Capability,Global Uncertainties,Control Engineering
+10ee630c-3335-44af-acc2-917696cacdb4,Capability,Global Uncertainties,Databases
+98d627a0-e18f-4c56-a403-a38274cc90f6,Capability,Global Uncertainties,Human-Computer Interaction
+0b1fc011-24bf-4444-b937-10de47069f4c,Capability,Global Uncertainties,ICT Networks & Distributed Systems
+5351a1bf-4302-46ec-a0c7-6792b28b0525,Capability,Global Uncertainties,Information Systems
+bf54506a-c890-45db-a9e0-1ad3fea4318a,Capability,Global Uncertainties,Logic and Combinatorics
+ff9333c4-2c7b-48e7-b6ab-f8d7dd10aeca,Capability,Global Uncertainties,Microelectronics Design
+5ede7b55-6d94-44fb-bb57-f9f414d7d140,Capability,Global Uncertainties,Natural Language Processing
+96bc5197-f7be-4a36-a4d6-ca49aa7218d9,Capability,Global Uncertainties,Numerical Analysis
+a5d5cff5-3b7d-43b6-b42e-40046559e2aa,Capability,Global Uncertainties,Operational Research
+7692ec04-11d2-4aa5-8133-3416fd5fa91b,Capability,Global Uncertainties,Pervasive and Ubiquitous Computing
+f0de0f95-8f78-48f9-a752-1e7c943bfa39,Capability,Global Uncertainties,Programming Languages and Compilers
+fa683bc2-2d81-45a0-92ec-3f270be071f8,Capability,Global Uncertainties,Software Engineering
+34d5c913-93c6-486c-8398-120e8b074663,Capability,Global Uncertainties,Statistics and Applied Probability
+456f5c04-0374-4320-9655-b1f6120eef77,Capability,Global Uncertainties,Theoretical Computer Science
+d88780f4-9cfe-42d3-bbb5-c54dcce6913d,Capability,Global Uncertainties,Verification and Correctness
+4819be48-65ea-4f9d-aed5-cc02b5c83b25,Capability,Healthcare Technologies,Algebra
+13a59696-fc09-40bd-8eac-574aa24d83cc,Capability,Healthcare Technologies,Analytical Science
+de74da8b-ba1f-4992-a13c-a0885305b94e,Capability,Healthcare Technologies,Artificial Intelligence Technologies
+43dc318a-626e-4e24-b83c-f2e89f4ec1b2,Capability,Healthcare Technologies,"Assistive Technology, Rehabilitation and Musculoskeletal Biomechanics"
+602415b2-059e-4fb5-8123-36353778bc4d,Capability,Healthcare Technologies,Biological Informatics
+9829deda-9a95-48d2-ace6-0fa214bedbff,Capability,Healthcare Technologies,Biomaterials and Tissue Engineering
+e4c26919-8844-48f8-b840-e206143e6bfc,Capability,Healthcare Technologies,Biophysics and Soft Matter Physics
+92317770-00e5-49ea-8b28-11b429f699d7,Capability,Healthcare Technologies,Built Environment
+06798fa3-e85d-4ecd-8e23-473fcf77d278,Capability,Healthcare Technologies,Catalysis
+42810d54-85da-4508-8ccf-9fc971a080c3,Capability,Healthcare Technologies,Chemical Biology and Biological Chemistry
+b86df7e7-61c6-4c12-b1a8-273003c06ff3,Capability,Healthcare Technologies,Clinical Technologies (excluding imaging)
+7e54d9bc-098d-459d-8138-f57a7faebc03,Capability,Healthcare Technologies,Complex Fluids & Rheology
+b393511b-9ce4-46c8-a9b8-abddc768cca5,Capability,Healthcare Technologies,Condensed Matter: Magnetism and Magnetic Materials
+cf441082-d07b-4926-93aa-1e03c7c304a1,Capability,Healthcare Technologies,Continuum Mechanics
+bfc5df9c-1cdf-4da3-8f7b-98293cb5b777,Capability,Healthcare Technologies,Control Engineering
+8473741f-afe4-4ff9-8cef-3a1306ae4e5f,Capability,Healthcare Technologies,Databases
+8396e8bb-ec49-4f3e-8ed5-49d77a6c9df4,Capability,Healthcare Technologies,Digital Signal Processing
+c74648ec-c011-4e99-b70f-0c5be969bc94,Capability,Healthcare Technologies,End Use Energy Demand (Energy Efficiency)
+c723dc48-cbf2-42c0-bb45-b93d9e14adca,Capability,Healthcare Technologies,Engineering Design
+28f24a5f-4c75-479c-9c6a-ac13b2e8c887,Capability,Healthcare Technologies,Functional Ceramics and Inorganics
+775103f1-d07e-4392-b0a0-4bc55dc285c3,Capability,Healthcare Technologies,Geometry & Topology
+da4be36d-2f13-449e-b25d-eeb9a118acbd,Capability,Healthcare Technologies,Graphene and Carbon Nanotechnology
+3b955dea-6267-439c-8d38-b8328ad766e1,Capability,Healthcare Technologies,Graphics and Visualisation
+7ce76c15-ef4f-44bf-9c97-d19d2d8ad0e4,Capability,Healthcare Technologies,Human Communication in ICT
+86ed8255-88c4-4344-87d1-7012d36bbe01,Capability,Healthcare Technologies,Human-Computer Interaction
+4137e3cd-c358-46a6-846f-48890c995fd4,Capability,Healthcare Technologies,ICT Networks & Distributed Systems
+f2f5417b-87ad-4839-92f8-096d616e19cb,Capability,Healthcare Technologies,Image and Vision Computing
+116962ff-af31-4ea6-8e8a-0225db3c2802,Capability,Healthcare Technologies,Information Systems
+b3b65ec1-7c3c-426a-94c5-3a46538b4e4b,Capability,Healthcare Technologies,Manufacturing Technologies
+41e96dbd-fdfc-40a1-b004-51a619b12955,Capability,Healthcare Technologies,Materials Engineering - Ceramics
+50add5dd-1c71-49a8-9ef2-cadc7b89e812,Capability,Healthcare Technologies,Mathematical Analysis
+d9fefa42-f5fa-47f9-ae54-5923e25aa680,Capability,Healthcare Technologies,Mathematical biology
+d607d506-4c83-4a2b-baf5-5c9fe189e0de,Capability,Healthcare Technologies,Medical Imaging (inc medical image and vision computing)
+d98d755b-08b4-4fca-bb66-fda15ebec6f1,Capability,Healthcare Technologies,Microelectronics Design
+2456aae4-02a7-455b-b0f7-b077155cbeba,Capability,Healthcare Technologies,Microelectronics Device Technology
+39d4ab6e-6458-4e75-916a-8e8a5db9f114,Capability,Healthcare Technologies,Microsystems
+fc5088e1-7b76-4040-baf5-4baf2aaa97c0,Capability,Healthcare Technologies,Music and Acoustic Technology
+a73e04d2-59de-49a9-928e-ae96276c3a66,Capability,Healthcare Technologies,Natural Language Processing
+8bf2596f-228c-4fc8-8dd4-e2aafe2a732d,Capability,Healthcare Technologies,Numerical Analysis
+ec2b363e-c1f0-44fd-aae6-1018de45f5a3,Capability,Healthcare Technologies,Operational Research
+c8471d80-2fba-4b94-b005-537db60fd772,Capability,Healthcare Technologies,Optical Devices and Subsystems
+ab49426f-aff5-4008-9c85-79bd677f0de3,Capability,Healthcare Technologies,Optoelectronic Devices and Circuits
+41360ca6-a2c5-4781-9ea2-21e1d4ade962,Capability,Healthcare Technologies,Particle Technology
+7c50b911-f8ae-4ff1-b5d1-14b9f6f0406d,Capability,Healthcare Technologies,Pervasive and Ubiquitous Computing
+0878b06a-b3eb-420d-8955-e2086982fd71,Capability,Healthcare Technologies,Photonic Materials
+6096be1f-6f80-4313-9a0a-8e44210b78c4,Capability,Healthcare Technologies,Plasma and Lasers
+ed1764fa-837d-4286-a318-5a3b3ed69998,Capability,Healthcare Technologies,Polymer Materials
+f5822742-b091-4696-993a-5ab0eeebb232,Capability,Healthcare Technologies,"Quantum Devices, Components and Systems"
+3352e632-6b78-4212-b22b-e08e418ac692,Capability,Healthcare Technologies,RF & Microwave Devices
+9fa50967-325a-48d8-9212-89ecf98e4fe1,Capability,Healthcare Technologies,Robotics
+fe8bbb97-8206-41ad-b01c-a403a47ae1b3,Capability,Healthcare Technologies,Sensors and Instrumentation
+c30b506e-3e0a-467b-bd69-8f292b835492,Capability,Healthcare Technologies,Software Engineering
+e2757fd3-3d79-4f3c-92c3-dc09fb6587b3,Capability,Healthcare Technologies,Speech Technology
+51188d2e-fafb-48c3-b1e1-de6cf2ba9174,Capability,Healthcare Technologies,Statistics and Applied Probability
+8256a777-23c3-4f46-b47b-ed2f7109b002,Capability,Healthcare Technologies,Superconductivity
+49ac83e1-b183-443f-9905-7cb952de236f,Capability,Healthcare Technologies,Surface Science
+1935615c-5626-42b1-9b1d-decab3aeb6d4,Capability,Healthcare Technologies,Synthetic Biology
+e70dcd9e-5438-420b-ab44-3e02f8a6fb6d,Capability,Healthcare Technologies,Synthetic Coordination Chemistry
+dcf2cd57-c3f3-43c9-b5ce-ce661e2bd5e0,Capability,Healthcare Technologies,Synthetic Organic Chemistry
+0130e8e9-5b2e-4b5e-abda-58ffa1992ec6,Capability,Healthcare Technologies,Synthetic Supramolecular Chemistry
+c145d78a-2486-4f1d-a2b8-0a10e21dff26,Capability,Healthcare Technologies,"Vision, Hearing and Other Senses"
+8306f1a5-b393-4f68-a4d3-c10a5eccbc35,Capability,Living with Environmental Change,Artificial Intelligence Technologies
+4b09ff68-4f69-48bf-bb5c-a9805f3e8c3a,Capability,Living with Environmental Change,Coastal and Waterway Engineering
+2cec7bba-3e3f-42b7-ab12-662d2fd6f076,Capability,Living with Environmental Change,Databases
+faa34867-41d7-4186-88e5-96f98b01be4c,Capability,Living with Environmental Change,End Use Energy Demand (Energy Efficiency)
+2e2096e1-c095-42c6-9a64-c9633076087d,Capability,Living with Environmental Change,Fluid Dynamics and Aerodynamics
+ccff020a-f266-43ef-b0d6-8639d1016710,Capability,Living with Environmental Change,Information Systems
+fc6f5dd8-1ea6-41aa-8081-054ad86ca041,Capability,Living with Environmental Change,Infrastructure and Urban Systems
+67d79950-86dd-4942-ab31-c527a8ee5f88,Capability,Living with Environmental Change,Operational research
+779dd5cc-33de-4109-99b4-5b88fa2be3ee,Capability,Living with Environmental Change,Structural Engineering
+d09a3dc5-e20c-4201-ab49-75be566cc2c6,Capability,Living with Environmental Change,Water Engineering
+f6212824-b1d3-4700-8f64-33e942e90142,Capability,Living with Environmental Change,Whole Energy Systems
+f35eb8ab-e312-40ab-9b49-fd4a77eab12a,Capability,Manufacturing the Future,Analytical Science
+0a7c0e38-387a-4680-a49f-789a49469b71,Capability,Manufacturing the Future,Artificial Intelligence Technologies
+8f8957f5-b3d4-4d21-8cd0-0cd5ce453c2d,Capability,Manufacturing the Future,"Assistive Technology, Rehabilitation and Musculoskeletal Biomechanics"
+f31e41d3-6db7-4bfe-93b2-666b3dc7373a,Capability,Manufacturing the Future,Biological Informatics
+8b1f7990-eee5-46e9-a1ec-9c3df9d6bde6,Capability,Manufacturing the Future,Biomaterials and Tissue Engineering
+dbaf390e-07c3-443f-8d5f-b2bded1d9165,Capability,Manufacturing the Future,Biophysics and Soft Matter Physics
+49a6b036-9e6e-4392-91f9-bbcd88ab250f,Capability,Manufacturing the Future,Built Environment
+9e7caa5f-a132-48b6-9cea-561864e58d4d,Capability,Manufacturing the Future,Carbon Capture and Storage
+8fb5a1e1-addd-4656-a237-4edd0f58e43c,Capability,Manufacturing the Future,Catalysis
+f55fde4a-768d-46c7-8b49-08bbc752ab12,Capability,Manufacturing the Future,Chemical Biology and Biological Chemistry
+9236eec4-2b38-4acd-986e-99157b2d2d24,Capability,Manufacturing the Future,Chemical Reaction Dynamics and Mechanisms
+a96aab28-af2b-4370-a53a-34283860c78a,Capability,Manufacturing the Future,Clinical Technologies (excluding imaging)
+f2222f8e-4ca7-47dd-87e8-f0faf24bf959,Capability,Manufacturing the Future,Complex Fluids & Rheology
+61c21c00-8c89-449d-8b59-866d76c53ed9,Capability,Manufacturing the Future,Control Engineering
+37eb2d46-fcbc-4c7e-8da3-afa6b516ef64,Capability,Manufacturing the Future,Databases
+e7925caf-0f2d-4246-93a6-a00d36fddfc1,Capability,Manufacturing the Future,Displays
+b66f0c72-5169-4d56-b375-35c2fff2f6c1,Capability,Manufacturing the Future,Electrical Motors and Drive /  Electromagnetics
+6e9d5dcb-fb2d-4245-b4dc-e08ecfd14535,Capability,Manufacturing the Future,Electrochemical Sciences
+85efb66b-6689-4fe5-8b52-df0c1137bd5c,Capability,Manufacturing the Future,End Use Energy Demand (Energy Efficiency)
+99f36ef1-7cc3-4e71-9194-be1eab1f8b4b,Capability,Manufacturing the Future,Energy Networks
+8ce35bf1-f5dc-4a22-8ec4-a015947dfc9a,Capability,Manufacturing the Future,Energy Storage
+c1967663-fb9b-4834-98b5-06d9bdf2fcc1,Capability,Manufacturing the Future,Engineering Design
+37a4a1cc-dcd0-4423-8a49-b126feec2153,Capability,Manufacturing the Future,Fluid Dynamics and Aerodynamics
+59beeb24-69a9-45d5-bb4e-2bb4355b50c2,Capability,Manufacturing the Future,Functional Ceramics and Inorganics
+3dbe6a9c-449f-4fb8-bdcb-561b4f54f50a,Capability,Manufacturing the Future,Geometry & Topology
+6d62b441-338c-4121-9ce2-8dc63d53bbc9,Capability,Manufacturing the Future,Graphene and Carbon Nanotechnology
+85849361-59d6-41f4-9380-4f5d0c04b7b3,Capability,Manufacturing the Future,Human-Computer Interaction
+c7a4ae98-3f89-475a-ada8-ea2620e05574,Capability,Manufacturing the Future,ICT Networks & Distributed Systems
+7bad49bf-68a9-4e77-a44f-aec01212300b,Capability,Manufacturing the Future,Image and Vision Computing
+c7edba3e-8167-4fe8-b2c9-a5ac28738dc7,Capability,Manufacturing the Future,Information Systems
+d181a405-fa06-4632-bdb1-03dd5c03329f,Capability,Manufacturing the Future,Infrastructure and Urban Systems
+15d7b995-c083-4847-bcb4-de3f868b295d,Capability,Manufacturing the Future,Manufacturing Technologies
+8c58f318-cd9c-4f99-a526-f58642479784,Capability,Manufacturing the Future,Materials Engineering - Ceramics
+2b634725-c512-47d7-a912-ca8395482eef,Capability,Manufacturing the Future,Materials Engineering - Composites
+3535fc8f-f073-474d-b871-e38c1efd518a,Capability,Manufacturing the Future,Materials Engineering - Metals & Alloys
+91bca445-f5df-4e94-b1c6-5f15d87ec61e,Capability,Manufacturing the Future,Materials For Energy Applications
+1162f095-8518-4770-b0eb-1c845283ac11,Capability,Manufacturing the Future,Mathematical Analysis
+010a5ff5-f4a5-48be-a543-b1fa61a7f712,Capability,Manufacturing the Future,Mathematical Biology
+19bb23ce-5014-4c71-b0bc-74bf35a48f96,Capability,Manufacturing the Future,Medical Imaging (inc medical image and vision computing)
+ff046e7a-4291-48ac-b9e1-38ec727c0491,Capability,Manufacturing the Future,Microelectronics Device Technology
+c3af4dea-dccd-426e-94f6-e88bde6cdfd7,Capability,Manufacturing the Future,Microsystems
+a0737a6b-53da-4ad9-a774-60457f75eae0,Capability,Manufacturing the Future,Nuclear Fission
+c71b18e7-2720-4350-be17-f282a1dde80f,Capability,Manufacturing the Future,Numerical Analysis
+06826f81-299d-4437-a1a3-dae991c00060,Capability,Manufacturing the Future,Operational Research
+5773e075-bac4-42f2-8f80-51cf72d49439,Capability,Manufacturing the Future,Optical Communications
+f8bee410-7cc3-4917-b733-2e43136df936,Capability,Manufacturing the Future,Optical Devices and Subsystems
+93fb21d5-e009-4649-8098-329f4c5fe6ea,Capability,Manufacturing the Future,Optoelectronic Devices and Circuits
+41479502-6a30-4c60-96d5-be3cd1b56bf1,Capability,Manufacturing the Future,Particle Technology
+8caa0d88-142c-4b5d-a20b-43c7652a3a94,Capability,Manufacturing the Future,Performance and Inspection of Mechanical Structures and Systems
+5574f8dc-7c09-4372-b8b7-5350c218e94e,Capability,Manufacturing the Future,Pervasive and Ubiquitous Computing
+dc6ea8b5-4c9c-43ec-901f-4be07fbae0c0,Capability,Manufacturing the Future,Photonic Materials
+e5364bc9-3593-42ff-bac9-feb357c55e99,Capability,Manufacturing the Future,Plasma and Lasers
+4d97bc29-68a1-4c9f-a2e2-08989fec93ed,Capability,Manufacturing the Future,Polymer Materials
+487bdbc9-074e-472a-b72e-ce3da844d139,Capability,Manufacturing the Future,Process Systems: Components and Integration
+bd3fe46f-4f3d-4001-9dce-51e1781d423d,Capability,Manufacturing the Future,"Quantum Devices, Components and Systems"
+1773b7e1-be67-4c23-883e-28f14494e37d,Capability,Manufacturing the Future,RF & Microwave Devices
+34966700-b68a-4a14-ac5b-8a4ceae6e1bf,Capability,Manufacturing the Future,Robotics
+10f86051-3278-4bdf-a2fb-b4d45c7b34a5,Capability,Manufacturing the Future,Sensors and Instrumentation
+faebae86-06f6-4aa6-9a3f-bda03af22a21,Capability,Manufacturing the Future,Software Engineering
+141c06e6-11e9-4d77-a5d4-6aa27c6b827a,Capability,Manufacturing the Future,Solar Technology
+89b4acee-32ea-4791-a6e9-dafc877f6e6b,Capability,Manufacturing the Future,Statistics and Applied Probability
+4cd725d5-a22d-4661-8631-1b19f7495f76,Capability,Manufacturing the Future,Structural Engineering
+9afe066e-07c9-47de-b4b8-b5c0c9f412a3,Capability,Manufacturing the Future,Surface Science
+c99acd3b-b543-4c37-ae6c-aa7d39093385,Capability,Manufacturing the Future,Synthetic Biology
+3775e130-e576-49b4-97d9-fc44a87967ff,Capability,Manufacturing the Future,Synthetic Coordination Chemistry
+b6f2ab27-d176-470e-929e-6af55a06297d,Capability,Manufacturing the Future,Synthetic Organic Chemistry
+f07f33b9-533e-4d5f-8b77-4edc59e4244d,Capability,Manufacturing the Future,Synthetic Supramolecular Chemistry
+898ced11-df45-4c9f-8d3c-78ff360b24e8,Capability,Quantum Technologies,Artificial Intelligence Technologies
+3cf4bdf6-b6f7-46ac-b822-eeb4d3efdc34,Capability,Quantum Technologies,Cold Atoms and Molecules
+352da061-b555-4d70-b15c-1843a53bbdc2,Capability,Quantum Technologies,Light Matter Interaction and Optical Phenomena
+da13a65f-f50c-4aa1-bf87-eeb21050cecd,Capability,Quantum Technologies,Optical Devices and Subsystems
+d34672a0-2a42-4767-b7ba-c5b3095c17a5,Capability,Quantum Technologies,Optoelectronic Devices and Circuits
+125cceb1-1240-49b4-842f-ecf02727c560,Capability,Quantum Technologies,"Quantum Devices, Components and Systems"
+a4297dac-3b56-44d0-b5fc-533b6344ec93,Capability,Quantum Technologies,Quantum Optics and Information
+1a9e2979-bd46-4382-bbad-a23006860397,Capability,Quantum Technologies,Superconductivity
+6da2f232-bec8-4ddd-913f-d12ea009376b,Capability,Quantum Technologies,Theoretical Computer Science

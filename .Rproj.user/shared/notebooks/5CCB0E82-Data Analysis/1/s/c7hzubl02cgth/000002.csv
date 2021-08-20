@@ -1,8 +1,0 @@
-"0","grants_x_person_roles %>% "
-"0","  ggplot() +"
-"0","  geom_area("
-"0","    mapping = aes(grant_number_all, fill = ""Number of Grants""),"
-"0","    stat = ""bin"","
-"0","    bins = 40,"
-"0","    show.legend = FALSE"
-"0","  )"

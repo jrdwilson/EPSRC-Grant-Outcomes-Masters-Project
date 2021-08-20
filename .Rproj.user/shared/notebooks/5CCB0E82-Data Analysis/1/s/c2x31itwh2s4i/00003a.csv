@@ -1,0 +1,11 @@
+"0",""
+"0","summary_org <- org_funding %>% "
+"0","  group_by(org_name, org_role) %>% "
+"0","  summarise("
+"0","    total_award_amount = sum(award_value),"
+"0","    mean_award_amount = mean(award_value),"
+"0","    number_of_grants = n()"
+"0","  )"
+"2","`summarise()` has grouped output by 'org_name'. You can override using the `.groups` argument.
+"
+"0","summary_org"

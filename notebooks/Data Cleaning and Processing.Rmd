@@ -189,6 +189,15 @@ person_roles <- person_df %>%
     grant_ref = factor(grant_ref),
     role = factor(role),
     person_id = factor(person_id)
+  ) %>% 
+  rowwise() %>% 
+  mutate(
+    person_role_id = str_to_upper(UUIDgenerate()),
+    .before = grant_ref
+  ) %>% 
+  ungroup() %>% 
+  mutate(
+    person_role_id = person_role_id
   )
 
 dataset_collection$person_roles <- person_roles
@@ -242,8 +251,7 @@ people <- person_df %>%
   mutate(
     first_name = parse_character(first_name, locale = locale(encoding = "Latin1")),
     other_names = parse_character(other_names, locale = locale(encoding = "Latin1")),
-    surname = parse_character(surname, locale = locale(encoding = "Latin1")),
-    person_id = factor(person_id)
+    surname = parse_character(surname, locale = locale(encoding = "Latin1"))
   )
 
 dataset_collection$people <- people
@@ -341,16 +349,16 @@ gender_data <- read_csv(
 )
 
 first_name_gender <- left_join(first_names, gender_data, by = "name") %>% 
-  rename(
-    predicted_gender = gender,
-    proportion_of_count = probability,
-  ) %>% 
+  rowwise() %>% 
   mutate(
-    predicted_gender = factor(predicted_gender)
-  ) #%>% 
-  # mutate(
-  #   proportion_male = ifelse(predicted_gender == "male", proportion_of_count, 1 - proportion_of_count)
-  # )
+    proportion_male = ifelse(gender == "male", probability, 1 - probability)
+  ) %>%
+  ungroup() %>% 
+  select(
+    name,
+    proportion_male,
+    count
+  )
 
 first_name_gender
 ```
@@ -370,7 +378,13 @@ organisation_roles <- organisation_df %>%
   separate_rows(org_role, sep = ",") %>% 
   mutate(
     across(everything(),as_factor)
-  )
+  ) %>%
+  rowwise()  %>% 
+  mutate(
+    org_role_id = str_to_upper(UUIDgenerate()),
+    .before = grant_ref
+  ) %>% 
+  ungroup()
 
 dataset_collection$organisation_roles <- organisation_roles
 ```
@@ -398,8 +412,14 @@ subject_weight <- subject_df %>%
     subject_id,
     percentage
   ) %>% 
+  rowwise() %>%
   mutate(
-    across(everything(), as_factor)
+    subject_weight_id = str_to_upper(UUIDgenerate()),
+    .before = grant_ref
+  ) %>% 
+  ungroup() %>% 
+  mutate(
+    across(!c(subject_weight_id, percentage), as_factor),
   )
 
 dataset_collection$subject_weight <- subject_weight
@@ -413,7 +433,7 @@ subjects <- subject_df %>%
   ) %>% 
   distinct() %>% 
   mutate(
-    across(everything(), as_factor)
+    subject = as_factor(subject)
   )
 
 dataset_collection$subjects <- subjects
@@ -427,8 +447,14 @@ topic_weight <- topic_df %>%
     percentage
   ) %>% 
   mutate(
-    across(everything(), as_factor)
-  )
+    across(!percentage, as_factor)
+  ) %>%
+  rowwise() %>% 
+  mutate(
+    topic_weight_id = str_to_upper(UUIDgenerate()),
+    .before = grant_ref
+  ) %>% 
+  ungroup()
 
 dataset_collection$topic_weight <- topic_weight
 ```
@@ -442,7 +468,7 @@ topics <- topic_df %>%
   ) %>% 
   distinct() %>% 
   mutate(
-    across(everything(), as_factor)
+    topic = as_factor(topic)
   )
 
 dataset_collection$topics <- topics
@@ -467,7 +493,14 @@ grant_themes <- themes %>%
   select(
     grant_ref,
     theme_id
-  )
+  ) %>% 
+  mutate(across(everything(), as_factor)) %>% 
+  rowwise() %>% 
+  mutate(
+    grant_theme_id = UUIDgenerate(),
+    .before = grant_ref
+  ) %>% 
+  ungroup()
 
 themes <- themes %>% 
   select(
@@ -519,6 +552,8 @@ dataset_collection$grants <- grants
 ```{r view dataset_collection}
 dataset_collection
 ```
+
+
 Depending on the end user, both cvs and rds file formats were used. The RDS file format preservers the object and the column types allowing easy import and use (do not have to correct any parsing issues) while the CVS offers a more general and flexible access to the data.
 
 ```{r save dataset_collection}

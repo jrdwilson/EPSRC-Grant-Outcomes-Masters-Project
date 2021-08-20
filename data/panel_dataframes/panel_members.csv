@@ -1515,7 +1515,7 @@ panel_id,panel_type,name,organisation,position
 4576,Panel,Professor AJ Mulholland,University of Bristol,Panel Chairperson
 4576,Panel,Mr J Beech-Brandt,University of Edinburgh,Panel Member
 4576,Panel,Professor D Bird,University of Bath,Panel Member
-4576,Panel,Professor G Coleman,NASA,Panel Member
+4576,Panel,Professor G Coleman,"NASA",Panel Member
 4576,Panel,Professor S Jarvis,University of Birmingham,Panel Member
 4576,Panel,Mr G Robinson,Numerical Algorithms Group Ltd,Panel Member
 4576,Panel,Professor RA Roemer,University of Warwick,Panel Member
@@ -4628,7 +4628,7 @@ panel_id,panel_type,name,organisation,position
 4959,Panel,Dr C Fazio,Karlsruhe Institute of Technology (KIT),Panel Member
 4959,Panel,Mr A Goldsworth,Rolls-Royce Plc (UK),Panel Member
 4959,Panel,Dr J Jones,Health and Safety Executive,Panel Member
-4959,Panel,Mr D Le Révérend,EDF Energy,Panel Member
+4959,Panel,Mr D Le RÃ©vÃ©rend,EDF Energy,Panel Member
 4959,Panel,Dr T Paget,AWE,Panel Member
 4959,Panel,Professor J Tulenko,University of Florida,Panel Member
 4959,Panel,Miss Samantha Riches,Engineering and Physical Sciences Research Council,Panel Contact
@@ -5674,7 +5674,7 @@ panel_id,panel_type,name,organisation,position
 1-3B7DB,NGBOPanel,"Ralston, Dr B J",University of Warwick,Panel Chairperson
 1-3B7DB,NGBOPanel,"BORDAS, Professor SPA",Cardiff University,Panel Member
 1-3B7DB,NGBOPanel,"Bors, Dr A",University of York,Panel Member
-1-3B7DB,NGBOPanel,"Coleman, Professor G",NASA,Panel Member
+1-3B7DB,NGBOPanel,"Coleman, Professor G","NASA",Panel Member
 1-3B7DB,NGBOPanel,"Finnis, Professor MW",Imperial College London,Panel Member
 1-3B7DB,NGBOPanel,"Heil, Professor M",The University of Manchester,Panel Member
 1-3B7DB,NGBOPanel,"Roach, Dr CM",CCFE/UKAEA,Panel Member
@@ -7045,7 +7045,7 @@ panel_id,panel_type,name,organisation,position
 1-14LQLO,NGBOPanel,"Bush, Dr I",Numerical Algorithms Group Ltd,Panel Member
 1-14LQLO,NGBOPanel,"Hirst, Professor J",University of Nottingham,Panel Member
 1-14LQLO,NGBOPanel,"Reese, Professor JM",University of Edinburgh,Panel Member
-1-14LQLO,NGBOPanel,"Schröder, Professor W",RWTH Aachen University,Panel Member
+1-14LQLO,NGBOPanel,"SchrÃ¶der, Professor W",RWTH Aachen University,Panel Member
 1-14LQLO,NGBOPanel,"Vadgama, Mr A",AWE plc,Panel Member
 1-14LQLO,NGBOPanel,"Yates, Rev Dr JA",University College London,Panel Member
 1-14LQLO,NGBOPanel,"Emmerson, Daniel",Engineering and Physical Sciences Research Council,Panel Contact
@@ -7215,7 +7215,7 @@ panel_id,panel_type,name,organisation,position
 1-192FNH,NGBOPanel,"McConville, Professor CF",RMIT University,Panel Member
 1-192FNH,NGBOPanel,"Pemble, Professor M",University College Cork,Panel Member
 1-192FNH,NGBOPanel,"Scrosati, Professor B",University of Rome I (La Sapienza),Panel Member
-1-192FNH,NGBOPanel,"Züttel, Professor A",Empa (Swiss Fed Labs of Mat Sci Tech),Panel Member
+1-192FNH,NGBOPanel,"ZÃ¼ttel, Professor A",Empa (Swiss Fed Labs of Mat Sci Tech),Panel Member
 1-192FNH,NGBOPanel,"Birch, Nigel",Engineering and Physical Sciences Research Council,Panel Contact
 1-171P4B,NGBOPanel,"Brown, Mr A",International Energy Agency IEA,Panel Chairperson
 1-171P4B,NGBOPanel,"Barker, Dr J",Innospce Inc.,Panel Member
@@ -9000,7 +9000,7 @@ panel_id,panel_type,name,organisation,position
 1-2GOO2N,NGBOPanel,"Straughan, Professor B",Durham University,Panel Member
 1-2GOO2N,NGBOPanel,NA,Engineering and Physical Sciences Research Council,Panel Contact
 1-2LHQN2,NGBOPanel,"Bonfield, Dr P",BRE Group (Building Res Establishment),Panel Chairperson
-1-2LHQN2,NGBOPanel,"Carré, Dr F",CEA - Atomic Energy Commission,Panel Member
+1-2LHQN2,NGBOPanel,"CarrÃ©, Dr F",CEA - Atomic Energy Commission,Panel Member
 1-2LHQN2,NGBOPanel,"Cooper, Dr R",Tata Steel,Panel Member
 1-2LHQN2,NGBOPanel,"Costello, Professor JT",Dublin City University,Panel Member
 1-2LHQN2,NGBOPanel,"Davies, Dr GMJ",Laing O'Rourke plc,Panel Member
@@ -12377,7 +12377,7 @@ panel_id,panel_type,name,organisation,position
 1-5X2RJ3,NGBOPanel,"Leese, Dr R",Smith Institute,Panel Member
 1-5X2RJ3,NGBOPanel,"Parbrook, Professor P",University College Cork,Panel Member
 1-5X2RJ3,NGBOPanel,"Schroll, Professor S",University of Leicester,Panel Member
-1-5X2RJ3,NGBOPanel,"Viña, Professor L",Autonomous University of Madrid,Panel Member
+1-5X2RJ3,NGBOPanel,"ViÃ±a, Professor L",Autonomous University of Madrid,Panel Member
 1-5X2RJ3,NGBOPanel,"White, Professor I",University of Cambridge,Panel Member
 1-5X2RJ3,NGBOPanel,"Wicks, Dr J",The Fluid Group,Panel Member
 1-5X2RJ3,NGBOPanel,"Howes, Amanda",Engineering and Physical Sciences Research Council,Panel Contact
@@ -12908,7 +12908,7 @@ panel_id,panel_type,name,organisation,position
 1-5YM608,NGBOPanel,"McDonald, Professor S",The Robert Gordon University,Panel Member
 1-5YM608,NGBOPanel,"McDougall, Dr F",Veolia Environmental Services,Panel Member
 1-5YM608,NGBOPanel,"Mines, Mr P",Biome Technologies,Panel Member
-1-5YM608,NGBOPanel,"Schröder, Dr P",Chatham House,Panel Member
+1-5YM608,NGBOPanel,"SchrÃ¶der, Dr P",Chatham House,Panel Member
 1-5YM608,NGBOPanel,"Sweet, Dame N",WRAP,Panel Member
 1-5YM608,NGBOPanel,"Wharfe, Dr J",Wharfe Independent Consulting,Panel Member
 1-5YM608,NGBOPanel,"XU, Professor BB",Northumbria University,Panel Member
@@ -14841,7 +14841,7 @@ panel_id,panel_type,name,organisation,position
 1-92AJJ9,NGBOPanel,"Foley, Dr C",GE Healthcare,Panel Member
 1-92AJJ9,NGBOPanel,"Henderson, Professor RK",University of Edinburgh,Panel Member
 1-92AJJ9,NGBOPanel,"King, Professor J",University of Nottingham,Panel Member
-1-92AJJ9,NGBOPanel,"Mazzà, Professor C",University of Sheffield,Panel Member
+1-92AJJ9,NGBOPanel,"MazzÃ , Professor C",University of Sheffield,Panel Member
 1-92AJJ9,NGBOPanel,"Pandit, Professor H",University of Leeds,Panel Member
 1-92AJJ9,NGBOPanel,"Riehle, Dr MO",University of Glasgow,Panel Member
 1-92AJJ9,NGBOPanel,"Woolley, Jeanine",Engineering and Physical Sciences Research Council,Panel Contact
@@ -15245,7 +15245,7 @@ panel_id,panel_type,name,organisation,position
 1-A5ERLA,NGBOPanel,"Matechou, Dr E",University of Kent,Panel Member
 1-A5ERLA,NGBOPanel,"Moroz, Professor V",Swansea University,Panel Member
 1-A5ERLA,NGBOPanel,"Neves, Dr C",University of Reading,Panel Member
-1-A5ERLA,NGBOPanel,"Oyarzún, Dr D",University of Edinburgh,Panel Member
+1-A5ERLA,NGBOPanel,"OyarzÃºn, Dr D",University of Edinburgh,Panel Member
 1-A5ERLA,NGBOPanel,"Skeldon, Professor A",University of Surrey,Panel Member
 1-A5ERLA,NGBOPanel,"Wuthrich, Dr C",University of Nottingham,Panel Member
 1-A5ERLA,NGBOPanel,"Lund, Victoria",Engineering and Physical Sciences Research Council,Panel Contact

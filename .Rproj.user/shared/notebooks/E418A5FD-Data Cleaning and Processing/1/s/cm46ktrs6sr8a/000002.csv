@@ -5,7 +5,7 @@
 "0","  ) %>% "
 "0","  distinct() %>% "
 "0","  mutate("
-"0","    across(everything(), as_factor)"
+"0","    topic = as_factor(topic)"
 "0","  )"
 "0",""
 "0","dataset_collection$topics <- topics"

@@ -3,10 +3,10 @@ title: "EPSRC Grant Funding Outcomes"
 subtitle: "Data Analysis"
 author: "Joseph Wilson"
 output:
-  pdf_document: 
-    number_sections: yes
   html_document:
     df_print: paged
+  pdf_document: 
+    number_sections: yes
 ---
 
 ```{r import packages}
@@ -20,12 +20,24 @@ library(lubridate)
 library(scales)
 ```
 
+```{r useful functions}
+break_log_cust <- function(range) {
+  breaks_custom <- c()
+  for (x in range) {
+    for (i in 1:9) {
+      breaks_custom <- c(breaks_custom, i*10^x)
+    }
+  }
+  return(breaks_custom)
+}
+```
+
 ```{r load in datasets}
 datasets <- read_rds("../data/datasets/epsrc_grant_datasets.rds")
 
 datasets
 ```
-# How has the amount of funding awarded changed each year?
+# How has the amount of funding awarded changed over time?
 
 ```{r data wrangling - award amount}
 amount_start_date <- datasets$grants %>% 
@@ -44,7 +56,7 @@ amount_start_year <- amount_start_date %>%
   group_by(
     start_year
   ) %>% 
-  mutate(
+  summarise(
     mean_award_value = mean(award_value),
     total_award_value = sum(award_value)
   )
@@ -61,7 +73,7 @@ amount_start_month <- amount_start_date %>%
   group_by(
     start_month
   ) %>% 
-  mutate(
+  summarise(
     mean_award_value = mean(award_value),
     total_award_value = sum(award_value)
   )
@@ -74,15 +86,15 @@ amount_start_month
 amount_start_year_month <- amount_start_date %>% 
   mutate(
     start_year = as_factor(year(start_date)),
-    # start_month = month(start_date, label = TRUE, abbr = TRUE),
-    start_quater = as_factor(quarter(start_date))
+    start_month = month(start_date, label = TRUE, abbr = TRUE),
+    # start_quater = as_factor(quarter(start_date))
   ) %>% 
   group_by(
     start_year,
-    # start_month,
-    start_quater
+    start_month,
+    # start_quater
   ) %>% 
-  mutate(
+  summarise(
     mean_award_value = mean(award_value),
     total_award_value = sum(award_value)
   )
@@ -97,56 +109,75 @@ amount_start_year %>%
   ggplot(
     mapping = aes(
       x = start_year,
-      y = mean_award_value/1000,
+      y = mean_award_value,
       fill = start_year
     )
   ) +
   geom_col(show.legend = FALSE) +
   scale_y_continuous(
-    name = "Mean Award Value (£k)",
-    labels = number,
-    breaks = extended_breaks(8)
+    name = "Mean Award Value",
+    labels = label_dollar(prefix = "£", suffix = ""),
+    breaks = extended_breaks(8),
+    expand = expansion(mult = c(0, .05))
   ) +
   scale_x_discrete(
     name = "Start Year"
-  )
+  ) +
+  scale_fill_discrete() 
+  
 ```
 ```{r graph plotting - average award amount - month}
 amount_start_month %>% 
   ggplot(
     mapping = aes(
       x = start_month,
-      y = mean_award_value/1000,
+      y = mean_award_value,
+      group = start_month,
+      # fill = hue_pal()(12)
       fill = start_month
     )
   ) +
   geom_col(show.legend = FALSE) +
   scale_y_continuous(
-    name = "Mean Award Value (£k)",
-    labels = number,
-    breaks = extended_breaks(8)
+    name = "Mean Award Value",
+    labels = label_dollar(prefix = "£", suffix = ""),
+    breaks = extended_breaks(8),
+    expand = expansion(mult = c(0, .05))
   ) +
   scale_x_discrete(
     name = "Start Month"
-  )
+  ) +
+  scale_fill_discrete()
 ```
 
 ```{r graph plotting - average award amount - month and year}
 amount_start_year_month %>% 
-  ggplot(
+  ggplot() +
+  geom_line(
     mapping = aes(
       x = start_year,
-      y = mean_award_value/1000,
-      group = start_quater,
-      col = start_quater
-    )
+      y = mean_award_value,
+      group = start_month,
+      colour = start_month
+    ),
+    size = 1
   ) +
-  geom_line(size = 1) +
   scale_y_continuous(
-    name = "Mean Award Value (£k)",
-    labels = number,
-    breaks = extended_breaks(8)
+    name = "Mean Award Value",
+    labels = label_dollar(prefix = "£", suffix = ""),
+    # breaks = extended_breaks(8),
+    expand = expansion(mult = c(0, .05))
+  ) +
+  scale_x_discrete(
+    name = "Start Year"
+  ) +
+  scale_color_discrete(
+    name = "Start Month"
+  ) + 
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5)
   )
+  
   
 ```
 
@@ -156,15 +187,16 @@ amount_start_year %>%
   ggplot(
     mapping = aes(
       x = start_year,
-      y = total_award_value/1000,
+      y = total_award_value,
       fill = start_year
     )
   ) +
   geom_col(show.legend = FALSE) +
   scale_y_continuous(
-    name = "Total Award Value (£k)",
-    labels = number,
-    breaks = extended_breaks(8)
+    name = "Total Award Value",
+    labels = label_dollar(prefix = "£", suffix = ""),
+    breaks = extended_breaks(8),
+    expand = expansion(mult = c(0, .05))
   ) +
   scale_x_discrete(
     name = "Start Year"
@@ -176,19 +208,22 @@ amount_start_month %>%
   ggplot(
     mapping = aes(
       x = start_month,
-      y = total_award_value/1000,
+      y = total_award_value,
+      group = start_month,
       fill = start_month
     )
   ) +
   geom_col(show.legend = FALSE) +
   scale_y_continuous(
-    name = "Total Award Value (£k)",
-    labels = number,
-    breaks = extended_breaks(8)
+    name = "Total Award Value",
+    labels = label_dollar(prefix = "£", suffix = ""),
+    breaks = extended_breaks(8),
+    expand = expansion(mult = c(0, .05))
   ) +
   scale_x_discrete(
     name = "Start Month"
-  )
+  ) +
+  scale_fill_discrete()
 ```
 
 ```{r graph plotting - total award amount - month and year}
@@ -196,16 +231,96 @@ amount_start_year_month %>%
   ggplot(
     mapping = aes(
       x = start_year,
-      y = total_award_value/1000,
-      group = start_quater,
-      col = start_quater
+      y = total_award_value,
+      group = start_month,
+      col = start_month
     )
   ) +
-  geom_line(size = 1) +
+  geom_line(size = 1)  +
   scale_y_continuous(
-    name = "Total Award Value (£k)",
-    labels = number,
-    breaks = extended_breaks(8)
+    name = "Total Award Value",
+    labels = label_dollar(prefix = "£", suffix = ""),
+    breaks = extended_breaks(8),
+    expand = expansion(mult = c(0, .05))
+  ) +
+  scale_x_discrete(
+    name = "Start Year",
+  ) +
+  scale_color_discrete(
+    name = "Start Month"
+  ) +
+  theme(
+    axis.text.x = element_text(angle = 90, vjust = 0.5)
+  )
+  
+```
+## Distribtuion of Award Value
+
+```{r}
+amount_start_date %>% 
+  mutate(
+    start_year = as_factor(year(start_date))
+  ) %>% 
+  group_by(start_year) %>% 
+  # filter(award_value != 0) %>% 
+  ggplot() +
+  geom_boxplot(
+    mapping = aes(
+      x = start_year,
+      y = award_value,
+      group = start_year,
+      colour = start_year
+    ),
+    # outlier.shape = NA,
+  ) +
+  scale_y_continuous(
+    name = "Award Value",
+    labels = label_dollar(prefix = "£"),
+    trans = pseudo_log_trans(base = 10),
+    breaks = c(0, 1e1, 1e2, 1e3, 1e4, 1e5, 1e6, 1e7, 1e8),
+    expand = expansion(mult = c(0, .05))
+  ) +
+  theme(
+    legend.position = "none"
+  ) +
+  labs(
+    title = "Yearly Distribution of Award Value - Zero Award Values excluded"
+  )
+  
+  
+```
+```{r}
+amount_start_date %>% 
+  mutate(
+    start_year = as_factor(year(start_date))
+  ) %>% 
+  group_by(start_year) %>% 
+  filter(award_value != 0) %>%
+  ggplot() +
+  geom_boxplot(
+    mapping = aes(
+      x = start_year,
+      y = award_value,
+      group = start_year,
+      colour = start_year
+    ),
+    # outlier.shape = NA,
+  ) +
+  scale_y_continuous(
+    name = "Award Value",
+    labels = label_dollar(prefix = "£"),
+    trans = pseudo_log_trans(base = 10),
+    breaks = c(0, 1e1, 1e2, 1e3, 1e4, 1e5, 1e6, 1e7, 1e8),
+    expand = expansion(mult = c(0, .05))
+  ) +
+  theme(
+    legend.position = "none"
+  ) +
+  scale_x_discrete(
+    name = "Start Year"
+  ) +
+  labs(
+    title = "Yearly Distribution of Award Value - Zero Award Values excluded"
   )
   
 ```
@@ -215,35 +330,712 @@ amount_start_year_month %>%
 datasets$grants %>% 
   ggplot() +
   geom_histogram(
-    aes(x = award_value + 1),
-    bins = 100
-  ) +
-  scale_x_log10(
-    name = "Award Value (£)",
-    labels = number
-  )
-
-datasets$grants %>% 
-  filter(award_value != 0) %>% 
-  ggplot() +
-  geom_histogram(
     aes(x = award_value),
-    bins = 100
+    bins = 75,
+    fill = hue_pal()(1)
   ) +
-  scale_x_log10(
-    name = "Award Value (£)",
-    labels = number
+  scale_x_continuous(
+    name = "Award Value",
+    labels = label_dollar(prefix = "£"),
+    trans = pseudo_log_trans(base = 10),
+    breaks = c(0, 1e1, 1e2, 1e3, 1e4, 1e5, 1e6, 1e7, 1e8),
+    minor_breaks = break_log_cust(0:8),
+    expand = expansion(mult = c(0, .05))
   ) +
   scale_y_continuous(
     name = "Count",
-    breaks = breaks_extended(10)
+    breaks_extended(10),
+    expand = expansion(mult = c(0, .05))
+  ) +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1)
   )
 ```
 
 
-# Which Organisations have recieved the most grant funding?
+```{r }
+datasets$grants %>% 
+  filter(award_value != 0) %>% 
+  ggplot() +
+  geom_histogram(
+    mapping = aes(
+      x = award_value
+    ),
+    bins = 75,
+    fill = hue_pal()(1)
+  ) +
+  scale_x_log10(
+    name = "Award Value",
+    labels = label_dollar(prefix = "£"),
+    breaks = breaks_log(6),
+    minor_breaks = break_log_cust(3:8),
+    expand = expansion(mult = c(0, .05))
+  ) +
+  scale_y_continuous(
+    name = "Count",
+    breaks_extended(10),
+    expand = expansion(mult = c(0, .05))
+  ) +
+  theme(
+    legend.position = "none"
+  )
+```
+# Lead Research Organisations and Grant Funding
 
-# Which Subjects have recieved the most grant funding?
+# What is the distribution of funding provided to Lead Research Organisations?
+
+```{r create table - organisations x roles x grants}
+org_roles_joined <- datasets$organisation_roles %>% left_join(datasets$organisations, by = "org_id")
+  
+grants_x_orgs <- datasets$grants %>% left_join(org_roles_joined, by = "grant_ref")
+
+org_funding <- grants_x_orgs %>% 
+  select(
+    grant_ref,
+    award_value,
+    org_role,
+    org_name
+  )
+
+org_funding
+
+summary_org <- org_funding %>% 
+  group_by(org_name, org_role) %>% 
+  summarise(
+    total_award_amount = sum(award_value),
+    mean_award_amount = mean(award_value),
+    number_of_grants = n()
+  )
+
+summary_org
+```
+
+```{r plot chart - lead ros only - distribution of total award amounts}
+summary_org %>% 
+  filter(org_role == "LEAD_RO") %>% 
+  ggplot() +
+  geom_density(
+    aes(
+      x = total_award_amount,
+      ..count..
+    ),
+    # stat = "bin",
+    # bins = 40,
+    col = hue_pal()(3)[1],
+    # fill = hue_pal()(1)
+    size = 0.75
+  ) +
+  scale_x_log10(
+    name = "Total Amount Awarded",
+    labels = label_dollar(prefix = "£"),
+    breaks = breaks_log(6),
+    expand = expansion(mult = c(0, .05))
+  ) +
+  scale_y_continuous(
+    name = "Count",
+    breaks_extended(10),
+    expand = expansion(mult = c(0, .05))
+  ) +
+  labs(
+    title = "Distribution of Total Amount Awarded to Lead Reasearch Organisations"
+  )
+```
+```{r plot chart - lead ros only - distribution of average award amount}
+summary_org %>% 
+  filter(org_role == "LEAD_RO") %>% 
+  ggplot() +
+  geom_density(
+    aes(
+      x = mean_award_amount,
+      ..count..
+    ),
+    # stat = "bin",
+    # bins = 40,
+    col = hue_pal()(3)[2],
+    # fill = hue_pal()(1)
+    size = 0.75
+  ) +
+  scale_x_log10(
+    name = "Mean Amount Awarded",
+    labels = label_dollar(prefix = "£"),
+    minor_breaks = break_log_cust(3:7),
+    expand = expansion(mult = c(0, .05))
+  ) +
+  scale_y_continuous(
+    name = "Count",
+    breaks_extended(10),
+    expand = expansion(mult = c(0, .05))
+  ) +
+  labs(
+    title = "Distribution of Mean Amount Awarded to Lead Reasearch Organisations"
+  )
+```
+
+```{r plot chart - lead ros only - distribution of number of grants awarded}
+summary_org %>% 
+  filter(org_role == "LEAD_RO") %>% 
+  ggplot() +
+  geom_density(
+    aes(
+      x = number_of_grants,
+      ..count..
+    ),
+    # stat = "bin",
+    # bins = 40,
+    col = hue_pal()(3)[3],
+    # fill = hue_pal()(1)
+    size = 0.75
+  ) +
+  scale_x_log10(
+    name = "Total Number of Grants Awarded",
+    minor_breaks = break_log_cust(0:3),
+    expand = expansion(mult = c(0, .05))
+  ) +
+  # scale_x_continuous(
+  #   name = "Total Number of Grants Awarded",
+  #   breaks = breaks_extended(10),
+  # ) +
+  scale_y_continuous(
+    name = "Count",
+    breaks_extended(10),
+    expand = expansion(mult = c(0, .05))
+  ) +
+  labs(
+    title = "Distribution of Total Number of Grants Awarded to Lead Reasearch Organisations"
+  )
+```
+# Which Lead Research Organisations receive the most funding?
+
+```{r plot chart - lead ros only - top 15 - total award amounts}
+summary_org %>% 
+  filter(org_role == "LEAD_RO") %>% 
+  arrange(desc(total_award_amount)) %>% 
+  head(15) %>% 
+  ggplot() +
+  geom_col(
+    aes(
+      x = total_award_amount,
+      y = reorder(org_name, total_award_amount),
+    ),
+    fill = hue_pal()(3)[1]
+  ) +
+  scale_x_continuous(
+    name = "Total Award Amount",
+    labels = label_dollar(prefix = "£"),
+    breaks = breaks_extended(),
+    minor_breaks = breaks_extended(10),
+    expand = expansion(mult = c(0, .01))
+  ) +
+  scale_y_discrete(
+    name = ""
+  ) +
+  theme(
+    # plot.margin = unit(c(0.5,1.5,0.5,0), "cm")
+  ) +
+  labs(
+    title = "Top 15 Lead Reasearch Organisations by Total Amount Awarded"
+  ) 
+```
+
+```{r plot chart - lead ros only - top 15 - mean award amounts}
+summary_org %>% 
+  filter(org_role == "LEAD_RO") %>% 
+  arrange(desc(mean_award_amount)) %>% 
+  head(15) %>% 
+  ggplot() +
+  geom_col(
+    aes(
+      x = mean_award_amount,
+      y = reorder(org_name, mean_award_amount),
+    ),
+    fill = hue_pal()(3)[2]
+  ) +
+  # scale_x_continuous(
+  #   name = "Mean Award Amount",
+  #   labels = label_dollar(prefix = "£"),
+  #   expand = expansion(mult = c(0, .01)),
+  # ) +
+  scale_x_log10(
+    name = "Mean Award Amount",
+    labels = label_dollar(prefix = "£"),
+    expand = expansion(mult = c(0, .01)),
+    minor_breaks = break_log_cust(0:7)
+  ) +
+  scale_y_discrete(
+    name = ""
+  ) +
+  theme(
+    # plot.margin = unit(c(0.5,1.5,0.5,0), "cm")
+  ) +
+  labs(
+    title = "Top 15 Lead Reasearch Organisations by Mean \nAmount Awarded"
+  ) 
+```
+
+```{r plot chart - lead ros only - top 15 - count of grants awarded}
+summary_org %>% 
+  filter(org_role == "LEAD_RO") %>% 
+  arrange(desc(number_of_grants)) %>% 
+  head(15) %>% 
+  ggplot() +
+  geom_col(
+    aes(
+      x = number_of_grants,
+      y = reorder(org_name, number_of_grants),
+    ),
+    fill = hue_pal()(3)[1]
+  ) +
+  scale_x_continuous(
+    name = "Count of Grants Awarded",
+    expand = expansion(mult = c(0, .05)),
+    minor_breaks = breaks_extended(25)
+  ) +
+  scale_y_discrete(
+    name = ""
+  ) +
+  labs(
+    title = "Top 15 Lead Reasearch Organisations by Total Number of \nGrants Awarded"
+  )
+```
+# Grant Subjects and Topics
+
+```{r create table - grants x subjects x weights}
+grants_x_subjects <- datasets$grants %>% 
+  left_join(datasets$subject_weight, by = "grant_ref") %>% 
+  left_join(datasets$subjects, by = "subject_id") %>% 
+  select(
+    grant_ref,
+    subject,
+    percentage,
+    award_value
+  ) %>% 
+  replace_na(
+    replace = list(
+      percentage = 100
+    )
+  ) %>% 
+  mutate(
+    percentage = percentage/100,
+    weighted_award_value = percentage * award_value
+  )
+
+
+grants_x_subjects_summary <- grants_x_subjects %>% 
+  group_by(subject) %>% 
+  summarise(
+    total_weighted_award_value = sum(weighted_award_value),
+    mean_percentage = mean(percentage),
+    mean_weighted_award_value = mean(weighted_award_value),
+    total_number_of_grants = n()
+  )
+
+grants_x_subjects_summary
+```
+
+```{r create table - grants x topics x weights}
+grants_x_topics <- datasets$grants %>% 
+  left_join(datasets$topic_weight, by = "grant_ref") %>% 
+  left_join(datasets$topics, by = "topic_id") %>% 
+  select(
+    grant_ref,
+    topic,
+    percentage,
+    award_value
+  ) %>% 
+  replace_na(
+    replace = list(
+      topic = "Unclassified",
+      percentage = 100
+    )
+  ) %>% 
+  mutate(
+    percentage = percentage/100,
+    weighted_award_value = percentage * award_value
+  )
+
+
+grants_x_topics_summary <- grants_x_topics %>% 
+  group_by(topic) %>% 
+  summarise(
+    total_weighted_award_value = sum(weighted_award_value),
+    mean_percentage = mean(percentage),
+    mean_weighted_award_value = mean(weighted_award_value),
+    total_number_of_grants = n()
+  )
+
+grants_x_topics_summary
+```
+
+## What is the distribution of funding provided to each Subject and Topic?
+
+### Subjects
+```{r plot graph - subjects - distribution of total weighted award value}
+grants_x_subjects_summary %>% 
+  ggplot() +
+  geom_density(
+    aes(
+      x = total_weighted_award_value,
+      col = "total_weighted_award_value",
+      ..count..
+    ),
+    # col = hue_pal()(3)[1],
+    size = 0.75
+  ) +
+  geom_density(
+    aes(
+      x = mean_weighted_award_value,
+      col = "mean_weighted_award_value",
+      ..count..
+    ),
+    # col = hue_pal()(3)[2],
+    size = 0.75
+  ) +
+  scale_x_continuous(
+    name = "Weighted Amount Awarded",
+    labels = label_dollar(prefix = "£"),
+    trans = pseudo_log_trans(base = 10),
+    breaks = c(0, 1e1, 1e2, 1e3, 1e4, 1e5, 1e6, 1e7, 1e8, 1e9),
+    minor_breaks = break_log_cust(0:9),
+    expand = expansion(mult = c(0, .05))
+  ) +
+  scale_y_continuous(
+    name = "Count",
+    breaks_extended(10),
+    expand = expansion(mult = c(0, .05))
+  ) +
+  scale_color_discrete(
+    name = NULL,
+    labels = c("Mean", "Total")
+  ) +
+  labs(
+    title = "Distribution of Weighted Amount Awarded to Each Subject"
+  ) +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    legend.justification=c(1,1), 
+    legend.position=c(1,1)
+  )
+```
+```{r plot graph - subjects distribution of number of awards}
+grants_x_subjects_summary %>% 
+  ggplot() +
+  geom_density(
+    aes(
+      x = total_number_of_grants,
+      ..count..
+    ),
+    col = hue_pal()(3)[3],
+    size = 0.75
+  ) +
+  scale_x_continuous(
+    name = "Number of Grants",
+    labels = number,
+    trans = pseudo_log_trans(base = 10),
+    breaks = c(0, 1e0, 1e1, 1e2, 1e3, 1e4, 1e5, 1e6, 1e7, 1e8, 1e9),
+    minor_breaks = break_log_cust(0:9),
+    expand = expansion(mult = c(0, .05))
+  ) +
+  scale_y_continuous(
+    name = "Count",
+    breaks_extended(10),
+    expand = expansion(mult = c(0, .05))
+  ) +
+  labs(
+    title = "Distribution of Total Number of Grants Under Each Subject",
+    subtitle = "Including grants with a subject of NA"
+  )
+```
+
+### Topics
+```{r plot graph - topics - distribution of total weighted award value}
+grants_x_topics_summary %>% 
+  ggplot() +
+  geom_density(
+    aes(
+      x = total_weighted_award_value,
+      col = "total_weighted_award_value",
+      ..count..
+    ),
+    # col = hue_pal()(3)[1],
+    size = 0.75
+  ) +
+  geom_density(
+    aes(
+      x = mean_weighted_award_value,
+      col = "mean_weighted_award_value",
+      ..count..
+    ),
+    # col = hue_pal()(3)[2],
+    size = 0.75
+  ) +
+  scale_x_continuous(
+    name = "Weighted Amount Awarded",
+    labels = label_dollar(prefix = "£"),
+    trans = pseudo_log_trans(base = 10),
+    breaks = c(0, 1e1, 1e2, 1e3, 1e4, 1e5, 1e6, 1e7, 1e8, 1e9),
+    minor_breaks = break_log_cust(0:9),
+    expand = expansion(mult = c(0, .05))
+  ) +
+  scale_y_continuous(
+    name = "Count",
+    breaks_extended(10),
+    expand = expansion(mult = c(0, .05))
+  ) +
+  scale_color_discrete(
+    name = NULL,
+    labels = c("Mean", "Total")
+  ) +
+  labs(
+    title = "Distribution of Weighted Amount Awarded to Each Topic"
+  ) +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    legend.justification=c(1,1), 
+    legend.position=c(1,1)
+  )
+```
+
+```{r plot graph - topics distribution of number of awards}
+grants_x_topics_summary %>% 
+  ggplot() +
+  geom_density(
+    aes(
+      x = total_number_of_grants,
+      ..count..
+    ),
+    col = hue_pal()(3)[3],
+    size = 0.75
+  ) +
+  scale_x_continuous(
+    name = "Number of Grants",
+    labels = number,
+    trans = pseudo_log_trans(base = 10),
+    breaks = c(0, 1e0, 1e1, 1e2, 1e3, 1e4, 1e5, 1e6, 1e7, 1e8, 1e9),
+    minor_breaks = break_log_cust(0:9),
+    expand = expansion(mult = c(0, .05))
+  ) +
+  scale_y_continuous(
+    name = "Count",
+    breaks_extended(10),
+    expand = expansion(mult = c(0, .05))
+  ) +
+  labs(
+    title = "Distribution of Total Number of Grants Under Each topic",
+    subtitle = "Including grants with a topic of NA"
+  )
+```
+
+## Which Subjects and Topics have recieved the Most Grant Funding?
+
+### Subjects
+```{r plot graph - top 10 subjects - total weighted award value}
+grants_x_subjects_summary %>% 
+  filter(!is.na(subject)) %>%
+  arrange(desc(total_weighted_award_value)) %>% 
+  head(10)  %>% 
+  ggplot() +
+  geom_col(
+    aes(
+      x = total_weighted_award_value,
+      y = reorder(subject, total_weighted_award_value),
+    ),
+    fill = hue_pal()(3)[1]
+  ) +
+  # scale_x_log10(
+  #   name = "Total Weighted Award Amount",
+  #   labels = label_dollar(prefix = "£"),
+  #   expand = expansion(mult = c(0, .01)),
+  #   minor_breaks = break_log_cust(0:9)
+  # ) +
+  scale_x_continuous(
+    name = "Total Weighted Award Amount",
+    labels = label_dollar(prefix = "£"),
+    breaks = breaks_extended(),
+    minor_breaks = breaks_extended(20),
+    expand = expansion(mult = c(0, .01))
+  ) +
+  scale_y_discrete(
+    name = ""
+  ) +
+  labs(
+    title = "Top 10 Subjects by Total Weighted Amount Awarded",
+    subtitle = "NA not included"
+  ) 
+```
+```{r plot graph - top 10 subjects - mean weighted award value}
+grants_x_subjects_summary %>% 
+  filter(!is.na(subject)) %>%
+  arrange(desc(mean_weighted_award_value)) %>% 
+  head(10)  %>% 
+  ggplot() +
+  geom_col(
+    aes(
+      x = mean_weighted_award_value,
+      y = reorder(subject, mean_weighted_award_value),
+    ),
+    fill = hue_pal()(3)[2]
+  ) +
+  # scale_x_log10(
+  #   name = "Total Weighted Award Amount",
+  #   labels = label_dollar(prefix = "£"),
+  #   expand = expansion(mult = c(0, .01)),
+  #   minor_breaks = break_log_cust(0:9)
+  # ) +
+  scale_x_continuous(
+    name = "Mean Weighted Award Amount",
+    labels = label_dollar(prefix = "£"),
+    breaks = breaks_extended(),
+    minor_breaks = breaks_extended(20),
+    expand = expansion(mult = c(0, .01))
+  ) +
+  scale_y_discrete(
+    name = ""
+  ) +
+  labs(
+    title = "Top 10 Subjects by Mean Weighted Amount Awarded",
+    subtitle = "NA not included"
+  ) 
+```
+
+```{r plot graph - top 10 subjects - total number of grants}
+grants_x_subjects_summary %>% 
+  filter(!is.na(subject)) %>%
+  arrange(desc(total_number_of_grants)) %>% 
+  head(10)  %>% 
+  ggplot() +
+  geom_col(
+    aes(
+      x = total_number_of_grants,
+      y = reorder(subject, total_number_of_grants),
+    ),
+    fill = hue_pal()(3)[3]
+  ) +
+  # scale_x_log10(
+  #   name = "Total Weighted Award Amount",
+  #   labels = label_dollar(prefix = "£"),
+  #   expand = expansion(mult = c(0, .01)),
+  #   minor_breaks = break_log_cust(0:9)
+  # ) +
+  scale_x_continuous(
+    name = "Total Number of Grants",
+    breaks = breaks_extended(),
+    minor_breaks = breaks_extended(20),
+    expand = expansion(mult = c(0, .01))
+  ) +
+  scale_y_discrete(
+    name = ""
+  ) +
+  labs(
+    title = "Top 10 Subjects by Total Number of Grants",
+    subtitle = "NA not included"
+  ) 
+```
+### Topic
+```{r plot graph - top 10 - total weighted award value}
+grants_x_topics_summary %>% 
+  filter(topic != "Unclassified") %>%
+  arrange(desc(total_weighted_award_value)) %>% 
+  head(10)  %>% 
+  ggplot() +
+  geom_col(
+    aes(
+      x = total_weighted_award_value,
+      y = reorder(topic, total_weighted_award_value),
+    ),
+    fill = hue_pal()(3)[1]
+  ) +
+  # scale_x_log10(
+  #   name = "Total Weighted Award Amount",
+  #   labels = label_dollar(prefix = "£"),
+  #   expand = expansion(mult = c(0, .01)),
+  #   minor_breaks = break_log_cust(0:9)
+  # ) +
+  scale_x_continuous(
+    name = "Total Weighted Award Amount",
+    labels = label_dollar(prefix = "£"),
+    breaks = breaks_extended(),
+    minor_breaks = breaks_extended(20),
+    expand = expansion(mult = c(0, .01))
+  ) +
+  scale_y_discrete(
+    name = ""
+  ) +
+  labs(
+    title = "Top 10 Topics by Total Weighted Amount Awarded",
+    subtitle = "Unclassified topics not included"
+  ) 
+```
+
+```{r plot graph - top 10 - mean weighted award value}
+grants_x_topics_summary %>% 
+  filter(topic != "Unclassified") %>%
+  arrange(desc(mean_weighted_award_value)) %>% 
+  head(10)  %>% 
+  ggplot() +
+  geom_col(
+    aes(
+      x = mean_weighted_award_value,
+      y = reorder(topic, mean_weighted_award_value),
+    ),
+    fill = hue_pal()(3)[2]
+  ) +
+  # scale_x_log10(
+  #   name = "Total Weighted Award Amount",
+  #   labels = label_dollar(prefix = "£"),
+  #   expand = expansion(mult = c(0, .01)),
+  #   minor_breaks = break_log_cust(0:9)
+  # ) +
+  scale_x_continuous(
+    name = "Mean Weighted Award Amount",
+    labels = label_dollar(prefix = "£"),
+    breaks = breaks_extended(),
+    minor_breaks = breaks_extended(20),
+    expand = expansion(mult = c(0, .01))
+  ) +
+  scale_y_discrete(
+    name = ""
+  ) +
+  labs(
+    title = "Top 10 Topics by Mean Weighted Amount Awarded",
+    subtitle = "Unclassified topics not included"
+  ) 
+```
+
+```{r plot graph - top 10 - total number of grants}
+grants_x_topics_summary %>% 
+  filter(topic != "Unclassified") %>%
+  arrange(desc(total_number_of_grants)) %>% 
+  head(10)  %>% 
+  ggplot() +
+  geom_col(
+    aes(
+      x = total_number_of_grants,
+      y = reorder(topic, total_number_of_grants),
+    ),
+    fill = hue_pal()(3)[3]
+  ) +
+  # scale_x_log10(
+  #   name = "Total Weighted Award Amount",
+  #   labels = label_dollar(prefix = "£"),
+  #   expand = expansion(mult = c(0, .01)),
+  #   minor_breaks = break_log_cust(0:9)
+  # ) +
+  scale_x_continuous(
+    name = "Total Number of Grants",
+    breaks = breaks_extended(),
+    minor_breaks = breaks_extended(20),
+    expand = expansion(mult = c(0, .01))
+  ) +
+  scale_y_discrete(
+    name = ""
+  ) +
+  labs(
+    title = "Top 10 Topics by Total Number of Grants",
+    subtitle = "Unclassified topics not included"
+  ) 
+```
+
+# Typically how many People and Organisations are involved in a grant?
 
 # Does the Award Amount Change with the Number Grants Completed by Person
 
@@ -322,72 +1114,126 @@ grants_x_person_roles %>%
       y = value,
     )
   ) +
-  geom_smooth(aes(y = award_value/1000, col = "Award Value")) + 
-  geom_line(aes(y = mean_award_value/1000, col = "Mean Award Value")) +
+  geom_smooth(aes(y = award_value, col = "Award Value")) + 
+  geom_line(aes(y = mean_award_value, col = "Mean Award Value")) +
   scale_y_continuous(
-    name = "Award Value (£k)",
-    labels = number,
-    breaks = breaks_extended(n = 10)
+    name = "Award Value",
+    labels = label_dollar(prefix = "£"),
+    breaks = breaks_extended(n = 10),
+    expand = expansion(mult = c(.01, .01))
   ) +
   scale_x_continuous(
-    name = "Number of Grants completed by Person",
+    name = "Number of Grants Completed by Person",
     breaks = breaks_extended(n = 10),
-    minor_breaks = breaks_width(1)
+    minor_breaks = breaks_width(1),
+    expand = expansion(mult = c(0, .01))
   ) + 
-  theme(legend.title = element_blank())
-```
+  theme(legend.title = element_blank()) +
+  labs(
+    title = "Change in the Award Value as Number of Grants Awarded to a Person \nIncreases",
+    # subtitle = "Unclassified topics not included"
+  ) 
+  ```
 
 ```{r plot - distribution of grants completed per person}
 grants_x_person_roles %>% 
   ggplot() +
-  geom_area(
-    mapping = aes(grant_number_all, fill = "Number of Grants"),
-    stat = "bin",
+  geom_histogram(
+    mapping = aes(
+      grant_number_all, 
+      fill = "Number of Grants",
+    ),
     bins = 40,
     show.legend = FALSE
-  )
+  ) +
+  # scale_x_log10(
+  #   name = "Total Weighted Award Amount",
+  #   labels = label_dollar(prefix = "£"),
+  #   expand = expansion(mult = c(0, .01)),
+  #   minor_breaks = break_log_cust(0:9)
+  # ) +
+  scale_x_continuous(
+    name = "Number of Grants Completed by Person",
+    breaks = breaks_extended(),
+    minor_breaks = breaks_extended(40),
+    expand = expansion(mult = c(0, .01))
+  ) +
+  scale_y_continuous(
+    name = "Count",
+    expand = expansion(mult = c(0, .05))
+  ) +
+  labs(
+    title = "Distribution of the Number of Grants Awarded to a Person",
+    # subtitle = "Unclassified topics not included"
+  ) 
 ```
 
 
 
 ```{r plot award value verse grant number - grouped by role}
 grants_x_person_roles %>% 
-  group_by(
-    role,
-    grant_number_role
+  mutate(
+    role = fct_recode(
+      fct_lump_n(fct_explicit_na(role), n = 3),
+      "Co-Invesigator" =  "CO_INVESTIGATOR",
+      "Principle Invesigator" = "PRINCIPAL_INVESTIGATOR",
+      "Training Grant Holder" = "TRAINING_GRANT_HOLDER",
+      "Other Roles" = "Other"
+    ) 
   ) %>% 
-  summarise(
-    mean_award_value = mean(award_value),
-    .groups = "keep"
-  ) %>% 
-  ggplot(
-    mapping = aes(
+  ggplot() +
+  geom_smooth(
+    aes(
       x = grant_number_role,
-      y = mean_award_value,
-      colour = role
-    )
+      y = award_value,
+      fill = role,
+      col = role,
+    ),
+    show.legend = FALSE
+  ) + 
+  facet_wrap(
+    facets = vars(role),
+    scales = "free"
   ) +
-  geom_line()
-  
+  scale_y_continuous(
+    name = "Award Value",
+    labels = label_dollar(prefix = "£")
+  ) +
+  scale_x_continuous(
+    name = "Number of Grants Completed by Person in that Role",
+  ) +
+  labs(
+    title = "Change in the Award Value as Number of Grants Awarded to a Person \nIncreases",
+    subtitle = "Grouped by Person Role"
+  ) 
 ```
 
 
 ```{r plot award value verse grant number - grouped by grant category}
 grants_x_person_roles %>% 
-  group_by(
-    grant_category,
-    grant_number_category
-  ) %>% 
-  summarise(
-    mean_award_value = mean(award_value),
-    .groups = "keep"
-  ) %>% 
-  ggplot(
-    mapping = aes(
-      x = grant_number_category,
-      y = mean_award_value,
-      colour = grant_category
-    )
+  ggplot() +
+  geom_smooth(
+    aes(
+      x = grant_number_role,
+      y = award_value,
+      fill = grant_category,
+      col = grant_category,
+    ),
+    show.legend = FALSE
+  ) + 
+  facet_wrap(
+    facets = vars(grant_category),
+    scales = "free"
   ) +
-  geom_line()
+  scale_y_continuous(
+    name = "Award Value",
+    labels = label_dollar(prefix = "£")
+  ) +
+  scale_x_continuous(
+    name = "Number of Grants Completed by Person in that Role",
+  ) +
+  labs(
+    title = "Change in the Award Value as Number of Grants Awarded to a Person \nIncreases",
+    subtitle = "Grouped by Grant Type"
+  ) 
 ```

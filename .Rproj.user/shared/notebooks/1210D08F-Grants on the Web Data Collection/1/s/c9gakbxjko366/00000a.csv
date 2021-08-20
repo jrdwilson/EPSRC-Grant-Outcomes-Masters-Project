@@ -1,4 +1,0 @@
-"0","grants <- dataframes$grants %>% mutate(table_type = ""RANKED GRANT LIST"")"
-"0",""
-"0","clean_dataframes$grants %>% "
-"0","  bind_rows(grants)"

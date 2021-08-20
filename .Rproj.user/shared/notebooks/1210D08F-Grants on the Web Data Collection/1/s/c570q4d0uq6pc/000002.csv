@@ -2,6 +2,7 @@
 "0","library(tidyverse)  "
 "0","# Parsing of HTML/XML files  "
 "0","library(rvest)    "
+"2","package ‘rvest’ was built under R version 4.0.5"
 "0","# String manipulation"
 "0","library(stringr)"
 "0","# Cleaning dataframe names"

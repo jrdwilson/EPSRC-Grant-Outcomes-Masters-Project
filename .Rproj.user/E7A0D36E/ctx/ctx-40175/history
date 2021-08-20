@@ -1,0 +1,512 @@
+scale_y_continuous(
+name = "Mean Award Value (£k)",
+labels = number,
+breaks = extended_breaks(8)
+)
+amount_start_year_month %>%
+ggplot(
+mapping = aes(
+x = start_year,
+y = mean_award_value/1000,
+group = start_quater,
+col = start_quater
+)
+) +
+geom_line(size = 1) +
+scale_y_continuous(
+name = "Mean Award Value (£k)",
+labels = number,
+breaks = extended_breaks(8)
+)
+amount_start_year %>%
+ggplot(
+mapping = aes(
+x = start_year,
+y = total_award_value/1000,
+fill = start_year
+)
+) +
+geom_col(show.legend = FALSE) +
+scale_y_continuous(
+name = "Total Award Value (£k)",
+labels = number,
+breaks = extended_breaks(8)
+) +
+scale_x_discrete(
+name = "Start Year"
+)
+amount_start_month %>%
+ggplot(
+mapping = aes(
+x = start_month,
+y = total_award_value/1000,
+fill = start_month
+)
+) +
+geom_col(show.legend = FALSE) +
+scale_y_continuous(
+name = "Total Award Value (£k)",
+labels = number,
+breaks = extended_breaks(8)
+) +
+scale_x_discrete(
+name = "Start Month"
+)
+amount_start_year_month %>%
+ggplot(
+mapping = aes(
+x = start_year,
+y = total_award_value/1000,
+group = start_quater,
+col = start_quater
+)
+) +
+geom_line(size = 1) +
+scale_y_continuous(
+name = "Total Award Value (£k)",
+labels = number,
+breaks = extended_breaks(8)
+)
+amount_start_year %>%
+ggplot(
+mapping = aes(
+x = start_year,
+y = mean_award_value/1000,
+fill = start_year
+)
+) +
+geom_col(show.legend = FALSE) +
+scale_y_continuous(
+name = "Mean Award Value (£k)",
+labels = number,
+breaks = extended_breaks(8)
+) +
+scale_x_discrete(
+name = "Start Year"
+)
+amount_start_month %>%
+ggplot(
+mapping = aes(
+x = start_month,
+y = mean_award_value/1000,
+fill = start_month
+)
+) +
+geom_col(show.legend = FALSE) +
+scale_y_continuous(
+name = "Mean Award Value (£k)",
+labels = number,
+breaks = extended_breaks(8)
+) +
+scale_x_discrete(
+name = "Start Month"
+)
+amount_start_year_month %>%
+ggplot(
+mapping = aes(
+x = start_year,
+y = mean_award_value/1000,
+group = start_quater,
+col = start_quater
+)
+) +
+geom_line(size = 1) +
+scale_y_continuous(
+name = "Mean Award Value (£k)",
+labels = number,
+breaks = extended_breaks(8)
+)
+grants_x_person_roles %>%
+group_by(
+grant_category,
+grant_number_category
+) %>%
+summarise(
+mean_award_value = mean(award_value),
+.groups = "keep"
+) %>%
+ggplot(
+mapping = aes(
+x = grant_number_category,
+y = mean_award_value,
+colour = grant_category
+)
+) +
+geom_line()
+grants_x_person_roles %>%
+group_by(
+role,
+grant_number_role
+) %>%
+summarise(
+mean_award_value = mean(award_value),
+.groups = "keep"
+) %>%
+ggplot(
+mapping = aes(
+x = grant_number_role,
+y = mean_award_value,
+colour = role
+)
+) +
+geom_line() +
+theme(
+legend.title = "Role"
+) +
+grants_x_person_roles %>%
+group_by(
+role,
+grant_number_role
+) %>%
+summarise(
+mean_award_value = mean(award_value),
+.groups = "keep"
+) %>%
+ggplot(
+mapping = aes(
+x = grant_number_role,
+y = mean_award_value,
+colour = role
+)
+) +
+geom_line() +
+theme(
+legend.title = "Role"
+)
+grants_x_person_roles %>%
+group_by(
+role,
+grant_number_role
+) %>%
+summarise(
+mean_award_value = mean(award_value),
+.groups = "keep"
+) %>%
+ggplot(
+mapping = aes(
+x = grant_number_role,
+y = mean_award_value,
+colour = role
+)
+) +
+geom_line() +
+theme(
+legend.title = "Role",
+)
+grants_x_person_roles %>%
+group_by(
+role,
+grant_number_role
+) %>%
+summarise(
+mean_award_value = mean(award_value),
+.groups = "keep"
+) %>%
+ggplot(
+mapping = aes(
+x = grant_number_role,
+y = mean_award_value,
+colour = role
+)
+) +
+geom_line()
+# General-purpose data wrangling
+library(tidyverse)
+# Graphing
+library(ggplot2)
+# Date manipulation
+library(lubridate)
+# Scales manipulation
+library(scales)
+datasets <- read_rds("../data/datasets/epsrc_grant_datasets.rds")
+datasets
+amount_start_date <- datasets$grants %>%
+select(
+start_date,
+award_value
+)
+amount_start_year <- amount_start_date %>%
+mutate(
+start_year = as_factor(year(start_date))
+) %>%
+group_by(
+start_year
+) %>%
+mutate(
+mean_award_value = mean(award_value),
+total_award_value = sum(award_value)
+)
+amount_start_year
+amount_start_month <- amount_start_date %>%
+mutate(
+start_month = as_factor(month(start_date, label = TRUE, abbr = TRUE))
+) %>%
+group_by(
+start_month
+) %>%
+mutate(
+mean_award_value = mean(award_value),
+total_award_value = sum(award_value)
+)
+amount_start_month
+amount_start_year_month <- amount_start_date %>%
+mutate(
+start_year = as_factor(year(start_date)),
+# start_month = month(start_date, label = TRUE, abbr = TRUE),
+start_quater = as_factor(quarter(start_date))
+) %>%
+group_by(
+start_year,
+# start_month,
+start_quater
+) %>%
+mutate(
+mean_award_value = mean(award_value),
+total_award_value = sum(award_value)
+)
+amount_start_year_month
+amount_start_year %>%
+ggplot(
+mapping = aes(
+x = start_year,
+y = mean_award_value/1000,
+fill = start_year
+)
+) +
+geom_col(show.legend = FALSE) +
+scale_y_continuous(
+name = "Mean Award Value (£k)",
+labels = number,
+breaks = extended_breaks(8)
+) +
+scale_x_discrete(
+name = "Start Year"
+)
+amount_start_month %>%
+ggplot(
+mapping = aes(
+x = start_month,
+y = mean_award_value/1000,
+fill = start_month
+)
+) +
+geom_col(show.legend = FALSE) +
+scale_y_continuous(
+name = "Mean Award Value (£k)",
+labels = number,
+breaks = extended_breaks(8)
+) +
+scale_x_discrete(
+name = "Start Month"
+)
+amount_start_year_month %>%
+ggplot(
+mapping = aes(
+x = start_year,
+y = mean_award_value/1000,
+group = start_quater,
+col = start_quater
+)
+) +
+geom_line(size = 1) +
+scale_y_continuous(
+name = "Mean Award Value (£k)",
+labels = number,
+breaks = extended_breaks(8)
+)
+amount_start_year %>%
+ggplot(
+mapping = aes(
+x = start_year,
+y = total_award_value/1000,
+fill = start_year
+)
+) +
+geom_col(show.legend = FALSE) +
+scale_y_continuous(
+name = "Total Award Value (£k)",
+labels = number,
+breaks = extended_breaks(8)
+) +
+scale_x_discrete(
+name = "Start Year"
+)
+amount_start_month %>%
+ggplot(
+mapping = aes(
+x = start_month,
+y = total_award_value/1000,
+fill = start_month
+)
+) +
+geom_col(show.legend = FALSE) +
+scale_y_continuous(
+name = "Total Award Value (£k)",
+labels = number,
+breaks = extended_breaks(8)
+) +
+scale_x_discrete(
+name = "Start Month"
+)
+amount_start_year_month %>%
+ggplot(
+mapping = aes(
+x = start_year,
+y = total_award_value/1000,
+group = start_quater,
+col = start_quater
+)
+) +
+geom_line(size = 1) +
+scale_y_continuous(
+name = "Total Award Value (£k)",
+labels = number,
+breaks = extended_breaks(8)
+)
+datasets$grants %>%
+ggplot() +
+geom_histogram(
+aes(x = award_value + 1),
+bins = 100
+) +
+scale_x_log10(
+name = "Award Value (£)",
+labels = number
+)
+datasets$grants %>%
+filter(award_value != 0) %>%
+ggplot() +
+geom_histogram(
+aes(x = award_value),
+bins = 100
+) +
+scale_x_log10(
+name = "Award Value (£)",
+labels = number
+) +
+scale_y_continuous(
+name = "Count",
+breaks = breaks_extended(10)
+)
+grants_x_person_roles <- left_join(datasets$grants, datasets$person_roles, by = "grant_ref") %>%
+select(
+person_id,
+award_value,
+grant_category,
+start_date,
+role
+) %>%
+filter(
+grant_category != "Studentship"
+) %>%
+group_by(person_id) %>%
+mutate(
+grant_number_all = order(order(start_date))
+) %>%
+group_by(person_id, grant_category) %>%
+mutate(
+grant_number_category = order(order(start_date))
+) %>%
+group_by(person_id, role) %>%
+mutate(
+grant_number_role = order(order(start_date))
+) %>%
+group_by(person_id, role, grant_category) %>%
+mutate(
+grant_number_category_and_role = order(order(start_date))
+) %>%
+ungroup()
+grants_x_person_roles
+# grants_x_person_roles %>%
+#   group_by(
+#     grant_number_all
+#   ) %>%
+#   summarise(
+#     mean_award_value = mean(award_value)
+#   ) %>%
+#   ggplot(
+#     mapping = aes(
+#       x = grant_number_all,
+#       y = mean_award_value/1000
+#     )
+#   ) +
+#   geom_line() +
+#   scale_y_continuous(
+#     name = "Mean Award Value (£k)",
+#     labels = number,
+#     breaks = breaks_extended(n = 10)
+#   ) +
+#   scale_x_continuous(
+#     name = "Number of Grants completed by Person",
+#     breaks = breaks_extended(n = 10),
+#     minor_breaks = breaks_width(1)
+#   )
+grants_x_person_roles %>%
+group_by(
+grant_number_all
+) %>%
+mutate(
+mean_award_value = mean(award_value)
+) %>%
+ungroup() %>%
+ggplot(
+mapping = aes(
+x = grant_number_all,
+y = value,
+)
+) +
+geom_smooth(aes(y = award_value/1000, col = "Award Value")) +
+geom_line(aes(y = mean_award_value/1000, col = "Mean Award Value")) +
+scale_y_continuous(
+name = "Award Value (£k)",
+labels = number,
+breaks = breaks_extended(n = 10)
+) +
+scale_x_continuous(
+name = "Number of Grants completed by Person",
+breaks = breaks_extended(n = 10),
+minor_breaks = breaks_width(1)
+) +
+theme(legend.title = element_blank())
+grants_x_person_roles %>%
+ggplot() +
+geom_area(
+mapping = aes(grant_number_all, fill = "Number of Grants"),
+stat = "bin",
+bins = 40,
+show.legend = FALSE
+)
+grants_x_person_roles %>%
+group_by(
+role,
+grant_number_role
+) %>%
+summarise(
+mean_award_value = mean(award_value),
+.groups = "keep"
+) %>%
+ggplot(
+mapping = aes(
+x = grant_number_role,
+y = mean_award_value,
+colour = role
+)
+) +
+geom_line()
+grants_x_person_roles %>%
+group_by(
+grant_category,
+grant_number_category
+) %>%
+summarise(
+mean_award_value = mean(award_value),
+.groups = "keep"
+) %>%
+ggplot(
+mapping = aes(
+x = grant_number_category,
+y = mean_award_value,
+colour = grant_category
+)
+) +
+geom_line()

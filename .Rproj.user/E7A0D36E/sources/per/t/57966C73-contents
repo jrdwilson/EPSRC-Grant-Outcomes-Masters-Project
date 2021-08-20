@@ -1185,7 +1185,20 @@ for (dfname in saved_dataframes %>% names()) {
 }
 ```
 
-## Clean Panel Data
+## Organise Panel Data
+
+```{r read in dataframes}
+dataframes <- list.files(save_path, pattern = ".csv") %>% 
+  paste0(save_path,.) %>% 
+  setNames(
+    . , 
+    make.names(
+      gsub(save_path, "", gsub("*.csv$", "", .))
+    )
+  ) %>% 
+  lapply(read.csv)
+```
+
 ```{r panel details}
 clean_dataframes <- list()
 
@@ -1309,10 +1322,9 @@ clean_dataframes$summary_by_value <- clean_dataframes$summary_by_value %>%
 approved_fellowships <- dataframes$approved_fellowships_grants_df 
 
 fellowship_colnames <- approved_fellowships %>% 
-  colnames() %>% 
-  c(.,"status")
+  colnames()
 
-fellowship_colnames <- c(fellowship_colnames[1:5], fellowship_colnames[7:9])
+fellowship_colnames <- c(fellowship_colnames[1:5], fellowship_colnames[7:8])
 
 approved_fellowships <- approved_fellowships %>% 
   select(!principal_investigator) %>% 
@@ -1325,6 +1337,7 @@ approved_fellowships <- approved_fellowships %>%
   ) %>%
   rowwise() %>%
   mutate(
+    panel_id = as.character(panel_id),
     value = suppressWarnings(as.numeric(str_remove_all(value, ","))),
     principal_investigator = as.character(ifelse(principal_investigator == "", NA, principal_investigator)),
     holding_organisation = as.character(ifelse(holding_organisation == "", NA, holding_organisation)),
@@ -1340,6 +1353,7 @@ clean_dataframes$grants <- tibble() %>%
 deferred_fellowships <- dataframes$deferred_fellowships_grants_df %>% 
   rename(grant_reference = grant_ref) %>% 
   mutate(
+    panel_id = as.character(panel_id),
     grant_status = "DEFERRED",
     table_type = "FELLOWSHOP PANEL RESULTS"
   )
@@ -1357,6 +1371,7 @@ sift_bynum <- dataframes$sift_grants_bynum_df %>%
   select(!c(scheme_name, x, x_2, x_3)) %>% 
   filter(!funding_priority_list %in% c("Including:", "Please click on relevant Funding Priority List for a full rank ordered list.")) %>%
   mutate(
+    panel_id = as.character(panel_id),
     funding_priority_list = str_to_upper(funding_priority_list),
     summary_row = funding_priority_list %in% c("RESPONSIVE MODE", "TARGETED MODE", "SUMMARY", "STANDARD", "OUTLINES MODE"),
     invited_for_interview = as.integer(invited_for_interview),
@@ -1376,6 +1391,7 @@ sift_byvalue <- dataframes$sift_grants_byvalue_df %>%
   select(!c(scheme_name, x, x_2, x_3)) %>% 
   filter(!funding_priority_list %in% c("Including:", "Please click on relevant Funding Priority List for a full rank ordered list.")) %>%
   mutate(
+    panel_id = as.character(panel_id),
     funding_priority_list = str_to_upper(funding_priority_list),
     summary_row = funding_priority_list %in% c("RESPONSIVE MODE", "TARGETED MODE", "SUMMARY", "STANDARD", "OUTLINES MODE"),
     invited_for_interview = as.numeric(gsub(",", "", invited_for_interview)),
@@ -1394,6 +1410,7 @@ funded_type2_bynum <- dataframes$funded_type2_bynum_df %>%
     funded = announced
   ) %>%
   mutate(
+    panel_id = as.character(panel_id),
     funding_priority_list = str_to_upper(gsub(":","",funding_priority_list)),
     funding_priority_list = ifelse(funding_priority_list == "", NA, funding_priority_list),
     funded = as.integer(funded),
@@ -1419,6 +1436,7 @@ funded_type2_byvalue <- dataframes$funded_type2_byvalue_df %>%
     funded = announced
   ) %>%
   mutate(
+    panel_id = as.character(panel_id),
     funding_priority_list = str_to_upper(gsub(":","",funding_priority_list)),
     funding_priority_list = ifelse(funding_priority_list == "", NA, funding_priority_list),
     funded = as.numeric(gsub(",", "", funded)),
@@ -1438,7 +1456,11 @@ clean_dataframes$summary_by_value <- clean_dataframes$summary_by_value %>%
 ```
 
 ```{r grants processing}
-grants <- dataframes$grants %>% mutate(table_type = "RANKED GRANT LIST")
+grants <- dataframes$grants %>% 
+  mutate(
+    panel_id = as.character(panel_id),
+    table_type = "RANKED GRANT LIST"
+  )
 
 clean_dataframes$grants <- clean_dataframes$grants %>% 
   bind_rows(grants)
@@ -1452,9 +1474,10 @@ saved_clean_dataframes <- clean_dataframes
 
 save_path <- "../data/panel_dataframes/"
 
+clean_dataframes %>% write_rds(paste0(save_path, "panel_dataframes.rds"))
+
 for (dfname in saved_clean_dataframes %>% names()) {
   path <- paste0(save_path, dfname, ".csv")
   saved_clean_dataframes[[dfname]] %>% write_csv(file = path, append = FALSE)
 }
 ```
-
